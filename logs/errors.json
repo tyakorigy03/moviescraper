@@ -106,5 +106,9 @@
   {
     "message": "❌ Error updating relevance scores:",
     "timestamp": "2025-09-21T09:09:08.681Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/serie/page/1/: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-09-21T20:11:21.655Z"
   }
 ]
