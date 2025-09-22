@@ -158,5 +158,13 @@
   {
     "message": "❌ Failed to scrape https://agasobanuyelive.com/category/movie/page/1/: net::ERR_TIMED_OUT at https://agasobanuyelive.com/category/movie/page/1/",
     "timestamp": "2025-09-22T13:03:23.441Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/serie/page/1/: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-09-22T15:12:24.438Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/movie/page/1/: net::ERR_TIMED_OUT at https://agasobanuyelive.com/category/movie/page/1/",
+    "timestamp": "2025-09-22T15:12:24.674Z"
   }
 ]
