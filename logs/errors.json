@@ -178,5 +178,9 @@
   {
     "message": "❌ Error updating relevance scores:",
     "timestamp": "2025-09-28T09:32:38.008Z"
+  },
+  {
+    "message": "❌ Error updating relevance scores:",
+    "timestamp": "2025-10-05T10:09:34.039Z"
   }
 ]
