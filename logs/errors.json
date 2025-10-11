@@ -214,5 +214,13 @@
   {
     "message": "❌ Failed to scrape https://agasobanuyelive.com/category/movie/page/1/: Navigation timeout of 30000 ms exceeded",
     "timestamp": "2025-10-11T07:33:31.527Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/serie/page/1/: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-10-11T10:10:16.853Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/movie/page/1/: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-10-11T10:10:46.857Z"
   }
 ]
