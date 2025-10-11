@@ -182,5 +182,13 @@
   {
     "message": "❌ Error updating relevance scores:",
     "timestamp": "2025-10-05T10:09:34.039Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/serie/page/1/: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-10-11T00:45:38.906Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/movie/page/1/: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-10-11T00:46:10.167Z"
   }
 ]
