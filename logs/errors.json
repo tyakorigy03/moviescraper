@@ -238,5 +238,9 @@
   {
     "message": "❌ Failed to scrape https://agasobanuyelive.com/category/movie/page/1/: net::ERR_CERT_AUTHORITY_INVALID at https://agasobanuyelive.com/category/movie/page/1/",
     "timestamp": "2025-10-11T14:33:10.612Z"
+  },
+  {
+    "message": "❌ Error updating relevance scores:",
+    "timestamp": "2025-10-12T10:09:52.109Z"
   }
 ]
