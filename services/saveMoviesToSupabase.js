@@ -20,20 +20,24 @@ function deduplicateByLink(movies) {
   }
   return Array.from(map.values());
 }
-
 /**
  * Save or update movie data in Supabase (PostgreSQL)
  * Uses UPSERT based on unique `link` or custom ID
  *
  * @param {Array<Object>} movies - List of movie objects to save
  */
+const BAD_HOST = "anonsharing.com";
 function normalizeLink(url) {
   return url.replace(/^https?:\/\/(www\.)?/, 'https://');
 }
-async function saveMoviesToSupabase(movies) {
+async function saveMoviesToSupabase(moviesinput) {
+  const filteredMovies = moviesinput.filter((item) =>
+    !item?.Downloadurls?.some(
+      (dl) => dl?.watchUrl?.includes(BAD_HOST) || dl?.downloadUrl?.includes(BAD_HOST)
+    ));
+  let movies=filteredMovies;
   const batchSize = 200;
   let count = 0;
-
   for (let i = 0; i < movies.length; i += batchSize) {
     const chunk = movies.slice(i, i + batchSize);
 
@@ -77,16 +81,13 @@ async function saveMoviesToSupabase(movies) {
 async function markMoviesAsSavedInState(movieLinks) {
   const state = await loadScraperState(SITE_KEY);
   const progressLink2 = state.progressLink2 || [];
-
   let updated = false;
-
   for (const movie of progressLink2) {
     if (movieLinks.includes(movie.link) && movie.saved === false) {
       movie.saved = true;
       updated = true;
     }
   }
-
   if (updated) {
     await saveScraperState(SITE_KEY, { ...state, progressLink2 });
     logInfo(`🔄 Updated saved status in local state for ${movieLinks.length} movies`);
