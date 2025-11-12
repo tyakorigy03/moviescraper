@@ -254,5 +254,237 @@
   {
     "message": "❌ Error updating relevance scores:",
     "timestamp": "2025-11-02T09:09:42.325Z"
+  },
+  {
+    "message": "❌ Failed: robin hood review: Navigating frame was detached",
+    "timestamp": "2025-11-12T14:43:54.571Z"
+  },
+  {
+    "message": "❌ Failed: death game review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:43:55.950Z"
+  },
+  {
+    "message": "❌ Failed: the ice road review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:43:57.275Z"
+  },
+  {
+    "message": "❌ Failed: fifty shades freed review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:43:58.569Z"
+  },
+  {
+    "message": "❌ Failed: jodhaa akbar review 2: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:43:59.886Z"
+  },
+  {
+    "message": "❌ Failed: jodhaa akbar review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:01.171Z"
+  },
+  {
+    "message": "❌ Failed: brick mansions review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:02.505Z"
+  },
+  {
+    "message": "❌ Failed: brick review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:03.837Z"
+  },
+  {
+    "message": "❌ Failed: buffalo boys review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:05.127Z"
+  },
+  {
+    "message": "❌ Failed: art of war 2024 review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:06.487Z"
+  },
+  {
+    "message": "❌ Failed: special id review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:07.819Z"
+  },
+  {
+    "message": "❌ Failed: the following season 03 review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:09.171Z"
+  },
+  {
+    "message": "❌ Failed: anjaniputra review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:10.525Z"
+  },
+  {
+    "message": "❌ Failed: the last stand review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:11.945Z"
+  },
+  {
+    "message": "❌ Failed: men of honor review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:13.237Z"
+  },
+  {
+    "message": "❌ Failed: v wars s01 review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:14.561Z"
+  },
+  {
+    "message": "❌ Failed: big game review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:15.848Z"
+  },
+  {
+    "message": "❌ Failed: the black book review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:17.161Z"
+  },
+  {
+    "message": "❌ Failed: robin hood review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:18.480Z"
+  },
+  {
+    "message": "❌ Failed: death game review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:18.482Z"
+  },
+  {
+    "message": "❌ Failed: the ice road review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:18.483Z"
+  },
+  {
+    "message": "❌ Failed: fifty shades freed review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:18.483Z"
+  },
+  {
+    "message": "❌ Failed: jodhaa akbar review 2: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:18.484Z"
+  },
+  {
+    "message": "❌ Failed: jodhaa akbar review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:18.485Z"
+  },
+  {
+    "message": "❌ Failed: brick mansions review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:18.485Z"
+  },
+  {
+    "message": "❌ Failed: brick review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:18.486Z"
+  },
+  {
+    "message": "❌ Failed: the brink review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:18.486Z"
+  },
+  {
+    "message": "❌ Failed: safe house 2025 review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:19.790Z"
+  },
+  {
+    "message": "❌ Failed: talk to me review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:21.078Z"
+  },
+  {
+    "message": "❌ Failed: titans season 01 review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:22.368Z"
+  },
+  {
+    "message": "❌ Failed: evil dead ii review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:23.678Z"
+  },
+  {
+    "message": "❌ Failed: the woman in the yard review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:24.968Z"
+  },
+  {
+    "message": "❌ Failed: fountain of youth review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:26.257Z"
+  },
+  {
+    "message": "❌ Failed: vanquish review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:27.548Z"
+  },
+  {
+    "message": "❌ Failed: the curse of the necklace review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:28.855Z"
+  },
+  {
+    "message": "❌ Failed: the mummy review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:30.174Z"
+  },
+  {
+    "message": "❌ Failed: blood diamond review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:31.492Z"
+  },
+  {
+    "message": "❌ Failed: the cold light of day review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:32.831Z"
+  },
+  {
+    "message": "❌ Failed: robin hood review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:34.160Z"
+  },
+  {
+    "message": "❌ Failed: death game review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:34.161Z"
+  },
+  {
+    "message": "❌ Failed: the ice road review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:34.170Z"
+  },
+  {
+    "message": "❌ Failed: fifty shades freed review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:34.171Z"
+  },
+  {
+    "message": "❌ Failed: jodhaa akbar review 2: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:34.171Z"
+  },
+  {
+    "message": "❌ Failed: jodhaa akbar review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:34.172Z"
+  },
+  {
+    "message": "❌ Failed: brick mansions review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:34.176Z"
+  },
+  {
+    "message": "❌ Failed: brick review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:34.177Z"
+  },
+  {
+    "message": "❌ Failed: chandu champion review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:34.179Z"
+  },
+  {
+    "message": "❌ Failed: training day review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:35.524Z"
+  },
+  {
+    "message": "❌ Failed: awake review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:36.868Z"
+  },
+  {
+    "message": "❌ Failed: feud s01 review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:38.199Z"
+  },
+  {
+    "message": "❌ Failed: the foggy mountain review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:39.534Z"
+  },
+  {
+    "message": "❌ Failed: sniper reloaded review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:40.893Z"
+  },
+  {
+    "message": "❌ Failed: sisu review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:42.228Z"
+  },
+  {
+    "message": "❌ Failed: high heat review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:43.574Z"
+  },
+  {
+    "message": "❌ Failed: world war z review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:44.898Z"
+  },
+  {
+    "message": "❌ Failed: war 2 review 2: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:46.271Z"
+  },
+  {
+    "message": "❌ Failed: eye for an eye 2 review: Attempted to use detached Frame 'A8BACDBC25713B242E67E2425C0E4D8E'.",
+    "timestamp": "2025-11-12T14:44:47.640Z"
+  },
+  {
+    "message": "❌ Scraper failed: Protocol error: Connection closed.",
+    "timestamp": "2025-11-12T14:44:48.969Z"
   }
 ]
