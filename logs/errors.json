@@ -486,5 +486,89 @@
   {
     "message": "❌ Scraper failed: Protocol error: Connection closed.",
     "timestamp": "2025-11-12T14:44:48.969Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/serie/page/1/: net::ERR_NAME_NOT_RESOLVED at https://agasobanuyelive.com/category/serie/page/1/",
+    "timestamp": "2025-11-28T06:50:47.471Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/movie/page/1/: net::ERR_NAME_NOT_RESOLVED at https://agasobanuyelive.com/category/movie/page/1/",
+    "timestamp": "2025-11-28T06:50:52.795Z"
+  },
+  {
+    "message": "❌ Failed: death game review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:51:26.579Z"
+  },
+  {
+    "message": "❌ Failed: the ice road review: net::ERR_TIMED_OUT at https://www.agasobanuyelive.com/the-ice-road-review/",
+    "timestamp": "2025-11-28T06:51:31.345Z"
+  },
+  {
+    "message": "❌ Failed: fifty shades freed review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:52:01.353Z"
+  },
+  {
+    "message": "❌ Failed: jodhaa akbar review 2: net::ERR_TIMED_OUT at https://www.agasobanuyelive.com/jodhaa-akbar-review-2/",
+    "timestamp": "2025-11-28T06:52:10.601Z"
+  },
+  {
+    "message": "❌ Failed: jodhaa akbar review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:52:40.603Z"
+  },
+  {
+    "message": "❌ Failed: brick mansions review: net::ERR_TIMED_OUT at https://www.agasobanuyelive.com/brick-mansions-review/",
+    "timestamp": "2025-11-28T06:52:40.625Z"
+  },
+  {
+    "message": "❌ Failed: buffalo boys review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:53:10.629Z"
+  },
+  {
+    "message": "❌ Failed: special id review: net::ERR_TIMED_OUT at https://www.agasobanuyelive.com/special-id-review/",
+    "timestamp": "2025-11-28T06:53:10.651Z"
+  },
+  {
+    "message": "❌ Failed: anjaniputra review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:53:40.654Z"
+  },
+  {
+    "message": "❌ Failed: men of honor review: net::ERR_TIMED_OUT at https://www.agasobanuyelive.com/men-of-honor-review/",
+    "timestamp": "2025-11-28T06:53:40.678Z"
+  },
+  {
+    "message": "❌ Failed: big game review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:54:10.680Z"
+  },
+  {
+    "message": "❌ Failed: the black book review: net::ERR_TIMED_OUT at https://www.agasobanuyelive.com/the-black-book-review/",
+    "timestamp": "2025-11-28T06:54:10.702Z"
+  },
+  {
+    "message": "❌ Failed: the brink review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:54:40.704Z"
+  },
+  {
+    "message": "❌ Failed: safe house 2025 review: net::ERR_TIMED_OUT at https://www.agasobanuyelive.com/safe-house-2025-review/",
+    "timestamp": "2025-11-28T06:54:40.726Z"
+  },
+  {
+    "message": "❌ Failed: talk to me review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:55:10.729Z"
+  },
+  {
+    "message": "❌ Failed: titans season 01 review: net::ERR_TIMED_OUT at https://www.agasobanuyelive.com/titans-season-01-review/",
+    "timestamp": "2025-11-28T06:55:10.751Z"
+  },
+  {
+    "message": "❌ Failed: evil dead ii review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:55:40.754Z"
+  },
+  {
+    "message": "❌ Failed: the woman in the yard review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:56:10.755Z"
+  },
+  {
+    "message": "❌ Failed: the curse of the necklace review: Navigation timeout of 30000 ms exceeded",
+    "timestamp": "2025-11-28T06:56:40.757Z"
   }
 ]
