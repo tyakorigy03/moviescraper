@@ -570,5 +570,17 @@
   {
     "message": "❌ Failed: the curse of the necklace review: Navigation timeout of 30000 ms exceeded",
     "timestamp": "2025-11-28T06:56:40.757Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/serie/page/1/: Navigating frame was detached",
+    "timestamp": "2026-03-17T17:57:17.692Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/movie/page/1/: Attempted to use detached Frame '40FBCDE9A18C78AEB2BB7A3647D9769E'.",
+    "timestamp": "2026-03-17T17:57:17.695Z"
+  },
+  {
+    "message": "❌ Scraper failed: Protocol error: Connection closed.",
+    "timestamp": "2026-03-17T17:57:17.704Z"
   }
 ]
