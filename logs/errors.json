@@ -582,5 +582,17 @@
   {
     "message": "❌ Scraper failed: Protocol error: Connection closed.",
     "timestamp": "2026-03-17T17:57:17.704Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/serie/page/1/: Navigating frame was detached",
+    "timestamp": "2026-03-25T18:45:02.719Z"
+  },
+  {
+    "message": "❌ Failed to scrape https://agasobanuyelive.com/category/movie/page/1/: Attempted to use detached Frame '6CDAE36F17045CD4B73465F4ECAE802A'.",
+    "timestamp": "2026-03-25T18:45:02.724Z"
+  },
+  {
+    "message": "❌ Scraper failed: Protocol error: Connection closed.",
+    "timestamp": "2026-03-25T18:45:02.727Z"
   }
 ]
