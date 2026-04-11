@@ -594,5 +594,9 @@
   {
     "message": "❌ Scraper failed: Protocol error: Connection closed.",
     "timestamp": "2026-03-25T18:45:02.727Z"
+  },
+  {
+    "message": "❌ Failed to fetch movies: column moviesv2.created_at does not exist",
+    "timestamp": "2026-04-11T14:45:56.532Z"
   }
 ]

@@ -24,7 +24,23 @@ function computeRelevanceScore({
 
   // 🎤 Narrator rating
   const narratorRatings = require('../data/narratorRatings.json');
-  const narrator_rating = narratorRatings[narrator?.toLowerCase()] || 0;
+
+  // Create a case-insensitive mapping
+  const normalizedRatings = {};
+  for (const [key, val] of Object.entries(narratorRatings)) {
+    normalizedRatings[key.toLowerCase()] = val;
+  }
+
+  let narrator_name = narrator?.toLowerCase() || '';
+
+  // Fallback: If narrator field is empty, check genres list
+  if (!narrator_name && Array.isArray(arguments[0].genres)) {
+    const knownNarrators = Object.keys(normalizedRatings);
+    const found = arguments[0].genres.find(g => knownNarrators.includes(g.toLowerCase()));
+    if (found) narrator_name = found.toLowerCase();
+  }
+
+  const narrator_rating = normalizedRatings[narrator_name] || 0;
   score += narrator_rating * 2;
 
   // 🔥 Popularity (normalized)
