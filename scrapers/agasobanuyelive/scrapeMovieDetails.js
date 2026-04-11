@@ -1,6 +1,7 @@
 const { loadScraperState, saveScraperState } = require('../../utils/stateManager');
 const { logInfo, logError } = require('../../utils/logger');
 const { enrichWithTMDB } = require('../../services/enrichWithTmdb');
+const { decodeHtmlEntities } = require('../../utils/decodeHtml');
 
 const SITE_KEY = 'agasobanuyelive';
 
@@ -155,6 +156,16 @@ module.exports = async function scrapeMovieDetails(browser, movieLinks = [], typ
           country: getTextByLabel('Country')
         };
       });
+
+      // Decode HTML entities
+      details.title = decodeHtmlEntities(details.title);
+      details.narrator = decodeHtmlEntities(details.narrator);
+      if (details.Downloadurls) {
+        details.Downloadurls = details.Downloadurls.map(u => ({
+          ...u,
+          title: decodeHtmlEntities(u.title)
+        }));
+      }
 
       const enriched = await enrichWithTMDB({ title: details.title, publishedAt: details.release_date, type: details.type });
       const fullData = {

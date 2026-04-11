@@ -145,4 +145,7 @@ async function normalize() {
     logInfo('🎉 Normalization complete.');
 }
 
-normalize().catch(console.error);
+normalize().catch(err => {
+    console.error('❌ Normalization failed with fatal error:', err);
+    process.exit(1);
+});
