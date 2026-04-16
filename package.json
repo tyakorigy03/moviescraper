@@ -16,7 +16,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scrape":"node index.js"
+    "scrape":"node index.js",
+    "scrape2":"node scrapers/oshakur/index.js",
+    "normalize:movies":"node utils/normalizeMovieRecords.js",
+    "normalize:movies:apply":"node utils/normalizeMovieRecords.js --apply"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.50.2",
