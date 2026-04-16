@@ -610,5 +610,13 @@
   {
     "message": "Normalization failed: Failed to update batch starting at 0: Could not find the 'has_downloadable_video' column of 'moviesv2' in the schema cache",
     "timestamp": "2026-04-12T11:21:02.458Z"
+  },
+  {
+    "message": "Normalization failed: Failed to update batch starting at 50: duplicate key value violates unique constraint \"unique_link\"",
+    "timestamp": "2026-04-16T08:55:37.871Z"
+  },
+  {
+    "message": "Normalization failed: Failed to update batch starting at 0: duplicate key value violates unique constraint \"unique_link\"",
+    "timestamp": "2026-04-16T08:57:47.025Z"
   }
 ]

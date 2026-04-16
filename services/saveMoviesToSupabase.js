@@ -24,7 +24,12 @@ function normalizeTimestamp(value) {
   return value || null;
 }
 
-async function saveMoviesToSupabase(moviesInput) {
+function isTruthyEnv(value) {
+  return String(value || '').toLowerCase() === 'true' || String(value || '').toLowerCase() === '1';
+}
+
+async function saveMoviesToSupabase(moviesInput, options = {}) {
+  const insertOnly = Boolean(options.insertOnly) || isTruthyEnv(process.env.SUPABASE_INSERT_ONLY);
   const filteredMovies = moviesInput.filter(
     (item) =>
       !item?.Downloadurls?.some(
@@ -71,7 +76,7 @@ async function saveMoviesToSupabase(moviesInput) {
 
     const { error, data } = await supabase
       .from('moviesv2')
-      .upsert(toInsert, { onConflict: ['link'] })
+      .upsert(toInsert, { onConflict: 'link', ignoreDuplicates: insertOnly })
       .select();
 
     if (error) {

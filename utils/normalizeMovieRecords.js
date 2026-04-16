@@ -146,29 +146,72 @@ function normalizeVideoEntries(entries = []) {
   };
 }
 
-function inferStatus(normalizedMovie, videoStats) {
+function inferStatus(normalizedMovie, videoStats, context = {}) {
   const hasTitle = Boolean(normalizedMovie.title);
   const hasVideos = normalizedMovie.Downloadurls.length > 0;
   const hasStreamable = normalizedMovie.Downloadurls.some((entry) => entry.watchUrl);
   const hasDownloadable = normalizedMovie.Downloadurls.some((entry) => entry.downloadUrl);
+  const hasLinkCollision = Boolean(context.linkCollision);
 
   if (!hasTitle && !hasVideos) return 'junk';
   if (!hasVideos) return 'needs_review';
   if (!hasStreamable && hasDownloadable) return 'download_only';
+  if (hasLinkCollision) return 'needs_review';
   if (videoStats.removedEmpty > 0 || videoStats.removedDuplicate > 0 || videoStats.fixedRedirect > 0) {
     return 'cleaned';
   }
   return 'clean';
 }
 
-function buildNormalizedMovie(movie) {
+function buildLinkNormalizationPlan(movies) {
+  const groups = new Map();
+  const blockedIds = new Set();
+  const canonicalByLink = new Map();
+
+  for (const movie of Array.isArray(movies) ? movies : []) {
+    const candidate = normalizeLink(movie?.link || '');
+    if (!candidate) continue;
+    if (!groups.has(candidate)) groups.set(candidate, []);
+    groups.get(candidate).push(movie);
+  }
+
+  for (const [candidate, group] of groups.entries()) {
+    if (group.length < 2) continue;
+
+    const existingExact = group.find((item) => (item?.link || '') === candidate);
+
+    const sorted = existingExact
+      ? [existingExact, ...group.filter((item) => item?.id !== existingExact?.id)]
+      : [...group].sort((a, b) => {
+          const aId = Number(a?.id);
+          const bId = Number(b?.id);
+          if (!Number.isNaN(aId) && !Number.isNaN(bId)) return aId - bId;
+          return String(a?.id ?? '').localeCompare(String(b?.id ?? ''));
+        });
+
+    const canonical = sorted[0];
+    canonicalByLink.set(candidate, canonical?.id);
+
+    for (const dup of sorted.slice(1)) {
+      blockedIds.add(dup?.id);
+    }
+  }
+
+  return { blockedIds, canonicalByLink };
+}
+
+function buildNormalizedMovie(movie, options = {}) {
   const normalizedGenres = normalizeGenres(movie.genres);
   const mergedEntries = mergeLegacyDownloadUrls(movie);
   const { entries: normalizedEntries, stats: videoStats } = normalizeVideoEntries(mergedEntries);
+  const linkUpdateBlockedIds = options.linkUpdateBlockedIds instanceof Set
+    ? options.linkUpdateBlockedIds
+    : new Set();
+  const linkCollision = linkUpdateBlockedIds.has(movie.id);
 
   const normalizedMovie = {
     id: movie.id,
-    link: normalizeLink(movie.link || ''),
+    link: linkCollision ? (movie.link || '') : normalizeLink(movie.link || ''),
     title: decodeText(movie.title),
     narrator: decodeText(movie.narrator),
     country: decodeText(movie.country),
@@ -182,7 +225,7 @@ function buildNormalizedMovie(movie) {
 
   const streamableCount = normalizedEntries.filter((entry) => entry.watchUrl).length;
   const downloadableCount = normalizedEntries.filter((entry) => entry.downloadUrl).length;
-  const status = inferStatus(normalizedMovie, videoStats);
+  const status = inferStatus(normalizedMovie, videoStats, { linkCollision });
   const score = computeRelevanceScore({
     ...movie,
     title: normalizedMovie.title,
@@ -205,6 +248,7 @@ function buildNormalizedMovie(movie) {
       has_downloadable_video: downloadableCount > 0,
     },
     videoStats,
+    linkCollision,
   };
 }
 
@@ -246,6 +290,7 @@ function buildSummary() {
       duplicateVideoEntriesRemoved: 0,
       redirectUrlsFixed: 0,
       blockedWatchUrlsRemoved: 0,
+      linkUpdatesBlocked: 0,
       changedDownloadurlRecords: 0,
       changedTitles: 0,
       changedLinks: 0,
@@ -254,6 +299,7 @@ function buildSummary() {
       junk: [],
       needs_review: [],
       download_only: [],
+      link_collisions: [],
       changed: [],
     },
   };
@@ -315,9 +361,12 @@ async function main() {
   const updates = [];
 
   summary.totalMovies = movies.length;
+  const linkPlan = buildLinkNormalizationPlan(movies);
 
   for (const movie of movies) {
-    const { normalizedMovie, derivedStatus, videoStats } = buildNormalizedMovie(movie);
+    const { normalizedMovie, derivedStatus, videoStats, linkCollision } = buildNormalizedMovie(movie, {
+      linkUpdateBlockedIds: linkPlan.blockedIds
+    });
     const changedFields = diffMovie(movie, normalizedMovie, derivedStatus);
 
     summary.statusCounts[derivedStatus.normalization_status] += 1;
@@ -325,6 +374,14 @@ async function main() {
     summary.issues.duplicateVideoEntriesRemoved += videoStats.removedDuplicate;
     summary.issues.redirectUrlsFixed += videoStats.fixedRedirect;
     summary.issues.blockedWatchUrlsRemoved += videoStats.removedBlockedWatchOnly;
+    if (linkCollision) {
+      summary.issues.linkUpdatesBlocked += 1;
+      pushSample(summary.samples.link_collisions, {
+        id: movie.id,
+        link: movie.link,
+        normalized_candidate: normalizeLink(movie.link || '')
+      });
+    }
 
     if (changedFields.includes('Downloadurls')) summary.issues.changedDownloadurlRecords += 1;
     if (changedFields.includes('title')) summary.issues.changedTitles += 1;
