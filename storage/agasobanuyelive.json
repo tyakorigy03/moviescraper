@@ -1546,8 +1546,8 @@
       "release_date": "Jan 30, 2026",
       "country": "China",
       "tmdb_id": 650524,
-      "tmdb_rating": 6.038,
-      "popularity": 5.5859,
+      "tmdb_rating": 6,
+      "popularity": 5.5074,
       "tmdb_overview": "In the Qin Dynasty, time-traveller Hong Siu-lung has lived in seclusion with his family for twenty years. Yet every step he takes remains under the watchful eye of his former disciple, now the Qin Emperor. On the brink of ultimate power after conquering the six warring states, the emperor is suddenly ambushed by a mysterious team wielding advanced weapons clearly originating from Hong’s time. Drawn together by fate again, Hong and Qin Emperor are forced to confront the long-buried conflict between them, because the future now depends on how they settle their past.",
       "tmdb_type": "movie",
       "tmdb_title": "Back to the Past",
@@ -7731,7 +7731,7 @@
       "release_date": "March 23, 2007",
       "country": "United States|Morocco",
       "tmdb_id": 9793,
-      "tmdb_rating": 5.563,
+      "tmdb_rating": 5.565,
       "popularity": 5.9167,
       "tmdb_overview": "A group of National Guard trainees on a routine mission find themselves up against cannibalistic mutants in the New Mexico desert.",
       "tmdb_type": "movie",
@@ -10097,7 +10097,7 @@
       "country": "Australia|United States",
       "tmdb_id": 1119878,
       "tmdb_rating": 6.252,
-      "popularity": 11.4531,
+      "popularity": 11.2803,
       "tmdb_overview": "Big rig ice road driver Mike McCann travels to Nepal to scatter his late brother’s ashes on Mt. Everest. While on a packed tour bus traversing the deadly 12,000 ft. terrain of the infamous Road to the Sky, McCann and his mountain guide encounter a group of mercenaries and must fight to save themselves, the busload of innocent travelers, and the local villagers’ homeland.",
       "tmdb_type": "movie",
       "tmdb_title": "Ice Road: Vengeance",
@@ -15905,7 +15905,7 @@
       "release_date": "July 21, 2023",
       "country": "United States",
       "tmdb_id": 1138749,
-      "tmdb_rating": 6.164,
+      "tmdb_rating": 6.162,
       "popularity": 2.1353,
       "tmdb_overview": "When his brother is killed, LAPD officer Mark leaves the city to return to the island he grew up on. Seeking answers and ultimately vengeance, he soon finds himself in a bloody battle with the corrupt tycoon who's taken over the island paradise.",
       "tmdb_type": "movie",
@@ -31004,7 +31004,7 @@
       "release_date": "April 25, 2025",
       "country": "United States|Hungary",
       "tmdb_id": 1232546,
-      "tmdb_rating": 6.281,
+      "tmdb_rating": 6.282,
       "popularity": 6.7772,
       "tmdb_overview": "One year after her sister Melanie mysteriously disappeared, Clover and her friends head into the remote valley where she vanished in search of answers. Exploring an abandoned visitor center, they find themselves stalked by a masked killer and horrifically murdered one by one...only to wake up and find themselves back at the beginning of the same evening.",
       "tmdb_type": "movie",
@@ -31018,6 +31018,506 @@
       "backdrop_medium": "https://image.tmdb.org/t/p/w780/3xKJ0nyUTlySmMBCpOcsuSnFPI1.jpg",
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/3xKJ0nyUTlySmMBCpOcsuSnFPI1.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/3xKJ0nyUTlySmMBCpOcsuSnFPI1.jpg",
+      "color": null,
+      "saved": false,
+      "ignored": true,
+      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/saw-x-review/",
+      "title": "Saw X",
+      "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/11/Saw-X.jpg",
+      "publishedAt": "2024-11-29T02:20:27+02:00",
+      "modifiedAt": "2024-11-29T02:20:27+02:00",
+      "genres": [
+        "Canada",
+        "Horror",
+        "Mexico",
+        "Movie",
+        "Mystery",
+        "Sankara Da Premiere",
+        "Thriller",
+        "United States"
+      ],
+      "type": "movie",
+      "Downloadurls": [
+        {
+          "title": "Saw X",
+          "watchUrl": "https://anonsharing.com/file/7279892ff24f008f/Saw_X.mp4",
+          "downloadUrl": "https://anonsharing.com/file/7279892ff24f008f/Saw_X.mp4",
+          "direct": false
+        }
+      ],
+      "narrator": "Sankara Da Premier",
+      "release_date": "Sep 29, 2023",
+      "country": "United States|Mexico|Canada",
+      "tmdb_id": 951491,
+      "tmdb_rating": 7.162,
+      "popularity": 6.314,
+      "tmdb_overview": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
+      "tmdb_type": "movie",
+      "tmdb_title": "Saw X",
+      "tmdb_year": 2023,
+      "poster_small": "https://image.tmdb.org/t/p/w185/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg",
+      "poster_medium": "https://image.tmdb.org/t/p/w342/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w300/uUJp5I4IbzuhdUiEx4R9OAoFpbz.jpg",
+      "backdrop_medium": "https://image.tmdb.org/t/p/w780/uUJp5I4IbzuhdUiEx4R9OAoFpbz.jpg",
+      "backdrop_large": "https://image.tmdb.org/t/p/w1280/uUJp5I4IbzuhdUiEx4R9OAoFpbz.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/uUJp5I4IbzuhdUiEx4R9OAoFpbz.jpg",
+      "color": null,
+      "saved": false,
+      "ignored": true,
+      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/jawan-review/",
+      "title": "Jawan",
+      "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/01/Jawan.jpg",
+      "publishedAt": "2026-02-02T18:00:23+02:00",
+      "modifiedAt": "2026-02-02T18:12:59+02:00",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "India",
+        "Movie",
+        "Rocky",
+        "Thriller"
+      ],
+      "type": "movie",
+      "Downloadurls": [
+        {
+          "title": "Jawan A",
+          "watchUrl": "https://rumble.com/embed/v730bmo/v9a8q7FPuh",
+          "downloadUrl": "https://www.mediafire.com/file/vbzjnjjb9xho94a/Jawan_A.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "Jawan B",
+          "watchUrl": "https://rumble.com/embed/v730bns/rz5K6sPpn7",
+          "downloadUrl": "https://www.mediafire.com/file/7pxvnp7h2bqj8x9/Jawan_B.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "Jawan C",
+          "watchUrl": "https://rumble.com/embed/v730c0y/STNLWz7xZx",
+          "downloadUrl": "https://www.mediafire.com/file/mpa76vrdeg7ddlf/Jawan_C.mp4/file",
+          "direct": true
+        }
+      ],
+      "narrator": "Rocky",
+      "release_date": "Sep 7, 2023",
+      "country": "India",
+      "tmdb_id": 872906,
+      "tmdb_rating": 7.1,
+      "popularity": 4.8366,
+      "tmdb_overview": "An emotional journey of a prison warden, driven by a personal vendetta while keeping up to a promise made years ago, recruits inmates to commit outrageous crimes that shed light on corruption and injustice, in an attempt to get even with his past,  and that leads him to an unexpected reunion.",
+      "tmdb_type": "movie",
+      "tmdb_title": "Jawan",
+      "tmdb_year": 2023,
+      "poster_small": "https://image.tmdb.org/t/p/w185/jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg",
+      "poster_medium": "https://image.tmdb.org/t/p/w342/jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w300/5LtSjMNw6j3LkG29Oa4O0iY5U8.jpg",
+      "backdrop_medium": "https://image.tmdb.org/t/p/w780/5LtSjMNw6j3LkG29Oa4O0iY5U8.jpg",
+      "backdrop_large": "https://image.tmdb.org/t/p/w1280/5LtSjMNw6j3LkG29Oa4O0iY5U8.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/5LtSjMNw6j3LkG29Oa4O0iY5U8.jpg",
+      "color": null,
+      "saved": true
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/feud-s01-review/",
+      "title": "Feud S01",
+      "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/09/Feud-S01.jpg",
+      "publishedAt": "2025-09-07T18:31:51+02:00",
+      "modifiedAt": "2025-09-07T18:31:51+02:00",
+      "genres": [
+        "B da great",
+        "China",
+        "Drama",
+        "Fantasy",
+        "Romance",
+        "Serie"
+      ],
+      "type": "tv",
+      "Downloadurls": [
+        {
+          "title": "EP01",
+          "watchUrl": "https://rumble.com/embed/v6weux8/GdxM6h2uGV",
+          "downloadUrl": "https://www.mediafire.com/file/5emh3rdk0shoy05/Feud_S01e01.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP02",
+          "watchUrl": "https://rumble.com/embed/v6weuye/taLomcqd2e",
+          "downloadUrl": "https://www.mediafire.com/file/nrrivw7sls345cx/Feud_S01e02.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP03",
+          "watchUrl": "https://rumble.com/embed/v6weuyw/uT2KgXDVJh",
+          "downloadUrl": "https://www.mediafire.com/file/pzmr0kimymbi3uw/Feud_S01e03.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP04",
+          "watchUrl": "https://rumble.com/embed/v6weuzy/9VxXHnwvAO",
+          "downloadUrl": "https://www.mediafire.com/file/4gal7wraf70hufz/Feud_S01e04.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP05",
+          "watchUrl": "https://rumble.com/embed/v6wev0m/PLIJHzWgpS",
+          "downloadUrl": "https://www.mediafire.com/file/nv4bx40z4p2m5g5/Feud_S01e05.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP06",
+          "watchUrl": "https://rumble.com/embed/v6wev1a/OoSPtFrCHN",
+          "downloadUrl": "https://www.mediafire.com/file/sa3mza25llbtlrt/Feud_S01e06.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP07",
+          "watchUrl": "https://rumble.com/embed/v6wev1w/h4fxI1jJKL",
+          "downloadUrl": "https://www.mediafire.com/file/smvixk0uezpy5wg/Feud_S01e07.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP08",
+          "watchUrl": "https://rumble.com/embed/v6wev2c/ngXV01fR44",
+          "downloadUrl": "https://www.mediafire.com/file/e8bafk2yadxkoak/Feud_S01e08.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP09",
+          "watchUrl": "https://rumble.com/embed/v6wev3k/CddCpeNhoY",
+          "downloadUrl": "https://www.mediafire.com/file/zxtn39kxh2f2voi/Feud_S01e09.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP10",
+          "watchUrl": "https://rumble.com/embed/v6wev46/nG1RUvOtDA",
+          "downloadUrl": "https://www.mediafire.com/file/7rpggtuiejwnjno/Feud_S01e10.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP11",
+          "watchUrl": "https://rumble.com/embed/v6wffdm/W6s7UAIYUE",
+          "downloadUrl": "https://www.mediafire.com/file/320lv68xuim312x/Feud_S01e11.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP12",
+          "watchUrl": "https://rumble.com/embed/v6wffeq/XvwR4VJuas",
+          "downloadUrl": "https://www.mediafire.com/file/zwm26hhrqpt8701/Feud_S01e12.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP13",
+          "watchUrl": "https://rumble.com/embed/v6wh5a4/HD3nDGyc2b",
+          "downloadUrl": "https://www.mediafire.com/file/5ut1jswwiugb4bi/Feud_S01e13.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP14",
+          "watchUrl": "https://rumble.com/embed/v6wh4h6/cgeAEcVU7X",
+          "downloadUrl": "https://www.mediafire.com/file/utievxi5xseeqo0/Feud_S01e14.mp4/file",
+          "direct": true
+        },
+        {
+          "title": "EP15",
+          "watchUrl": "https://rumble.com/embed/v6wh4ic/ukkkc4jASf",
+          "downloadUrl": "https://www.mediafire.com/file/w488bhma87bjbps/Feud_S01e15.mp4/file",
+          "direct": true
+        }
+      ],
+      "narrator": "B da great",
+      "release_date": "June 6, 2025",
+      "country": "China",
+      "tmdb_id": 238922,
+      "tmdb_rating": 0,
+      "popularity": 0.4279,
+      "tmdb_overview": "The long-running game show heads to South Africa as two families compete to name the most popular answers to survey questions. Hosted by Steve Harvey.",
+      "tmdb_type": "tv",
+      "tmdb_title": "Family Feud South Africa",
+      "tmdb_year": 2020,
+      "poster_small": "https://image.tmdb.org/t/p/w185/5JiWxEjJvH0VvHYuYmGbIas5Lrb.jpg",
+      "poster_medium": "https://image.tmdb.org/t/p/w342/5JiWxEjJvH0VvHYuYmGbIas5Lrb.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/5JiWxEjJvH0VvHYuYmGbIas5Lrb.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/5JiWxEjJvH0VvHYuYmGbIas5Lrb.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w300/zkQTiZyTQrrFpKynwwUHw6wCoCP.jpg",
+      "backdrop_medium": "https://image.tmdb.org/t/p/w780/zkQTiZyTQrrFpKynwwUHw6wCoCP.jpg",
+      "backdrop_large": "https://image.tmdb.org/t/p/w1280/zkQTiZyTQrrFpKynwwUHw6wCoCP.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/zkQTiZyTQrrFpKynwwUHw6wCoCP.jpg",
+      "color": null,
+      "saved": true
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/dragon-tiger-gate-review/",
+      "title": "Dragon Tiger Gate",
+      "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/05/Dragon-Tiger-Gate-.jpg",
+      "publishedAt": "2025-10-16T15:35:23+02:00",
+      "modifiedAt": "2025-10-16T17:01:51+02:00",
+      "genres": [
+        "Action",
+        "B da great",
+        "China",
+        "Fantasy",
+        "Movie",
+        "Thriller"
+      ],
+      "type": "movie",
+      "Downloadurls": [
+        {
+          "title": "Dragon Tiger Gate",
+          "watchUrl": "https://rumble.com/embed/v6xvqxk/0g0qnM6ZZo",
+          "downloadUrl": "https://www.mediafire.com/file/yno2oj3nobl6vko/Dragon_Tiger_Gate.mp4/file",
+          "direct": true
+        }
+      ],
+      "narrator": "B da great",
+      "release_date": "July 28, 2006",
+      "country": "China",
+      "tmdb_id": 15860,
+      "tmdb_rating": 6.702,
+      "popularity": 3.6336,
+      "tmdb_overview": "Three young martial arts masters emerge from the back streets of Hong Kong to help the powerless fight injustice.",
+      "tmdb_type": "movie",
+      "tmdb_title": "Dragon Tiger Gate",
+      "tmdb_year": 2006,
+      "poster_small": "https://image.tmdb.org/t/p/w185/qamxFxSDtxFk4WPOp5bOYroLqFa.jpg",
+      "poster_medium": "https://image.tmdb.org/t/p/w342/qamxFxSDtxFk4WPOp5bOYroLqFa.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/qamxFxSDtxFk4WPOp5bOYroLqFa.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/qamxFxSDtxFk4WPOp5bOYroLqFa.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w300/gOsmhLqpHcahFQJsUwHvqHG436S.jpg",
+      "backdrop_medium": "https://image.tmdb.org/t/p/w780/gOsmhLqpHcahFQJsUwHvqHG436S.jpg",
+      "backdrop_large": "https://image.tmdb.org/t/p/w1280/gOsmhLqpHcahFQJsUwHvqHG436S.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/gOsmhLqpHcahFQJsUwHvqHG436S.jpg",
+      "color": null,
+      "saved": true
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/moon-in-the-day-season-01/",
+      "title": "Moon in the Day S01",
+      "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/11/Moon-in-the-Day-S01.jpg",
+      "publishedAt": "2024-11-09T19:53:22+02:00",
+      "modifiedAt": "2024-11-09T19:53:22+02:00",
+      "genres": [
+        "Fantasy",
+        "History",
+        "Perfect",
+        "Romance",
+        "Serie",
+        "South Korea",
+        "Thriller"
+      ],
+      "type": "tv",
+      "Downloadurls": [
+        {
+          "title": "EP01",
+          "watchUrl": "https://anonsharing.com/file/29a06d6d63690b5e/Moon_in_the_Day_S01e01.mp4",
+          "downloadUrl": "https://anonsharing.com/file/29a06d6d63690b5e/Moon_in_the_Day_S01e01.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP02",
+          "watchUrl": "https://anonsharing.com/file/9d24a3599a81c67b/Moon_in_the_Day_S01e02.mp4",
+          "downloadUrl": "https://anonsharing.com/file/9d24a3599a81c67b/Moon_in_the_Day_S01e02.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP03",
+          "watchUrl": "https://anonsharing.com/file/e5d9a4b27c6b4d17/Moon_in_the_Day_S01e03.mp4",
+          "downloadUrl": "https://anonsharing.com/file/e5d9a4b27c6b4d17/Moon_in_the_Day_S01e03.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP04",
+          "watchUrl": "https://anonsharing.com/file/e600cd0b65e7fd47/Moon_in_the_Day_S01e04.mp4",
+          "downloadUrl": "https://anonsharing.com/file/e600cd0b65e7fd47/Moon_in_the_Day_S01e04.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP05",
+          "watchUrl": "https://anonsharing.com/file/b7a768a57d430871/Moon_in_the_Day_S01e05.mp4",
+          "downloadUrl": "https://anonsharing.com/file/b7a768a57d430871/Moon_in_the_Day_S01e05.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP06",
+          "watchUrl": "https://anonsharing.com/file/07f58efa5e68d6b1/Moon_in_the_Day_S01e06.mp4",
+          "downloadUrl": "https://anonsharing.com/file/07f58efa5e68d6b1/Moon_in_the_Day_S01e06.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP07",
+          "watchUrl": "https://anonsharing.com/file/9661636602a5b776/Moon_in_the_Day_S01e07.mp4",
+          "downloadUrl": "https://anonsharing.com/file/9661636602a5b776/Moon_in_the_Day_S01e07.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP08",
+          "watchUrl": "https://anonsharing.com/file/b52b14604ab512dd/Moon_in_the_Day_S01e08.mp4",
+          "downloadUrl": "https://anonsharing.com/file/b52b14604ab512dd/Moon_in_the_Day_S01e08.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP09A",
+          "watchUrl": "https://anonsharing.com/file/2b706d00297784a7/Moon_In_The_Day_S01e09A.mp4",
+          "downloadUrl": "https://anonsharing.com/file/2b706d00297784a7/Moon_In_The_Day_S01e09A.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP09B",
+          "watchUrl": "https://anonsharing.com/file/694ec721a54fe618/Moon_in_the_Day_S01e09B.mp4",
+          "downloadUrl": "https://anonsharing.com/file/694ec721a54fe618/Moon_in_the_Day_S01e09B.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP10",
+          "watchUrl": "https://anonsharing.com/file/1ea2b74aaf972d95/Moon_in_the_Day_S01e10.mp4",
+          "downloadUrl": "https://anonsharing.com/file/1ea2b74aaf972d95/Moon_in_the_Day_S01e10.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP11",
+          "watchUrl": "https://anonsharing.com/file/bec59c68d778506f/Moon_in_the_Day_S01e11.mp4",
+          "downloadUrl": "https://anonsharing.com/file/bec59c68d778506f/Moon_in_the_Day_S01e11.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP12",
+          "watchUrl": "https://anonsharing.com/file/87784e30eca48e2b/Moon_in_the_Day_S01e12.mp4",
+          "downloadUrl": "https://anonsharing.com/file/87784e30eca48e2b/Moon_in_the_Day_S01e12.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP13",
+          "watchUrl": "https://anonsharing.com/file/56dc31e63e502900/Moon_In_The_Day_S01e13.mp4",
+          "downloadUrl": "https://anonsharing.com/file/56dc31e63e502900/Moon_In_The_Day_S01e13.mp4",
+          "direct": false
+        },
+        {
+          "title": "EP14 Finale",
+          "watchUrl": "https://anonsharing.com/file/acd0d95eb9751d56/Moon_in_the_Day_S01e14_Finale.mp4",
+          "downloadUrl": "https://anonsharing.com/file/acd0d95eb9751d56/Moon_in_the_Day_S01e14_Finale.mp4",
+          "direct": false
+        }
+      ],
+      "narrator": "Perfect",
+      "release_date": "Oct 25, 2023",
+      "country": "South Korea",
+      "tmdb_id": 230924,
+      "tmdb_rating": 7,
+      "popularity": 4.2088,
+      "tmdb_overview": "A famous South Korean celebrity Han Joon Oh suffers a car accident and wakes up possessed by a vengeful ancient nobleman Do Ha, seeking revenge for his past life",
+      "tmdb_type": "tv",
+      "tmdb_title": "Moon in the Day",
+      "tmdb_year": 2023,
+      "poster_small": "https://image.tmdb.org/t/p/w185/ebYVdmgjBgcLHu6r5L9iuUjNMVN.jpg",
+      "poster_medium": "https://image.tmdb.org/t/p/w342/ebYVdmgjBgcLHu6r5L9iuUjNMVN.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/ebYVdmgjBgcLHu6r5L9iuUjNMVN.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/ebYVdmgjBgcLHu6r5L9iuUjNMVN.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w300/n88QwMJuyfvLmuY3h2glXUy7Z9H.jpg",
+      "backdrop_medium": "https://image.tmdb.org/t/p/w780/n88QwMJuyfvLmuY3h2glXUy7Z9H.jpg",
+      "backdrop_large": "https://image.tmdb.org/t/p/w1280/n88QwMJuyfvLmuY3h2glXUy7Z9H.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/n88QwMJuyfvLmuY3h2glXUy7Z9H.jpg",
+      "color": null,
+      "saved": false,
+      "ignored": true,
+      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/rishtey-review/",
+      "title": "Rishtey",
+      "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/12/Rishtey.jpg",
+      "publishedAt": "2024-12-21T12:43:32+02:00",
+      "modifiedAt": "2024-12-21T12:43:32+02:00",
+      "genres": [
+        "Action",
+        "Drama",
+        "Fey",
+        "India",
+        "Movie",
+        "Romance"
+      ],
+      "type": "movie",
+      "Downloadurls": [
+        {
+          "title": "Rishtey",
+          "watchUrl": "https://anonsharing.com/file/6718735927eecfc3/Rishtey.mp4",
+          "downloadUrl": "https://anonsharing.com/file/6718735927eecfc3/Rishtey.mp4",
+          "direct": false
+        }
+      ],
+      "narrator": "Fey",
+      "release_date": "Dec 6, 2002",
+      "country": "India",
+      "tmdb_id": 215322,
+      "tmdb_rating": 6,
+      "popularity": 0.9744,
+      "tmdb_overview": "Suraj Singh is a wrestler by profession and has the misfortune of falling in love with wealthy Yashpaul Chaudhary's daughter Komal. When Yashpaul learns of there relationship he arrogantly disagrees of his daughter's choice but Komal refuses to accept her dad's word and gets married to Suraj without the blessings of Yashpaul. Aggravated by his daughter's act Yashpaul connote some negative scenes which spoil Suraj's character in the eyes of Komal resulting in the couple's separation. Before separation, Komal has given birth to a baby boy, which Yashpaul had wanted to kill but Suraj escapes with the child and single-handily brings him up in a poor environment. Years later Komal will return and demand that her child is handed over to her even if having to appeal to the judicial system.",
+      "tmdb_type": "movie",
+      "tmdb_title": "Rishtey",
+      "tmdb_year": 2002,
+      "poster_small": "https://image.tmdb.org/t/p/w185/Apm7IbwR26Q1kl1yUckPPmAZEUZ.jpg",
+      "poster_medium": "https://image.tmdb.org/t/p/w342/Apm7IbwR26Q1kl1yUckPPmAZEUZ.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/Apm7IbwR26Q1kl1yUckPPmAZEUZ.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/Apm7IbwR26Q1kl1yUckPPmAZEUZ.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w300/58KR9mRu2XBUfjJIAsxP5MjHoBG.jpg",
+      "backdrop_medium": "https://image.tmdb.org/t/p/w780/58KR9mRu2XBUfjJIAsxP5MjHoBG.jpg",
+      "backdrop_large": "https://image.tmdb.org/t/p/w1280/58KR9mRu2XBUfjJIAsxP5MjHoBG.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/58KR9mRu2XBUfjJIAsxP5MjHoBG.jpg",
+      "color": null,
+      "saved": false,
+      "ignored": true,
+      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/sheena-review/",
+      "title": "Sheena",
+      "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/12/Sheena.jpg",
+      "publishedAt": "2024-12-05T02:14:00+02:00",
+      "modifiedAt": "2024-12-05T02:14:00+02:00",
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Gaheza",
+        "Movie",
+        "United Kingdom",
+        "United States"
+      ],
+      "type": "movie",
+      "Downloadurls": [
+        {
+          "title": "Sheena",
+          "watchUrl": "https://anonsharing.com/file/1cd5af1ebff11de5/Sheena_Queen_Of_The_Jungle.mp4",
+          "downloadUrl": "https://anonsharing.com/file/1cd5af1ebff11de5/Sheena_Queen_Of_The_Jungle.mp4",
+          "direct": false
+        }
+      ],
+      "narrator": "Gaheza",
+      "release_date": "Aug 17, 1984",
+      "country": "United Kingdom|United States",
+      "tmdb_id": 24264,
+      "tmdb_rating": 5.667,
+      "popularity": 2.2561,
+      "tmdb_overview": "Sheena's parents are killed while on Safari. She is raised by the mystical witch woman of an African tribe. When her foster mother is framed for the murder of a political leader, Sheena and a newsman, Vic Casey, are forced to flee while pursued by the mercenaries hired by the real killer, who hopes to assume power. Sheena's ability to talk to the animals and knowledge of jungle lore give them a chance against the high tech weapons of the mercenaries.",
+      "tmdb_type": "movie",
+      "tmdb_title": "Sheena",
+      "tmdb_year": 1984,
+      "poster_small": "https://image.tmdb.org/t/p/w185/g3MC1eYoW1Se9fQzCOZ5tfyMatl.jpg",
+      "poster_medium": "https://image.tmdb.org/t/p/w342/g3MC1eYoW1Se9fQzCOZ5tfyMatl.jpg",
+      "poster_large": "https://image.tmdb.org/t/p/w500/g3MC1eYoW1Se9fQzCOZ5tfyMatl.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/g3MC1eYoW1Se9fQzCOZ5tfyMatl.jpg",
+      "backdrop_small": "https://image.tmdb.org/t/p/w300/bIgSbKHjCXEijKPwE0lJuXUWPiw.jpg",
+      "backdrop_medium": "https://image.tmdb.org/t/p/w780/bIgSbKHjCXEijKPwE0lJuXUWPiw.jpg",
+      "backdrop_large": "https://image.tmdb.org/t/p/w1280/bIgSbKHjCXEijKPwE0lJuXUWPiw.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/bIgSbKHjCXEijKPwE0lJuXUWPiw.jpg",
       "color": null,
       "saved": false,
       "ignored": true,
