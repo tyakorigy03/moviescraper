@@ -618,5 +618,653 @@
   {
     "message": "Normalization failed: Failed to update batch starting at 0: duplicate key value violates unique constraint \"unique_link\"",
     "timestamp": "2026-04-16T08:57:47.025Z"
+  },
+  {
+    "message": "Failed scraping the popes exorcist review: Navigating frame was detached",
+    "timestamp": "2026-06-23T17:27:27.643Z"
+  },
+  {
+    "message": "Failed scraping the man from toronto review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.648Z"
+  },
+  {
+    "message": "Failed scraping afterburn review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.653Z"
+  },
+  {
+    "message": "Failed scraping the nun review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.654Z"
+  },
+  {
+    "message": "Failed scraping holiday review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.655Z"
+  },
+  {
+    "message": "Failed scraping blades of the guardians review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.657Z"
+  },
+  {
+    "message": "Failed scraping in the tall grass review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.659Z"
+  },
+  {
+    "message": "Failed scraping seven snipers review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.660Z"
+  },
+  {
+    "message": "Failed scraping behind closed doors: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.665Z"
+  },
+  {
+    "message": "Failed scraping matilda review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.666Z"
+  },
+  {
+    "message": "Failed scraping dont move review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.667Z"
+  },
+  {
+    "message": "Failed scraping mufasa the lion king review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.668Z"
+  },
+  {
+    "message": "Failed scraping shanghai noon review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.669Z"
+  },
+  {
+    "message": "Failed scraping nazar season 01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.670Z"
+  },
+  {
+    "message": "Failed scraping the night owl review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.670Z"
+  },
+  {
+    "message": "Failed scraping o romeo review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.671Z"
+  },
+  {
+    "message": "Failed scraping bhaiyya ji review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.672Z"
+  },
+  {
+    "message": "Failed scraping the last supper review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.673Z"
+  },
+  {
+    "message": "Failed scraping ghajini review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.674Z"
+  },
+  {
+    "message": "Failed scraping avarice review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.675Z"
+  },
+  {
+    "message": "Failed scraping hunter killer review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.734Z"
+  },
+  {
+    "message": "Failed scraping the great wall review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.735Z"
+  },
+  {
+    "message": "Failed scraping humko tumse pyaar hai review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.740Z"
+  },
+  {
+    "message": "Failed scraping the lion king review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.741Z"
+  },
+  {
+    "message": "Failed scraping narivetta review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.743Z"
+  },
+  {
+    "message": "Failed scraping weekend in taipei review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.744Z"
+  },
+  {
+    "message": "Failed scraping duplicate review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.745Z"
+  },
+  {
+    "message": "Failed scraping m i a s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.746Z"
+  },
+  {
+    "message": "Failed scraping memorist s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.747Z"
+  },
+  {
+    "message": "Failed scraping strong woman s01 do bong soon review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.748Z"
+  },
+  {
+    "message": "Failed scraping paris has fallen season 01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.749Z"
+  },
+  {
+    "message": "Failed scraping the nowhere man s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.750Z"
+  },
+  {
+    "message": "Failed scraping furies s02 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.751Z"
+  },
+  {
+    "message": "Failed scraping furies s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.751Z"
+  },
+  {
+    "message": "Failed scraping from season 03 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.752Z"
+  },
+  {
+    "message": "Failed scraping prisoner s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.753Z"
+  },
+  {
+    "message": "Failed scraping berlin season 02 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.754Z"
+  },
+  {
+    "message": "Failed scraping scary stories to tell in the dark review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.755Z"
+  },
+  {
+    "message": "Failed scraping old review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.757Z"
+  },
+  {
+    "message": "Failed scraping siren s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.758Z"
+  },
+  {
+    "message": "Failed scraping the originals season 02 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.821Z"
+  },
+  {
+    "message": "Failed scraping war machine review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.822Z"
+  },
+  {
+    "message": "Failed scraping predator badlands review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.823Z"
+  },
+  {
+    "message": "Failed scraping 50 states of fright s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.824Z"
+  },
+  {
+    "message": "Failed scraping in the tall grass review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.825Z"
+  },
+  {
+    "message": "Failed scraping maze runner the death cure review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.826Z"
+  },
+  {
+    "message": "Failed scraping the ice road review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.826Z"
+  },
+  {
+    "message": "Failed scraping no one lives review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.827Z"
+  },
+  {
+    "message": "Failed scraping i frankenstein review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.828Z"
+  },
+  {
+    "message": "Failed scraping o romeo review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.829Z"
+  },
+  {
+    "message": "Failed scraping kd the devil review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.830Z"
+  },
+  {
+    "message": "Failed scraping leader review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.831Z"
+  },
+  {
+    "message": "Failed scraping chase for amber review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.831Z"
+  },
+  {
+    "message": "Failed scraping dominique review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.832Z"
+  },
+  {
+    "message": "Failed scraping romeo must die review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.833Z"
+  },
+  {
+    "message": "Failed scraping taken s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.834Z"
+  },
+  {
+    "message": "Failed scraping a fall from grace review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.835Z"
+  },
+  {
+    "message": "Failed scraping 50 states of fright s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.836Z"
+  },
+  {
+    "message": "Failed scraping big mouth season 01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.837Z"
+  },
+  {
+    "message": "Failed scraping 10000 miles review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.838Z"
+  },
+  {
+    "message": "Failed scraping lion review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.839Z"
+  },
+  {
+    "message": "Failed scraping love a lifetime season 01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.839Z"
+  },
+  {
+    "message": "Failed scraping darkman review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.840Z"
+  },
+  {
+    "message": "Failed scraping kung fu games review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.893Z"
+  },
+  {
+    "message": "Failed scraping now you see me review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.894Z"
+  },
+  {
+    "message": "Failed scraping baby john review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.894Z"
+  },
+  {
+    "message": "Failed scraping jaya janaki nayaka review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.895Z"
+  },
+  {
+    "message": "Failed scraping the mother review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.896Z"
+  },
+  {
+    "message": "Failed scraping the manipulated s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.896Z"
+  },
+  {
+    "message": "Failed scraping rings review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.897Z"
+  },
+  {
+    "message": "Failed scraping the bluff review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.898Z"
+  },
+  {
+    "message": "Failed scraping tyler perrys divorce in the black review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.899Z"
+  },
+  {
+    "message": "Failed scraping citizen vigilante review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.900Z"
+  },
+  {
+    "message": "Failed scraping chamku review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.901Z"
+  },
+  {
+    "message": "Failed scraping bhooth bangla review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.902Z"
+  },
+  {
+    "message": "Failed scraping back in action review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.902Z"
+  },
+  {
+    "message": "Failed scraping largo winch ii review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.903Z"
+  },
+  {
+    "message": "Failed scraping in the tall grass review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.904Z"
+  },
+  {
+    "message": "Failed scraping knight and day review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.905Z"
+  },
+  {
+    "message": "Failed scraping kd the devil review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.906Z"
+  },
+  {
+    "message": "Failed scraping seven snipers review 2: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.907Z"
+  },
+  {
+    "message": "Failed scraping mortal kombat ii review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.908Z"
+  },
+  {
+    "message": "Failed scraping jewel thief the heist begins review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.908Z"
+  },
+  {
+    "message": "Failed scraping one piece season 01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.909Z"
+  },
+  {
+    "message": "Failed scraping damsel review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.910Z"
+  },
+  {
+    "message": "Failed scraping from season 03 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:27.988Z"
+  },
+  {
+    "message": "Failed scraping the price we pay review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.031Z"
+  },
+  {
+    "message": "Failed scraping anaconda review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.032Z"
+  },
+  {
+    "message": "Failed scraping death race review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.033Z"
+  },
+  {
+    "message": "Failed scraping first knight review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.034Z"
+  },
+  {
+    "message": "Failed scraping no good deed review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.035Z"
+  },
+  {
+    "message": "Failed scraping bloodshot review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.036Z"
+  },
+  {
+    "message": "Failed scraping badland hunters review 2: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.037Z"
+  },
+  {
+    "message": "Failed scraping rurouni kenshin part ii kyoto inferno review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.037Z"
+  },
+  {
+    "message": "Failed scraping overdrive review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.038Z"
+  },
+  {
+    "message": "Failed scraping kd the devil review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.039Z"
+  },
+  {
+    "message": "Failed scraping dont move review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.040Z"
+  },
+  {
+    "message": "Failed scraping beast review 2: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.041Z"
+  },
+  {
+    "message": "Failed scraping close review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.042Z"
+  },
+  {
+    "message": "Failed scraping betrayed by love: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.043Z"
+  },
+  {
+    "message": "Failed scraping milk money review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.044Z"
+  },
+  {
+    "message": "Failed scraping nero the assassin s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.045Z"
+  },
+  {
+    "message": "Failed scraping infinite review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.046Z"
+  },
+  {
+    "message": "Failed scraping savi review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.047Z"
+  },
+  {
+    "message": "Failed scraping 47 ronin review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.047Z"
+  },
+  {
+    "message": "Failed scraping the midnight meat train review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.048Z"
+  },
+  {
+    "message": "Failed scraping greenland 2 migration review 2: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.049Z"
+  },
+  {
+    "message": "Failed scraping the great flood review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.049Z"
+  },
+  {
+    "message": "Failed scraping awakening the zodiac review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.078Z"
+  },
+  {
+    "message": "Failed scraping kanguva review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.079Z"
+  },
+  {
+    "message": "Failed scraping the passion of the christ review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.080Z"
+  },
+  {
+    "message": "Failed scraping bel air season 03 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.080Z"
+  },
+  {
+    "message": "Failed scraping bharat review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.081Z"
+  },
+  {
+    "message": "Failed scraping singam 1 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.082Z"
+  },
+  {
+    "message": "Failed scraping tom clancys jack ryan ghost war review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.082Z"
+  },
+  {
+    "message": "Failed scraping mortal kombat review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.083Z"
+  },
+  {
+    "message": "Failed scraping apex review 2: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.084Z"
+  },
+  {
+    "message": "Failed scraping blades of the guardians review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.085Z"
+  },
+  {
+    "message": "Failed scraping awakening the zodiac review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.085Z"
+  },
+  {
+    "message": "Failed scraping 10000 miles review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.086Z"
+  },
+  {
+    "message": "Failed scraping holiday review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.087Z"
+  },
+  {
+    "message": "Failed scraping china salesman review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.087Z"
+  },
+  {
+    "message": "Failed scraping brotherhood review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.089Z"
+  },
+  {
+    "message": "Failed scraping butchers crossing review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.089Z"
+  },
+  {
+    "message": "Failed scraping fuze review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.090Z"
+  },
+  {
+    "message": "Failed scraping alex rider season 02 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.091Z"
+  },
+  {
+    "message": "Failed scraping troll 2 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.091Z"
+  },
+  {
+    "message": "Failed scraping billionaires bunker s01 review 2: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.092Z"
+  },
+  {
+    "message": "Failed scraping the conjuring 3 the devil made me do it review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.093Z"
+  },
+  {
+    "message": "Failed scraping bad boys ride or die review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.094Z"
+  },
+  {
+    "message": "Failed scraping the originals season 01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.094Z"
+  },
+  {
+    "message": "Failed scraping who is erin carter s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.095Z"
+  },
+  {
+    "message": "Failed scraping oblivion review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.123Z"
+  },
+  {
+    "message": "Failed scraping the secret circle s01 review 2: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.124Z"
+  },
+  {
+    "message": "Failed scraping army of the dead review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.124Z"
+  },
+  {
+    "message": "Failed scraping the i land s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.125Z"
+  },
+  {
+    "message": "Failed scraping kingdom of the planet of the apes review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.126Z"
+  },
+  {
+    "message": "Failed scraping black panther wakanda forever review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.126Z"
+  },
+  {
+    "message": "Failed scraping indiana jones and the dial of destiny review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.127Z"
+  },
+  {
+    "message": "Failed scraping dominique review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.128Z"
+  },
+  {
+    "message": "Failed scraping dhurandhar the revenge review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.129Z"
+  },
+  {
+    "message": "Failed scraping holiday review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.129Z"
+  },
+  {
+    "message": "Failed scraping badass ravikumar review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.130Z"
+  },
+  {
+    "message": "Failed scraping red dawn review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.131Z"
+  },
+  {
+    "message": "Failed scraping lift review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.132Z"
+  },
+  {
+    "message": "Failed scraping fan review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.133Z"
+  },
+  {
+    "message": "Failed scraping goat review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.134Z"
+  },
+  {
+    "message": "Failed scraping mission cross review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.134Z"
+  },
+  {
+    "message": "Failed scraping from season 03 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.135Z"
+  },
+  {
+    "message": "Failed scraping bharat review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.136Z"
+  },
+  {
+    "message": "Failed scraping the great flood review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.137Z"
+  },
+  {
+    "message": "Failed scraping until the sun meets the star s01 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.137Z"
+  },
+  {
+    "message": "Failed scraping cellular review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.138Z"
+  },
+  {
+    "message": "Failed scraping rambo last blood review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.139Z"
+  },
+  {
+    "message": "Failed scraping maleficent review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.140Z"
+  },
+  {
+    "message": "Failed scraping dracula untold review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.140Z"
+  },
+  {
+    "message": "Failed scraping awakening the zodiac review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.141Z"
+  },
+  {
+    "message": "Failed scraping smile 2 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.142Z"
+  },
+  {
+    "message": "Failed scraping the expendables 2 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.167Z"
+  },
+  {
+    "message": "Failed scraping the equalizer 2 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.168Z"
+  },
+  {
+    "message": "Failed scraping the following season 02 review: Attempted to use detached Frame 'CAD99EAFFCB9E66D5E734B16ADEFE66D'.",
+    "timestamp": "2026-06-23T17:27:28.168Z"
+  },
+  {
+    "message": "Scraper failed: Protocol error: Connection closed.",
+    "timestamp": "2026-06-23T17:27:28.200Z"
   }
 ]
