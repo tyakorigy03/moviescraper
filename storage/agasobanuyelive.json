@@ -79596,18 +79596,7 @@
       "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
     }
   ],
-  "failed": [
-    {
-      "link": "https://www.agasobanuyelive.com/the-woman-in-the-yard-review/",
-      "error": "Navigation timeout of 90000 ms exceeded",
-      "saved": false
-    },
-    {
-      "link": "https://www.agasobanuyelive.com/action-jackson-review/",
-      "error": "Navigation timeout of 90000 ms exceeded",
-      "saved": false
-    }
-  ],
+  "failed": [],
   "processedLinks": [
     {
       "page": "https://www.agasobanuyelive.com/category/serie/",
