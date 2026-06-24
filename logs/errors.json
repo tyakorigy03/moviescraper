@@ -1266,5 +1266,17 @@
   {
     "message": "Scraper failed: Protocol error: Connection closed.",
     "timestamp": "2026-06-23T17:27:28.200Z"
+  },
+  {
+    "message": "Failed scraping the woman in the yard review: Navigation timeout of 90000 ms exceeded",
+    "timestamp": "2026-06-24T22:01:11.303Z"
+  },
+  {
+    "message": "Failed scraping mortal kombat review: Navigation timeout of 90000 ms exceeded",
+    "timestamp": "2026-06-24T22:07:35.093Z"
+  },
+  {
+    "message": "Failed scraping action jackson review: Navigation timeout of 90000 ms exceeded",
+    "timestamp": "2026-06-24T22:13:29.490Z"
   }
 ]
