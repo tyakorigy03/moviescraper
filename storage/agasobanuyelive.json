@@ -1637,7 +1637,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/3q01ACG0MWm0DekhvkPFCXyPZSu.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/3q01ACG0MWm0DekhvkPFCXyPZSu.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/mission-impossible-6-fallout-review/",
@@ -4741,7 +4741,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/gIClklFGYBe0uiOoiP2vtocJbss.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/gIClklFGYBe0uiOoiP2vtocJbss.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/pushpa-the-rise-part-1-review/",
@@ -6073,7 +6073,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/cLFbDVfhllIMybpo2fkGNzehiQG.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/cLFbDVfhllIMybpo2fkGNzehiQG.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/furiosa-a-mad-max-saga-review/",
@@ -6449,9 +6449,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/96SADhPnkXnVN3KaRKsDeBovLcm.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/96SADhPnkXnVN3KaRKsDeBovLcm.jpg",
       "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/cold-meat-review/",
@@ -6977,7 +6975,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/s15olg5LwRqTjgDd5KIfVXhcoqs.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/s15olg5LwRqTjgDd5KIfVXhcoqs.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/ballerina-review-2/",
@@ -7950,9 +7948,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/sKJOOzIR5oMiCeXC7gBxXgIDz9p.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/sKJOOzIR5oMiCeXC7gBxXgIDz9p.jpg",
       "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/encantadia-chronicles-s01-review/",
@@ -8051,7 +8047,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/zTHNsqUL5TUVevmhU8zp7HVn7jW.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/zTHNsqUL5TUVevmhU8zp7HVn7jW.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/incognito-s01-2025-review/",
@@ -8413,7 +8409,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/f4QIQvecRkKD5t7aPclyIr3SEP.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/f4QIQvecRkKD5t7aPclyIr3SEP.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-cold-light-of-day-review/",
@@ -10525,7 +10521,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/yrsWvYxnmA7ntxZtO9K0OInjyRA.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/yrsWvYxnmA7ntxZtO9K0OInjyRA.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-kings-daughter-review/",
@@ -11445,7 +11441,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/l5sD0AK286fBpXyDHRCbtaFMArN.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/l5sD0AK286fBpXyDHRCbtaFMArN.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/big-game-review/",
@@ -13228,7 +13224,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/7JhVPjEEOfSyCe0VcFSSQeKvPXs.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/7JhVPjEEOfSyCe0VcFSSQeKvPXs.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-i-land-s01-review/",
@@ -15745,7 +15741,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/xLdw1xdHocKYFFvx7w41NchXMfJ.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/xLdw1xdHocKYFFvx7w41NchXMfJ.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/war/",
@@ -17905,7 +17901,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/7FDVhmCur4LMOfnXMteiSCtsdOb.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/7FDVhmCur4LMOfnXMteiSCtsdOb.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/freakish-season-01-review/",
@@ -18087,7 +18083,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/ogRXgYKABTqiqmBen9hkbo3Fvz1.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/ogRXgYKABTqiqmBen9hkbo3Fvz1.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/raging-phoenix-review/",
@@ -18744,7 +18740,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/cyqKNRLFKCN9Y28ln38hLMESGEj.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/cyqKNRLFKCN9Y28ln38hLMESGEj.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/incognito-s01-2025-review-4/",
@@ -19050,7 +19046,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/fvrGb6zfQaQ8RD9pC8o9vv1b7W2.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/fvrGb6zfQaQ8RD9pC8o9vv1b7W2.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/district-b13-review/",
@@ -19243,7 +19239,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/fypydCipcWDKDTTCoPucBsdGYXW.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/fypydCipcWDKDTTCoPucBsdGYXW.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/incognito-s01-2025-review-2/",
@@ -21449,7 +21445,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/k47JEUTQsSMN532HRg6RCzZKBdB.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/k47JEUTQsSMN532HRg6RCzZKBdB.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-old-way-review/",
@@ -23043,7 +23039,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/snll1zUi2oxIah9qifXOvbfjcrG.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/snll1zUi2oxIah9qifXOvbfjcrG.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/13-sins-review/",
@@ -23216,7 +23212,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/kFXtAwJYbRTqiyQpE9kDc8qEP3X.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/kFXtAwJYbRTqiyQpE9kDc8qEP3X.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/high-heat-review/",
@@ -23858,7 +23854,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/i5kvIf73Vrxu4lYF6rby0yw4FX2.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/i5kvIf73Vrxu4lYF6rby0yw4FX2.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/kanguva-review/",
@@ -23962,7 +23958,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/hJ1jUw8irCiWwQk7BElxF92BrlK.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/hJ1jUw8irCiWwQk7BElxF92BrlK.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/eternals-review/",
@@ -26273,7 +26269,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/as-the-crow-flies-s02-review/",
@@ -26879,7 +26875,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/r4clWIxKeWoqrHspQP0XunuUmB7.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/r4clWIxKeWoqrHspQP0XunuUmB7.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/chief-of-thieves-chu-liu-xiang-review/",
@@ -29539,7 +29535,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/7ZO9yoEU2fAHKhmJWfAc2QIPWJg.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/7ZO9yoEU2fAHKhmJWfAc2QIPWJg.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/kill-boksoon-review/",
@@ -29633,9 +29629,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/w8OpyJ7O3Uozflzxkn0J0TmowZn.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/w8OpyJ7O3Uozflzxkn0J0TmowZn.jpg",
       "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-one-review/",
@@ -30388,7 +30382,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/zt6wgtlV6hXDr9tvi3uDJLoHrja.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/zt6wgtlV6hXDr9tvi3uDJLoHrja.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/high-school-return-of-a-gangster-s01-review/",
@@ -30757,7 +30751,7 @@
       "backdrop_large": null,
       "backdrop": null,
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/azaad-review/",
@@ -31070,7 +31064,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/v0eBR7tZIWQKNtb2MyJtAji5OjA.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/v0eBR7tZIWQKNtb2MyJtAji5OjA.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-matrix-review/",
@@ -31397,9 +31391,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/uUJp5I4IbzuhdUiEx4R9OAoFpbz.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/uUJp5I4IbzuhdUiEx4R9OAoFpbz.jpg",
       "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/jawan-review/",
@@ -33034,7 +33026,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/8ZerYKvIaNUJZvAHXYTQu4qTwFw.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/8ZerYKvIaNUJZvAHXYTQu4qTwFw.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/leo-review/",
@@ -34147,7 +34139,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/gxJnDz2W566PRdYKCaJrp1FpRRI.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/gxJnDz2W566PRdYKCaJrp1FpRRI.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/badland-hunters-review-2/",
@@ -38879,7 +38871,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/pz7bGOUNJXyPKJ2GcJN6nhwBnCs.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/pz7bGOUNJXyPKJ2GcJN6nhwBnCs.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/stranger-things-s01-review-2/",
@@ -41064,7 +41056,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/onmoNgDVqDJO75eQ93FFyflbJLl.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/onmoNgDVqDJO75eQ93FFyflbJLl.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/bon-appetit-your-majesty-s01-review/",
@@ -41436,7 +41428,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/jhk6D8pim3yaByu1801kMoxXFaX.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/jhk6D8pim3yaByu1801kMoxXFaX.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/gladiator-review/",
@@ -41481,7 +41473,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/jhk6D8pim3yaByu1801kMoxXFaX.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/jhk6D8pim3yaByu1801kMoxXFaX.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/kate-review/",
@@ -41624,9 +41616,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
       "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/indian-police-force-s01-review/",
@@ -42328,7 +42318,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/raHusDB0CEWolsLQP72NuG9LfqU.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/raHusDB0CEWolsLQP72NuG9LfqU.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/project-legion-review/",
@@ -42753,7 +42743,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/1ApRLGSJ9ShDP1dUMAJQWbWBALz.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/1ApRLGSJ9ShDP1dUMAJQWbWBALz.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/bank-under-siege-season-01-review/",
@@ -43307,7 +43297,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/srJ7haOhfykoPOYPQrstOaFem08.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/srJ7haOhfykoPOYPQrstOaFem08.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/battle-royale-review/",
@@ -44595,7 +44585,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/fra7Gk8xHPWaY4g8p6ue0o2yKOJ.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/fra7Gk8xHPWaY4g8p6ue0o2yKOJ.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/fan-review/",
@@ -45620,7 +45610,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/hyfpK5UZ4msJwgqGzX1rFB5GPZj.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/hyfpK5UZ4msJwgqGzX1rFB5GPZj.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/seetimaarr-review/",
@@ -47968,7 +47958,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/34fIB4TBdYHerdbcXoMVPZiX7q0.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/34fIB4TBdYHerdbcXoMVPZiX7q0.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/all-eyez-on-me-review/",
@@ -48777,7 +48767,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/vyJxZSLdgCmUEZlc6OhyJUDqTjA.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/vyJxZSLdgCmUEZlc6OhyJUDqTjA.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/percy-jackson-the-lightning-thief-review/",
@@ -55129,7 +55119,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/y831uA4mYpByjC31P1g9C5W6sED.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/y831uA4mYpByjC31P1g9C5W6sED.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/jism-2-review/",
@@ -56638,7 +56628,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/rbFqLPKj6D2JyRh5mOfA7jqX0Qk.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/rbFqLPKj6D2JyRh5mOfA7jqX0Qk.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/tin-soldier-review/",
@@ -61076,7 +61066,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/jGjFwizX2YYoUOJkCymlfvS8aGp.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/jGjFwizX2YYoUOJkCymlfvS8aGp.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/chinese-fighter-dou-shi-review/",
@@ -61851,7 +61841,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/aVvRQJ2Ckhlym4uh0YGc166CUoP.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/aVvRQJ2Ckhlym4uh0YGc166CUoP.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/played-and-betrayed-review/",
@@ -62198,7 +62188,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/8BKnPM5GRRcRDVf4JskD2J9N0g5.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/8BKnPM5GRRcRDVf4JskD2J9N0g5.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/customs-frontline-review/",
@@ -62640,7 +62630,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/mkxGpqh4yOYqtENv01IrDcesFRf.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/mkxGpqh4yOYqtENv01IrDcesFRf.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/boss-numukozi-muri-douche/",
@@ -63693,7 +63683,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/ay0PJQZizDXk0pzhoGX4v7K9h7A.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/ay0PJQZizDXk0pzhoGX4v7K9h7A.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/jodhaa-akbar-review-2/",
@@ -64411,7 +64401,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/9NSXdVHeSfSHUv49OzLispFcpz1.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/9NSXdVHeSfSHUv49OzLispFcpz1.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/jade-review/",
@@ -66494,7 +66484,7 @@
       "backdrop_large": null,
       "backdrop": null,
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-outpost-review/",
@@ -69284,7 +69274,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/4frrYwamVG0eXhdMTy3cpNNcCBp.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/4frrYwamVG0eXhdMTy3cpNNcCBp.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/gangs-of-godavari-review/",
@@ -70220,7 +70210,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/tKyLz5rkGbHMIqU7DQAht9QYqPo.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/tKyLz5rkGbHMIqU7DQAht9QYqPo.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/border-2-review/",
@@ -70653,7 +70643,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/6DfHl4CE88x7Rt9oyARQQm6bHXD.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/6DfHl4CE88x7Rt9oyARQQm6bHXD.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/safe-house-2025-review/",
@@ -72110,7 +72100,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/itkGMXWTCrBRCosv41KPWv8lZcb.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/itkGMXWTCrBRCosv41KPWv8lZcb.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/im-undercover-review/",
@@ -73033,7 +73023,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/brother-review/",
@@ -74214,9 +74204,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/zafjILdj6K91LOX4w4lCD48utxZ.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/zafjILdj6K91LOX4w4lCD48utxZ.jpg",
       "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/kl-gangster-review/",
@@ -74884,7 +74872,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/q8Qlpmp2my1IZV9EVebzvhhJPmy.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/q8Qlpmp2my1IZV9EVebzvhhJPmy.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/amaran-review/",
@@ -76047,7 +76035,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/2pv723BfhVMCAwH9onNLX0JpVEE.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/2pv723BfhVMCAwH9onNLX0JpVEE.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-call-review/",
@@ -76319,7 +76307,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/gvn6HS0uLKqk1KVXp4UKY3SkPTi.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/gvn6HS0uLKqk1KVXp4UKY3SkPTi.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/dhurandhar-the-revenge-review/",
@@ -77432,7 +77420,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/wqjhAWmqHrIIn4PdchGCuEgPksw.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/wqjhAWmqHrIIn4PdchGCuEgPksw.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/memorist-s01-review/",
@@ -77506,7 +77494,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/gbOXdzgPB3arFURiE9lbDRRF31w.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/gbOXdzgPB3arFURiE9lbDRRF31w.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-trip-review/",
@@ -77553,7 +77541,7 @@
       "backdrop_large": null,
       "backdrop": null,
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/leader-review/",
@@ -77777,7 +77765,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/yf9ntvHqZFgwB79V6DhXNHbuiKj.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/yf9ntvHqZFgwB79V6DhXNHbuiKj.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/tom-clancys-jack-ryan-ghost-war-review/",
@@ -78773,7 +78761,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/cgdU3wuuiJGAenHaiRc8blTahx3.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/cgdU3wuuiJGAenHaiRc8blTahx3.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/10000-miles-review/",
@@ -78905,7 +78893,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/wHwoA0K8GO5vTcOSro8viyfxf6m.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/wHwoA0K8GO5vTcOSro8viyfxf6m.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/mortal-kombat-ii-review/",
@@ -79242,7 +79230,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/1weQEtzcksrw9eqnNKOdwd3v3U6.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/1weQEtzcksrw9eqnNKOdwd3v3U6.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/mr-bachchan-review/",
@@ -79529,7 +79517,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/qJ2KSHJhlFvASBMLbGuP7OFMaFg.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/qJ2KSHJhlFvASBMLbGuP7OFMaFg.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/bhooth-bangla-review/",
@@ -80025,7 +80013,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/szKv713FcUXx6hcfdY369vtkmzr.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/szKv713FcUXx6hcfdY369vtkmzr.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/wild-heart-s01-yabani-review-3/",
@@ -80254,7 +80242,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/897uYgM4gtY0MdPRszIJngRJrIp.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/897uYgM4gtY0MdPRszIJngRJrIp.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/pinocchio-s01-review/",
@@ -80414,7 +80402,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/o6B99QzQLiv8BWI05djH1e8TNHP.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/o6B99QzQLiv8BWI05djH1e8TNHP.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/saiyaara-review-3/",
@@ -80504,7 +80492,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/lH5d3gMBHCLn42qEJt6Y6xoFGb2.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/lH5d3gMBHCLn42qEJt6Y6xoFGb2.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/blast-review/",
@@ -80912,7 +80900,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/g1LJLlmWP74zv9yXKEXm7g9p10O.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/g1LJLlmWP74zv9yXKEXm7g9p10O.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-furious-review/",
@@ -80998,7 +80986,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/i9AYvmavDz7bnY70b0oQoYvfvH7.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/i9AYvmavDz7bnY70b0oQoYvfvH7.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/ip-man-kung-fu-legend-review/",
@@ -81040,7 +81028,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/6HBbzW5D7StUBRi0yO6ZEq9rNB5.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/6HBbzW5D7StUBRi0yO6ZEq9rNB5.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/till-the-end-of-the-moon-s01-review-2/",
@@ -81199,7 +81187,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/5fhS6Bh4VnF0SOZyZnhNpc0XHDb.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/5fhS6Bh4VnF0SOZyZnhNpc0XHDb.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/wings-of-dread-review/",
@@ -81242,7 +81230,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/m0joYYat6anzyIaJ6B4CQnTMjti.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/m0joYYat6anzyIaJ6B4CQnTMjti.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/ram-setu-review/",
@@ -81709,7 +81697,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/7rmSMnH5HDHWWil6tYmxPlH8vqz.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/7rmSMnH5HDHWWil6tYmxPlH8vqz.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/bad-sister-review/",
@@ -81872,7 +81860,7 @@
       "backdrop_large": null,
       "backdrop": null,
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/oasis-s01-review/",
@@ -81957,7 +81945,7 @@
       "backdrop_large": null,
       "backdrop": null,
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-butchers-blade-review/",
@@ -82299,7 +82287,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/lnVWmFvLv2pTZGsuAJytiqKu541.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/lnVWmFvLv2pTZGsuAJytiqKu541.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/daybreakers-review/",
@@ -82345,7 +82333,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/rNzLD5dTUoISDeo10qJDiUdwVNh.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/rNzLD5dTUoISDeo10qJDiUdwVNh.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/balti-review/",
@@ -82627,7 +82615,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/x-men-apocalypse-review/",
@@ -82781,7 +82769,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/aVvRQJ2Ckhlym4uh0YGc166CUoP.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/aVvRQJ2Ckhlym4uh0YGc166CUoP.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/paradise-season-02-review/",
@@ -82831,7 +82819,7 @@
       "backdrop_large": null,
       "backdrop": null,
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/rise-of-the-legend-review/",
@@ -83120,7 +83108,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/47TVJRSTYk31nGcjt8AVRIzniCT.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/47TVJRSTYk31nGcjt8AVRIzniCT.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/deaths-game-s01-review/",
@@ -83188,7 +83176,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/icy4p7Nb33UU2S5eHvlBcE0Dvmi.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/icy4p7Nb33UU2S5eHvlBcE0Dvmi.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-darkest-minds-review/",
@@ -83284,7 +83272,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/54KIfdTEzOliHDKx0OkzYGqAICx.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/54KIfdTEzOliHDKx0OkzYGqAICx.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/pallichattambi-review/",
@@ -83539,7 +83527,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/dL5mViE22ZHnhrUU9wlklzIU4Iy.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/dL5mViE22ZHnhrUU9wlklzIU4Iy.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-eternal-fragrance-s01-review/",
@@ -83697,7 +83685,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/blood-vs-duty-s01-review/",
@@ -83773,7 +83761,7 @@
       "backdrop_large": null,
       "backdrop": null,
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-eternal-fragrance-s01-review-2/",
@@ -83835,7 +83823,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-isolate-thief-review/",
@@ -83921,7 +83909,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/wDMwUUOUPGvyvuplLnW0eMiBHu7.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/wDMwUUOUPGvyvuplLnW0eMiBHu7.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/evil-dead-burn-review/",
@@ -83964,7 +83952,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/i-know-exactly-how-you-die-review/",
@@ -84006,7 +83994,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/qsSbUvpMiwD6RGjFbgGLETuLJVK.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/qsSbUvpMiwD6RGjFbgGLETuLJVK.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-gentleman-thief-review/",
@@ -84048,7 +84036,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/aayQcCebqLmkTZdILp9JVcFiIRL.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/aayQcCebqLmkTZdILp9JVcFiIRL.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/the-debt-collector-2026-review/",
@@ -84092,7 +84080,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/dk68ykaNd3HdrDJyPJqEGsgvag7.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/dk68ykaNd3HdrDJyPJqEGsgvag7.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/colony-2026-review/",
@@ -84140,7 +84128,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/jDvxsBemt2Iyslg7qn2WMzgxz23.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/jDvxsBemt2Iyslg7qn2WMzgxz23.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/evil-dead-burn-review-2/",
@@ -84183,7 +84171,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/send-help-review/",
@@ -84231,7 +84219,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/bpp58yHuQmpt6xwggI63mVRw7po.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/bpp58yHuQmpt6xwggI63mVRw7po.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/in-the-grey-review-2/",
@@ -84277,7 +84265,7 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     },
     {
       "link": "https://www.agasobanuyelive.com/teach-you-a-lesson-s01-review/",
@@ -84320,10 +84308,246 @@
       "backdrop_large": "https://image.tmdb.org/t/p/w1280/vyG93jhmPL7tBIhRtCLa5mdBKob.jpg",
       "backdrop": "https://image.tmdb.org/t/p/original/vyG93jhmPL7tBIhRtCLa5mdBKob.jpg",
       "color": null,
-      "saved": true
+      "saved": false
     }
   ],
-  "failed": [],
+  "failed": [
+    {
+      "link": "https://www.agasobanuyelive.com/children-of-sister-s01-review/",
+      "error": "Navigating frame was detached",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/12-strong-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/the-nowhere-man-s01-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/qingchuans-veil-of-vengeance-s01-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/dhurandhar-the-revenge-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/karikaada-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/i-will-find-you-s01-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/walking-tall-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/umusore-numukobwa-mwiza/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/havoc-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/dont-move-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/bodies-at-rest-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/cinderella-game-season-01-review-3/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/thor-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/mayhem-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/chen-zhen-the-tokyo-fight-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/striking-rescue-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/blood-diamond-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/damsel-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/the-isolate-thief-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/pallichattambi-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/mortal-engines-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/mohenjo-daro-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/the-darkest-minds-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/hunting-season-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/rise-of-the-legend-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/fist-of-fury-soul-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/x-men-apocalypse-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/peninsula-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/the-ice-road-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/gen-v-s01-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/indiana-jones-and-the-dial-of-destiny-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/mortal-kombat-ii-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/legends-of-the-condor-heroes-the-gallants-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/the-pendragon-cycle-rise-of-the-merlin-s01-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/rurouni-kenshin-part-ii-kyoto-inferno-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/in-the-tall-grass-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/furies-s02-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/pushpa-the-rise-part-1-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/the-bluff-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/killer-heat-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/the-stalking-fields-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/game-of-deceit-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/the-sin-trade-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/dangerous-lies-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/protector-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/air-force-one-review/",
+      "error": "Attempted to use detached Frame 'B82C85511420B96B52D6E4247771D1EB'.",
+      "saved": false
+    }
+  ],
   "processedLinks": [
     {
       "page": "https://www.agasobanuyelive.com/category/serie/",
