@@ -1490,5 +1490,9 @@
   {
     "message": "Scraper failed: Protocol error: Connection closed.",
     "timestamp": "2026-08-16T17:25:45.012Z"
+  },
+  {
+    "message": "❌ Error updating relevance scores: {\"code\":\"PGRST204\",\"details\":null,\"hint\":null,\"message\":\"Could not find the 'relevanceScore' column of 'moviesv2' in the schema cache\"}",
+    "timestamp": "2026-08-24T23:49:42.053Z"
   }
 ]
