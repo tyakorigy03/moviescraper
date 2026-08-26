@@ -1494,5 +1494,377 @@
   {
     "message": "❌ Error updating relevance scores: {\"code\":\"PGRST204\",\"details\":null,\"hint\":null,\"message\":\"Could not find the 'relevanceScore' column of 'moviesv2' in the schema cache\"}",
     "timestamp": "2026-08-24T23:49:42.053Z"
+  },
+  {
+    "message": "Failed scraping shanghai noon review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/shanghai-noon-review/",
+    "timestamp": "2026-08-26T11:03:32.392Z"
+  },
+  {
+    "message": "Failed scraping i robot review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/i-robot-review/",
+    "timestamp": "2026-08-26T11:03:36.400Z"
+  },
+  {
+    "message": "Failed scraping kaabil review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/kaabil-review/",
+    "timestamp": "2026-08-26T11:03:40.404Z"
+  },
+  {
+    "message": "Failed scraping the raja saab review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/the-raja-saab-review/",
+    "timestamp": "2026-08-26T11:03:44.416Z"
+  },
+  {
+    "message": "Failed scraping the lion king review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/the-lion-king-review/",
+    "timestamp": "2026-08-26T11:03:48.421Z"
+  },
+  {
+    "message": "Failed scraping rosario review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/rosario-review/",
+    "timestamp": "2026-08-26T11:03:52.432Z"
+  },
+  {
+    "message": "Failed scraping ghost killer review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/ghost-killer-review/",
+    "timestamp": "2026-08-26T11:03:56.442Z"
+  },
+  {
+    "message": "Failed scraping prey review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/prey-review/",
+    "timestamp": "2026-08-26T11:04:00.448Z"
+  },
+  {
+    "message": "Failed scraping lucky strike review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/lucky-strike-review/",
+    "timestamp": "2026-08-26T11:04:04.456Z"
+  },
+  {
+    "message": "Failed scraping children of sister s01 review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/children-of-sister-s01-review/",
+    "timestamp": "2026-08-26T11:04:08.466Z"
+  },
+  {
+    "message": "Failed scraping deep water 2026 review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/deep-water-2026-review/",
+    "timestamp": "2026-08-26T11:04:12.478Z"
+  },
+  {
+    "message": "Failed scraping iljimae s01 review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/iljimae-s01-review/",
+    "timestamp": "2026-08-26T11:04:16.489Z"
+  },
+  {
+    "message": "Failed scraping tom clancys jack ryan ghost war review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/tom-clancys-jack-ryan-ghost-war-review/",
+    "timestamp": "2026-08-26T11:04:20.496Z"
+  },
+  {
+    "message": "Failed scraping the devils mouth review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/the-devils-mouth-review/",
+    "timestamp": "2026-08-26T11:04:24.508Z"
+  },
+  {
+    "message": "Failed scraping brothers under fire review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/brothers-under-fire-review/",
+    "timestamp": "2026-08-26T11:04:28.517Z"
+  },
+  {
+    "message": "Failed scraping avatar the last airbender s02 review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/avatar-the-last-airbender-s02-review/",
+    "timestamp": "2026-08-26T11:04:32.524Z"
+  },
+  {
+    "message": "Failed scraping remember war of the son s01 review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/remember-war-of-the-son-s01-review/",
+    "timestamp": "2026-08-26T11:04:36.535Z"
+  },
+  {
+    "message": "Failed scraping deaths game s01 review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/deaths-game-s01-review/",
+    "timestamp": "2026-08-26T11:04:40.544Z"
+  },
+  {
+    "message": "Failed scraping daybreakers review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/daybreakers-review/",
+    "timestamp": "2026-08-26T11:04:44.555Z"
+  },
+  {
+    "message": "Failed scraping the trip review: net::ERR_QUIC_PROTOCOL_ERROR at https://www.agasobanuyelive.com/the-trip-review/",
+    "timestamp": "2026-08-26T11:04:48.562Z"
+  },
+  {
+    "message": "Failed scraping hear me season 01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/hear-me-season-01-review/",
+    "timestamp": "2026-08-26T11:04:49.283Z"
+  },
+  {
+    "message": "Failed scraping trigger s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/trigger-s01-review/",
+    "timestamp": "2026-08-26T11:04:52.918Z"
+  },
+  {
+    "message": "Failed scraping fantasy island review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/fantasy-island-review/",
+    "timestamp": "2026-08-26T11:04:56.554Z"
+  },
+  {
+    "message": "Failed scraping dhoom review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/dhoom-review/",
+    "timestamp": "2026-08-26T11:05:00.190Z"
+  },
+  {
+    "message": "Failed scraping vedaa review 2: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/vedaa-review-2/",
+    "timestamp": "2026-08-26T11:05:03.821Z"
+  },
+  {
+    "message": "Failed scraping kandahar review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/kandahar-review/",
+    "timestamp": "2026-08-26T11:05:07.456Z"
+  },
+  {
+    "message": "Failed scraping meg 2 the trench review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/meg-2-the-trench-review/",
+    "timestamp": "2026-08-26T11:05:11.087Z"
+  },
+  {
+    "message": "Failed scraping thrash review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/thrash-review/",
+    "timestamp": "2026-08-26T11:05:14.728Z"
+  },
+  {
+    "message": "Failed scraping primal review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/primal-review/",
+    "timestamp": "2026-08-26T11:05:18.364Z"
+  },
+  {
+    "message": "Failed scraping beethovens 2nd review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/beethovens-2nd-review/",
+    "timestamp": "2026-08-26T11:05:22.006Z"
+  },
+  {
+    "message": "Failed scraping contraataque review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/contraataque-review/",
+    "timestamp": "2026-08-26T11:05:25.641Z"
+  },
+  {
+    "message": "Failed scraping sikandar review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/sikandar-review/",
+    "timestamp": "2026-08-26T11:05:29.281Z"
+  },
+  {
+    "message": "Failed scraping the east palace s01: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-east-palace-s01/",
+    "timestamp": "2026-08-26T11:05:32.913Z"
+  },
+  {
+    "message": "Failed scraping a shop for killers s02 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/a-shop-for-killers-s02-review/",
+    "timestamp": "2026-08-26T11:05:36.553Z"
+  },
+  {
+    "message": "Failed scraping deaths game s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/deaths-game-s01-review/",
+    "timestamp": "2026-08-26T11:05:40.190Z"
+  },
+  {
+    "message": "Failed scraping the eternal fragrance s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-eternal-fragrance-s01-review/",
+    "timestamp": "2026-08-26T11:05:43.830Z"
+  },
+  {
+    "message": "Failed scraping sold out on you s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/sold-out-on-you-s01-review/",
+    "timestamp": "2026-08-26T11:05:47.466Z"
+  },
+  {
+    "message": "Failed scraping remember war of the son s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/remember-war-of-the-son-s01-review/",
+    "timestamp": "2026-08-26T11:05:51.108Z"
+  },
+  {
+    "message": "Failed scraping pinocchio s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/pinocchio-s01-review/",
+    "timestamp": "2026-08-26T11:05:54.738Z"
+  },
+  {
+    "message": "Failed scraping agent kim reactivated s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/agent-kim-reactivated-s01-review/",
+    "timestamp": "2026-08-26T11:05:58.379Z"
+  },
+  {
+    "message": "Failed scraping paradise season 02 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/paradise-season-02-review/",
+    "timestamp": "2026-08-26T11:06:02.010Z"
+  },
+  {
+    "message": "Failed scraping paradise season 01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/paradise-season-01-review/",
+    "timestamp": "2026-08-26T11:06:05.645Z"
+  },
+  {
+    "message": "Failed scraping badland hunters review 2: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/badland-hunters-review-2/",
+    "timestamp": "2026-08-26T11:06:09.346Z"
+  },
+  {
+    "message": "Failed scraping from season 2 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/from-season-2-review/",
+    "timestamp": "2026-08-26T11:06:12.980Z"
+  },
+  {
+    "message": "Failed scraping 12 hours review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/12-hours-review/",
+    "timestamp": "2026-08-26T11:06:16.614Z"
+  },
+  {
+    "message": "Failed scraping the lord of the rings the return of the king review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-lord-of-the-rings-the-return-of-the-king-review/",
+    "timestamp": "2026-08-26T11:06:20.250Z"
+  },
+  {
+    "message": "Failed scraping eternals review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/eternals-review/",
+    "timestamp": "2026-08-26T11:06:23.891Z"
+  },
+  {
+    "message": "Failed scraping the running man review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-running-man-review/",
+    "timestamp": "2026-08-26T11:06:27.531Z"
+  },
+  {
+    "message": "Failed scraping affinity review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/affinity-review/",
+    "timestamp": "2026-08-26T11:06:31.165Z"
+  },
+  {
+    "message": "Failed scraping avatar the last airbender s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/avatar-the-last-airbender-s01-review/",
+    "timestamp": "2026-08-26T11:06:34.804Z"
+  },
+  {
+    "message": "Failed scraping overdrive review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/overdrive-review/",
+    "timestamp": "2026-08-26T11:06:38.439Z"
+  },
+  {
+    "message": "Failed scraping dragonball evolution review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/dragonball-evolution-review/",
+    "timestamp": "2026-08-26T11:06:42.072Z"
+  },
+  {
+    "message": "Failed scraping the legend of heroes s01 review 2: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-legend-of-heroes-s01-review-2/",
+    "timestamp": "2026-08-26T11:06:45.701Z"
+  },
+  {
+    "message": "Failed scraping a writers odyssey 2 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/a-writers-odyssey-2-review/",
+    "timestamp": "2026-08-26T11:06:49.320Z"
+  },
+  {
+    "message": "Failed scraping hungry review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/hungry-review/",
+    "timestamp": "2026-08-26T11:06:52.949Z"
+  },
+  {
+    "message": "Failed scraping the trip review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-trip-review/",
+    "timestamp": "2026-08-26T11:06:56.592Z"
+  },
+  {
+    "message": "Failed scraping bound review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/bound-review/",
+    "timestamp": "2026-08-26T11:07:00.225Z"
+  },
+  {
+    "message": "Failed scraping desire review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/desire-review/",
+    "timestamp": "2026-08-26T11:07:03.855Z"
+  },
+  {
+    "message": "Failed scraping in the grey review 2: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/in-the-grey-review-2/",
+    "timestamp": "2026-08-26T11:07:07.489Z"
+  },
+  {
+    "message": "Failed scraping blast review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/blast-review/",
+    "timestamp": "2026-08-26T11:07:11.121Z"
+  },
+  {
+    "message": "Failed scraping mutiny review 2: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/mutiny-review-2/",
+    "timestamp": "2026-08-26T11:07:14.760Z"
+  },
+  {
+    "message": "Failed scraping fantasy island review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/fantasy-island-review/",
+    "timestamp": "2026-08-26T11:07:18.395Z"
+  },
+  {
+    "message": "Failed scraping the nowhere man s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-nowhere-man-s01-review/",
+    "timestamp": "2026-08-26T11:07:22.030Z"
+  },
+  {
+    "message": "Failed scraping the last house review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-last-house-review/",
+    "timestamp": "2026-08-26T11:07:25.669Z"
+  },
+  {
+    "message": "Failed scraping oasis s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/oasis-s01-review/",
+    "timestamp": "2026-08-26T11:07:29.365Z"
+  },
+  {
+    "message": "Failed scraping lost in love s01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/lost-in-love-s01-review/",
+    "timestamp": "2026-08-26T11:07:32.998Z"
+  },
+  {
+    "message": "Failed scraping sye raa narasimha reddy review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/sye-raa-narasimha-reddy-review/",
+    "timestamp": "2026-08-26T11:07:36.630Z"
+  },
+  {
+    "message": "Failed scraping agent zeta review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/agent-zeta-review/",
+    "timestamp": "2026-08-26T11:07:40.263Z"
+  },
+  {
+    "message": "Failed scraping la reina del sur s03 3: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/la-reina-del-sur-s03-3/",
+    "timestamp": "2026-08-26T11:07:43.900Z"
+  },
+  {
+    "message": "Failed scraping im undercover review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/im-undercover-review/",
+    "timestamp": "2026-08-26T11:07:47.540Z"
+  },
+  {
+    "message": "Failed scraping mrs chatterjee vs norway review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/mrs-chatterjee-vs-norway-review/",
+    "timestamp": "2026-08-26T11:07:51.171Z"
+  },
+  {
+    "message": "Failed scraping boss numukozi muri douche: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/boss-numukozi-muri-douche/",
+    "timestamp": "2026-08-26T11:07:54.806Z"
+  },
+  {
+    "message": "Failed scraping bastille day review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/bastille-day-review/",
+    "timestamp": "2026-08-26T11:07:58.438Z"
+  },
+  {
+    "message": "Failed scraping baazigar review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/baazigar-review/",
+    "timestamp": "2026-08-26T11:08:02.072Z"
+  },
+  {
+    "message": "Failed scraping darkman review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/darkman-review/",
+    "timestamp": "2026-08-26T11:08:05.754Z"
+  },
+  {
+    "message": "Failed scraping ram setu review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/ram-setu-review/",
+    "timestamp": "2026-08-26T11:08:09.390Z"
+  },
+  {
+    "message": "Failed scraping the last american soldier review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-last-american-soldier-review/",
+    "timestamp": "2026-08-26T11:08:13.027Z"
+  },
+  {
+    "message": "Failed scraping welcome to the jungle 2026 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/welcome-to-the-jungle-2026-review/",
+    "timestamp": "2026-08-26T11:08:16.663Z"
+  },
+  {
+    "message": "Failed scraping the snake girl review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-snake-girl-review/",
+    "timestamp": "2026-08-26T11:08:20.297Z"
+  },
+  {
+    "message": "Failed scraping kattalan review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/kattalan-review/",
+    "timestamp": "2026-08-26T11:08:23.924Z"
+  },
+  {
+    "message": "Failed scraping garv pride and honour review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/garv-pride-and-honour-review/",
+    "timestamp": "2026-08-26T11:08:27.557Z"
+  },
+  {
+    "message": "Failed scraping heart eyes review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/heart-eyes-review/",
+    "timestamp": "2026-08-26T11:08:31.190Z"
+  },
+  {
+    "message": "Failed scraping vivarium review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/vivarium-review/",
+    "timestamp": "2026-08-26T11:08:34.826Z"
+  },
+  {
+    "message": "Failed scraping tsotsi review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/tsotsi-review/",
+    "timestamp": "2026-08-26T11:08:38.458Z"
+  },
+  {
+    "message": "Failed scraping rat disaster review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/rat-disaster-review/",
+    "timestamp": "2026-08-26T11:08:42.158Z"
+  },
+  {
+    "message": "Failed scraping assault on devils island review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/assault-on-devils-island-review/",
+    "timestamp": "2026-08-26T11:08:45.785Z"
+  },
+  {
+    "message": "Failed scraping atlas king review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/atlas-king-review/",
+    "timestamp": "2026-08-26T11:08:49.327Z"
+  },
+  {
+    "message": "Failed scraping jigsaw review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/jigsaw-review/",
+    "timestamp": "2026-08-26T11:08:52.954Z"
+  },
+  {
+    "message": "Failed scraping a quiet place part ii review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/a-quiet-place-part-ii-review/",
+    "timestamp": "2026-08-26T11:08:56.592Z"
+  },
+  {
+    "message": "Failed scraping the bluff review 2: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/the-bluff-review-2/",
+    "timestamp": "2026-08-26T11:09:00.217Z"
+  },
+  {
+    "message": "Failed scraping nazar season 01 review: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/nazar-season-01-review/",
+    "timestamp": "2026-08-26T11:09:03.851Z"
+  },
+  {
+    "message": "Failed scraping avatar 2 the way of water: net::ERR_CERT_AUTHORITY_INVALID at https://www.agasobanuyelive.com/avatar-2-the-way-of-water/",
+    "timestamp": "2026-08-26T11:09:07.483Z"
+  },
+  {
+    "message": "Failed scraping passenger review: Execution context was destroyed, most likely because of a navigation.",
+    "timestamp": "2026-08-26T11:09:08.482Z"
   }
 ]
