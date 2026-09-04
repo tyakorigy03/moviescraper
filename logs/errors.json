@@ -1866,5 +1866,9 @@
   {
     "message": "Failed scraping passenger review: Execution context was destroyed, most likely because of a navigation.",
     "timestamp": "2026-08-26T11:09:08.482Z"
+  },
+  {
+    "message": "Scraper failed: net::ERR_NAME_NOT_RESOLVED at https://agasobanuyelive.com/category/serie/",
+    "timestamp": "2026-09-04T06:29:03.519Z"
   }
 ]
