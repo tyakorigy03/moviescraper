@@ -25,6 +25,7 @@ async function loadState() {
       if (s && s.version === 1) {
         return {
           lastRunAt: s.lastRunAt || null,
+          lastFullScanAt: s.lastFullScanAt || null,
           movies: s.movies || {},
           series: s.series || {},
           insertedEntities: s.insertedEntities || {},
@@ -34,7 +35,7 @@ async function loadState() {
   } catch (err) {
     // corrupt file — start fresh
   }
-  return { lastRunAt: null, movies: {}, series: {}, insertedEntities: {} };
+  return { lastRunAt: null, lastFullScanAt: null, movies: {}, series: {}, insertedEntities: {} };
 }
 
 async function saveState(state) {

@@ -36,16 +36,21 @@ const epKey = (s, e) => `s${s}e${e}`;
 function parseArgs(argv) {
   const args = {
     full: false,
+    watch: String(process.env.AGNOW_WATCH || '').toLowerCase() !== 'false',
     insertNew: true,
     deep: false,
     limit: 0,
     pages: undefined,
     type: '',
     slug: null,
+    watchPages: parseInt(process.env.AGNOW_WATCH_PAGES, 10) || 3,
+    fullScanHours: parseInt(process.env.AGNOW_FULL_SCAN_HOURS, 10) || 24,
     delayMs: parseInt(process.env.AGNOW_DELAY_MS, 10) || 350,
   };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--full') args.full = true;
+    else if (argv[i] === '--watch') args.watch = true;
+    else if (argv[i] === '--no-watch') args.watch = false;
     else if (argv[i] === '--no-insert') args.insertNew = false;
     else if (argv[i] === '--deep') args.deep = true;
     else if (argv[i] === '--limit') args.limit = parseInt(argv[++i], 10) || 0;
@@ -294,8 +299,27 @@ async function main() {
   const rows = await loadAllRows();
   const insertedThisRun = new Map();
 
+  // Watch mode is the normal high-frequency pass: only the newest catalog
+  // window is looked at, and anything we already handled is skipped without a
+  // single page fetch. A full delta pass still runs periodically so older
+  // titles and drifted URL patterns get re-checked.
+  let maxPages = args.pages;
+  let scan = 'delta';
+  if (args.watch && !args.full && !args.pages && !args.slug) {
+    const hoursSinceFull = state.lastFullScanAt
+      ? (Date.now() - new Date(state.lastFullScanAt).getTime()) / 3600e3
+      : Infinity;
+    if (hoursSinceFull > args.fullScanHours) {
+      scan = 'full';
+      state.lastFullScanAt = new Date().toISOString();
+    } else {
+      scan = `watch (${args.watchPages} pages)`;
+      maxPages = args.watchPages;
+    }
+  }
+
   logInfo(
-    `agasobanuyenow scraper started — mode: ${args.full ? 'FULL' : 'delta'}, ` +
+    `agasobanuyenow scraper started — mode: ${args.full ? 'FULL' : scan}, ` +
       `insert-new: ${args.insertNew}, deep: ${args.deep}\n` +
       `existing rows loaded: ${rows.length}`
   );
@@ -306,16 +330,30 @@ async function main() {
     items = all.filter((i) => i.slug === args.slug);
     logInfo(`asked for ${args.slug} — found ${items.length} catalog item(s)`);
   } else {
-    items = await fetchCatalog({ maxPages: args.pages, limit: args.limit, delayMs: 0 });
+    items = await fetchCatalog({ maxPages, limit: args.limit, delayMs: 0 });
   }
 
   let processed = 0;
+  let skipped = 0;
   for (const item of items) {
     const type = normType(item.type);
     if (args.type && args.type !== type) continue;
 
     const key = `${coreTitle(item.title)}|${type}`;
     const row = matchEntity(item, rows) || insertedThisRun.get(key) || null;
+
+    // Cheap short-circuit matching the site's own freshness signals so a
+    // frequent run touches nothing that hasn't changed.
+    if (args.watch && !args.full && row && !item.has_new_episode_24h) {
+      if (type === 'movie' && state.movies[item.slug]?.ok) {
+        skipped++;
+        continue;
+      }
+      if (type === 'tv' && state.series[item.slug]?.badge === item.latest_episode_badge) {
+        skipped++;
+        continue;
+      }
+    }
 
     try {
       if (type === 'movie') {
@@ -334,7 +372,10 @@ async function main() {
   }
 
   await saveState(state);
-  logInfo(`agasobanuyenow scraper finished — processed ${processed} of ${items.length} catalog items.`);
+  logInfo(
+    `agasobanuyenow scraper finished — processed ${processed}, skipped ${skipped} (unchanged), ` +
+      `of ${items.length} catalog items.`
+  );
 }
 
 if (require.main === module) {
