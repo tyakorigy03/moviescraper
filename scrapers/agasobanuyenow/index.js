@@ -72,7 +72,7 @@ async function loadAllRows() {
   for (;;) {
     const { data, error } = await supabase
       .from(TABLE)
-      .select('id,title,type,narrator,release_year,year,link,Downloadurls,hosted,tmdb_id,genres,image,poster')
+      .select('id,title,type,narrator,release_year,link,Downloadurls,hosted,tmdb_id,genres,image,poster')
       .range(from, from + pageSize - 1);
     if (error) throw new Error(`rows: ${error.message}`);
     all.push(...(data || []));
