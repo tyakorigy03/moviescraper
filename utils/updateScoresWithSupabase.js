@@ -21,9 +21,11 @@ async function updateMovieScores() {
 
     if (!movies || movies.length === 0) break;
 
-    const updatedMovies = movies.map((movie) => ({
-      link: movie.link, // assuming 'link' is the unique key
-      relevanceScore: computeRelevanceScore({
+    const updatedMovies = movies
+      .filter((movie) => movie.link)
+      .map((movie) => ({
+        link: movie.link, // assuming 'link' is the unique key
+        score: computeRelevanceScore({
         tmdb_rating: movie.tmdb_rating || 0,
         popularity: movie.popularity || 0,
         publishedAt: movie.publishedAt || '',

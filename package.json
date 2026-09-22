@@ -18,10 +18,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scrape":"node index.js",
     "scrape2":"node scrapers/oshakur/index.js",
+    "scrape3":"node scrapers/agasobanuyenow/index.js",
+    "update:scores":"node utils/updateScoresWithSupabase.js",
     "normalize:movies":"node utils/normalizeMovieRecords.js",
     "normalize:movies:apply":"node utils/normalizeMovieRecords.js --apply"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.620.0",
     "@supabase/supabase-js": "^2.50.2",
     "axios": "^1.10.0",
     "dotenv": "^17.0.0",

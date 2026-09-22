@@ -28,6 +28,19 @@ function isTruthyEnv(value) {
   return String(value || '').toLowerCase() === 'true' || String(value || '').toLowerCase() === '1';
 }
 
+/**
+ * Shield: rows we self-host (hosted=true) must never be overwritten by the
+ * scraper — even in a non-insert-only run. Returns the set of links that are
+ * self-hosted. Best-effort: if the `hosted` column is missing (migration not
+ * run yet) it returns empty and the shield stays off.
+ */
+async function fetchHostedLinks(links) {
+  if (!links.length) return new Set();
+  const { data, error } = await supabase.from('moviesv2').select('link,hosted').in('link', links);
+  if (error) return new Set();
+  return new Set((data || []).filter((r) => r.hosted === true).map((r) => r.link));
+}
+
 async function saveMoviesToSupabase(moviesInput, options = {}) {
   const insertOnly = Boolean(options.insertOnly) || isTruthyEnv(process.env.SUPABASE_INSERT_ONLY);
   const filteredMovies = moviesInput.filter(
@@ -58,7 +71,17 @@ async function saveMoviesToSupabase(moviesInput, options = {}) {
     const chunk = filteredMovies.slice(i, i + batchSize);
     const uniqueChunk = deduplicateByLink(chunk);
 
-    const toInsert = uniqueChunk.map((movie) => ({
+    // Never overwrite self-hosted rows, whatever the insertOnly mode is.
+    const hostedLinks = await fetchHostedLinks(uniqueChunk.map((m) => normalizeLink(m.link) || ''));
+    const safeChunk = uniqueChunk.filter(
+      (m) => !hostedLinks.has(normalizeLink(m.link) || '')
+    );
+    const shieldedCount = uniqueChunk.length - safeChunk.length;
+    if (shieldedCount > 0) {
+      logInfo(`Protected ${shieldedCount} self-hosted movie(s) from being overwritten.`);
+    }
+
+    const toInsert = safeChunk.map((movie) => ({
       ...movie,
       link: normalizeLink(movie.link) || '',
       publishedAt: normalizeTimestamp(movie.publishedAt),
