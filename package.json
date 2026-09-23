@@ -19,6 +19,7 @@
     "scrape":"node index.js",
     "scrape2":"node scrapers/oshakur/index.js",
     "scrape3":"node scrapers/agasobanuyenow/index.js",
+    "scrape4":"node scrapers/rebamovie/index.js",
     "update:scores":"node utils/updateScoresWithSupabase.js",
     "normalize:movies":"node utils/normalizeMovieRecords.js",
     "normalize:movies:apply":"node utils/normalizeMovieRecords.js --apply"
