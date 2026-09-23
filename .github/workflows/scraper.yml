@@ -2,6 +2,14 @@ name: Scrape (scheduled)
 
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Scrape mode: 'welcome' (default) or 'all' for a full recrawl"
+        type: choice
+        options:
+          - welcome
+          - all
+        default: welcome
   schedule:
     - cron: "*/30 * * * *"
 
@@ -34,7 +42,16 @@ jobs:
         run: npm ci
 
       - name: Run scraper
+        if: ${{ github.event_name == 'schedule' }}
         run: npm run scrape
+
+      - name: Run full recrawl
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'all' }}
+        run: node scrapers/agasobanuyelive/index.js all patch
+
+      - name: Run welcome scrape
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'welcome' }}
+        run: node scrapers/agasobanuyelive/index.js welcome patch
 
       - name: Commit storage changes
         run: |
