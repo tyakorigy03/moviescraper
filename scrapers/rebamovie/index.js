@@ -264,7 +264,12 @@ async function processItem(item, row, rows, insertedThisRun, collector, state, a
   // no write. If a fresh entry exists but the DB row is missing (e.g. state was
   // committed ahead of writes), rebuild it from the cached links.
   const fresh = cached && Date.now() - new Date(cached.at).getTime() < args.refreshHours * 3600e3;
-  if (!args.full && fresh && cached.badge === badge) {
+  // If a previous run resolved the item but downloadData rate-limited and left
+  // entries without a download link, don't treat it as fresh: the next delta
+  // run should retry the MP4 resolution (the throttle cooldown will have lapsed).
+  const missingDownloads =
+    args.downloads && Array.isArray(cached.entries) && cached.entries.some((e) => !e.downloadUrl);
+  if (!args.full && fresh && missingDownloads === false && cached.badge === badge) {
     if (row) return { skipped: true };
     if (args.insertNew && Array.isArray(cached.entries) && cached.entries.length) {
       const rowObj = await buildInsertRow(item, cached.entries, {

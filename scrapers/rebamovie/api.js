@@ -46,6 +46,39 @@ function languageCode() {
   return String(process.env.REBA_LANGUAGE_CODE || 'rn');
 }
 
+// --- downloadData throttle ---------------------------------------------------
+// The /downloadData endpoint rate-limits hard when hit in bursts (responds 200
+// with an empty payload). We pace every call globally and treat consecutive
+// empties as a rate-limit signal: a cooldown that grows with each strike, so
+// the API gets room to recover instead of being hammered by the retry loop.
+let lastAt = 0;
+let cooldownUntil = 0;
+let emptyStrikes = 0;
+const DL_MIN_GAP_MS = parseInt(process.env.REBA_DL_MIN_GAP_MS, 10) || 500;
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+/** Enforce the global minimum spacing + any active cooldown before a download call. */
+async function paceDownload() {
+  const now = Date.now();
+  let wait = Math.max(0, lastAt + DL_MIN_GAP_MS - now);
+  if (cooldownUntil > now) wait = Math.max(wait, cooldownUntil - now);
+  if (wait) await sleep(wait);
+  lastAt = Date.now();
+}
+
+function noteEmpty() {
+  emptyStrikes++;
+  cooldownUntil = Date.now() + Math.min(2000 + emptyStrikes * 1500, 20000);
+}
+
+function noteOk() {
+  emptyStrikes = 0;
+  cooldownUntil = 0;
+}
+
 /**
  * Catalog page.
  * @param {number} pageNumber 0-based.
@@ -77,16 +110,26 @@ function fetchCinemaData(MovieId) {
  * @returns {Promise<string>} mp4 URL or '' on failure.
  */
 async function fetchDownloadLink({ url, server = '', name = '', time = '' }) {
-  for (let attempt = 0; attempt < 3; attempt++) {
+  // Attempt 1 hits right away; retries back off 3s then 8s (+jitter) so the
+  // rate-limit window can drain before we ask again.
+  const backoffs = [3000, 8000];
+  for (let attempt = 0; attempt <= backoffs.length; attempt++) {
+    await paceDownload();
     try {
       const res = await post('/downloadData', { url, server, name, time });
       const dl = String(res?.url || '').trim();
-      if (dl) return dl;
+      if (dl) {
+        noteOk();
+        return dl;
+      }
       logError(`downloadData empty for ${name} (attempt ${attempt + 1})`);
+      noteEmpty();
     } catch (err) {
       logError(`downloadData failed for ${name}: ${err.message}`);
     }
-    await new Promise((r) => setTimeout(r, 1000 * (attempt + 1)));
+    if (attempt < backoffs.length) {
+      await sleep(backoffs[attempt] + Math.floor(Math.random() * 1500));
+    }
   }
   return '';
 }
