@@ -58,5 +58,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add storage/*.json logs/*.json 2>/dev/null || true
-          git commit -m "chore: update rebamovie scrape state [skip ci]" || echo "No changes to commit"
-          git push
+          # Keep pushing even if the sibling scrape workflow bumped main at the
+          # same moment: rebase local state commit on top, then retry.
+          for i in 1 2 3 4 5; do
+            git commit -m "chore: update rebamovie scrape state [skip ci]" 2>/dev/null || echo "No changes to commit"
+            git pull --rebase origin main 2>/dev/null || true
+            git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
