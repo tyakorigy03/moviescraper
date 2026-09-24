@@ -15070,5 +15070,125 @@
   {
     "message": "failed Skanda: The Attacker (002194ec-838e-4135-8d75-1d8675593720): Cannot read properties of undefined (reading 'entries')",
     "timestamp": "2026-09-23T19:09:14.095Z"
+  },
+  {
+    "message": "downloadData mismatch for KUIFI - Kulfi Kumar Bajewala - S01E32 — broken/placeholder video, giving up",
+    "timestamp": "2026-09-24T08:41:18.262Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_The Devil's Mouth (attempt 1)",
+    "timestamp": "2026-09-24T08:42:44.579Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_The Devil's Mouth (attempt 2)",
+    "timestamp": "2026-09-24T08:42:49.488Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_The Devil's Mouth (attempt 3)",
+    "timestamp": "2026-09-24T08:42:59.186Z"
+  },
+  {
+    "message": "downloadData mismatch for www.rebamovie.com_Classified — broken/placeholder video, giving up",
+    "timestamp": "2026-09-24T08:44:11.910Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_Shelter (attempt 1)",
+    "timestamp": "2026-09-24T08:45:22.166Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_Shelter (attempt 2)",
+    "timestamp": "2026-09-24T08:45:27.074Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_Shelter (attempt 3)",
+    "timestamp": "2026-09-24T08:45:36.071Z"
+  },
+  {
+    "message": "downloadData failed for Tehran - S01E01: Request failed with status code 500",
+    "timestamp": "2026-09-24T08:48:25.601Z"
+  },
+  {
+    "message": "downloadData failed for Tehran - S02E02: Request failed with status code 500",
+    "timestamp": "2026-09-24T08:48:38.973Z"
+  },
+  {
+    "message": "downloadData empty for Surely Tomorrow - S01E01 (attempt 1)",
+    "timestamp": "2026-09-24T08:49:25.113Z"
+  },
+  {
+    "message": "downloadData empty for Surely Tomorrow - S01E01 (attempt 2)",
+    "timestamp": "2026-09-24T08:49:29.116Z"
+  },
+  {
+    "message": "downloadData empty for Surely Tomorrow - S01E01 (attempt 3)",
+    "timestamp": "2026-09-24T08:49:38.856Z"
+  },
+  {
+    "message": "downloadData empty for Surely Tomorrow - S01E02 (attempt 1)",
+    "timestamp": "2026-09-24T08:49:45.945Z"
+  },
+  {
+    "message": "downloadData empty for Surely Tomorrow - S01E02 (attempt 2)",
+    "timestamp": "2026-09-24T08:49:56.203Z"
+  },
+  {
+    "message": "downloadData empty for Surely Tomorrow - S01E02 (attempt 3)",
+    "timestamp": "2026-09-24T08:50:08.355Z"
+  },
+  {
+    "message": "downloadData empty for Surely Tomorrow - S01E03 (attempt 1)",
+    "timestamp": "2026-09-24T08:50:19.918Z"
+  },
+  {
+    "message": "downloadData empty for Surely Tomorrow - S01E03 (attempt 2)",
+    "timestamp": "2026-09-24T08:50:32.985Z"
+  },
+  {
+    "message": "downloadData empty for Surely Tomorrow - S01E03 (attempt 3)",
+    "timestamp": "2026-09-24T08:50:47.558Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_Supreme (attempt 1)",
+    "timestamp": "2026-09-24T08:52:46.646Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_Supreme (attempt 2)",
+    "timestamp": "2026-09-24T08:52:50.705Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_Supreme (attempt 3)",
+    "timestamp": "2026-09-24T08:53:00.666Z"
+  },
+  {
+    "message": "downloadData failed for Mannat: Harr Khushi Paane Ki - S01E01: Request failed with status code 500",
+    "timestamp": "2026-09-24T08:58:59.310Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-09-24T09:08:46.642Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-09-24T09:08:49.112Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-09-24T09:08:51.932Z"
+  },
+  {
+    "message": "downloadData failed for www.rebamovie.com_War Room: Request failed with status code 500",
+    "timestamp": "2026-09-24T09:09:47.701Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_Shambhala (attempt 1)",
+    "timestamp": "2026-09-24T09:11:38.921Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_Shambhala (attempt 2)",
+    "timestamp": "2026-09-24T09:11:42.974Z"
+  },
+  {
+    "message": "downloadData empty for www.rebamovie.com_Shambhala (attempt 3)",
+    "timestamp": "2026-09-24T09:11:52.611Z"
   }
 ]
