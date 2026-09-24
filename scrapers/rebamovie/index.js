@@ -146,8 +146,9 @@ function extractEpisodes(cinema) {
         s,
         e,
         video,
-        server: ep.server || '2',
+        server: ep.server || 'rebamovie',
         title: ep.title || '',
+        partName: String(ep.partName || '').trim(),
         movieId: ep.episodeId || ep.movieId || '',
       });
     }
@@ -168,18 +169,19 @@ async function buildSpecs(item, isSeason, cinema, args) {
   const specs = [];
   if (isSeason) {
     for (const ep of episodes) {
-      const name = `S${String(ep.s).padStart(2, '0')}E${String(ep.e).padStart(2, '0')}`;
+      // Site-exact name: "<Title> - S<ss>E<ee>[: partName]" (title first).
+      const name = `${showTitle} - S${String(ep.s).padStart(2, '0')}E${String(ep.e).padStart(2, '0')}${ep.partName ? `: ${ep.partName}` : ''}`;
       const downloadUrl = args.downloads
-        ? await fetchDownloadLink({ url: ep.video, server: ep.server, name: `${name} - ${showTitle}`, time: '' })
+        ? await fetchDownloadLink({ url: ep.video, server: ep.server, name, time: 1 })
         : '';
       specs.push(makeEpisodeEntry(showTitle, ep.s, ep.e, { watchUrl: ep.video, downloadUrl }));
       await new Promise((r) => setTimeout(r, args.delayMs));
     }
   } else {
-    // Movie: single-part entry titled with the film name.
+    // Movie: site-exact name is "www.rebamovie.com_<Title>".
     const ep = episodes[0];
     const downloadUrl = args.downloads
-      ? await fetchDownloadLink({ url: ep.video, server: ep.server, name: showTitle, time: '' })
+      ? await fetchDownloadLink({ url: ep.video, server: ep.server, name: `www.rebamovie.com_${showTitle}`, time: 1 })
       : '';
     specs.push(makeMovieEntry(item, { watchUrl: ep.video, downloadUrl }));
   }
