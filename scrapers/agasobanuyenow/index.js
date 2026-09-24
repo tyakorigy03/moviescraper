@@ -56,7 +56,12 @@ async function flushWrites(collector) {
     batches.push(...chunkArr(collector.newRows, BATCH_SIZE).map((rows) => ({ kind: 'insert', rows })));
   }
   if (collector.updates.length) {
-    batches.push(...chunkArr(collector.updates, BATCH_SIZE).map((rows) => ({ kind: 'update', rows })));
+    // Same row can be enqueued more than once; Postgres rejects a row that
+    // appears twice in one ON CONFLICT DO UPDATE batch, so collapse by primary
+    // key (link), keeping the last patch per row.
+    const seen = new Map();
+    for (const u of collector.updates) seen.set(u.link, u);
+    batches.push(...chunkArr([...seen.values()], BATCH_SIZE).map((rows) => ({ kind: 'update', rows })));
   }
 
   let ok = 0;

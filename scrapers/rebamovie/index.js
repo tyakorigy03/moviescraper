@@ -56,7 +56,15 @@ async function flushWrites(collector) {
     batches.push(...chunkArr(collector.newRows, BATCH_SIZE).map((rows) => ({ kind: 'insert', rows })));
   }
   if (collector.updates.length) {
-    batches.push(...chunkArr(collector.updates, BATCH_SIZE).map((rows) => ({ kind: 'update', rows })));
+    // Same row can be enqueued more than once — e.g. two season groups of a
+    // whole-series item falling back onto the same generic row. Postgres
+    // rejects a row that appears twice in one ON CONFLICT DO UPDATE batch
+    // ("cannot affect row a second time"), so collapse by primary key (link),
+    // keeping the last patch per row (row.Downloadurls was mutated in place,
+    // so the last patch already carries the cumulative merged entries).
+    const seen = new Map();
+    for (const u of collector.updates) seen.set(u.link, u);
+    batches.push(...chunkArr([...seen.values()], BATCH_SIZE).map((rows) => ({ kind: 'update', rows })));
   }
 
   let ok = 0;
