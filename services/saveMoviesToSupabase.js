@@ -2,6 +2,7 @@ const supabase = require('./supabaseClient');
 const { computeRelevanceScore } = require('../utils/relevanceScore');
 const { loadScraperState, saveScraperState } = require('../utils/stateManager');
 const { logInfo, logError } = require('../utils/logger');
+const { collapsePartRows, mergeEntryLists } = require('./dedupeAgLiveParts');
 
 const SITE_KEY = 'agasobanuyelive';
 const BAD_HOST = 'anonsharing.com';
@@ -64,24 +65,57 @@ async function saveMoviesToSupabase(moviesInput, options = {}) {
     logInfo(`Skipped ${skippedMovies.length} movies because they point to ${BAD_HOST}.`);
   }
 
+  // Collapse agasobanuyelive part pages into a single row per show+season
+  // (Pt.1/Pt.2/Pt.3 are sequential episode ranges of the SAME title — merge
+  // their Downloadurls instead of creating "duplicate" rows).
+  const collapsed = collapsePartRows(filteredMovies);
+  if (collapsed.merged > 0) {
+    logInfo(`Merged ${collapsed.merged} agasobanuyelive part row(s) into their show's consolidated row.`);
+  }
+
   const batchSize = 200;
   let count = 0;
 
-  for (let i = 0; i < filteredMovies.length; i += batchSize) {
-    const chunk = filteredMovies.slice(i, i + batchSize);
+  for (let i = 0; i < collapsed.movies.length; i += batchSize) {
+    const chunk = collapsed.movies.slice(i, i + batchSize);
     const uniqueChunk = deduplicateByLink(chunk);
+
+    // Cross-run part merge: when a collapsed record points at a link that
+    // already exists in the DB (an earlier part saved during a previous run),
+    // `insertOnly` would silently skip it and lose the new part's episodes.
+    // Re-pull the stored row and union its entries into the incoming record.
+    const collapsedRecords = uniqueChunk.filter((m) => Array.isArray(m._sourceLinks) && m._sourceLinks.length > 1);
+    const standalone = uniqueChunk.filter((m) => !(Array.isArray(m._sourceLinks) && m._sourceLinks.length > 1));
+    if (collapsedRecords.length) {
+      const { data: existingRows, error: existErr } = await supabase
+        .from('moviesv2')
+        .select('link,Downloadurls')
+        .in('link', collapsedRecords.map((m) => normalizeLink(m.link) || ''));
+      if (existErr) {
+        logError(`Failed reading existing rows for part merge: ${existErr.message}`);
+      } else {
+        const existingByLink = new Map((existingRows || []).map((r) => [normalizeLink(r.link), r]));
+        for (const movie of collapsedRecords) {
+          const existing = existingByLink.get(normalizeLink(movie.link) || '');
+          if (existing && Array.isArray(existing.Downloadurls) && existing.Downloadurls.length) {
+            movie.Downloadurls = mergeEntryLists([existing.Downloadurls, movie.Downloadurls]);
+            movie._existing = existing;
+          }
+        }
+      }
+    }
 
     // Never overwrite self-hosted rows, whatever the insertOnly mode is.
     const hostedLinks = await fetchHostedLinks(uniqueChunk.map((m) => normalizeLink(m.link) || ''));
-    const safeChunk = uniqueChunk.filter(
+    const safeStandalone = standalone.filter(
       (m) => !hostedLinks.has(normalizeLink(m.link) || '')
     );
-    const shieldedCount = uniqueChunk.length - safeChunk.length;
+    const shieldedCount = uniqueChunk.length - safeStandalone.length - collapsedRecords.length;
     if (shieldedCount > 0) {
       logInfo(`Protected ${shieldedCount} self-hosted movie(s) from being overwritten.`);
     }
 
-    const toInsert = safeChunk.map((movie) => ({
+    const toInsert = safeStandalone.map((movie) => ({
       ...movie,
       link: normalizeLink(movie.link) || '',
       publishedAt: normalizeTimestamp(movie.publishedAt),
@@ -102,12 +136,42 @@ async function saveMoviesToSupabase(moviesInput, options = {}) {
       .upsert(toInsert, { onConflict: 'link', ignoreDuplicates: insertOnly })
       .select();
 
+    let collapsedSaved = 0;
+    for (const movie of collapsedRecords) {
+      if (hostedLinks.has(normalizeLink(movie.link) || '')) continue;
+      const patch = {
+        ...movie,
+        link: normalizeLink(movie.link) || '',
+        publishedAt: normalizeTimestamp(movie.publishedAt),
+        modifiedAt: new Date().toISOString(),
+        release_date: normalizeTimestamp(movie.release_date),
+        score: computeRelevanceScore({
+          tmdb_rating: movie.tmdb_rating || 0,
+          popularity: movie.popularity || 0,
+          publishedAt: movie.publishedAt || '',
+          modifiedAt: movie.modifiedAt || '',
+          narrator: movie.narrator || '',
+          title: movie.title || ''
+        })
+      };
+      delete patch._sourceLinks;
+      delete patch._existing;
+      const res = movie._existing
+        ? await supabase.from('moviesv2').update(patch).eq('link', patch.link)
+        : await supabase.from('moviesv2').insert(patch);
+      if (!res.error) collapsedSaved++;
+      else logError(`Failed merged part row ${patch.link}: ${res.error.message}`);
+    }
+
     if (error) {
       logError(`Failed inserting batch ${i / batchSize + 1}: ${error.message}`);
     } else {
       count += data.length;
+      count += collapsedSaved;
       logInfo(`Saved ${count} movies so far...`);
-      await markMoviesAsSavedInState(uniqueChunk.map((movie) => movie.link));
+      await markMoviesAsSavedInState(
+        chunk.flatMap((movie) => movie._sourceLinks || [movie.link])
+      );
     }
   }
 
