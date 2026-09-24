@@ -353,7 +353,7 @@ async function processItem(item, row, rows, insertedThisRun, collector, state, a
   // entries without a download link, don't treat it as fresh: the next delta
   // run should retry the MP4 resolution (the throttle cooldown will have lapsed).
   const missingDownloads =
-    args.downloads && Array.isArray(cached.entries) && cached.entries.some((e) => !e.downloadUrl);
+    args.downloads && !!cached && Array.isArray(cached.entries) && cached.entries.some((e) => !e.downloadUrl);
   if (!args.full && fresh && missingDownloads === false && cached.badge === badge) {
     if (row) return { skipped: true };
     if (args.insertNew && Array.isArray(cached.entries) && cached.entries.length) {
