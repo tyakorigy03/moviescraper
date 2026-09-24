@@ -5,6 +5,20 @@ require('dotenv').config();
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const TMDB_IMAGE_BASE = 'https://image.tmdb.org/t/p';
 
+// Small ISO 3166-1 → English name map for origin_country fallback (common codes seen on this catalog).
+const ISO_COUNTRY = {
+  US: 'United States', GB: 'United Kingdom', CA: 'Canada', FR: 'France',
+  DE: 'Germany', IT: 'Italy', ES: 'Spain', JP: 'Japan', KR: 'South Korea',
+  CN: 'China', IN: 'India', NG: 'Nigeria', KE: 'Kenya', UG: 'Uganda',
+  RW: 'Rwanda', TZ: 'Tanzania', ZA: 'South Africa', GH: 'Ghana', ET: 'Ethiopia',
+  EG: 'Egypt', TR: 'Turkey', NL: 'Netherlands', SE: 'Sweden', NO: 'Norway',
+  DK: 'Denmark', PL: 'Poland', UA: 'Ukraine', AU: 'Australia', MX: 'Mexico',
+  BR: 'Brazil', AR: 'Argentina', CL: 'Chile', CO: 'Colombia', PH: 'Philippines',
+  ID: 'Indonesia', TH: 'Thailand', VN: 'Vietnam', IE: 'Ireland', BE: 'Belgium',
+  AT: 'Austria', CH: 'Switzerland', PT: 'Portugal', GR: 'Greece', CZ: 'Czech Republic',
+  ZW: 'Zimbabwe', ZM: 'Zambia', MW: 'Malawi', BI: 'Burundi', CD: 'Congo',
+};
+
 function normalizeTitle(title = ''){
   return title
     .replace(/&#8217;|&#8216;|&#8211;|&amp;/g, "'")                  // Convert HTML entities
@@ -83,6 +97,16 @@ async function enrichWithTMDB({ title, publishedAt, type = 'movie' }) {
     const posterPath = details.poster_path;
     const backdropPath = details.backdrop_path;
 
+    const tmbdGenres = Array.isArray(details.genres)
+      ? details.genres.map((g) => g.name).filter(Boolean)
+      : [];
+    const productionCountries = Array.isArray(details.production_countries)
+      ? details.production_countries.map((c) => c.name).filter(Boolean)
+      : [];
+    const originCodes = Array.isArray(details.origin_country) ? details.origin_country : [];
+    const country = productionCountries.join(', ') ||
+      (originCodes.map((code) => ISO_COUNTRY[code] || code).join(', ')) || '';
+
     return {
       tmdb_id: details.id,
       tmdb_rating: details.vote_average,
@@ -90,6 +114,8 @@ async function enrichWithTMDB({ title, publishedAt, type = 'movie' }) {
       tmdb_overview: details.overview,
       tmdb_type: type,
       tmdb_title: details.title || details.name,
+      genres: tmbdGenres,
+      country: country || null,
       tmdb_year: (details.release_date || details.first_air_date)
                    ? new Date(details.release_date || details.first_air_date).getFullYear()
                    : undefined,
@@ -115,4 +141,29 @@ async function enrichWithTMDB({ title, publishedAt, type = 'movie' }) {
   }
 }
 
-module.exports = { enrichWithTMDB };
+/** Enrich from a known TMDB id (no fuzzy title search) — used for one-time row hygiene. */
+async function enrichTMDBById({ tmdb_id, type = 'movie' }) {
+  if (!tmdb_id || !TMDB_API_KEY) return {};
+  try {
+    const details = await getDetailsFromTMDB(tmdb_id, type);
+    return {
+      tmdb_id: details.id,
+      tmdb_rating: details.vote_average,
+      popularity: details.popularity,
+      tmdb_overview: details.overview,
+      tmdb_type: type,
+      tmdb_title: details.title || details.name,
+      genres: (details.genres || []).map((g) => g.name).filter(Boolean),
+      country: (details.production_countries || []).map((c) => c.name).filter(Boolean).join(', ') || null,
+      tmdb_year: (details.release_date || details.first_air_date)
+                   ? new Date(details.release_date || details.first_air_date).getFullYear()
+                   : undefined,
+      poster: details.poster_path ? `${TMDB_IMAGE_BASE}/original${details.poster_path}` : null,
+    };
+  } catch (err) {
+    console.error('❌ TMDB by-id enrichment failed:', err.message);
+    return {};
+  }
+}
+
+module.exports = { enrichWithTMDB, enrichTMDBById, getDetailsFromTMDB };

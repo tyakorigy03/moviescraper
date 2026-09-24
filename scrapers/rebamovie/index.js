@@ -282,7 +282,7 @@ async function buildInsertRow(item, entries, { publishedAt = '', narrator = '', 
   const title = String(item.movieDataId?.title || '').trim();
   const published = publishedAt || fullDateToIso(item.movieDataId?.fullReleaseDate) || null;
   const enrich = await enrichWithTMDB({ title, publishedAt: published, type });
-  const year = parseInt(item.movieDataId?.rereaseDate, 10) || null;
+  const year = parseInt(item.movieDataId?.rereaseDate, 10) || enrich.tmdb_year || null;
 
   const base = {
     link: pageUrl(item),

@@ -1,6 +1,7 @@
 const { loadScraperState, saveScraperState } = require('../../utils/stateManager');
 const { logInfo, logError } = require('../../utils/logger');
 const { enrichWithTMDB } = require('../../services/enrichWithTmdb');
+const { cleanSiteGenres, cleanSiteCountry } = require('../../services/hygiene');
 const { decodeHtmlEntities } = require('../../utils/decodeHtml');
 const { sanitizeVideoEntries } = require('../../utils/sanitizeVideoLinks');
 
@@ -81,7 +82,7 @@ module.exports = async function scrapeMovieDetails(
                 metadata.modifiedAt = post.dateModified || '';
 
                 const section = post.articleSection || '';
-                metadata.genres = section.split(/[|,]/).map((genre) => genre.trim()).filter(Boolean);
+                metadata.genres = cleanSiteGenres(section);
 
                 const isSerie = section.includes('Serie') ||
                   metadata.title.toLowerCase().includes('season') ||
@@ -167,7 +168,7 @@ module.exports = async function scrapeMovieDetails(
             Downloadurls: downloadUrls,
             narrator: narrator || '',
             release_date: getTextByLabel('Release date'),
-            country: getTextByLabel('Country')
+            country: cleanSiteCountry(getTextByLabel('Country')) || ''
           };
         });
 

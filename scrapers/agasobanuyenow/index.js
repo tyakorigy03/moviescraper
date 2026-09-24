@@ -18,7 +18,7 @@ const supabase = require('../../services/supabaseClient');
 const { logInfo, logError } = require('../../utils/logger');
 const { fetchCatalog } = require('./catalog');
 const { loadState, saveState } = require('./state');
-const { fetchHtml, resolveMovie, resolveEpisode, BASE } = require('./resolver');
+const { fetchHtml, resolveMovie, resolveEpisode, extractPostMeta, BASE } = require('./resolver');
 const {
   matchEntity,
   makeMovieEntry,
@@ -28,10 +28,56 @@ const {
 } = require('./mergeEntries');
 const { coreTitle } = require('./keys');
 const { enrichWithTMDB } = require('../../services/enrichWithTmdb');
+const { cleanSiteGenres, cleanSiteCountry } = require('../../services/hygiene');
 const { computeRelevanceScore } = require('../../utils/relevanceScore');
 
 const TABLE = 'moviesv2';
 const epKey = (s, e) => `s${s}e${e}`;
+const BATCH_SIZE = parseInt(process.env.AGNOW_BATCH_SIZE, 10) || 50;
+
+function chunkArr(arr, size) {
+  const out = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
+}
+
+/**
+ * Drained by flushWrites() in batches, so heavy runs issue ~1 request per 50
+ * rows instead of one request per movie (keeps Supabase API throughput low).
+ */
+function makeCollector() {
+  return { newRows: [], updates: [] };
+}
+
+async function flushWrites(collector) {
+  if (!collector.newRows.length && !collector.updates.length) return;
+  const batches = [];
+  if (collector.newRows.length) {
+    batches.push(...chunkArr(collector.newRows, BATCH_SIZE).map((rows) => ({ kind: 'insert', rows })));
+  }
+  if (collector.updates.length) {
+    batches.push(...chunkArr(collector.updates, BATCH_SIZE).map((rows) => ({ kind: 'update', rows })));
+  }
+
+  let ok = 0;
+  let failed = 0;
+  for (const batch of batches) {
+    const opts =
+      batch.kind === 'insert'
+        ? { onConflict: 'link', ignoreDuplicates: true }
+        : { onConflict: 'link' };
+    const { error } = await supabase.from(TABLE).upsert(batch.rows, opts);
+    if (error) {
+      failed += batch.rows.length;
+      logError(`${batch.kind} batch (${batch.rows.length}) failed: ${error.message}`);
+      continue;
+    }
+    ok += batch.rows.length;
+  }
+  collector.newRows = [];
+  collector.updates = [];
+  logInfo(failed ? `flushed ${ok} write(s) to Supabase (${failed} failed)` : `flushed ${ok} write(s) to Supabase`);
+}
 
 function parseArgs(argv) {
   const args = {
@@ -100,14 +146,16 @@ function parseEpisodeGuide(html, slug) {
 }
 
 /** Enrich + score + shape a brand-new row for upsert. */
-async function buildInsertRow(item, entries) {
+async function buildInsertRow(item, entries, dates = {}) {
   const type = normType(item.type);
+  const published = isoTs(dates.publishedAt) || (item.year ? `${item.year}-01-01` : undefined);
   const enrich = await enrichWithTMDB({
     title: item.title,
-    publishedAt: item.year ? `${item.year}-01-01` : undefined,
+    publishedAt: published,
     type,
   });
-  const year = parseInt(item.year, 10) || null;
+  const { cleanSiteGenres, cleanSiteCountry } = require('../../services/hygiene');
+  const year = parseInt(item.year, 10) || enrich.tmdb_year || null;
   const base = {
     link: pageUrl(item),
     title: String(item.title || '').trim(),
@@ -115,12 +163,13 @@ async function buildInsertRow(item, entries) {
     narrator: item.interpreter || '',
     release_year: year,
     genres: item.genre
-      ? String(item.genre).split(',').map((g) => g.trim()).filter(Boolean)
+      ? cleanSiteGenres(String(item.genre).split(',').map((g) => g.trim()).filter(Boolean))
       : null,
+    country: cleanSiteCountry(item.country) || null,
     image: item.image || null,
     poster: item.image || null,
-    publishedAt: null,
-    modifiedAt: new Date().toISOString(),
+    publishedAt: published || null,
+    modifiedAt: isoTs(dates.modifiedAt) || new Date().toISOString(),
     Downloadurls: entries,
   };
   return {
@@ -129,7 +178,7 @@ async function buildInsertRow(item, entries) {
     score: computeRelevanceScore({
       tmdb_rating: enrich.tmdb_rating || 0,
       popularity: enrich.popularity || 0,
-      publishedAt: '',
+      publishedAt: published || '',
       modifiedAt: base.modifiedAt,
       narrator: base.narrator || '',
       title: base.title || '',
@@ -137,49 +186,48 @@ async function buildInsertRow(item, entries) {
   };
 }
 
-async function upsertNewRow(rowObj, rows, insertedThisRun) {
-  const { error } = await supabase.from(TABLE).upsert(rowObj, {
-    onConflict: 'link',
-    ignoreDuplicates: true,
-  });
-  if (error) {
-    logError(`insert failed for ${rowObj.title}: ${error.message}`);
-    return null;
-  }
+function isoTs(value) {
+  if (!value) return '';
+  const d = new Date(value);
+  return Number.isNaN(d.getTime()) ? '' : d.toISOString();
+}
+
+/** Queue a brand-new row; flushed to Supabase in batches when the collector drains. */
+function enqueueNewRow(collector, rowObj, rows, insertedThisRun) {
   const key = `${coreTitle(rowObj.title)}|${rowObj.type}`;
   insertedThisRun.set(key, { ...rowObj });
   rows.push({ ...rowObj }); // keep matcher-aware for subsequent items in this run
-  logInfo(`++ inserted new: ${rowObj.title} (${rowObj.type}) — ${rowObj.Downloadurls.length} link(s)`);
-  return rowObj;
+  collector.newRows.push(rowObj);
+  logInfo(`++ new row queued: ${rowObj.title} (${rowObj.type}) - ${rowObj.Downloadurls.length} link(s)`);
 }
 
-async function applyRowUpdate(row, updatedEntries, item) {
+/** Queue an update to an existing row (by link); flushed in the same batches. */
+function enqueueRowUpdate(collector, row, updatedEntries, item, dates = {}) {
   const patch = {
+    link: row.link,
     Downloadurls: updatedEntries,
-    modifiedAt: new Date().toISOString(),
+    modifiedAt: isoTs(dates.modifiedAt) || new Date().toISOString(),
   };
   if (!row.narrator && item.interpreter) patch.narrator = item.interpreter;
   if ((!row.genres || !row.genres.length) && item.genre) {
-    patch.genres = String(item.genre).split(',').map((g) => g.trim()).filter(Boolean);
+    patch.genres = cleanSiteGenres(String(item.genre).split(',').map((g) => g.trim()).filter(Boolean));
   }
   if (!row.image && item.image) patch.image = item.image;
   if (!row.poster && item.image) patch.poster = item.image;
+  if (!row.publishedAt && isoTs(dates.publishedAt)) patch.publishedAt = isoTs(dates.publishedAt);
 
-  const { error } = await supabase.from(TABLE).update(patch).eq('id', row.id);
-  if (error) {
-    logError(`update failed for ${row.title}: ${error.message}`);
-    return;
-  }
   // keep in-memory copy fresh for later items in the same run
+  collector.updates.push(patch);
   row.Downloadurls = updatedEntries;
   if (patch.narrator) row.narrator = patch.narrator;
   if (patch.genres) row.genres = patch.genres;
   if (patch.image) row.image = patch.image;
   if (patch.poster) row.poster = patch.poster;
+  if (patch.publishedAt) row.publishedAt = patch.publishedAt;
   logInfo(`~ enriched ${row.title}: ${updatedEntries.length} download entries`);
 }
 
-async function processMovie(item, row, rows, insertedThisRun, state, args) {
+async function processMovie(item, row, rows, insertedThisRun, collector, state, args) {
   const slug = item.slug;
   const cached = state.movies[slug];
   const cacheUrl = () => ({ downloadUrl: cached?.dl || '', watchUrl: `${BASE}/movies/${slug}` });
@@ -190,13 +238,14 @@ async function processMovie(item, row, rows, insertedThisRun, state, args) {
     if (row) return;
     if (!args.insertNew) return;
     const spec = makeMovieEntry(item, cacheUrl());
-    const rowObj = await buildInsertRow(item, [spec]);
-    await upsertNewRow(rowObj, rows, insertedThisRun);
+    const rowObj = await buildInsertRow(item, [spec], { publishedAt: cached?.publishedAt });
+    enqueueNewRow(collector, rowObj, rows, insertedThisRun);
     return;
   }
 
   const resolved = await resolveMovie({ slug, title: item.title, narrator: item.interpreter, deep: args.deep });
-  state.movies[slug] = { ok: resolved.ok, dl: resolved.downloadUrl, at: new Date().toISOString() };
+  const dates = { publishedAt: resolved.publishedAt, modifiedAt: resolved.modifiedAt };
+  state.movies[slug] = { ok: resolved.ok, dl: resolved.downloadUrl, at: new Date().toISOString(), ...dates };
   await saveState(state);
 
   if (!resolved.ok && !args.deep) {
@@ -207,15 +256,15 @@ async function processMovie(item, row, rows, insertedThisRun, state, args) {
   if (row) {
     const spec = makeMovieEntry(item, resolved);
     const { entries, changed } = mergeEntries(row.Downloadurls, [spec]);
-    if (changed) await applyRowUpdate(row, entries, item);
+    if (changed) enqueueRowUpdate(collector, row, entries, item, dates);
   } else if (args.insertNew) {
     const spec = makeMovieEntry(item, resolved);
-    const rowObj = await buildInsertRow(item, [spec]);
-    await upsertNewRow(rowObj, rows, insertedThisRun);
+    const rowObj = await buildInsertRow(item, [spec], dates);
+    enqueueNewRow(collector, rowObj, rows, insertedThisRun);
   }
 }
 
-async function processSeries(item, row, rows, insertedThisRun, state, args) {
+async function processSeries(item, row, rows, insertedThisRun, collector, state, args) {
   const slug = item.slug;
   const sInfo = state.series[slug];
   const badgeChanged = !sInfo || sInfo.badge !== item.latest_episode_badge;
@@ -231,8 +280,8 @@ async function processSeries(item, row, rows, insertedThisRun, state, args) {
     });
     if (specs.length) {
       const entries = mergeEntries([], specs, { singleSeason: false }).entries;
-      const rowObj = await buildInsertRow(item, entries);
-      await upsertNewRow(rowObj, rows, insertedThisRun);
+      const rowObj = await buildInsertRow(item, entries, { publishedAt: sInfo?.publishedAt, modifiedAt: item.last_episode_added_at });
+      enqueueNewRow(collector, rowObj, rows, insertedThisRun);
     }
     return;
   }
@@ -243,14 +292,20 @@ async function processSeries(item, row, rows, insertedThisRun, state, args) {
   const narrator = item.interpreter;
   let singleSeason = false;
   let guide;
+  let guideDates = {};
   try {
     const html = await fetchHtml(`${BASE}/tv/${slug}`);
     guide = parseEpisodeGuide(html, slug);
+    guideDates = extractPostMeta(html);
     singleSeason = new Set(guide.map((g) => g.s)).size === 1;
   } catch (err) {
     logError(`series guide failed for ${item.title}: ${err.message}`);
     guide = [];
   }
+  const seriesDates = {
+    publishedAt: guideDates.publishedAt,
+    modifiedAt: item.last_episode_added_at || guideDates.modifiedAt,
+  };
 
   const specs = [];
   for (const { s, e } of guide) {
@@ -274,6 +329,7 @@ async function processSeries(item, row, rows, insertedThisRun, state, args) {
     badge: item.latest_episode_badge || sInfo?.badge || null,
     lastEpisodeAddedAt: item.last_episode_added_at || null,
     at: new Date().toISOString(),
+    ...seriesDates,
     episodes,
   };
   await saveState(state);
@@ -285,11 +341,11 @@ async function processSeries(item, row, rows, insertedThisRun, state, args) {
 
   if (row) {
     const { entries, changed } = mergeEntries(row.Downloadurls, specs, { singleSeason });
-    if (changed) await applyRowUpdate(row, entries, item);
+    if (changed) enqueueRowUpdate(collector, row, entries, item, seriesDates);
   } else if (args.insertNew) {
     const { entries } = mergeEntries([], specs, { singleSeason });
-    const rowObj = await buildInsertRow(item, entries);
-    await upsertNewRow(rowObj, rows, insertedThisRun);
+    const rowObj = await buildInsertRow(item, entries, seriesDates);
+    enqueueNewRow(collector, rowObj, rows, insertedThisRun);
   }
 }
 
@@ -333,6 +389,7 @@ async function main() {
     items = await fetchCatalog({ maxPages, limit: args.limit, delayMs: 0 });
   }
 
+  const collector = makeCollector();
   let processed = 0;
   let skipped = 0;
   for (const item of items) {
@@ -357,9 +414,9 @@ async function main() {
 
     try {
       if (type === 'movie') {
-        await processMovie(item, row, rows, insertedThisRun, state, args);
+        await processMovie(item, row, rows, insertedThisRun, collector, state, args);
       } else if (type === 'tv') {
-        await processSeries(item, row, rows, insertedThisRun, state, args);
+        await processSeries(item, row, rows, insertedThisRun, collector, state, args);
       } else {
         continue;
       }
@@ -368,9 +425,17 @@ async function main() {
       logError(`failed ${item.title} (${item.slug}): ${err.message}`);
     }
 
+    // Drain write queues in batches on the way through so no run accumulates
+    // an unbounded number of pending upserts (memory) — and, more importantly,
+    // so Supabase sees ~1 request per 50 rows instead of 1 per movie.
+    if (collector.newRows.length + collector.updates.length >= BATCH_SIZE) {
+      await flushWrites(collector);
+    }
+
     await new Promise((r) => setTimeout(r, args.delayMs));
   }
 
+  await flushWrites(collector); // final drain of whatever remains
   await saveState(state);
   logInfo(
     `agasobanuyenow scraper finished — processed ${processed}, skipped ${skipped} (unchanged), ` +

@@ -121,6 +121,7 @@ async function saveMoviesToSupabase(moviesInput, options = {}) {
       publishedAt: normalizeTimestamp(movie.publishedAt),
       modifiedAt: normalizeTimestamp(movie.modifiedAt),
       release_date: normalizeTimestamp(movie.release_date),
+      release_year: movie.release_year || movie.tmdb_year || null,
       score: computeRelevanceScore({
         tmdb_rating: movie.tmdb_rating || 0,
         popularity: movie.popularity || 0,
@@ -145,6 +146,7 @@ async function saveMoviesToSupabase(moviesInput, options = {}) {
         publishedAt: normalizeTimestamp(movie.publishedAt),
         modifiedAt: new Date().toISOString(),
         release_date: normalizeTimestamp(movie.release_date),
+        release_year: movie.release_year || movie.tmdb_year || null,
         score: computeRelevanceScore({
           tmdb_rating: movie.tmdb_rating || 0,
           popularity: movie.popularity || 0,
