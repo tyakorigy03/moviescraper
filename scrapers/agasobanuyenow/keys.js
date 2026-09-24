@@ -61,4 +61,34 @@ function sameSplit(a = '', b = '') {
   return false;
 }
 
-module.exports = { coreTitle, locator, sameSplit, isSlowHost, isCdnHost, isServerEntry, hostOf, CDN_HOST, SLOW_HOSTS };
+/** Part-letter suffix detection: "Shelter A" / "Part 2" / "Part A". */
+function isPartSuffixTitle(title = '') {
+  const t = String(title || '').trim();
+  if (/\b(?:part|pt\.?)\s*(\d{1,3}|[a-z])\b/i.test(t)) return true;
+  if (/\s+[a-d]\s*$/i.test(t)) return true; // "Shelter A" / "Shelter B"
+  return false;
+}
+
+/** Strip part markers so "Shelter A"/"Shelter Part 2" → the movie family key. */
+function familyKey(title = '') {
+  const t = String(title || '')
+    .replace(/\s*(?:part|pt\.?)\s*(\d{1,3}|[a-z])\s*$/i, '')
+    .replace(/\s+[a-d]\s*$/i, '')
+    .trim();
+  return coreTitle(t);
+}
+
+/**
+ * Season from a ROW title like "Show S05" / "Show Season 3" / "Show S1 E2".
+ * Returns '' when there is no season marker (whole-series rows remain generic).
+ */
+function seasonOfTitle(title = '') {
+  const t = String(title || '');
+  const m = /\bs(\d{1,2})\b/i.exec(t) || /\bseason\s*(\d{1,2})\b/i.exec(t);
+  return m ? String(+m[1]) : '';
+}
+
+module.exports = {
+  coreTitle, locator, sameSplit, isSlowHost, isCdnHost, isServerEntry, hostOf, CDN_HOST, SLOW_HOSTS,
+  seasonOfTitle, familyKey, isPartSuffixTitle,
+};

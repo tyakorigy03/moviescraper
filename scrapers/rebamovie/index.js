@@ -22,7 +22,7 @@ const { logInfo, logError } = require('../../utils/logger');
 const { fetchCatalog } = require('./catalog');
 const { fetchCinemaData, fetchDownloadLink, SITE_BASE } = require('./api');
 const { loadState, saveState } = require('./state');
-const { matchEntity, makeMovieEntry, makeEpisodeEntry, mergeEntries, normType } = require('./mergeEntries');
+const { matchEntity, matchEntityRows, makeMovieEntry, makeEpisodeEntry, mergeEntries, normType, seasonOfTitle } = require('./mergeEntries');
 const { coreTitle } = require('../agasobanuyenow/keys');
 const { enrichWithTMDB } = require('../../services/enrichWithTmdb');
 const { computeRelevanceScore } = require('../../utils/relevanceScore');
@@ -407,6 +407,40 @@ async function processItem(item, row, rows, insertedThisRun, collector, state, a
   }
 
   if (row) {
+    // Whole-series TV item (S01..S05) matching several aglive per-season rows:
+    // distribute each season's episodes into its own row instead of dumping
+    // everything into the single best match ("Outer Banks S05" got polluted
+    // with S01..S05 because of this). Cross-season specs are skipped by the
+    // merge when rowSeason is set, so each row only keeps its own episodes.
+    if (type === 'tv' && !singleSeason) {
+      const allRows = matchEntityRows({ ...item, type }, rows);
+      const seasonGroups = new Map();
+      for (const spec of specs) {
+        const m = /^s(\d{1,3})e/i.exec(String(spec.title || '').trim());
+        const s = m ? m[1] : '';
+        if (!seasonGroups.has(s)) seasonGroups.set(s, []);
+        seasonGroups.get(s).push(spec);
+      }
+      let anyChanged = false;
+      for (const [s, seasonSpecs] of seasonGroups) {
+        const seasonRow =
+          (s && allRows.find((r) => seasonOfTitle(r.title) === s)) ||
+          allRows.find((r) => !seasonOfTitle(r.title)) ||
+          row;
+        const scoped = seasonRow && seasonOfTitle(seasonRow.title) === s;
+        const { entries, changed } = mergeEntries(seasonRow.Downloadurls, seasonSpecs, {
+          singleSeason: true,
+          rowSeason: scoped ? s : '',
+        });
+        if (changed) {
+          enqueueRowUpdate(collector, seasonRow, entries, item);
+          anyChanged = true;
+        }
+      }
+      state.movies[id] = { at: new Date().toISOString(), badge, type, singleSeason, entries: specs };
+      await saveState(state);
+      return { skipped: false };
+    }
     const { entries, changed } = mergeEntries(row.Downloadurls, specs, { singleSeason });
     if (changed) enqueueRowUpdate(collector, row, entries, item);
   } else if (args.insertNew) {
