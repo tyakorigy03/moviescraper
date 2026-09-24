@@ -76,6 +76,7 @@ async function flushWrites(collector) {
 function parseArgs(argv) {
   const args = {
     full: false,
+    repair: false,
     insertNew: true,
     downloads: String(process.env.REBA_DOWNLOADS || '').toLowerCase() !== 'false',
     limit: 0,
@@ -85,6 +86,7 @@ function parseArgs(argv) {
   };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--full') args.full = true;
+    else if (argv[i] === '--repair') args.repair = true;
     else if (argv[i] === '--no-insert') args.insertNew = false;
     else if (argv[i] === '--no-downloads') args.downloads = false;
     else if (argv[i] === '--limit') args.limit = parseInt(argv[++i], 10) || 0;
@@ -93,6 +95,81 @@ function parseArgs(argv) {
     else if (argv[i] === '--refresh-hours') args.refreshHours = parseInt(argv[++i], 10) || 6;
   }
   return args;
+}
+
+/** Rows added by this scraper: link = https://www.rebamovie.com/movie/{movieId}. */
+async function loadRebamovieRows() {
+  const all = [];
+  const pageSize = 1000;
+  let from = 0;
+  for (;;) {
+    const { data, error } = await supabase
+      .from(TABLE)
+      .select('link,title,type,narrator,release_year,Downloadurls,image,poster,publishedAt')
+      .like('link', `${SITE_BASE}/movie/%`)
+      .range(from, from + pageSize - 1);
+    if (error) throw new Error(`reba rows: ${error.message}`);
+    all.push(...(data || []));
+    if (!data || data.length < pageSize) break;
+    from += pageSize;
+  }
+  return all;
+}
+
+/**
+ * Re-resolve downloads for rows this scraper already created (--repair).
+ *
+ * The earlier plaintext /downloadData bug persisted wrong (stale, other-video)
+ * mp4 URLs into the DB. Now that requests are AES-encrypted and GUID-validated,
+ * this re-pulls cinemaData for those rows only, re-resolves every download, and
+ * merges the corrected entries back (bad old downloadUrls are replaced, and
+ * missing ones backfilled). No catalog scan, no new rows.
+ */
+async function repairDownloads(args) {
+  logInfo(`repair mode — re-resolving downloads for existing rebamovie rows...`);
+  const rows = await loadRebamovieRows();
+  const targets = args.limit ? rows.slice(0, args.limit) : rows;
+  logInfo(`rows to repair: ${targets.length}`);
+  const collector = makeCollector();
+  let updated = 0;
+  let noVideo = 0;
+
+  for (const row of targets) {
+    const movieId = (row.link || '').split('/movie/')[1];
+    if (!movieId) continue;
+
+    const item = {
+      id: movieId,
+      movieDataId: { title: row.title || '' },
+      title: String(row.title || '').trim(),
+      totalTime: row.type === 'tv' ? 'S1E1' : '',
+    };
+
+    try {
+      const cinema = await fetchCinemaData(movieId);
+      const isSeason = Boolean(cinema.isSeason);
+      const { specs, singleSeason } = await buildSpecs(item, isSeason, cinema, args);
+
+      if (!specs.length) {
+        noVideo++;
+        continue;
+      }
+
+      const { entries, changed } = mergeEntries(row.Downloadurls, specs, { singleSeason });
+      if (changed) {
+        enqueueRowUpdate(collector, { ...row }, entries, item);
+        updated++;
+      }
+    } catch (err) {
+      logError(`repair failed ${row.title} (${movieId}): ${err.message}`);
+    }
+
+    if (collector.updates.length >= BATCH_SIZE) await flushWrites(collector);
+    await new Promise((r) => setTimeout(r, args.delayMs));
+  }
+
+  await flushWrites(collector);
+  logInfo(`repair finished — updated ${updated} row(s), no playable video: ${noVideo} (of ${targets.length})`);
 }
 
 async function loadAllRows() {
@@ -132,6 +209,7 @@ function normNarratorName(item) {
 /** Flatten cinemaData episodes (nested per season) into {s,e,video,server}. */
 function extractEpisodes(cinema) {
   const perSeason = Array.isArray(cinema?.data?.episodes) ? cinema.data.episodes : [];
+  const seen = new Set();
   const out = [];
   for (let si = 0; si < perSeason.length; si++) {
     const list = Array.isArray(perSeason[si]) ? perSeason[si] : [];
@@ -142,6 +220,11 @@ function extractEpisodes(cinema) {
       const e = ep.episode || (ep.position?.episodeIndex ?? ei) + 1;
       const video = ep.video?.hdVideo || ep.video?.midVideo || ep.video?.lowVideo || '';
       if (!video) continue;
+      // rebamovie sometimes lists the same S/E twice (a broken placeholder
+      // share); only keep the first occurrence so we don't burn downloads
+      // or store duplicate episodes.
+      if (seen.has(`${s}:${e}`)) continue;
+      seen.add(`${s}:${e}`);
       out.push({
         s,
         e,
@@ -324,6 +407,12 @@ async function processItem(item, row, rows, insertedThisRun, collector, state, a
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
+
+  if (args.repair) {
+    await repairDownloads(args);
+    return;
+  }
+
   const state = await loadState();
   const rows = await loadAllRows();
   const insertedThisRun = new Map();

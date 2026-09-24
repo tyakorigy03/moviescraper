@@ -4,11 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "Scrape mode: 'delta' (default) or 'full' for a full re-resolve"
+        description: "Scrape mode: 'delta' (default), 'full' re-resolve, or 'repair' to re-resolve downloads on existing rebamovie rows"
         type: choice
         options:
           - delta
           - full
+          - repair
         default: delta
   schedule:
     - cron: "*/30 * * * *"
@@ -47,6 +48,10 @@ jobs:
       - name: Run rebamovie full
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'full' }}
         run: npm run scrape4 -- --full
+
+      - name: Run rebamovie repair
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'repair' }}
+        run: npm run scrape4 -- --repair
 
       - name: Commit storage changes
         run: |

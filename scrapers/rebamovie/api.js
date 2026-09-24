@@ -139,12 +139,13 @@ function mediaGuid(u) {
  * @returns {Promise<string>} verified mp4 URL or '' on failure.
  */
 async function fetchDownloadLink({ url, server = '', name = '', time = 1 }) {
-  // Attempt 1 hits right away; retries back off 3s then 8s (+jitter) so the
-  // rate-limit window can drain before we ask again.
+  // Empty response = rate-limit: back off and retry (3s then 8s + jitter).
+  // GUID mismatch = the episode genuinely maps to a broken/placeholder video on
+  // rebamovie's side: one fast retry, then give up so we never store a stale
+  // URL for a different file and don't burn minutes hammering a dead episode.
   const expected = mediaGuid(url);
   const body = aesEnvelope({ url, server, name, time });
-  const backoffs = [3000, 8000];
-  for (let attempt = 0; attempt <= backoffs.length; attempt++) {
+  for (let attempt = 0; attempt < 3; attempt++) {
     await paceDownload();
     try {
       const res = await post('/downloadData', body, { retries: 0 });
@@ -153,17 +154,23 @@ async function fetchDownloadLink({ url, server = '', name = '', time = 1 }) {
         noteOk();
         return dl;
       }
+      const mismatch = !!dl;
       logError(
-        dl
-          ? `downloadData mismatch for ${name} — stale URL for a different video (attempt ${attempt + 1})`
+        mismatch
+          ? `downloadData mismatch for ${name} — broken/placeholder video, giving up`
           : `downloadData empty for ${name} (attempt ${attempt + 1})`
       );
+      if (mismatch) {
+        noteEmpty();
+        if (attempt === 0) await sleep(1500 + Math.floor(Math.random() * 1000));
+        break; // real file problem — stop retrying
+      }
       noteEmpty();
     } catch (err) {
       logError(`downloadData failed for ${name}: ${err.message}`);
     }
-    if (attempt < backoffs.length) {
-      await sleep(backoffs[attempt] + Math.floor(Math.random() * 1500));
+    if (attempt < 2) {
+      await sleep((attempt === 0 ? 3000 : 8000) + Math.floor(Math.random() * 1500));
     }
   }
   return '';
