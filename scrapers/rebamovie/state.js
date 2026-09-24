@@ -15,7 +15,9 @@
  *           watchUrl, downloadUrl, name, server
  *         }
  *       }
- *   } }
+ *   } },
+ *   failed: { "<movieId>": { at: iso, attempts: n, error: "..." } },
+ *   pendingWrites: [ { link, Downloadurls, modifiedAt, ... } ]  // update patches
  * }
  */
 const fs = require('fs-extra');
@@ -32,18 +34,24 @@ async function loadState() {
           lastRunAt: s.lastRunAt || null,
           lastFullScanAt: s.lastFullScanAt || null,
           movies: s.movies || {},
+          failed: s.failed || {},
+          pendingWrites: Array.isArray(s.pendingWrites) ? s.pendingWrites : [],
         };
       }
     }
   } catch (err) {
     // corrupt file — start fresh
   }
-  return { lastRunAt: null, lastFullScanAt: null, movies: {} };
+  return { lastRunAt: null, lastFullScanAt: null, movies: {}, failed: {}, pendingWrites: [] };
 }
 
 async function saveState(state) {
   await fs.ensureDir(path.dirname(STATE_PATH));
-  await fs.writeJson(STATE_PATH, { version: 1, ...state, lastRunAt: new Date().toISOString() }, { spaces: 2 });
+  await fs.writeJson(
+    STATE_PATH,
+    { version: 1, movies: state.movies, ...state, lastRunAt: new Date().toISOString() },
+    { spaces: 2 }
+  );
 }
 
 module.exports = { loadState, saveState, STATE_PATH };

@@ -31,6 +31,13 @@ const TABLE = 'moviesv2';
 const BATCH_SIZE = parseInt(process.env.REBA_BATCH_SIZE, 10) || 50;
 const MAX_EPISODES = parseInt(process.env.REBA_MAX_EPISODES, 10) || 200;
 const Q_DEFAULT_QUALITY = 'mid';
+// Failed-field persistence: how long a failed item waits before this scraper
+// force-retries it, and how many times before giving up. Patches whose batch
+// write failed are queued into state.pendingWrites and replayed on the next
+// run (no re-scrape needed).
+const RETRY_COOLDOWN_MS = (parseInt(process.env.REBA_RETRY_COOLDOWN_MIN, 10) || 60) * 60e3;
+const MAX_ATTEMPTS = parseInt(process.env.REBA_MAX_ATTEMPTS, 10) || 3;
+const MAX_PENDING_WRITES = parseInt(process.env.REBA_PENDING_WRITES_CAP, 10) || 2000;
 
 // Preferred rendition when the site exposes several sizes (720p / 480p / 144p).
 // Defaulting to mid (~480p ≈ 520MB) instead of hd (~720p ≈ 2GB) keeps downloads
@@ -49,7 +56,7 @@ function makeCollector() {
   return { newRows: [], updates: [] };
 }
 
-async function flushWrites(collector) {
+async function flushWrites(collector, state) {
   if (!collector.newRows.length && !collector.updates.length) return;
   const batches = [];
   if (collector.newRows.length) {
@@ -78,13 +85,81 @@ async function flushWrites(collector) {
     if (error) {
       failed += batch.rows.length;
       logError(`${batch.kind} batch (${batch.rows.length}) failed: ${error.message}`);
+      // Persist failed update patches so the next run replays them directly —
+      // no re-scrape, and the state stays consistent with the DB. Inserts that
+      // fail will be rebuilt from cached entries on the next delta anyway.
+      if (batch.kind === 'update' && state) {
+        queuePendingWrites(state, batch.rows);
+        await saveState(state);
+      }
       continue;
     }
     ok += batch.rows.length;
   }
   collector.newRows = [];
   collector.updates = [];
-  logInfo(failed ? `flushed ${ok} write(s) to Supabase (${failed} failed)` : `flushed ${ok} write(s) to Supabase`);
+  logInfo(failed ? `flushed ${ok} write(s) to Supabase (${failed} failed, ${state?.pendingWrites?.length || 0} queued)` : `flushed ${ok} write(s) to Supabase`);
+}
+
+/** Append failed update patches to state.pendingWrites, keyed by link (last wins), capped. */
+function queuePendingWrites(state, rows) {
+  if (!state.pendingWrites) state.pendingWrites = [];
+  const byLink = new Map(state.pendingWrites.map((p) => [p.link, p]));
+  for (const row of rows) byLink.set(row.link, row);
+  state.pendingWrites = [...byLink.values()];
+  if (state.pendingWrites.length > MAX_PENDING_WRITES) {
+    state.pendingWrites = state.pendingWrites.slice(-MAX_PENDING_WRITES);
+    logError(`pendingWrites capped at ${MAX_PENDING_WRITES} — dropped oldest queued patches`);
+  }
+}
+
+/**
+ * Replay queued failed-update patches (no re-scrape). Runs before the catalog
+ * scan so previously failed DB writes land first; anything that still fails
+ * stays queued for the next run.
+ */
+async function replayPendingWrites(state) {
+  if (!state.pendingWrites || !state.pendingWrites.length) return 0;
+  const queued = [...state.pendingWrites];
+  state.pendingWrites = [];
+  const rows = queued;
+  let ok = 0;
+  let failed = 0;
+  for (const batch of chunkArr(rows, BATCH_SIZE)) {
+    const { error } = await supabase.from(TABLE).upsert(batch, { onConflict: 'link' });
+    if (error) {
+      failed += batch.length;
+      queuePendingWrites(state, batch); // stays queued for next run
+      continue;
+    }
+    ok += batch.length;
+  }
+  await saveState(state);
+  logInfo(`replayed pending writes — ${ok} landed${failed ? `, ${failed} still queued` : ''}`);
+  return ok;
+}
+
+/** Record a per-item failure in state (attempts + last error), for force-retry on later runs. */
+function recordItemFailure(state, itemId, err) {
+  const prev = state.failed && state.failed[itemId];
+  const attempts = (prev && prev.attempts) || 0;
+  state.failed = state.failed || {};
+  state.failed[itemId] = {
+    at: prev && prev.at || null,
+    lastAttemptAt: new Date().toISOString(),
+    attempts: attempts + 1,
+    error: String(err.message || err).slice(0, 300),
+  };
+  return state.failed[itemId];
+}
+
+/** Should this item bypass the freshness skip and be force-retried now? */
+function shouldForceRetry(state, itemId) {
+  const rec = state.failed && state.failed[itemId];
+  if (!rec) return false;
+  if (rec.attempts >= MAX_ATTEMPTS) return false; // give up (won't self-clear, but stops retrying)
+  const last = new Date(rec.lastAttemptAt).getTime() || 0;
+  return Date.now() - last >= RETRY_COOLDOWN_MS;
 }
 
 function parseArgs(argv) {
@@ -153,6 +228,8 @@ async function repairDownloads(args) {
   const targets = args.limit ? rows.slice(0, args.limit) : rows;
   logInfo(`rows to repair: ${targets.length}`);
   const collector = makeCollector();
+const state = await loadState();
+  await replayPendingWrites(state);
   let updated = 0;
   let noVideo = 0;
 
@@ -184,10 +261,11 @@ const { entries, changed } = mergeEntries(row.Downloadurls, specs, { singleSeaso
         updated++;
       }
     } catch (err) {
+      recordItemFailure(state, movieId, err);
       logError(`repair failed ${row.title} (${movieId}): ${err.message}`);
     }
 
-    if (collector.updates.length >= BATCH_SIZE) await flushWrites(collector);
+    if (collector.updates.length >= BATCH_SIZE) await flushWrites(collector, state);
     // Visible heartbeat so long series don't look like a hang.
     if ((i + 1) % 10 === 0 || i + 1 === targets.length) {
       logInfo(`repair progress: ${i + 1}/${targets.length} rows done (${updated} updated this run)`);
@@ -195,7 +273,8 @@ const { entries, changed } = mergeEntries(row.Downloadurls, specs, { singleSeaso
     await new Promise((r) => setTimeout(r, args.delayMs));
   }
 
-  await flushWrites(collector);
+  await flushWrites(collector, state);
+  await saveState(state);
   logInfo(`repair finished — updated ${updated} row(s), no playable video: ${noVideo} (of ${targets.length})`);
 }
 
@@ -368,21 +447,22 @@ function enqueueRowUpdate(collector, row, updatedEntries, item) {
   logInfo(`~ enriched ${row.title}: ${updatedEntries.length} download entries`);
 }
 
-async function processItem(item, row, rows, insertedThisRun, collector, state, args) {
+async function processItem(item, row, rows, insertedThisRun, collector, state, args, { forceRetry = false } = {}) {
   const id = item.id;
   const badge = item.totalTime || '';
   const cached = state.movies[id];
 
   // Delta: skip a fresh resolution that already produced a row — no API call,
   // no write. If a fresh entry exists but the DB row is missing (e.g. state was
-  // committed ahead of writes), rebuild it from the cached links.
+  // committed ahead of writes), rebuild it from the cached links. forceRetry
+  // (a previously-failed item past its cooldown) bypasses this skip.
   const fresh = cached && Date.now() - new Date(cached.at).getTime() < args.refreshHours * 3600e3;
   // If a previous run resolved the item but downloadData rate-limited and left
   // entries without a download link, don't treat it as fresh: the next delta
   // run should retry the MP4 resolution (the throttle cooldown will have lapsed).
   const missingDownloads =
     args.downloads && !!cached && Array.isArray(cached.entries) && cached.entries.some((e) => !e.downloadUrl);
-  if (!args.full && fresh && missingDownloads === false && cached.badge === badge) {
+  if (!forceRetry && !args.full && fresh && missingDownloads === false && cached.badge === badge) {
     if (row) return { skipped: true };
     if (args.insertNew && Array.isArray(cached.entries) && cached.entries.length) {
       const rowObj = await buildInsertRow(item, cached.entries, {
@@ -479,13 +559,18 @@ async function main() {
   const rows = await loadAllRows();
   const insertedThisRun = new Map();
 
+  // Land updates that failed to batch-write in a previous run before scanning;
+  // patched entries are already computed, so this needs no re-scrape.
+  await replayPendingWrites(state);
+
   // Delta always pages the full catalog; per-item freshness (REBA_REFRESH_HOURS)
   // decides whether a cinemaData re-pull is needed to keep stored Wix links
   // under their ~24h expiry. --full forces a re-resolve of everything.
   logInfo(
     `rebamovie scraper started — mode: ${args.full ? 'FULL' : 'delta'}, downloads: ${args.downloads}, ` +
       `insert-new: ${args.insertNew}, refresh-hours: ${args.refreshHours}\n` +
-      `existing rows loaded: ${rows.length}`
+      `existing rows loaded: ${rows.length}, failed tracked: ${Object.keys(state.failed || {}).length}, ` +
+      `pending writes: ${(state.pendingWrites || []).length}`
   );
 
   const items = (await fetchCatalog({ maxPages: args.pages || 0, limit: args.limit, delayMs: 0 })).map(
@@ -499,32 +584,45 @@ async function main() {
   let processed = 0;
   let resolved = 0;
   let skipped = 0;
+  let forceRetried = 0;
 
   for (const item of items) {
     const type = normType(isSeasonByItem(item) ? 'tv' : 'movie');
     const key = `${coreTitle(item.movieDataId?.title || '')}|${type}|${normNarratorName(item).toLowerCase()}`;
     const row = matchEntity({ ...item, type }, rows) || insertedThisRun.get(key) || null;
 
+    // Previously-failed item past its cooldown → re-resolve even if fresh.
+    const forceRetry = shouldForceRetry(state, item.id);
+
     try {
-      const res = await processItem(item, row, rows, insertedThisRun, collector, state, args);
+      const res = await processItem(item, row, rows, insertedThisRun, collector, state, args, { forceRetry });
       if (res.skipped) skipped++;
       else processed++;
-      if (!res.skipped) resolved++;
+      if (!res.skipped) {
+        resolved++;
+        if (state.failed && state.failed[item.id]) {
+          delete state.failed[item.id]; // resolved cleanly this run
+          await saveState(state);
+        }
+        if (forceRetry) forceRetried++;
+      }
     } catch (err) {
+      recordItemFailure(state, item.id, err);
+      await saveState(state);
       logError(`failed ${item.movieDataId?.title} (${item.id}): ${err.message}`);
     }
 
     if (collector.newRows.length + collector.updates.length >= BATCH_SIZE) {
-      await flushWrites(collector);
+      await flushWrites(collector, state);
     }
 
     await new Promise((r) => setTimeout(r, args.delayMs));
   }
 
-  await flushWrites(collector);
+  await flushWrites(collector, state);
   await saveState(state);
   logInfo(
-    `rebamovie scraper finished — resolved ${resolved}, skipped ${skipped} (unchanged), ` +
+    `rebamovie scraper finished — resolved ${resolved}, skipped ${skipped} (unchanged, ${forceRetried} force-retried), ` +
       `of ${items.length} catalog items.`
   );
 }
