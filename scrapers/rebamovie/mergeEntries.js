@@ -115,12 +115,15 @@ function makeEpisodeEntry(showTitle, s, e, spec) {
  *  - "(Server HD)" flagged slots are never overwritten;
  *  - a missing/slow/unknown-host download gets UPGRADED to the new CDN link,
  *    archiving the old one in oldDownloadUrl;
- *  - already-good CDN links are left alone;
+ *  - already-good CDN links are left alone unless `replace` is set (repair
+ *    mode), where every matched entry is re-pointed at the freshly resolved
+ *    URL (e.g. when re-resolving at a smaller rendition) with the prior link
+ *    archived in oldDownloadUrl;
  *  - untracked episodes/parts get APPENDED (no duplicates by locator/title).
  *
  * @returns {{entries: Array, changed: boolean}}
  */
-function mergeEntries(existing, specs, { singleSeason = false } = {}) {
+function mergeEntries(existing, specs, { singleSeason = false, replace = false } = {}) {
   const originals = Array.isArray(existing) ? existing : [];
 
   const flagged = originals.filter((e) => isServerEntry(e)).map((e) => ({ ...e }));
@@ -150,9 +153,11 @@ function mergeEntries(existing, specs, { singleSeason = false } = {}) {
 
     if (sk) {
       const matches = byKey.get(sk) || [];
-      const target = matches.find(
-        (m) => !m.downloadUrl || isSlowHost(m.downloadUrl) || !isGoodCdn(m.downloadUrl)
-      );
+      const target = replace
+        ? matches[0]
+        : matches.find(
+            (m) => !m.downloadUrl || isSlowHost(m.downloadUrl) || !isGoodCdn(m.downloadUrl)
+          );
       if (target) {
         const prior = target.downloadUrl;
         if (spec.downloadUrl && isSlowHost(prior) && !target.oldDownloadUrl) {
@@ -160,7 +165,9 @@ function mergeEntries(existing, specs, { singleSeason = false } = {}) {
         }
         if (spec.downloadUrl && prior !== spec.downloadUrl) {
           target.downloadUrl = spec.downloadUrl;
-          if (prior && !isSlowHost(prior) && !isGoodCdn(prior) && !target.oldDownloadUrl) {
+          if (replace && prior && !target.oldDownloadUrl) {
+            target.oldDownloadUrl = prior;
+          } else if (prior && !isSlowHost(prior) && !isGoodCdn(prior) && !target.oldDownloadUrl) {
             target.oldDownloadUrl = prior;
           }
           touched = true;

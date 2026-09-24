@@ -126,10 +126,26 @@ function fetchCinemaData(MovieId) {
  * MP4 (download-video.wixmp.com/video/{GUID}/...) carry the same GUID for the
  * same underlying file — so a mismatch proves downloadData returned a STALE URL
  * for a different video.
+ *
+ * NOTE: 720p and 480p renditions share the same GUID; they only differ by the
+ * `/720p/` vs `/480p/` path segment. Use guidKey() (GUID + rendition) whenever
+ * the returned rendition matters, e.g. the download cache.
  */
 function mediaGuid(u) {
   const m = /(?:cdn-video\.rebamovie\.com|download-video\.wixmp\.com)\/(?:video\/)?([^/]+?)\//.exec(String(u || ''));
   return m ? m[1] : '';
+}
+
+/** "…/{GUID}/,480p,/…" (watch) or "…/{GUID}/480p/…" (download) → "480p". */
+function renditionOf(u) {
+  const m = /(\d{3}p)/.exec(String(u || ''));
+  return m ? m[1] : '';
+}
+
+/** GUID + rendition — distinguishes 720p/480p variants of the same file. */
+function guidKey(u) {
+  const guid = mediaGuid(u);
+  return guid ? `${guid}|${renditionOf(u) || '?'}` : '';
 }
 
 /**
@@ -148,12 +164,13 @@ async function fetchDownloadLink({ url, server = '', name = '', time = 1 }) {
   // rebamovie's side: one fast retry, then give up so we never store a stale
   // URL for a different file and don't burn minutes hammering a dead episode.
   const expected = mediaGuid(url);
+  const cacheKey = guidKey(url);
 
   // The site shares ONE placeholder GUID across many episodes of a broken title
   // (e.g. KUIFI S01E32-E77 all map to the same stub). Memoize the outcome per
-  // watch GUID so we only resolve each underlying file ONCE per run — that turns
-  // a 46-episode placeholder run into a single API call instead of 46.
-  if (expected && guidCache.has(expected)) return guidCache.get(expected);
+  // watch GUID+rendition so we only resolve each underlying file once per run —
+  // that turns a 46-episode placeholder run into a single API call instead of 46.
+  if (cacheKey && guidCache.has(cacheKey)) return guidCache.get(cacheKey);
 
   const body = aesEnvelope({ url, server, name, time });
   let resolved = '';
@@ -184,8 +201,8 @@ async function fetchDownloadLink({ url, server = '', name = '', time = 1 }) {
       await sleep((attempt === 0 ? 3000 : 8000) + Math.floor(Math.random() * 1500));
     }
   }
-  if (expected) guidCache.set(expected, resolved);
+  if (cacheKey) guidCache.set(cacheKey, resolved);
   return resolved;
 }
 
-module.exports = { API_BASE, SITE_BASE, UA, fetchPage, fetchCinemaData, fetchDownloadLink, languageCode, mediaGuid };
+module.exports = { API_BASE, SITE_BASE, UA, fetchPage, fetchCinemaData, fetchDownloadLink, languageCode, mediaGuid, renditionOf, guidKey };

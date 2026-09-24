@@ -30,6 +30,12 @@ const { computeRelevanceScore } = require('../../utils/relevanceScore');
 const TABLE = 'moviesv2';
 const BATCH_SIZE = parseInt(process.env.REBA_BATCH_SIZE, 10) || 50;
 const MAX_EPISODES = parseInt(process.env.REBA_MAX_EPISODES, 10) || 200;
+const Q_DEFAULT_QUALITY = 'mid';
+
+// Preferred rendition when the site exposes several sizes (720p / 480p / 144p).
+// Defaulting to mid (~480p ≈ 520MB) instead of hd (~720p ≈ 2GB) keeps downloads
+// reasonable; override via REBA_DOWNLOAD_QUALITY or --quality.
+const Q_PREFERENCE = { hd: ['hdVideo', 'midVideo', 'lowVideo'], mid: ['midVideo', 'hdVideo', 'lowVideo'], low: ['lowVideo', 'midVideo', 'hdVideo'] };
 
 const epKey = (s, e) => `s${s}e${e}`;
 
@@ -83,6 +89,7 @@ function parseArgs(argv) {
     pages: undefined,
     delayMs: parseInt(process.env.REBA_DELAY_MS, 10) || 120,
     refreshHours: parseInt(process.env.REBA_REFRESH_HOURS, 10) || 6,
+    quality: normalizeQuality(process.env.REBA_DOWNLOAD_QUALITY),
   };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--full') args.full = true;
@@ -93,8 +100,15 @@ function parseArgs(argv) {
     else if (argv[i] === '--pages') args.pages = parseInt(argv[++i], 10);
     else if (argv[i] === '--delay-ms') args.delayMs = parseInt(argv[++i], 10) || 120;
     else if (argv[i] === '--refresh-hours') args.refreshHours = parseInt(argv[++i], 10) || 6;
+    else if (argv[i] === '--quality') args.quality = normalizeQuality(argv[++i]);
   }
   return args;
+}
+
+/** Preferred video rendition key: hd } 720p, mid } 480p, low } 144p. */
+function normalizeQuality(q) {
+  const v = String(q || '').toLowerCase();
+  return v === 'low' || v === 'mid' || v === 'hd' ? v : Q_DEFAULT_QUALITY;
 }
 
 /** Rows added by this scraper: link = https://www.rebamovie.com/movie/{movieId}. */
@@ -156,7 +170,7 @@ async function repairDownloads(args) {
         continue;
       }
 
-      const { entries, changed } = mergeEntries(row.Downloadurls, specs, { singleSeason });
+const { entries, changed } = mergeEntries(row.Downloadurls, specs, { singleSeason, replace: true });
       if (changed) {
         enqueueRowUpdate(collector, { ...row }, entries, item);
         updated++;
@@ -212,10 +226,11 @@ function normNarratorName(item) {
 }
 
 /** Flatten cinemaData episodes (nested per season) into {s,e,video,server}. */
-function extractEpisodes(cinema) {
+function extractEpisodes(cinema, quality = Q_DEFAULT_QUALITY) {
   const perSeason = Array.isArray(cinema?.data?.episodes) ? cinema.data.episodes : [];
   const seen = new Set();
   const out = [];
+  const keys = Q_PREFERENCE[quality] || Q_PREFERENCE[Q_DEFAULT_QUALITY];
   for (let si = 0; si < perSeason.length; si++) {
     const list = Array.isArray(perSeason[si]) ? perSeason[si] : [];
     for (let ei = 0; ei < list.length; ei++) {
@@ -223,7 +238,7 @@ function extractEpisodes(cinema) {
       if (!ep) continue;
       const s = (ep.position?.seasonIndex ?? si) + 1;
       const e = ep.episode || (ep.position?.episodeIndex ?? ei) + 1;
-      const video = ep.video?.hdVideo || ep.video?.midVideo || ep.video?.lowVideo || '';
+      const video = keys.map((k) => ep.video?.[k]).find((v) => v) || '';
       if (!video) continue;
       // rebamovie sometimes lists the same S/E twice (a broken placeholder
       // share); only keep the first occurrence so we don't burn downloads
@@ -248,7 +263,7 @@ function extractEpisodes(cinema) {
 /** Build the rebamovie entry list for one catalog item. */
 async function buildSpecs(item, isSeason, cinema, args) {
   const showTitle = String(item.movieDataId?.title || '').trim();
-  const episodes = extractEpisodes(cinema).slice(0, MAX_EPISODES);
+  const episodes = extractEpisodes(cinema, args.quality).slice(0, MAX_EPISODES);
 
   if (!episodes.length) return { specs: [], singleSeason: false };
 
@@ -266,10 +281,10 @@ async function buildSpecs(item, isSeason, cinema, args) {
       await new Promise((r) => setTimeout(r, args.delayMs));
     }
   } else {
-    // Movie: site-exact name is "www.rebamovie.com_<Title>".
+    // Movie: plain title as the download filename (no site prefix).
     const ep = episodes[0];
     const downloadUrl = args.downloads
-      ? await fetchDownloadLink({ url: ep.video, server: ep.server, name: `www.rebamovie.com_${showTitle}`, time: 1 })
+      ? await fetchDownloadLink({ url: ep.video, server: ep.server, name: showTitle, time: 1 })
       : '';
     specs.push(makeMovieEntry(item, { watchUrl: ep.video, downloadUrl }));
   }
