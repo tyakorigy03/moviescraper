@@ -134,7 +134,8 @@ async function repairDownloads(args) {
   let updated = 0;
   let noVideo = 0;
 
-  for (const row of targets) {
+  for (let i = 0; i < targets.length; i++) {
+    const row = targets[i];
     const movieId = (row.link || '').split('/movie/')[1];
     if (!movieId) continue;
 
@@ -165,6 +166,10 @@ async function repairDownloads(args) {
     }
 
     if (collector.updates.length >= BATCH_SIZE) await flushWrites(collector);
+    // Visible heartbeat so long series don't look like a hang.
+    if ((i + 1) % 10 === 0 || i + 1 === targets.length) {
+      logInfo(`repair progress: ${i + 1}/${targets.length} rows done (${updated} updated this run)`);
+    }
     await new Promise((r) => setTimeout(r, args.delayMs));
   }
 

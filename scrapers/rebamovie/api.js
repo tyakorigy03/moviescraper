@@ -69,6 +69,10 @@ let cooldownUntil = 0;
 let emptyStrikes = 0;
 const DL_MIN_GAP_MS = parseInt(process.env.REBA_DL_MIN_GAP_MS, 10) || 500;
 
+// watch-GUID → download URL (or '' for a known placeholder). Ensures we never
+// hit /downloadData twice for the same underlying file in one process.
+const guidCache = new Map();
+
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
@@ -144,7 +148,15 @@ async function fetchDownloadLink({ url, server = '', name = '', time = 1 }) {
   // rebamovie's side: one fast retry, then give up so we never store a stale
   // URL for a different file and don't burn minutes hammering a dead episode.
   const expected = mediaGuid(url);
+
+  // The site shares ONE placeholder GUID across many episodes of a broken title
+  // (e.g. KUIFI S01E32-E77 all map to the same stub). Memoize the outcome per
+  // watch GUID so we only resolve each underlying file ONCE per run — that turns
+  // a 46-episode placeholder run into a single API call instead of 46.
+  if (expected && guidCache.has(expected)) return guidCache.get(expected);
+
   const body = aesEnvelope({ url, server, name, time });
+  let resolved = '';
   for (let attempt = 0; attempt < 3; attempt++) {
     await paceDownload();
     try {
@@ -152,19 +164,18 @@ async function fetchDownloadLink({ url, server = '', name = '', time = 1 }) {
       const dl = String(res?.url || res || '').trim();
       if (dl && (!expected || mediaGuid(dl) === expected)) {
         noteOk();
-        return dl;
+        resolved = dl;
+        break;
       }
       const mismatch = !!dl;
-      logError(
-        mismatch
-          ? `downloadData mismatch for ${name} — broken/placeholder video, giving up`
-          : `downloadData empty for ${name} (attempt ${attempt + 1})`
-      );
       if (mismatch) {
-        noteEmpty();
+        // Persistent per-file state, not a rate-limit signal: don't raise the
+        // cooldown (that would stall unrelated good episodes for 20s each).
+        logError(`downloadData mismatch for ${name} — broken/placeholder video, giving up`);
         if (attempt === 0) await sleep(1500 + Math.floor(Math.random() * 1000));
         break; // real file problem — stop retrying
       }
+      logError(`downloadData empty for ${name} (attempt ${attempt + 1})`);
       noteEmpty();
     } catch (err) {
       logError(`downloadData failed for ${name}: ${err.message}`);
@@ -173,7 +184,8 @@ async function fetchDownloadLink({ url, server = '', name = '', time = 1 }) {
       await sleep((attempt === 0 ? 3000 : 8000) + Math.floor(Math.random() * 1500));
     }
   }
-  return '';
+  if (expected) guidCache.set(expected, resolved);
+  return resolved;
 }
 
 module.exports = { API_BASE, SITE_BASE, UA, fetchPage, fetchCinemaData, fetchDownloadLink, languageCode, mediaGuid };
