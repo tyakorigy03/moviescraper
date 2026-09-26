@@ -27078,5 +27078,9 @@
   {
     "message": "downloadData mismatch for Raayan — broken/placeholder video, giving up",
     "timestamp": "2026-09-26T09:05:38.273Z"
+  },
+  {
+    "message": "Failed merged part row https://agasobanuyelive.com/wild-heart-s01-yabani-review-2/: duplicate key value violates unique constraint \"unique_link\"",
+    "timestamp": "2026-09-26T10:13:12.423Z"
   }
 ]
