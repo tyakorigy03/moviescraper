@@ -24530,5 +24530,9 @@
   {
     "message": "Failed merged part row https://agasobanuyelive.com/wild-heart-s01-yabani-review-2/: duplicate key value violates unique constraint \"unique_link\"",
     "timestamp": "2026-09-25T21:25:54.465Z"
+  },
+  {
+    "message": "Failed merged part row https://agasobanuyelive.com/wild-heart-s01-yabani-review-2/: duplicate key value violates unique constraint \"unique_link\"",
+    "timestamp": "2026-09-26T00:09:26.248Z"
   }
 ]
