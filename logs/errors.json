@@ -25806,5 +25806,9 @@
   {
     "message": "downloadData empty for Dhaakad (attempt 3)",
     "timestamp": "2026-09-26T04:21:20.287Z"
+  },
+  {
+    "message": "Failed merged part row https://agasobanuyelive.com/wild-heart-s01-yabani-review-2/: duplicate key value violates unique constraint \"unique_link\"",
+    "timestamp": "2026-09-26T05:24:18.399Z"
   }
 ]
