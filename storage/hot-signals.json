@@ -1,21 +1,21 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27T13:01:57.021Z",
+  "updatedAt": "2026-09-27T17:03:47.096Z",
   "signals": {
-    "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
-      "hot": 3.7,
+    "https://www.rebamovie.com/movie/b5fc4c52-2f9e-4ecf-8aa3-72d9c2e7be21": {
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/agent-kim-reactivated-s01-review/": {
+    "https://www.rebamovie.com/movie/b0cdfce2-c1ea-4f15-af81-a2d4676c4402": {
       "hot": 1.9,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/e48e1e92-0430-455a-b4fa-a5984ae113a2": {
-      "hot": 5.5,
+    "https://www.rebamovie.com/movie/00a96740-8d77-43a5-9d7f-408c4748cfde": {
+      "hot": 7.3,
       "sources": [
         "recomputed"
       ]
@@ -32,13 +32,25 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
-      "hot": 8.3,
+    "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/0b83ce4c-905d-4cae-896f-6b807a29f88b": {
+    "https://agasobanuyelive.com/outer-banks-season-02-review/": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/outer-banks-season-03-review/": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/agent-kim-reactivated-s01-review/": {
       "hot": 1.9,
       "sources": [
         "recomputed"
@@ -50,68 +62,8 @@
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/outer-banks-season-02-review/": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/00a96740-8d77-43a5-9d7f-408c4748cfde": {
-      "hot": 9.1,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/261dd280-65da-4d30-bbe4-e4cc121a57fd": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/avatar-the-last-airbender-s01-review/": {
-      "hot": 4.6,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/outer-banks-season-03-review/": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/8570f57d-c3ea-43f2-9c47-7caf4759bd69": {
-      "hot": 8.2,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/outer-banks-season-04-review/": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://agasobanuyelive.com/wrong-turn-1-review/": {
       "hot": 1.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/outer-banks-season-01-review/": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/c544e963-1caa-4296-bba2-4a58e76e699d": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
-      "hot": 10,
       "sources": [
         "recomputed"
       ]
@@ -122,8 +74,50 @@
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
+      "hot": 9.2,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/8570f57d-c3ea-43f2-9c47-7caf4759bd69": {
+      "hot": 6.4,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/e48e1e92-0430-455a-b4fa-a5984ae113a2": {
+      "hot": 5.5,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/avatar-the-last-airbender-s01-review/": {
+      "hot": 4.6,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/outer-banks-season-04-review/": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/4abff8af-ddd5-4602-9cfb-b1b50dec5402": {
       "hot": 4.6,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/outer-banks-season-01-review/": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
@@ -141,7 +135,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/b5e912d3-e021-45ca-8196-5b97fd261b34": {
-      "hot": 3.7,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
