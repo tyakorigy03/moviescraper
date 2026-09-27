@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26T23:10:57.681Z",
+  "updatedAt": "2026-09-27T13:01:57.021Z",
   "signals": {
+    "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/agent-kim-reactivated-s01-review/": {
+      "hot": 1.9,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/e48e1e92-0430-455a-b4fa-a5984ae113a2": {
       "hot": 5.5,
       "sources": [
@@ -20,37 +32,13 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
-      "hot": 9.2,
+      "hot": 8.3,
       "sources": [
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/beauty-in-black-s01-review/": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/b5fc4c52-2f9e-4ecf-8aa3-72d9c2e7be21": {
-      "hot": 2.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/b0cdfce2-c1ea-4f15-af81-a2d4676c4402": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/agent-kim-reactivated-s01-review/": {
+    "https://www.rebamovie.com/movie/0b83ce4c-905d-4cae-896f-6b807a29f88b": {
       "hot": 1.9,
       "sources": [
         "recomputed"
@@ -98,20 +86,8 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/c544e963-1caa-4296-bba2-4a58e76e699d": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://agasobanuyelive.com/outer-banks-season-04-review/": {
       "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/4abff8af-ddd5-4602-9cfb-b1b50dec5402": {
-      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -122,14 +98,32 @@
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
-      "hot": 5.5,
+    "https://agasobanuyelive.com/outer-banks-season-01-review/": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/outer-banks-season-01-review/": {
+    "https://www.rebamovie.com/movie/c544e963-1caa-4296-bba2-4a58e76e699d": {
       "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/beauty-in-black-s01-review/": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/4abff8af-ddd5-4602-9cfb-b1b50dec5402": {
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -147,7 +141,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/b5e912d3-e021-45ca-8196-5b97fd261b34": {
-      "hot": 4.6,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
