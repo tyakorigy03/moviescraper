@@ -31034,5 +31034,9 @@
   {
     "message": "downloadData failed for Paradox: Request failed with status code 500",
     "timestamp": "2026-09-27T09:32:12.745Z"
+  },
+  {
+    "message": "Failed merged part row https://agasobanuyelive.com/wild-heart-s01-yabani-review-2/: duplicate key value violates unique constraint \"unique_link\"",
+    "timestamp": "2026-09-27T15:19:02.211Z"
   }
 ]
