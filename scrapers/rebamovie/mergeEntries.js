@@ -32,6 +32,7 @@ const {
   coreTitle, locator, isSlowHost, isServerEntry, hostOf,
   seasonOfTitle, familyKey, isPartSuffixTitle,
 } = require('../agasobanuyenow/keys');
+const { mediaGuid, renditionOf } = require('./api');
 
 const GOOD_CDN_HOSTS = new Set([
   'media.agasobanuyenow.com',
@@ -42,6 +43,51 @@ const GOOD_CDN_HOSTS = new Set([
 ]);
 
 const isGoodCdn = (url = '') => GOOD_CDN_HOSTS.has(hostOf(url));
+
+/** Content fingerprint that IGNORES the signed token: GUID + rendition only. */
+function entryGuidFingerprint(e = {}) {
+  const watch = mediaGuid(e.watchUrl || '') || mediaGuid(e.downloadUrl || '');
+  const rendition = renditionOf(e.watchUrl || e.downloadUrl || '');
+  return `${String(e.title || '').trim()}|${watch}|${rendition}`;
+}
+
+/**
+ * Media identity WITHOUT the title, ignoring the signed token: GUID + rendition.
+ * Falls back to the raw URL when no GUID can be extracted (non-reba hosts), so
+ * it degrades to the old exact-URL comparison instead of collapsing everything.
+ */
+function mediaFingerprint(e = {}) {
+  const u = e.watchUrl || e.downloadUrl || '';
+  const guid = mediaGuid(u);
+  if (guid) return `g:${guid}|${renditionOf(u)}`;
+  const d = e.downloadUrl || '';
+  return d ? `u:${d}` : '';
+}
+
+/**
+ * How "good" an entry is — used to pick a winner when duplicate slots for the
+ * same episode have to be collapsed. Prefers a playable good-CDN download,
+ * then any download, then a good-CDN watch URL.
+ */
+function entryRank(e = {}) {
+  const d = e.downloadUrl || '';
+  const w = e.watchUrl || '';
+  return (d ? 4 : 0) + (isGoodCdn(d) ? 8 : 0) + (w ? 2 : 0) + (isGoodCdn(w) ? 1 : 0);
+}
+
+/**
+ * True when two Downloadurls arrays describe the SAME underlying content, even
+ * if the Wix-signed URLs were re-minted (fresh tokens). Used to keep delta
+ * re-resolves from churning the DB: a refresh that only rotates the signature
+ * is not a material change and must not bump modifiedAt/rewrite Downloadurls.
+ */
+function entriesContentEqual(a = [], b = []) {
+  if (!Array.isArray(a) || !Array.isArray(b)) return false;
+  if (a.length !== b.length) return false;
+  const fa = a.map(entryGuidFingerprint).sort();
+  const fb = b.map(entryGuidFingerprint).sort();
+  return fa.every((f, i) => f === fb[i]);
+}
 
 function normType(type) {
   const t = String(type || '').toLowerCase();
@@ -141,7 +187,8 @@ function seasonEpOf(loc = '') {
  *  - movie parts ("Shelter A"/"Shelter B") collapse into the whole rebamovie
  *    CDN entry when one arrives (with the parts archived, not appended as a
  *    third row);
- *  - untracked episodes/parts get APPENDED (no duplicates by locator/title).
+ *  - untracked episodes/parts get APPENDED (no duplicates by media identity —
+ *    GUID+rendition, so a rotated Wix signature never appends a copy);
  *
  * @param {Array} existing  current Downloadurls
  * @param {Array} specs     entries to merge in ({title, watchUrl, downloadUrl, direct})
@@ -169,6 +216,38 @@ function mergeEntries(existing, specs, { singleSeason = false, replace = false, 
     const k = keyFor(entry.title);
     if (!byKey.has(k)) byKey.set(k, []);
     byKey.get(k).push(entry);
+  }
+
+  // Self-heal duplicated slots. Older runs appended the same episode again
+  // whenever the signed URL was re-minted: the append guard below compared FULL
+  // URLs, so a fresh Wix token always looked "new" and rows grew copies of the
+  // same episode (one title reached 30 entries for 3 real episodes). Collapse
+  // each key to the single best entry, archiving the dropped downloads so
+  // nothing is silently lost. This makes the list self-correcting on the next run.
+  const losers = new Set();
+  for (const key of [...byKey.keys()]) {
+    const group = byKey.get(key);
+    if (group.length < 2) continue;
+    let winner = group[0];
+    for (const cand of group.slice(1)) {
+      if (entryRank(cand) > entryRank(winner)) winner = cand;
+    }
+    const archived = new Set((winner.oldDownloadUrl || '').split(' | ').filter(Boolean));
+    for (const loser of group) {
+      if (loser === winner) continue;
+      losers.add(loser);
+      const prior = (loser.downloadUrl || '').trim();
+      if (prior && prior !== winner.downloadUrl) archived.add(prior);
+    }
+    if (archived.size) winner.oldDownloadUrl = [...archived].join(' | ');
+    byKey.set(key, [winner]);
+  }
+  if (losers.size) {
+    // Rebuild in place (same relative order) so downstream code that compares
+    // positions — and the returned entries array — stays stable.
+    for (let i = plain.length - 1; i >= 0; i--) {
+      if (losers.has(plain[i])) plain.splice(i, 1);
+    }
   }
 
   let touched = false;
@@ -270,10 +349,14 @@ function mergeEntries(existing, specs, { singleSeason = false, replace = false, 
       continue;
     }
 
-    // New episode/part/variant — append unless a URL duplicate already exists.
-    const dup = plain.some(
-      (e) => e.downloadUrl && spec.downloadUrl && e.downloadUrl === spec.downloadUrl
-    ) || plain.some((e) => e.watchUrl && spec.watchUrl && e.watchUrl === spec.watchUrl);
+    // New episode/part/variant — append unless the same MEDIA is already here.
+    // Compared by GUID+rendition (token-insensitive): a re-minted Wix signature
+    // on an already-stored episode must NOT be appended as a duplicate entry.
+    const fp = mediaFingerprint(spec);
+    const dup = (fp && plain.some((e) => mediaFingerprint(e) === fp)) ||
+      plain.some(
+        (e) => e.downloadUrl && spec.downloadUrl && e.downloadUrl === spec.downloadUrl
+      ) || plain.some((e) => e.watchUrl && spec.watchUrl && e.watchUrl === spec.watchUrl);
     if (dup) continue;
 
     if (spec.downloadUrl || spec.watchUrl) {
@@ -292,4 +375,4 @@ function mergeEntries(existing, specs, { singleSeason = false, replace = false, 
   return { entries, changed };
 }
 
-module.exports = { matchEntity, matchEntityRows, makeMovieEntry, makeEpisodeEntry, mergeEntries, normType, normNarrator, isGoodCdn, seasonOfTitle };
+module.exports = { matchEntity, matchEntityRows, makeMovieEntry, makeEpisodeEntry, mergeEntries, normType, normNarrator, isGoodCdn, seasonOfTitle, entriesContentEqual, mediaFingerprint, entryRank };

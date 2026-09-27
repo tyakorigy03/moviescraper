@@ -46,6 +46,31 @@ function extractMp4Urls(html = '') {
 }
 
 /** Prefer the variant that includes the narrator's name, else the first. */
+function extractPostMeta(html = '') {
+  const out = { publishedAt: '', modifiedAt: '' };
+  const re = /<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
+  let m;
+  while ((m = re.exec(html)) !== null) {
+    try {
+      const data = JSON.parse(m[1].trim());
+      const nodes = Array.isArray(data['@graph']) ? data['@graph'] : [data];
+      for (const node of nodes) {
+        if (!node) continue;
+        const types = Array.isArray(node['@type']) ? node['@type'] : [node['@type']];
+        if (!types.includes('BlogPosting') && !types.includes('Article') && !types.includes('Movie') && !types.includes('TVSeries')) continue;
+        if (node.datePublished && !out.publishedAt) out.publishedAt = node.datePublished;
+        if (node.dateModified && !out.modifiedAt) out.modifiedAt = node.dateModified;
+        if (out.publishedAt && out.modifiedAt) return out;
+      }
+    } catch {
+      // not JSON — keep scanning
+    }
+  }
+  return out;
+}
+
+const metaOf = (html) => extractPostMeta(html);
+
 function pickBest(urls = [], narrator = '') {
   if (!urls.length) return null;
   const low = String(narrator || '').toLowerCase().split(/\s+/).filter(Boolean);
@@ -123,10 +148,11 @@ async function resolveMovie({ slug, title, narrator, deep = false }) {
     } catch {
       continue;
     }
+    const meta = metaOf(html);
     const urls = extractMp4Urls(html);
     const best = pickBest(urls, narrator);
     if (best) {
-      return { downloadUrl: best, watchUrl: pageUrl, ok: true };
+      return { downloadUrl: best, watchUrl: pageUrl, ok: true, ...meta };
     }
   }
 
@@ -158,11 +184,12 @@ async function resolveEpisode({ slug, s, e, showTitle, narrator, deep = false })
     } catch {
       continue;
     }
+    const meta = metaOf(html);
     const urls = extractMp4Urls(html);
     if (urls.length) {
       const best = pickBest(urls, narrator);
       if (best) {
-        return { downloadUrl: best, watchUrl: extractWatchUrl(html, watchUrl), ok: true };
+        return { downloadUrl: best, watchUrl: extractWatchUrl(html, watchUrl), ok: true, ...meta };
       }
     }
   }
@@ -177,4 +204,4 @@ async function resolveEpisode({ slug, s, e, showTitle, narrator, deep = false })
   return { downloadUrl: '', watchUrl, ok: false };
 }
 
-module.exports = { resolveMovie, resolveEpisode, fetchHtml, extractMp4Urls, verifyMp4, BASE };
+module.exports = { resolveMovie, resolveEpisode, fetchHtml, extractMp4Urls, verifyMp4, extractPostMeta, BASE };

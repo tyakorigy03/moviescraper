@@ -22,7 +22,7 @@ const { logInfo, logError } = require('../../utils/logger');
 const { fetchCatalog } = require('./catalog');
 const { fetchCinemaData, fetchDownloadLink, SITE_BASE } = require('./api');
 const { loadState, saveState } = require('./state');
-const { matchEntity, matchEntityRows, makeMovieEntry, makeEpisodeEntry, mergeEntries, normType, seasonOfTitle } = require('./mergeEntries');
+const { matchEntity, matchEntityRows, makeMovieEntry, makeEpisodeEntry, mergeEntries, normType, seasonOfTitle, entriesContentEqual } = require('./mergeEntries');
 const { coreTitle } = require('../agasobanuyenow/keys');
 const { enrichWithTMDB } = require('../../services/enrichWithTmdb');
 const { computeRelevanceScore } = require('../../utils/relevanceScore');
@@ -520,7 +520,10 @@ async function processItem(item, row, rows, insertedThisRun, collector, state, a
           singleSeason: true,
           rowSeason: scoped ? s : '',
         });
-        if (changed) {
+        // Signature-only refresh (same GUIDs, new Wix token) is not a material
+        // change: the frontend token fresher rotates signed URLs on demand, so
+        // skip the write and DON'T bump modifiedAt.
+        if (changed && !entriesContentEqual(seasonRow.Downloadurls, entries)) {
           enqueueRowUpdate(collector, seasonRow, entries, item);
           anyChanged = true;
         }
@@ -530,7 +533,9 @@ async function processItem(item, row, rows, insertedThisRun, collector, state, a
       return { skipped: false };
     }
     const { entries, changed } = mergeEntries(row.Downloadurls, specs, { singleSeason });
-    if (changed) enqueueRowUpdate(collector, row, entries, item);
+    if (changed && !entriesContentEqual(row.Downloadurls, entries)) {
+      enqueueRowUpdate(collector, row, entries, item);
+    }
   } else if (args.insertNew) {
     const { entries } = mergeEntries([], specs, { singleSeason });
     const rowObj = await buildInsertRow(item, entries, {

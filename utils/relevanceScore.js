@@ -15,8 +15,14 @@ function computeRelevanceScore({
   publishedAt = '',
   modifiedAt = '',
   narrator = '',
-  title = ''
+  title = '',
+  hot = 0
 }) {
+  // 🌡️ External "hot" signal (rank/recency across agasobanuyebox, rebamovie
+  // lists, agasobanuyelive, oshakurfilms) — a capped, always-additive boost.
+  // Hot can move on its own cadence without the entity (title/link/entries)
+  // churning, so scores stay stable while genuinely-popular titles float up.
+  hot = Number(hot) || 0;
   let score = 0;
 
   // 🎬 TMDB rating
@@ -61,6 +67,10 @@ function computeRelevanceScore({
   if (hasContinuationHint) updateFactor += 1;
 
   score += updateFactor;
+
+  // 🌡️ Hot boost — capped at +10 so it can reorder but never dominate
+  // quality entirely on its own.
+  score += Math.max(0, Math.min(hot, 10));
 
   return Math.round(score * 10) / 10;
 }

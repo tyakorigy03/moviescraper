@@ -1,10 +1,14 @@
 const supabase = require('../services/supabaseClient');
 const { logInfo, logError } = require('./logger');
 const { computeRelevanceScore } = require('./relevanceScore');
+const { loadHotSnapshot, hotOf } = require('./hotSignals');
 
 const BATCH_SIZE = 200;
 
 async function updateMovieScores() {
+  // Preserve the hot boost term on the weekly full recalc: snapshot built by
+  // the hotsignals scraper (npm run scrape5) maps link -> capped 0..10 hot.
+  const hotSnapshot = await loadHotSnapshot();
   let from = 0;
   let totalUpdated = 0;
 
@@ -32,6 +36,7 @@ async function updateMovieScores() {
         modifiedAt: movie.modifiedAt || '',
         narrator: movie.narrator || '',
         title: movie.title || '',
+        hot: hotOf(hotSnapshot, movie.link || ''),
       }),
     }));
 
