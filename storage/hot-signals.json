@@ -1,21 +1,27 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27T21:24:00.810Z",
+  "updatedAt": "2026-09-28T05:28:39.911Z",
   "signals": {
-    "https://www.rebamovie.com/movie/b5fc4c52-2f9e-4ecf-8aa3-72d9c2e7be21": {
-      "hot": 1.9,
+    "https://www.rebamovie.com/movie/00a96740-8d77-43a5-9d7f-408c4748cfde": {
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/00a96740-8d77-43a5-9d7f-408c4748cfde": {
-      "hot": 7.3,
+    "https://www.rebamovie.com/movie/c544e963-1caa-4296-bba2-4a58e76e699d": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-03-review/": {
       "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/261dd280-65da-4d30-bbe4-e4cc121a57fd": {
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
@@ -27,31 +33,13 @@
       ]
     },
     "https://www.rebamovie.com/movie/8570f57d-c3ea-43f2-9c47-7caf4759bd69": {
-      "hot": 6.4,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/avatar-the-last-airbender-s01-review/": {
-      "hot": 4.6,
+      "hot": 5.6,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-04-review/": {
       "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/0e7d0ee3-0dc3-44d7-a667-fae087b7b01e": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/36f985a2-4175-4da6-9bbd-815d00ae7fcd": {
-      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -93,7 +81,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/e48e1e92-0430-455a-b4fa-a5984ae113a2": {
-      "hot": 5.5,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -128,20 +116,14 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/0104d60b-6ae1-4301-9dbc-a3f1a78acbfa": {
-      "hot": 2.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/b5e912d3-e021-45ca-8196-5b97fd261b34": {
-      "hot": 3.7,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/alpha-review/": {
-      "hot": 6.4,
+      "hot": 7.3,
       "sources": [
         "recomputed"
       ]
@@ -153,7 +135,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/e10a6fc1-9529-482c-8ca7-16f077243576": {
-      "hot": 10,
+      "hot": 8.3,
       "sources": [
         "recomputed"
       ]
