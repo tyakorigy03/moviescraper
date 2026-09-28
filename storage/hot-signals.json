@@ -1,15 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T05:28:39.911Z",
+  "updatedAt": "2026-09-28T14:01:42.602Z",
   "signals": {
     "https://www.rebamovie.com/movie/00a96740-8d77-43a5-9d7f-408c4748cfde": {
       "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/c544e963-1caa-4296-bba2-4a58e76e699d": {
-      "hot": 10,
       "sources": [
         "recomputed"
       ]
@@ -45,7 +39,7 @@
       ]
     },
     "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
-      "hot": 3.7,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
@@ -80,12 +74,6 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/e48e1e92-0430-455a-b4fa-a5984ae113a2": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/4abff8af-ddd5-4602-9cfb-b1b50dec5402": {
       "hot": 4.6,
       "sources": [
@@ -100,6 +88,36 @@
     },
     "https://www.rebamovie.com/movie/a0bedacb-4a6b-4f00-884a-17f5b1e98b6a": {
       "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/c544e963-1caa-4296-bba2-4a58e76e699d": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/e48e1e92-0430-455a-b4fa-a5984ae113a2": {
+      "hot": 1.9,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/59d6f167-2e61-4f19-95ff-bf4580491a87": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/90ad2917-1538-4146-b585-ec1457cb5e7e": {
+      "hot": 9.1,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/7085f5a6-4510-4efb-a753-07f5dd9876ff": {
+      "hot": 7.3,
       "sources": [
         "recomputed"
       ]
