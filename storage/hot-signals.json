@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T14:01:42.602Z",
+  "updatedAt": "2026-09-28T23:19:20.590Z",
   "signals": {
     "https://www.rebamovie.com/movie/00a96740-8d77-43a5-9d7f-408c4748cfde": {
-      "hot": 3.7,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -15,7 +15,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/261dd280-65da-4d30-bbe4-e4cc121a57fd": {
-      "hot": 6.4,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -27,19 +27,13 @@
       ]
     },
     "https://www.rebamovie.com/movie/8570f57d-c3ea-43f2-9c47-7caf4759bd69": {
-      "hot": 5.6,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-04-review/": {
       "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
-      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
@@ -98,32 +92,44 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/e48e1e92-0430-455a-b4fa-a5984ae113a2": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/59d6f167-2e61-4f19-95ff-bf4580491a87": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/90ad2917-1538-4146-b585-ec1457cb5e7e": {
-      "hot": 9.1,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/7085f5a6-4510-4efb-a753-07f5dd9876ff": {
-      "hot": 7.3,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
       "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
+      "hot": 2.8,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/59d6f167-2e61-4f19-95ff-bf4580491a87": {
+      "hot": 7.3,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/90ad2917-1538-4146-b585-ec1457cb5e7e": {
+      "hot": 6.4,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/9ee35155-5d87-432f-97a5-ccede274e404": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/c3851a52-cb88-4208-9952-c85b90149f41": {
+      "hot": 8.2,
       "sources": [
         "recomputed"
       ]
@@ -153,7 +159,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/e10a6fc1-9529-482c-8ca7-16f077243576": {
-      "hot": 8.3,
+      "hot": 6.5,
       "sources": [
         "recomputed"
       ]
