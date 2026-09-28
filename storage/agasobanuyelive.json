@@ -614,43 +614,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/03/Ruined.jpg",
       "publishedAt": "2025-03-04T14:33:54+02:00",
       "modifiedAt": "2025-03-04T14:33:54+02:00",
-      "genres": [
-        "Movie",
-        "Sankara Da Premiere",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Ruined",
-          "watchUrl": "https://anonsharing.com/file/9a493dd20f6bc398/Ruined.mp4",
-          "downloadUrl": "https://anonsharing.com/file/9a493dd20f6bc398/Ruined.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "Aug 17, 2023",
-      "country": "United States",
-      "tmdb_id": 1163895,
-      "tmdb_rating": 7,
-      "popularity": 2.1475,
-      "tmdb_overview": "When a woman seeks counseling to save her marriage, she has no idea that her therapist shares a secret past with her husband and is out for revenge. In this psychological thriller, no one can trust anyone, and one of them may not survive.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Ruined",
-      "tmdb_year": 2023,
-      "poster_small": "https://image.tmdb.org/t/p/w185/vxz2vvkBBLmUmh7UV1GB6flCj8E.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/vxz2vvkBBLmUmh7UV1GB6flCj8E.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/vxz2vvkBBLmUmh7UV1GB6flCj8E.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/vxz2vvkBBLmUmh7UV1GB6flCj8E.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/iSG2bNWy6Yms8Y2mBLmCCR1Gt6H.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/iSG2bNWy6Yms8Y2mBLmCCR1Gt6H.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/iSG2bNWy6Yms8Y2mBLmCCR1Gt6H.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/iSG2bNWy6Yms8Y2mBLmCCR1Gt6H.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/saripodhaa-sanivaaram-review/",
@@ -955,50 +921,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2023/12/Blood-Red-Sky.jpg",
       "publishedAt": "2025-11-25T16:30:57+02:00",
       "modifiedAt": "2025-11-25T16:31:27+02:00",
-      "genres": [
-        "Action",
-        "Drama",
-        "Germany",
-        "Horror",
-        "Movie",
-        "Rocky",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Blood Red Sky A",
-          "watchUrl": "https://rumble.com/embed/v6zztzs/YO0yv2FMkb",
-          "downloadUrl": "https://www.mediafire.com/file/bzhuasyn57q4pqq/Blood_Red_Sky_A.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "Blood Red Sky B",
-          "watchUrl": "https://rumble.com/embed/v6zzu16/Z6njQNrrG4",
-          "downloadUrl": "https://www.mediafire.com/file/3kqpqr3zoq6jji4/Blood_Red_Sky_B.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Rocky",
-      "release_date": "July 23, 2021",
-      "country": "Germany|United States",
-      "tmdb_id": 760883,
-      "tmdb_rating": 6.768,
-      "popularity": 7.1588,
-      "tmdb_overview": "A woman with a mysterious illness is forced into action when a group of terrorists attempt to hijack a transatlantic overnight flight. In order to protect her son she will have to reveal a dark secret, and unleash the inner monster she has fought to hide.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Blood Red Sky",
-      "tmdb_year": 2021,
-      "poster_small": "https://image.tmdb.org/t/p/w185/v7aOJKI5vxCHotHvN8O7SR6SpP6.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/v7aOJKI5vxCHotHvN8O7SR6SpP6.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/v7aOJKI5vxCHotHvN8O7SR6SpP6.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/v7aOJKI5vxCHotHvN8O7SR6SpP6.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/s15olg5LwRqTjgDd5KIfVXhcoqs.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/s15olg5LwRqTjgDd5KIfVXhcoqs.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/s15olg5LwRqTjgDd5KIfVXhcoqs.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/s15olg5LwRqTjgDd5KIfVXhcoqs.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -1017,50 +941,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/10/furiosa.jpg",
       "publishedAt": "2025-10-13T16:45:53+02:00",
       "modifiedAt": "2025-10-13T16:55:40+02:00",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Australia",
-        "Gaheza",
-        "Movie",
-        "Sci-Fi",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Furiosa: A Mad Max Saga A",
-          "watchUrl": "https://rumble.com/embed/v6y0j9a/sxEuFOAy9S",
-          "downloadUrl": "https://www.mediafire.com/file/sey2mki6cslk94n/Furiosa_Mad_Max_Saga_A.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "Furiosa: A Mad Max Saga B",
-          "watchUrl": "https://rumble.com/embed/v6y0j8w/5dhKpQVcvZ",
-          "downloadUrl": "https://www.mediafire.com/file/jdql28i5xdozczw/Furiosa_Mad_Max_Saga_B.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Gaheza",
-      "release_date": "May 24, 2024",
-      "country": "Australia|United States",
-      "tmdb_id": 786892,
-      "tmdb_rating": 7.444,
-      "popularity": 31.3842,
-      "tmdb_overview": "As the world falls, young Furiosa is snatched from the Green Place of Many Mothers into the hands of a great biker horde led by the warlord Dementus. Sweeping through the wasteland, they encounter the citadel presided over by Immortan Joe. The two tyrants wage war for dominance, and Furiosa must survive many trials as she puts together the means to find her way home.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Furiosa: A Mad Max Saga",
-      "tmdb_year": 2024,
-      "poster_small": "https://image.tmdb.org/t/p/w185/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -1069,43 +951,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/07/Brick.jpg",
       "publishedAt": "2025-11-08T21:53:08+02:00",
       "modifiedAt": "2025-11-08T21:54:47+02:00",
-      "genres": [
-        "Drama",
-        "Germany",
-        "Movie",
-        "Mystery",
-        "Sankara Da Premiere",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Brick",
-          "watchUrl": "https://rumble.com/embed/v6z73j8/Yay6o6wG6R",
-          "downloadUrl": "https://www.mediafire.com/file/98b9l8o5t9otw9u/Brick.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "July 10, 2025",
-      "country": "Germany",
-      "tmdb_id": 1425045,
-      "tmdb_rating": 5.795,
-      "popularity": 7.8774,
-      "tmdb_overview": "When a mysterious brick wall encloses their apartment building overnight, Tim and Olivia must unite with their wary neighbors to get out alive.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Brick",
-      "tmdb_year": 2025,
-      "poster_small": "https://image.tmdb.org/t/p/w185/vTX9CxFNEQOlfXsgqec7xmc5UtD.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/vTX9CxFNEQOlfXsgqec7xmc5UtD.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/vTX9CxFNEQOlfXsgqec7xmc5UtD.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/vTX9CxFNEQOlfXsgqec7xmc5UtD.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/apNfldKI3RiaukNwJzr8EjRG7Wc.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/apNfldKI3RiaukNwJzr8EjRG7Wc.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/apNfldKI3RiaukNwJzr8EjRG7Wc.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/apNfldKI3RiaukNwJzr8EjRG7Wc.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -1134,42 +981,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/11/Texas-Chainsaw-Massacre.jpg",
       "publishedAt": "2025-11-03T16:44:52+02:00",
       "modifiedAt": "2025-11-03T16:44:52+02:00",
-      "genres": [
-        "Crime",
-        "Horror",
-        "Movie",
-        "Sankara Da Premiere",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Texas Chain Saw Massacre",
-          "watchUrl": "https://rumble.com/embed/v6yzd44/Khz9myS9L4",
-          "downloadUrl": "https://www.mediafire.com/file/iv61tceelgy4yfq/Texas_Chainsaw_Massacre.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "Feb 18, 2022",
-      "country": "United States",
-      "tmdb_id": 632727,
-      "tmdb_rating": 5.2,
-      "popularity": 8.6397,
-      "tmdb_overview": "After nearly 50 years of hiding, Leatherface returns to terrorize a group of idealistic influencers who accidentally disrupt his carefully shielded world in a remote Texas town.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Texas Chainsaw Massacre",
-      "tmdb_year": 2022,
-      "poster_small": "https://image.tmdb.org/t/p/w185/7sKiGNWFM15WNyY7LYd5vmb3brO.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/7sKiGNWFM15WNyY7LYd5vmb3brO.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/7sKiGNWFM15WNyY7LYd5vmb3brO.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/7sKiGNWFM15WNyY7LYd5vmb3brO.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/aTSA5zMWlVFTYBIZxTCMbLkfOtb.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/aTSA5zMWlVFTYBIZxTCMbLkfOtb.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/aTSA5zMWlVFTYBIZxTCMbLkfOtb.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/aTSA5zMWlVFTYBIZxTCMbLkfOtb.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -1488,41 +1301,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/10/Iron-Lady-Sniper.jpg",
       "publishedAt": "2025-10-16T17:14:02+02:00",
       "modifiedAt": "2025-10-16T17:14:02+02:00",
-      "genres": [
-        "Action",
-        "B da great",
-        "China",
-        "Movie",
-        "War"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Iron Lady Sniper",
-          "watchUrl": "https://rumble.com/embed/v6xvqye/rXdtNz0D8x",
-          "downloadUrl": "https://www.mediafire.com/file/pbuhosou08k3wga/Iron_Lady_Sniper.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "B da great",
-      "release_date": "Jun 9, 2024",
-      "country": "China",
-      "tmdb_id": 1301969,
-      "tmdb_rating": 5,
-      "popularity": 1.2027,
-      "tmdb_overview": "",
-      "tmdb_type": "movie",
-      "tmdb_title": "Iron Lady Sniper",
-      "tmdb_year": 2024,
-      "poster_small": "https://image.tmdb.org/t/p/w185/nwbYFSEspDLYxNgoipEx12ri875.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/nwbYFSEspDLYxNgoipEx12ri875.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/nwbYFSEspDLYxNgoipEx12ri875.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/nwbYFSEspDLYxNgoipEx12ri875.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/vzbycdFsyrcRsDxMIwnOVmU9JEy.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/vzbycdFsyrcRsDxMIwnOVmU9JEy.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/vzbycdFsyrcRsDxMIwnOVmU9JEy.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/vzbycdFsyrcRsDxMIwnOVmU9JEy.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -1784,50 +1564,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2026/01/The-Running-Man.jpg",
       "publishedAt": "2026-01-31T15:23:25+02:00",
       "modifiedAt": "2026-01-31T15:23:25+02:00",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Gaheza",
-        "Movie",
-        "Sci-Fi",
-        "Thriller",
-        "United Kingdom",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "The Running Man A",
-          "watchUrl": "https://rumble.com/embed/v72x2gq/dkBULjzaHl",
-          "downloadUrl": "https://www.mediafire.com/file/igbbfaexfyz9c31/The_Running_Man_A.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "The Running Man B",
-          "watchUrl": "https://rumble.com/embed/v72x2h8/yMjoIWlWFU",
-          "downloadUrl": "https://www.mediafire.com/file/w4o5q7nzwk3ba47/The_Running_Man_B.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Gaheza",
-      "release_date": "Nov 14, 2025",
-      "country": "United Kingdom|United States",
-      "tmdb_id": 798645,
-      "tmdb_rating": 6.727,
-      "popularity": 34.4975,
-      "tmdb_overview": "Desperate to save his sick daughter, working-class Ben Richards is convinced by The Running Man's charming but ruthless producer to enter the deadly competition game as a last resort. But Ben's defiance, instincts, and grit turn him into an unexpected fan favorite — and a threat to the entire system. As ratings skyrocket, so does the danger, and Ben must outwit not just the Hunters, but a nation addicted to watching him fall.",
-      "tmdb_type": "movie",
-      "tmdb_title": "The Running Man",
-      "tmdb_year": 2025,
-      "poster_small": "https://image.tmdb.org/t/p/w185/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/aHj7d7wSLqrg5cjAcgHhiGr97Ih.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/aHj7d7wSLqrg5cjAcgHhiGr97Ih.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/aHj7d7wSLqrg5cjAcgHhiGr97Ih.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/aHj7d7wSLqrg5cjAcgHhiGr97Ih.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -1886,46 +1624,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/12/Babylon-A.D.jpg",
       "publishedAt": "2026-02-03T15:31:11+02:00",
       "modifiedAt": "2026-02-03T15:56:52+02:00",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Czech Republic",
-        "France",
-        "Gaheza",
-        "Movie",
-        "Sci-Fi",
-        "Thriller",
-        "United Kingdom",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Babylon Ad",
-          "watchUrl": "https://rumble.com/embed/v731sbg/e1dsjxtW6k",
-          "downloadUrl": "https://www.mediafire.com/file/kvalhqhw8n35emq/BabylonA.D..mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Gaheza",
-      "release_date": "Aug 29, 2008",
-      "country": "United Kingdom|France|United States|Czech Republic",
-      "tmdb_id": 9381,
-      "tmdb_rating": 5.67,
-      "popularity": 6.0583,
-      "tmdb_overview": "A veteran-turned-mercenary is hired to take a young woman with a secret from post-apocalyptic Eastern Europe to New York City.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Babylon A.D.",
-      "tmdb_year": 2008,
-      "poster_small": "https://image.tmdb.org/t/p/w185/bQqb3T0FIHOvgozzX9aygmWUbLZ.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/bQqb3T0FIHOvgozzX9aygmWUbLZ.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/bQqb3T0FIHOvgozzX9aygmWUbLZ.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/bQqb3T0FIHOvgozzX9aygmWUbLZ.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/AjDyXDvk4VOtDp9aLJpAnBx1uyD.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/AjDyXDvk4VOtDp9aLJpAnBx1uyD.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/AjDyXDvk4VOtDp9aLJpAnBx1uyD.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/AjDyXDvk4VOtDp9aLJpAnBx1uyD.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -2443,61 +2143,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2026/06/I-Will-Find-You-S01.jpg",
       "publishedAt": "2026-06-22T13:20:06+02:00",
       "modifiedAt": "2026-06-22T13:21:41+02:00",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery",
-        "Serie",
-        "Sikov",
-        "Thriller",
-        "United States"
-      ],
-      "type": "tv",
-      "Downloadurls": [
-        {
-          "title": "EP01",
-          "watchUrl": "https://rumble.com/embed/v79f1oe/9NNs3jG4Rw",
-          "downloadUrl": "https://www.mediafire.com/file/b3xbqeybq77ifl6/I_Will_Find_You_S01e01.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP02",
-          "watchUrl": "https://rumble.com/embed/v79f1oy/0cx0RNQbR0",
-          "downloadUrl": "https://www.mediafire.com/file/0sh5g8apsffek16/I_Will_Find_You_S01e02.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP03",
-          "watchUrl": "https://rumble.com/embed/v79grfw/SkPMEAr9y5",
-          "downloadUrl": "https://www.mediafire.com/file/l8l9wearts9o8v1/I_Will_Find_You_S01e03.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP04",
-          "watchUrl": "https://rumble.com/embed/v79grgm/u7t0nZBRpR",
-          "downloadUrl": "https://www.mediafire.com/file/jap6fhzps3mast8/I_Will_Find_You_S01e04.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Sikov",
-      "release_date": "June 18, 2026",
-      "country": "United States",
-      "tmdb_id": 278178,
-      "tmdb_rating": 8.232,
-      "popularity": 30.4511,
-      "tmdb_overview": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
-      "tmdb_type": "tv",
-      "tmdb_title": "I Will Find You",
-      "tmdb_year": 2026,
-      "poster_small": "https://image.tmdb.org/t/p/w185/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/yOna5ZGXrvWO2HdOCKcahx2sCDN.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/yOna5ZGXrvWO2HdOCKcahx2sCDN.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/yOna5ZGXrvWO2HdOCKcahx2sCDN.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/yOna5ZGXrvWO2HdOCKcahx2sCDN.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -7313,44 +6960,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/10/Rurouni-Kenshin-Part-I-Origins.jpg",
       "publishedAt": "2025-10-26T11:42:41+02:00",
       "modifiedAt": "2025-10-26T11:42:41+02:00",
-      "genres": [
-        "Action",
-        "Adventure",
-        "B da great",
-        "Drama",
-        "History",
-        "Japan",
-        "Movie",
-        "War"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Rurouni Kenshin Part I: Origins",
-          "watchUrl": "https://rumble.com/embed/v6yjv3y/Sz6XsvWlQY",
-          "downloadUrl": "https://www.mediafire.com/file/8da1iesks1f2ds7/Rurouni_Kenshin_Part_I_-_Origins.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "B da great",
-      "release_date": "Aug 25, 2012",
-      "country": "Japan",
-      "tmdb_id": 127533,
-      "tmdb_rating": 7.533,
-      "popularity": 6.5416,
-      "tmdb_overview": "In 1868, after the Bakumatsu war ends, the ex-assassin Kenshin Himura traverses Japan with an inverted sword, to defend the needy without killing.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Rurouni Kenshin Part I: Origins",
-      "tmdb_year": 2012,
-      "poster_small": "https://image.tmdb.org/t/p/w185/vo3Zs07PZfKNsTrU0pcPZONJcN5.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/vo3Zs07PZfKNsTrU0pcPZONJcN5.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/vo3Zs07PZfKNsTrU0pcPZONJcN5.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/vo3Zs07PZfKNsTrU0pcPZONJcN5.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/2bHoj05gR7I5gp4oeoDCY6bU42d.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/2bHoj05gR7I5gp4oeoDCY6bU42d.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/2bHoj05gR7I5gp4oeoDCY6bU42d.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/2bHoj05gR7I5gp4oeoDCY6bU42d.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -9740,49 +9351,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/12/Ask-Me-What-You-Want.jpg",
       "publishedAt": "2025-12-03T16:33:22+02:00",
       "modifiedAt": "2025-12-03T16:33:22+02:00",
-      "genres": [
-        "Drama",
-        "Movie",
-        "Romance",
-        "Sankara Da Premiere",
-        "Spain",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Tell Me What You Want A",
-          "watchUrl": "https://rumble.com/embed/v70d14i/Ng2UaptmyW",
-          "downloadUrl": "https://www.mediafire.com/file/ort6skdra6b7vyx/Tell_Me_What_You_Want_A.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "Tell Me What You Want B",
-          "watchUrl": "https://rumble.com/embed/v70d15y/SVNaRym46x",
-          "downloadUrl": "https://www.mediafire.com/file/pka93phsguxpisu/Tell_Me_What_You_Want_B.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "Sep 30, 2025",
-      "country": "Spain|United States",
-      "tmdb_id": 1252309,
-      "tmdb_rating": 6.093,
-      "popularity": 13.5481,
-      "tmdb_overview": "After his father's death, Eric Zimmerman travels to Spain to oversee his company's branches. In Madrid, he falls for Judith and engage in an intense, erotic relationship full of exploration. However, Eric fears his secret may end their affair.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Tell Me What You Want",
-      "tmdb_year": 2024,
-      "poster_small": "https://image.tmdb.org/t/p/w185/yZXYCiZQPB7Ui6D5206W1zDKv8P.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/yZXYCiZQPB7Ui6D5206W1zDKv8P.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/yZXYCiZQPB7Ui6D5206W1zDKv8P.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/yZXYCiZQPB7Ui6D5206W1zDKv8P.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/kHJlXiwxcMAf9R934f0ncEBAMXg.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/kHJlXiwxcMAf9R934f0ncEBAMXg.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/kHJlXiwxcMAf9R934f0ncEBAMXg.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/kHJlXiwxcMAf9R934f0ncEBAMXg.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -10414,44 +9984,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2023/12/Big-Game.jpg",
       "publishedAt": "2025-12-02T17:19:56+02:00",
       "modifiedAt": "2025-12-02T17:19:36+02:00",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Germany",
-        "Movie",
-        "Rocky",
-        "United Kingdom",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Big Game",
-          "watchUrl": "https://rumble.com/embed/v70biye/u5Rlqf4eKW",
-          "downloadUrl": "https://www.mediafire.com/file/aee6qehacp3908t/Big_Game.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Rocky",
-      "release_date": "June 26, 2015",
-      "country": "Finland|United Kingdom|Germany|United States",
-      "tmdb_id": 230179,
-      "tmdb_rating": 5.5,
-      "popularity": 7.0015,
-      "tmdb_overview": "Air Force One is shot down by terrorists, leaving the President of the United States stranded in the wilderness of Finland. 13-year-old Oskari is on a hunting mission to prove his maturity to his kinsfolk by tracking down a deer, but instead discovers the President in an escape pod. With the terrorists closing in to capture their prize, the unlikely duo team up to escape their hunters.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Big Game",
-      "tmdb_year": 2014,
-      "poster_small": "https://image.tmdb.org/t/p/w185/eWFH7P8A9t8Bg6MkLPYmvS4t6di.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/eWFH7P8A9t8Bg6MkLPYmvS4t6di.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/eWFH7P8A9t8Bg6MkLPYmvS4t6di.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/eWFH7P8A9t8Bg6MkLPYmvS4t6di.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/2gccYK4lqVeRzrXYZmiZhL0P7Ft.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/2gccYK4lqVeRzrXYZmiZhL0P7Ft.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/2gccYK4lqVeRzrXYZmiZhL0P7Ft.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/2gccYK4lqVeRzrXYZmiZhL0P7Ft.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -10530,28 +10064,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/11/Jodhaa-Akbar-Part-1.jpg",
       "publishedAt": "2025-11-09T15:59:41+02:00",
       "modifiedAt": "2025-11-09T15:59:41+02:00",
-      "genres": [
-        "Action",
-        "Drama",
-        "Hakim",
-        "History",
-        "India",
-        "Movie",
-        "Romance",
-        "War"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Jodhaa Akbar Pt.1",
-          "watchUrl": "https://rumble.com/embed/v6z9l28/RoI1eNVoh7",
-          "downloadUrl": "https://www.mediafire.com/file/4asiaehhy7laav4/Jodhaa_Akbar_1.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Hakim",
-      "release_date": "Feb 15, 2008",
-      "country": "India",
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -13170,42 +12684,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2026/03/Qayamat-2003.jpg",
       "publishedAt": "2026-03-05T15:32:49+02:00",
       "modifiedAt": "2026-03-05T15:32:49+02:00",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Hakim",
-        "India",
-        "Movie",
-        "Thriller"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Qayamat: City Under Threat",
-          "watchUrl": "https://rumble.com/embed/v74h9wo/kil52Xz4Lx",
-          "downloadUrl": "https://www.mediafire.com/file/nkgrmluctq4ub5w/Qayamat_City_Under_Threat.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Hakim",
-      "release_date": "July 11, 2003",
-      "country": "India",
-      "tmdb_id": 318484,
-      "tmdb_rating": 5,
-      "popularity": 0.1108,
-      "tmdb_overview": "CBI Officer Akram Sheikh is on the verge of nabbing three dreaded Pakistan-backed arms dealers, the brothers Ali and Abbas and their common moll Laila. When Sheikh busts an important arms deal conducted by his three targets, Ali-Abbas join forces with Gopal, a corrupt scientist to get hold of a deadly virus and take the tourists at the Elphinstone Jail resort as hostage. Akram Sheikh is now compelled to get help from Rachit, a criminal serving jail time who was a former associate of Ali-Abbas and the only person in history to have successfully escaped the Elphinstone jail . Along with a commando team, they try to pull off a rescue attempt by breaking in the jail and rescuing the hostages.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Qayamat: City Under Threat",
-      "tmdb_year": 2003,
-      "poster_small": "https://image.tmdb.org/t/p/w185/6m1X6pzhX2bFE6zcueymzyGgsEP.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/6m1X6pzhX2bFE6zcueymzyGgsEP.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/6m1X6pzhX2bFE6zcueymzyGgsEP.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/6m1X6pzhX2bFE6zcueymzyGgsEP.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/rY829BVghNTf6E8nf1j5upsEaJi.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/rY829BVghNTf6E8nf1j5upsEaJi.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/rY829BVghNTf6E8nf1j5upsEaJi.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/rY829BVghNTf6E8nf1j5upsEaJi.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -15740,43 +15220,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2026/05/Beast-2026.jpg",
       "publishedAt": "2026-06-02T15:50:23+02:00",
       "modifiedAt": "2026-06-02T15:50:23+02:00",
-      "genres": [
-        "Action",
-        "Australia",
-        "Drama",
-        "Gaheza",
-        "Movie",
-        "Sport",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Beast GAHEZA",
-          "watchUrl": "https://rumble.com/embed/v78j38c/6vEJBH2ad2",
-          "downloadUrl": "https://www.mediafire.com/file/o6ojacfp53g8w7u/Beast.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Gaheza",
-      "release_date": "April 10, 2026",
-      "country": "United States|Australia",
-      "tmdb_id": 1292415,
-      "tmdb_rating": 7.528,
-      "popularity": 19.7905,
-      "tmdb_overview": "MMA legend Patton James, now a commercial fisherman, is pulled back into the cage when his brother is in danger. Reuniting with his old coach Sammy, he commits to one final fight in one championship against the brutal champion Xavier Grau.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Beast",
-      "tmdb_year": 2026,
-      "poster_small": "https://image.tmdb.org/t/p/w185/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/vmdt6nUXYX4mM0Ahcvh4bgHOjUt.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/vmdt6nUXYX4mM0Ahcvh4bgHOjUt.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/vmdt6nUXYX4mM0Ahcvh4bgHOjUt.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/vmdt6nUXYX4mM0Ahcvh4bgHOjUt.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -18535,97 +17980,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/07/Almost-Paradise-S01.jpg",
       "publishedAt": "2025-07-05T16:27:47+02:00",
       "modifiedAt": "2025-07-05T16:27:47+02:00",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Philippines",
-        "Serie",
-        "Sikov",
-        "United States"
-      ],
-      "type": "tv",
-      "Downloadurls": [
-        {
-          "title": "EP01",
-          "watchUrl": "https://rumble.com/embed/v6tbr6x/?vq=hd1080pSxOQpOtCVJ",
-          "downloadUrl": "https://www.mediafire.com/file/31jat3htt68snaf/Almost_Paradise_S01e01.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP02",
-          "watchUrl": "https://rumble.com/embed/v6tbr6f/?vq=hd1080ptjBveS66Of",
-          "downloadUrl": "https://www.mediafire.com/file/xy3z25ywi34zx09/Almost_Paradise_S01e02.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP03",
-          "watchUrl": "https://rumble.com/embed/v6tbr71/?vq=hd1080pJr22v11U9I",
-          "downloadUrl": "https://www.mediafire.com/file/7ukibnasaszer2l/Almost_Paradise_S01e03.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP04",
-          "watchUrl": "https://rumble.com/embed/v6tbr7n/?vq=hd1080po2R8HpZFSd",
-          "downloadUrl": "https://www.mediafire.com/file/vdtj9i5bn7ircsx/Almost_Paradise_S01e04.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP05",
-          "watchUrl": "https://rumble.com/embed/v6tbr7t/?vq=hd1080puPpPdQqu20",
-          "downloadUrl": "https://www.mediafire.com/file/snotxrdsbus5ui0/Almost_Paradise_S01e05.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP06",
-          "watchUrl": "https://rumble.com/embed/v6tbr8n/?vq=hd1080pz4dsi1inOR",
-          "downloadUrl": "https://www.mediafire.com/file/awsfwp80w8xjq81/Almost_Paradise_S01e06.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP07",
-          "watchUrl": "https://rumble.com/embed/v6tbr83/?vq=hd1080pnvwGej3aEW",
-          "downloadUrl": "https://www.mediafire.com/file/5c2e096ngl09v3y/Almost_Paradise_S01e07.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP08",
-          "watchUrl": "https://rumble.com/embed/v6tbr8p/?vq=hd1080ppjOiJmV116",
-          "downloadUrl": "https://www.mediafire.com/file/euhcca88ettjuza/Almost_Paradise_S01e08.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP09",
-          "watchUrl": "https://rumble.com/embed/v6tbr8x/?vq=hd1080pnxIJs4OgV6",
-          "downloadUrl": "https://www.mediafire.com/file/4fh52yprp84ml43/Almost_Paradise_S01e09.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP10 Finale",
-          "watchUrl": "https://rumble.com/embed/v6tbr93/?vq=hd1080pUnyn1r4TcV",
-          "downloadUrl": "https://www.mediafire.com/file/op99ctrsojyjikq/Almost_Paradise_S01e10_Finale.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Sikov",
-      "release_date": "March 30, 2020",
-      "country": "United States|Philippines",
-      "tmdb_id": 100383,
-      "tmdb_rating": 7.134,
-      "popularity": 8.1519,
-      "tmdb_overview": "A former DEA agent forced into early retirement runs a gift shop in in the Philippines. Despite his best efforts to begin a tranquil new life, he’s pulled back into a world of dangerous people and deadly situations, either through his friends in the local police department or running into people from his old life. And the problem is: he likes it.",
-      "tmdb_type": "tv",
-      "tmdb_title": "Almost Paradise",
-      "tmdb_year": 2020,
-      "poster_small": "https://image.tmdb.org/t/p/w185/wtmV4qF9ADKn8BQ1nHq3eTFjuaS.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/wtmV4qF9ADKn8BQ1nHq3eTFjuaS.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/wtmV4qF9ADKn8BQ1nHq3eTFjuaS.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/wtmV4qF9ADKn8BQ1nHq3eTFjuaS.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/shBcxf091CylOBTDQ0ifZIrAKYg.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/shBcxf091CylOBTDQ0ifZIrAKYg.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/shBcxf091CylOBTDQ0ifZIrAKYg.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/shBcxf091CylOBTDQ0ifZIrAKYg.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -18828,44 +18184,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2026/01/Greenland-2.jpg",
       "publishedAt": "2026-01-29T16:28:27+02:00",
       "modifiedAt": "2026-01-29T16:28:27+02:00",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Hakim",
-        "Movie",
-        "Sci-Fi",
-        "Thriller",
-        "United Kingdom",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Greenland 2: Migration",
-          "watchUrl": "https://rumble.com/embed/v72txe4/hIDbiSZ9zf",
-          "downloadUrl": "https://www.mediafire.com/file/b5isc3wh45kzetf/Greenland2.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Hakim",
-      "release_date": "Jan 9, 2026",
-      "country": "United Kingdom|United States",
-      "tmdb_id": 840464,
-      "tmdb_rating": 6.381,
-      "popularity": 35.8927,
-      "tmdb_overview": "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Greenland 2: Migration",
-      "tmdb_year": 2026,
-      "poster_small": "https://image.tmdb.org/t/p/w185/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/cLFbDVfhllIMybpo2fkGNzehiQG.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/cLFbDVfhllIMybpo2fkGNzehiQG.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/cLFbDVfhllIMybpo2fkGNzehiQG.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/cLFbDVfhllIMybpo2fkGNzehiQG.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -19104,46 +18424,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/02/A-Tribe-Called-Judah.jpg",
       "publishedAt": "2026-03-23T17:39:10+02:00",
       "modifiedAt": "2026-03-23T18:23:01+02:00",
-      "genres": [
-        "Comedy",
-        "Movie",
-        "Nigeria",
-        "Savimbi"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "A Tribe Called Judha A",
-          "watchUrl": "https://rumble.com/embed/v75bpu6/3Ly2L8pTeq",
-          "downloadUrl": "https://www.mediafire.com/file/844r0tgm8yopugc/ATribeCalledJudahA.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "A Tribe Called Judha B",
-          "watchUrl": "https://rumble.com/embed/v75bpv0/VMqkojjhJa",
-          "downloadUrl": "https://www.mediafire.com/file/dq94mfpdaqmmhv0/ATribeCalledJudahB.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Savimbi",
-      "release_date": "Dec 15, 2023",
-      "country": "Nigeria",
-      "tmdb_id": 1206988,
-      "tmdb_rating": 9.083,
-      "popularity": 1.0214,
-      "tmdb_overview": "With the help of their mother, the Judah boys plan to rob a small mall. But when they arrive, they're met by real armed robbers.",
-      "tmdb_type": "movie",
-      "tmdb_title": "A Tribe Called Judah",
-      "tmdb_year": 2023,
-      "poster_small": "https://image.tmdb.org/t/p/w185/9aMG2ftIFqFAN69FdjovKJY0hsd.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/9aMG2ftIFqFAN69FdjovKJY0hsd.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/9aMG2ftIFqFAN69FdjovKJY0hsd.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/9aMG2ftIFqFAN69FdjovKJY0hsd.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/jX7Mb37fa7JhB9c3acL1evERNwW.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/jX7Mb37fa7JhB9c3acL1evERNwW.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/jX7Mb37fa7JhB9c3acL1evERNwW.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/jX7Mb37fa7JhB9c3acL1evERNwW.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -21280,131 +20562,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/04/The-Following-S03.jpg",
       "publishedAt": "2025-04-11T16:50:47+02:00",
       "modifiedAt": "2025-04-11T16:50:47+02:00",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Horror",
-        "Mystery",
-        "Sankara Da Premiere",
-        "Serie",
-        "Thriller",
-        "United States"
-      ],
-      "type": "tv",
-      "Downloadurls": [
-        {
-          "title": "EP01",
-          "watchUrl": "https://anonsharing.com/file/bebbcebff57f3312/The_Following_S03e01.mp4",
-          "downloadUrl": "https://anonsharing.com/file/bebbcebff57f3312/The_Following_S03e01.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP02",
-          "watchUrl": "https://anonsharing.com/file/bb9b52e70d6cee22/The_Following_S03e02.mp4",
-          "downloadUrl": "https://anonsharing.com/file/bb9b52e70d6cee22/The_Following_S03e02.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP03",
-          "watchUrl": "https://anonsharing.com/file/3196e941ed018675/The_Following_S03e03.mp4",
-          "downloadUrl": "https://anonsharing.com/file/3196e941ed018675/The_Following_S03e03.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP04",
-          "watchUrl": "https://anonsharing.com/file/7f7732d984b2c22d/The_Following_S03e04.mp4",
-          "downloadUrl": "https://anonsharing.com/file/7f7732d984b2c22d/The_Following_S03e04.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP05",
-          "watchUrl": "https://anonsharing.com/file/d72079b48b05809a/The_Following_S03e05.mp4",
-          "downloadUrl": "https://anonsharing.com/file/d72079b48b05809a/The_Following_S03e05.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP06",
-          "watchUrl": "https://anonsharing.com/file/2b30f26b24fa0919/The_Following_S03e06.mp4",
-          "downloadUrl": "https://anonsharing.com/file/2b30f26b24fa0919/The_Following_S03e06.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP07",
-          "watchUrl": "https://anonsharing.com/file/645c036c7ec71392/The_Following_S03e07.mp4",
-          "downloadUrl": "https://anonsharing.com/file/645c036c7ec71392/The_Following_S03e07.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP08",
-          "watchUrl": "https://anonsharing.com/file/9d2f6cb347999003/The_Following_S03e08.mp4",
-          "downloadUrl": "https://anonsharing.com/file/9d2f6cb347999003/The_Following_S03e08.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP09",
-          "watchUrl": "https://anonsharing.com/file/a7b75f2437169168/The_Following_S03e09.mp4",
-          "downloadUrl": "https://anonsharing.com/file/a7b75f2437169168/The_Following_S03e09.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP10",
-          "watchUrl": "https://anonsharing.com/file/451ac22d2adf5fb4/The_Following_S03e10.mp4",
-          "downloadUrl": "https://anonsharing.com/file/451ac22d2adf5fb4/The_Following_S03e10.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP11",
-          "watchUrl": "https://anonsharing.com/file/d0fb895aa9c64db2/The_Following_S03e11.mp4",
-          "downloadUrl": "https://anonsharing.com/file/d0fb895aa9c64db2/The_Following_S03e11.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP12",
-          "watchUrl": "https://anonsharing.com/file/aff8bcc3e710dcde/The_Following_S03e12.mp4",
-          "downloadUrl": "https://anonsharing.com/file/aff8bcc3e710dcde/The_Following_S03e12.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP13",
-          "watchUrl": "https://anonsharing.com/file/6d179dba60bd7672/The_Following_S03e13.mp4",
-          "downloadUrl": "https://anonsharing.com/file/6d179dba60bd7672/The_Following_S03e13.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP14",
-          "watchUrl": "https://anonsharing.com/file/abda3289523380c4/The_Following_S03e14.mp4",
-          "downloadUrl": "https://anonsharing.com/file/abda3289523380c4/The_Following_S03e14.mp4",
-          "direct": false
-        },
-        {
-          "title": "EP15 Finale",
-          "watchUrl": "https://anonsharing.com/file/fb0e0b8aad844db4/The_Following_S03e15_Finale.mp4",
-          "downloadUrl": "https://anonsharing.com/file/fb0e0b8aad844db4/The_Following_S03e15_Finale.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "March 02, 2015",
-      "country": "United States",
-      "tmdb_id": 218348,
-      "tmdb_rating": 7,
-      "popularity": 3.9052,
-      "tmdb_overview": "Two very different women, Alice a formidable PA and Cheryl a best-selling fantasy author, become trapped in a triangle of epic proportions with Rob an eccentric and celebrated 'ecopreneur' who may or may not be trying to destroy them both.",
-      "tmdb_type": "tv",
-      "tmdb_title": "The Following Events Are Based on a Pack of Lies",
-      "tmdb_year": 2023,
-      "poster_small": "https://image.tmdb.org/t/p/w185/mKWj5nfgqwaGgQlJmJro6LzchU7.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/mKWj5nfgqwaGgQlJmJro6LzchU7.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/mKWj5nfgqwaGgQlJmJro6LzchU7.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/mKWj5nfgqwaGgQlJmJro6LzchU7.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/7D0YQEGbTwA4IJFdqL68tWJUkFW.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/7D0YQEGbTwA4IJFdqL68tWJUkFW.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/7D0YQEGbTwA4IJFdqL68tWJUkFW.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/7D0YQEGbTwA4IJFdqL68tWJUkFW.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/the-following-season-02-review/",
@@ -24048,42 +23208,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/12/American-Badger.jpg",
       "publishedAt": "2026-03-03T16:30:48+02:00",
       "modifiedAt": "2026-03-03T16:31:40+02:00",
-      "genres": [
-        "Action",
-        "Canada",
-        "Drama",
-        "Gaheza",
-        "Movie",
-        "Thriller"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "American Badger",
-          "watchUrl": "https://rumble.com/embed/v74dk5g/2OIMpNxfXE",
-          "downloadUrl": "https://www.mediafire.com/file/wt1oj2umqw0htox/AmericanBadger.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Gaheza",
-      "release_date": "June 15, 2021",
-      "country": "Canada",
-      "tmdb_id": 768449,
-      "tmdb_rating": 5.378,
-      "popularity": 2.0665,
-      "tmdb_overview": "A seemingly cold-blooded hitman is assigned to befriend a call girl, but all hell breaks loose when he is assigned to kill her.",
-      "tmdb_type": "movie",
-      "tmdb_title": "American Badger",
-      "tmdb_year": 2021,
-      "poster_small": "https://image.tmdb.org/t/p/w185/xoNWf2GnEF87a8SbpB1NvhX2zr0.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/xoNWf2GnEF87a8SbpB1NvhX2zr0.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/xoNWf2GnEF87a8SbpB1NvhX2zr0.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/xoNWf2GnEF87a8SbpB1NvhX2zr0.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/sw0mnuNrdSuO7QQNTZTtzTF3dEs.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/sw0mnuNrdSuO7QQNTZTtzTF3dEs.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/sw0mnuNrdSuO7QQNTZTtzTF3dEs.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/sw0mnuNrdSuO7QQNTZTtzTF3dEs.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -26958,50 +26084,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/08/Raja-Hindustani.webp",
       "publishedAt": "2026-02-24T18:31:33+02:00",
       "modifiedAt": "2026-02-24T18:51:51+02:00",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Drama",
-        "India",
-        "Movie",
-        "Musical",
-        "Rocky",
-        "Romance"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Raja Hindustani A",
-          "watchUrl": "https://rumble.com/embed/v7412lm/1K8RcyH036",
-          "downloadUrl": "https://www.mediafire.com/file/u56nv5klodjy2w9/Raja_Hindustani_A.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "Raja Hindustani B",
-          "watchUrl": "https://rumble.com/embed/v7412m6/lH03JzvFnT",
-          "downloadUrl": "https://www.mediafire.com/file/gypa79ijzt47cdh/Raja_Hindustani_B.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Rocky",
-      "release_date": "Nov 15, 1996",
-      "country": "India",
-      "tmdb_id": 21566,
-      "tmdb_rating": 6.4,
-      "popularity": 1.8248,
-      "tmdb_overview": "Raja, a taxi driver, falls in love with Aarti, a rich girl, and marries her against her parents' wishes. Later, her stepmother tries to create a rift betweenthe couple.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Raja Hindustani",
-      "tmdb_year": 1996,
-      "poster_small": "https://image.tmdb.org/t/p/w185/m4Uy3dHYmnYgvZ0U2xK5alazBFR.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/m4Uy3dHYmnYgvZ0U2xK5alazBFR.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/m4Uy3dHYmnYgvZ0U2xK5alazBFR.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/m4Uy3dHYmnYgvZ0U2xK5alazBFR.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/20iAq3KbalEdV7ODys9YnE7RnBV.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/20iAq3KbalEdV7ODys9YnE7RnBV.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/20iAq3KbalEdV7ODys9YnE7RnBV.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/20iAq3KbalEdV7ODys9YnE7RnBV.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -29161,42 +28245,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2026/04/Infinite.jpg",
       "publishedAt": "2026-04-28T15:39:59+02:00",
       "modifiedAt": "2026-04-28T15:39:59+02:00",
-      "genres": [
-        "Action",
-        "Movie",
-        "Sankara Da Premiere",
-        "Sci-Fi",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Infinite",
-          "watchUrl": "https://rumble.com/embed/v76vl3g/6300iM3KRs",
-          "downloadUrl": "https://www.mediafire.com/file/dqdc7lh1gzab43x/Infinite.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "June 10, 2021",
-      "country": "United States",
-      "tmdb_id": 581726,
-      "tmdb_rating": 6.554,
-      "popularity": 16.2161,
-      "tmdb_overview": "Evan McCauley has skills he never learned and memories of places he has never visited. Self-medicated and on the brink of a mental breakdown, a secret group that call themselves “Infinites” come to his rescue, revealing that his memories are real.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Infinite",
-      "tmdb_year": 2021,
-      "poster_small": "https://image.tmdb.org/t/p/w185/niw2AKHz6XmwiRMLWaoyAOAti0G.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/niw2AKHz6XmwiRMLWaoyAOAti0G.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/niw2AKHz6XmwiRMLWaoyAOAti0G.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/niw2AKHz6XmwiRMLWaoyAOAti0G.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/wjQXZTlFM3PVEUmKf1sUajjygqT.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/wjQXZTlFM3PVEUmKf1sUajjygqT.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/wjQXZTlFM3PVEUmKf1sUajjygqT.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/wjQXZTlFM3PVEUmKf1sUajjygqT.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -30610,44 +29660,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/08/Sarzameen.jpg",
       "publishedAt": "2025-08-10T00:40:33+02:00",
       "modifiedAt": "2025-08-10T00:40:33+02:00",
-      "genres": [
-        "Action",
-        "Drama",
-        "India",
-        "Kim Rwanda",
-        "Movie",
-        "Mystery",
-        "Perfect",
-        "Thriller"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Sarzameen",
-          "watchUrl": "https://rumble.com/embed/v6ushu8/?vq=hd1080pbpSnjTzySl",
-          "downloadUrl": "https://www.mediafire.com/file/pggu32tx7mdjkyw/Sarzameen.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Perfect",
-      "release_date": "July 25, 2025",
-      "country": "India",
-      "tmdb_id": 1218602,
-      "tmdb_rating": 4.143,
-      "popularity": 1.846,
-      "tmdb_overview": "Set in Kashmir, the film follows an Indian Army officer who discovers that his estranged son has joined a militant group.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Sarzameen",
-      "tmdb_year": 2025,
-      "poster_small": "https://image.tmdb.org/t/p/w185/xiO5hTN7X4764Bi0eqXSGUltSbA.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/xiO5hTN7X4764Bi0eqXSGUltSbA.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/xiO5hTN7X4764Bi0eqXSGUltSbA.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/xiO5hTN7X4764Bi0eqXSGUltSbA.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/swQaCEzhR0pZxyeIpi25MYYz2LB.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/swQaCEzhR0pZxyeIpi25MYYz2LB.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/swQaCEzhR0pZxyeIpi25MYYz2LB.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/swQaCEzhR0pZxyeIpi25MYYz2LB.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -32595,44 +31609,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/03/The-Sinister-Surrogate.jpg",
       "publishedAt": "2025-03-04T14:47:06+02:00",
       "modifiedAt": "2025-03-04T14:47:06+02:00",
-      "genres": [
-        "Drama",
-        "Movie",
-        "Sankara Da Premiere",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "The Sinister Surrogate",
-          "watchUrl": "https://anonsharing.com/file/f5bad6a05e1fdff0/The_Sinister_Surrogate.mp4",
-          "downloadUrl": "https://anonsharing.com/file/f5bad6a05e1fdff0/The_Sinister_Surrogate.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "Oct 13, 2018",
-      "country": "United States",
-      "tmdb_id": 553856,
-      "tmdb_rating": 6.333,
-      "popularity": 2.6107,
-      "tmdb_overview": "Josh and Danielle have found the perfect surrogate, Kailee, to bear their child. But when Kailee gives birth to a beautiful baby girl, the happy couple learns how deep and dark a mother's love can go. But is it really Kailee whom they need to fear, or is she just a pawn in someone else's game? Someone who will stop at nothing to take what she views as hers.",
-      "tmdb_type": "movie",
-      "tmdb_title": "The Sinister Surrogate",
-      "tmdb_year": 2018,
-      "poster_small": "https://image.tmdb.org/t/p/w185/wGk4cpyMSqqiITYGnlctylGqcM8.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/wGk4cpyMSqqiITYGnlctylGqcM8.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/wGk4cpyMSqqiITYGnlctylGqcM8.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/wGk4cpyMSqqiITYGnlctylGqcM8.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/ok7lgqwLpGYpS0i3JIkY5mqJdWr.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/ok7lgqwLpGYpS0i3JIkY5mqJdWr.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/ok7lgqwLpGYpS0i3JIkY5mqJdWr.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/ok7lgqwLpGYpS0i3JIkY5mqJdWr.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/the-woman-king-review/",
@@ -32702,54 +31681,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2026/05/Border-2.jpg",
       "publishedAt": "2026-05-21T18:51:50+02:00",
       "modifiedAt": "2026-05-21T18:51:50+02:00",
-      "genres": [
-        "Action",
-        "Drama",
-        "Hakim",
-        "India",
-        "Movie",
-        "War"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Border 2 A",
-          "watchUrl": "https://rumble.com/embed/v77y0yq/yCA32K2Vzs",
-          "downloadUrl": "https://www.mediafire.com/file/tdjdl1p7hrd9eaz/Border_2_A.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "Border 2 B",
-          "watchUrl": "https://rumble.com/embed/v77y10y/IsiRFGABBL",
-          "downloadUrl": "https://www.mediafire.com/file/ffodv4rd0fe53s6/Border_2_B.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "Border 2 C",
-          "watchUrl": "https://rumble.com/embed/v77y0lw/b2kVuF9gE5",
-          "downloadUrl": "https://www.mediafire.com/file/lxuiy5jjl4nzdwb/Border_2_C.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Hakim",
-      "release_date": "Jan 23, 2026",
-      "country": "India",
-      "tmdb_id": 1213898,
-      "tmdb_rating": 7.583,
-      "popularity": 5.7391,
-      "tmdb_overview": "Three idealistic soldiers in the Indian army, navy and air force face grueling combat conditions in this film set during the 1971 Indo-Pak war.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Border 2",
-      "tmdb_year": 2026,
-      "poster_small": "https://image.tmdb.org/t/p/w185/AmrCgmDPEJ6QxllS1rhjYwgO9Wb.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/AmrCgmDPEJ6QxllS1rhjYwgO9Wb.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/AmrCgmDPEJ6QxllS1rhjYwgO9Wb.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/AmrCgmDPEJ6QxllS1rhjYwgO9Wb.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/nusKn1Kkjz4NsAKXBswjJVOwMXQ.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/nusKn1Kkjz4NsAKXBswjJVOwMXQ.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/nusKn1Kkjz4NsAKXBswjJVOwMXQ.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/nusKn1Kkjz4NsAKXBswjJVOwMXQ.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -34842,44 +33775,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/12/The-Golden-Ball.jpg",
       "publishedAt": "2026-04-08T17:27:27+02:00",
       "modifiedAt": "2026-04-08T17:27:46+02:00",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Family",
-        "France",
-        "Guinea",
-        "Movie",
-        "Savimbi",
-        "Sport"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Le Ballon d'Or",
-          "watchUrl": "https://rumble.com/embed/v761neu/KVDscaOsQC",
-          "downloadUrl": "https://www.mediafire.com/file/r6ss21y53espzmb/Ballon_D%27Or.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Savimbi",
-      "release_date": "April 13, 1994",
-      "country": "France|Guinea",
-      "tmdb_id": 160372,
-      "tmdb_rating": 7.3,
-      "popularity": 2.6094,
-      "tmdb_overview": "The Golden Ball is a wonderful children's film that tells of a young boy's dream of being a soccer player. Whenever a match is broadcast live in the village of Makono, Bandian and his brother keep their ears to the transistor radio, spinning a picture of the game from the announcer's commentary much as they fantasize themselves on the field. A gift of a real soccer ball, which Bandian paints gold, like a magical object involves him in a series of adventures which bring him in reach of his dream, but which also require him to make difficult choices.",
-      "tmdb_type": "movie",
-      "tmdb_title": "The Golden Ball",
-      "tmdb_year": 1994,
-      "poster_small": "https://image.tmdb.org/t/p/w185/bnQfwsiF5yCOMW5847dImT9yCwp.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/bnQfwsiF5yCOMW5847dImT9yCwp.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/bnQfwsiF5yCOMW5847dImT9yCwp.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/bnQfwsiF5yCOMW5847dImT9yCwp.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/vQjTLx38dtDVqTKnRHyB2iB2kze.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/vQjTLx38dtDVqTKnRHyB2iB2kze.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/vQjTLx38dtDVqTKnRHyB2iB2kze.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/vQjTLx38dtDVqTKnRHyB2iB2kze.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -35726,45 +34623,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/01/the-channel.jpg",
       "publishedAt": "2025-01-25T12:22:41+02:00",
       "modifiedAt": "2025-01-25T12:22:41+02:00",
-      "genres": [
-        "Action",
-        "Crime",
-        "Movie",
-        "Sankara Da Premiere",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "The Channel",
-          "watchUrl": "https://anonsharing.com/file/7e20b6ec6f4d9446/The_Channel.mp4",
-          "downloadUrl": "https://anonsharing.com/file/7e20b6ec6f4d9446/The_Channel.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "July 14, 2023",
-      "country": "United States",
-      "tmdb_id": 1140692,
-      "tmdb_rating": 6.188,
-      "popularity": 3.6681,
-      "tmdb_overview": "After their bank heist goes wrong, a desperate criminal, his out-of-control brother, and their motley crew of ex-marines must escape New Orleans, United States.",
-      "tmdb_type": "movie",
-      "tmdb_title": "The Channel",
-      "tmdb_year": 2023,
-      "poster_small": "https://image.tmdb.org/t/p/w185/9Z7TzgY3qcBX7VHaNG3E3t8YP1v.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/9Z7TzgY3qcBX7VHaNG3E3t8YP1v.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/9Z7TzgY3qcBX7VHaNG3E3t8YP1v.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/9Z7TzgY3qcBX7VHaNG3E3t8YP1v.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/k8O9vvhrwrKBrExmDcJhEMfeXJI.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/k8O9vvhrwrKBrExmDcJhEMfeXJI.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/k8O9vvhrwrKBrExmDcJhEMfeXJI.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/k8O9vvhrwrKBrExmDcJhEMfeXJI.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/rama-banam-review/",
@@ -36105,43 +34966,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/11/Kill.jpg",
       "publishedAt": "2026-03-27T12:30:05+02:00",
       "modifiedAt": "2026-03-27T12:32:45+02:00",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Gaheza",
-        "India",
-        "Movie",
-        "Thriller"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Kill",
-          "watchUrl": "https://rumble.com/embed/v75i5g2/hV2MZldMq0",
-          "downloadUrl": "https://www.mediafire.com/file/azhn31zyx8lcn7u/Kill.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Gaheza",
-      "release_date": "July 4, 2024",
-      "country": "India",
-      "tmdb_id": 1160018,
-      "tmdb_rating": 7.2,
-      "popularity": 6.8355,
-      "tmdb_overview": "When an army commando finds out his true love is engaged against her will, he boards a New Dehli-bound train in a daring quest to derail the arranged marriage. But when a gang of knife-wielding thieves begin to terrorize innocent passengers on his train, the commando takes them on, one by one.",
-      "tmdb_type": "movie",
-      "tmdb_title": "KILL",
-      "tmdb_year": 2024,
-      "poster_small": "https://image.tmdb.org/t/p/w185/m2zXTuNPkywdYLyWlVyJZW2QOJH.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/m2zXTuNPkywdYLyWlVyJZW2QOJH.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/m2zXTuNPkywdYLyWlVyJZW2QOJH.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/m2zXTuNPkywdYLyWlVyJZW2QOJH.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/u060S4drIWntmLeMDGe7mD0V6Jh.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/u060S4drIWntmLeMDGe7mD0V6Jh.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/u060S4drIWntmLeMDGe7mD0V6Jh.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/u060S4drIWntmLeMDGe7mD0V6Jh.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -42437,43 +41263,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/06/First-Love.jpg",
       "publishedAt": "2024-06-15T15:41:21+02:00",
       "modifiedAt": "2024-11-08T23:27:14+02:00",
-      "genres": [
-        "Movie",
-        "Romance",
-        "Sankara Da Premiere",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "First Love",
-          "watchUrl": "https://anonsharing.com/file/c00d2f0d356530d8/First_Love_.mp4",
-          "downloadUrl": "https://anonsharing.com/file/c00d2f0d356530d8/First_Love_.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "June 17, 2022",
-      "country": "United States",
-      "tmdb_id": 834742,
-      "tmdb_rating": 5.703,
-      "popularity": 3.711,
-      "tmdb_overview": "A young man’s difficult entry into adulthood, who experiences the highs and lows of his first love, while dealing with the familial fallout spurred by the financial crisis of 2008.",
-      "tmdb_type": "movie",
-      "tmdb_title": "First Love",
-      "tmdb_year": 2022,
-      "poster_small": "https://image.tmdb.org/t/p/w185/hqwSUWQcnd1cxpc6Gdx1X3t5v2O.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/hqwSUWQcnd1cxpc6Gdx1X3t5v2O.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/hqwSUWQcnd1cxpc6Gdx1X3t5v2O.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/hqwSUWQcnd1cxpc6Gdx1X3t5v2O.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/3PIF0u6ulHX9Se0DED4TCGXG4U2.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/3PIF0u6ulHX9Se0DED4TCGXG4U2.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/3PIF0u6ulHX9Se0DED4TCGXG4U2.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/3PIF0u6ulHX9Se0DED4TCGXG4U2.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/weekend-in-taipei-review/",
@@ -43827,41 +42619,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/11/Bad-City.jpg",
       "publishedAt": "2025-11-20T14:41:54+02:00",
       "modifiedAt": "2025-11-20T14:41:54+02:00",
-      "genres": [
-        "Action",
-        "B da great",
-        "Crime",
-        "Japan",
-        "Movie"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Bad City",
-          "watchUrl": "https://rumble.com/embed/v6zrau4/ZyD5z0K9eY",
-          "downloadUrl": "https://www.mediafire.com/file/gtt1d5nluoufxjf/Bad_City.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "B da great",
-      "release_date": "Jan 20, 2023",
-      "country": "Japan",
-      "tmdb_id": 987507,
-      "tmdb_rating": 6.916,
-      "popularity": 2.5927,
-      "tmdb_overview": "Kensuke Sonomura directs the legendary Hitoshi Ozawa in this ultimate V-Cinema actioner.  Kaiko City is plagued with poverty and crime. When a corrupt businessman decides to run for mayor and starts eliminating opponents from the rival mafia, a former police captain serving time for murder is secretly released and put in charge of a special task force to arrest him.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Bad City",
-      "tmdb_year": 2022,
-      "poster_small": "https://image.tmdb.org/t/p/w185/4Elgm1efpK4Qnpivuj2fjizI8zk.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/4Elgm1efpK4Qnpivuj2fjizI8zk.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/4Elgm1efpK4Qnpivuj2fjizI8zk.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/4Elgm1efpK4Qnpivuj2fjizI8zk.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/sGGNrDPV8VFJzOTZOcsFiJ45Xp3.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/sGGNrDPV8VFJzOTZOcsFiJ45Xp3.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/sGGNrDPV8VFJzOTZOcsFiJ45Xp3.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/sGGNrDPV8VFJzOTZOcsFiJ45Xp3.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -44069,41 +42828,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/01/Extraction.jpg",
       "publishedAt": "2025-11-16T14:00:51+02:00",
       "modifiedAt": "2025-11-16T14:07:05+02:00",
-      "genres": [
-        "Action",
-        "Movie",
-        "Rocky",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Extraction 1",
-          "watchUrl": "https://rumble.com/embed/v6zlikq/6SUYnWnJMg",
-          "downloadUrl": "https://www.mediafire.com/file/sd5gd24k4ea0scz/Extraction_1.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Rocky",
-      "release_date": "April 24, 2020",
-      "country": "United States",
-      "tmdb_id": 545609,
-      "tmdb_rating": 7.283,
-      "popularity": 14.0147,
-      "tmdb_overview": "A hardened gun-for-hire's latest mission becomes a soul-searching race to survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Extraction",
-      "tmdb_year": 2020,
-      "poster_small": "https://image.tmdb.org/t/p/w185/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/2QSZ4CPd8AoljAL76qM30dFft07.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/2QSZ4CPd8AoljAL76qM30dFft07.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/2QSZ4CPd8AoljAL76qM30dFft07.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/2QSZ4CPd8AoljAL76qM30dFft07.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -44521,42 +43247,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/11/Under-Fire.jpg",
       "publishedAt": "2025-11-05T11:59:23+02:00",
       "modifiedAt": "2025-11-05T11:59:23+02:00",
-      "genres": [
-        "Action",
-        "Drama",
-        "Movie",
-        "Senior",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Under Fire",
-          "watchUrl": "https://rumble.com/embed/v6yt6si/dAPE7EHyoM",
-          "downloadUrl": "https://www.mediafire.com/file/roa8wgyxsv9hexu/Under_Fire.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Senior",
-      "release_date": "Aug 15, 2025",
-      "country": "United States",
-      "tmdb_id": 1511556,
-      "tmdb_rating": 6.5,
-      "popularity": 3.0991,
-      "tmdb_overview": "Story unfolds in the scorching heat of the Mexico border, where rival drug dealers Griff and Abbott arrive at a remote drop point for a routine drug deal. But when the exchange goes down, both reveal undercover badges — Griff is FBI, Abbott is DEA — and neither knew they were working the same case.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Under Fire",
-      "tmdb_year": 2025,
-      "poster_small": "https://image.tmdb.org/t/p/w185/dIQcDDuDPewwELfhmYMnt25AyZ6.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/dIQcDDuDPewwELfhmYMnt25AyZ6.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/dIQcDDuDPewwELfhmYMnt25AyZ6.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/dIQcDDuDPewwELfhmYMnt25AyZ6.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/oAFd9y3myakKyTAwcv0YIpxt08Z.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/oAFd9y3myakKyTAwcv0YIpxt08Z.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/oAFd9y3myakKyTAwcv0YIpxt08Z.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/oAFd9y3myakKyTAwcv0YIpxt08Z.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -45169,45 +43861,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/01/30-jours-max.jpg",
       "publishedAt": "2025-01-25T11:50:34+02:00",
       "modifiedAt": "2025-01-25T11:50:34+02:00",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime",
-        "Dylan Kabaka",
-        "France",
-        "Movie"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "30 Jours Max",
-          "watchUrl": "https://anonsharing.com/file/77ad6d9d777c668f/30_Jours_Max.mp4",
-          "downloadUrl": "https://anonsharing.com/file/77ad6d9d777c668f/30_Jours_Max.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Dylan Kabaka",
-      "release_date": "Oct 14, 2020",
-      "country": "France",
-      "tmdb_id": 613377,
-      "tmdb_rating": 5.568,
-      "popularity": 4.9131,
-      "tmdb_overview": "Rayane is a scared and clumsy young cop who is constantly mocked by other cops. The day his doctor wrongly tells him that he has only thirty days to live, he understands that this is his last chance to become a hero within his police station and impress his colleague Stéphanie. The eternal fearful man then turns into a real hothead who will take all the risks to catch a big drug lord...",
-      "tmdb_type": "movie",
-      "tmdb_title": "30 Days Max",
-      "tmdb_year": 2020,
-      "poster_small": "https://image.tmdb.org/t/p/w185/pWacsD87962qkDniAz1odA7mGRI.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/pWacsD87962qkDniAz1odA7mGRI.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/pWacsD87962qkDniAz1odA7mGRI.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/pWacsD87962qkDniAz1odA7mGRI.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/iLkzQbxrkTxuAjZMnOiVeVY4pG8.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/iLkzQbxrkTxuAjZMnOiVeVY4pG8.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/iLkzQbxrkTxuAjZMnOiVeVY4pG8.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/iLkzQbxrkTxuAjZMnOiVeVY4pG8.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/the-maze-runner-review/",
@@ -46920,44 +45576,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/05/Locked.jpg",
       "publishedAt": "2025-05-03T23:14:17+02:00",
       "modifiedAt": "2025-05-03T23:14:17+02:00",
-      "genres": [
-        "Canada",
-        "Movie",
-        "Rocky",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Locked",
-          "watchUrl": "https://anonsharing.com/file/67e543cc74b9bde5/Locked.mp4",
-          "downloadUrl": "https://anonsharing.com/file/67e543cc74b9bde5/Locked.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Rocky",
-      "release_date": "March 21, 2025",
-      "country": "United States|Canada",
-      "tmdb_id": 1083968,
-      "tmdb_rating": 6.207,
-      "popularity": 9.1068,
-      "tmdb_overview": "When Eddie breaks into a luxury SUV, he steps into a deadly trap set by William, a self-proclaimed vigilante delivering his own brand of twisted justice. With no means of escape, Eddie must fight to survive in a ride where escape is an illusion, survival is a nightmare, and justice shifts into high gear.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Locked",
-      "tmdb_year": 2025,
-      "poster_small": "https://image.tmdb.org/t/p/w185/hhkiqXpfpufwxVrdSftzeKIANl3.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/hhkiqXpfpufwxVrdSftzeKIANl3.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/hhkiqXpfpufwxVrdSftzeKIANl3.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/hhkiqXpfpufwxVrdSftzeKIANl3.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/r4X2xRrWleVgx0kahP27xRmm3ia.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/r4X2xRrWleVgx0kahP27xRmm3ia.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/r4X2xRrWleVgx0kahP27xRmm3ia.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/r4X2xRrWleVgx0kahP27xRmm3ia.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/category/movie/page/60/#",
@@ -48566,41 +47187,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/07/Wild-Dog.jpg",
       "publishedAt": "2025-07-11T20:00:17+02:00",
       "modifiedAt": "2025-07-11T20:00:17+02:00",
-      "genres": [
-        "Action",
-        "B da great",
-        "India",
-        "Movie",
-        "Thriller"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Wild Dog",
-          "watchUrl": "https://rumble.com/embed/v6tune0/?vq=hd1080phNlXTDPfel",
-          "downloadUrl": "https://www.mediafire.com/file/r4082qne7917dmd/Wild_Dog.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "B da great",
-      "release_date": "April 2, 2021",
-      "country": "India",
-      "tmdb_id": 802068,
-      "tmdb_rating": 5.435,
-      "popularity": 1.4458,
-      "tmdb_overview": "Wild Dog aka Vijay Varma is an NIA agent who’s brought back to field from a desk job to handle a terrorism case. Despite having a personal motive, he moves heaven and earth to ensure justice is served for the sake of the country.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Wild Dog",
-      "tmdb_year": 2021,
-      "poster_small": "https://image.tmdb.org/t/p/w185/8377XckHbfJDMrkSpEa9ZQJlVE0.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/8377XckHbfJDMrkSpEa9ZQJlVE0.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/8377XckHbfJDMrkSpEa9ZQJlVE0.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/8377XckHbfJDMrkSpEa9ZQJlVE0.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/bdZS1xmow1avubmpM0p0GXkQaGE.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/bdZS1xmow1avubmpM0p0GXkQaGE.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/bdZS1xmow1avubmpM0p0GXkQaGE.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/bdZS1xmow1avubmpM0p0GXkQaGE.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -51823,6 +50411,26 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/02/Saakshyam.jpg",
       "publishedAt": "2025-02-20T10:00:10+02:00",
       "modifiedAt": "2025-02-20T10:00:10+02:00",
+      "genres": [],
+      "type": "",
+      "saved": true
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/primal-review/",
+      "title": "Primal",
+      "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/08/Primal.jpg",
+      "publishedAt": "2024-08-01T11:03:54+02:00",
+      "modifiedAt": "2024-11-21T02:23:37+02:00",
+      "genres": [],
+      "type": "",
+      "saved": true
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/mirrors-review/",
+      "title": "Mirrors 1",
+      "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/12/Mirrors.jpg",
+      "publishedAt": "2024-12-13T13:43:41+02:00",
+      "modifiedAt": "2024-12-13T14:02:36+02:00",
       "genres": [],
       "type": "",
       "saved": true
