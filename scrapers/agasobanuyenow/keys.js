@@ -31,6 +31,14 @@ function coreTitle(raw = '') {
     .replace(/\b(?:episode|igice|ep)\s*\d+\b/g, ' ')
     .replace(/\b(?:part|pt\.?|igice|gbice)\s*(?:one|two|three|four|five|[a-z]|\d+)\b/g, ' ')
     .replace(/\b(?:final|full movie|full)\b/g, ' ')
+    // A trailing bracketed qualifier is not part of the work's identity: a dub
+    // site / narrator ("Outer Banks S05 (NTABWO ISOBANUYE)", "Betting Raja
+    // (Racha)"), an alternate title, or a year the rule above already removed.
+    // Must run AFTER the part/episode rules so "Wild Heart S01 (Yabani) Pt.3"
+    // loses "Pt.3" first and then "(Yabani)".
+    .replace(/\s*[([](?:[^)\]]*)[)\]]\s*$/, ' ')
+    // A closing bracket with no opening one, e.g. "Show S01 Pt.4]".
+    .replace(/\s*\]+\s*$/, ' ')
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
 }
