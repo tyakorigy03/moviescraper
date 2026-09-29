@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T05:47:49.758Z",
+  "updatedAt": "2026-09-29T12:58:07.753Z",
   "signals": {
     "https://www.rebamovie.com/movie/00a96740-8d77-43a5-9d7f-408c4748cfde": {
       "hot": 1.9,
@@ -58,12 +58,6 @@
     },
     "https://agasobanuyelive.com/wrong-turn-1-review/": {
       "hot": 1.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
-      "hot": 7.4,
       "sources": [
         "recomputed"
       ]
@@ -130,6 +124,12 @@
     },
     "https://www.rebamovie.com/movie/9ee35155-5d87-432f-97a5-ccede274e404": {
       "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
+      "hot": 7.4,
       "sources": [
         "recomputed"
       ]
