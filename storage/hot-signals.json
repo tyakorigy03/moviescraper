@@ -1,21 +1,21 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T12:58:07.753Z",
+  "updatedAt": "2026-09-29T22:19:25.671Z",
   "signals": {
-    "https://www.rebamovie.com/movie/00a96740-8d77-43a5-9d7f-408c4748cfde": {
+    "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
       "hot": 1.9,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/00a96740-8d77-43a5-9d7f-408c4748cfde": {
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-03-review/": {
       "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/261dd280-65da-4d30-bbe4-e4cc121a57fd": {
-      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -27,7 +27,13 @@
       ]
     },
     "https://www.rebamovie.com/movie/8570f57d-c3ea-43f2-9c47-7caf4759bd69": {
-      "hot": 2.8,
+      "hot": 6.5,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/avatar-the-last-airbender-s01-review/": {
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -74,20 +80,8 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/a0bedacb-4a6b-4f00-884a-17f5b1e98b6a": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/c544e963-1caa-4296-bba2-4a58e76e699d": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/7085f5a6-4510-4efb-a753-07f5dd9876ff": {
-      "hot": 5.5,
+    "https://www.rebamovie.com/movie/e48e1e92-0430-455a-b4fa-a5984ae113a2": {
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
@@ -122,12 +116,6 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/9ee35155-5d87-432f-97a5-ccede274e404": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
       "hot": 7.4,
       "sources": [
@@ -153,7 +141,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/e10a6fc1-9529-482c-8ca7-16f077243576": {
-      "hot": 8.3,
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
