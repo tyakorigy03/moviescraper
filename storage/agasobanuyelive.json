@@ -43951,5 +43951,16 @@
       "saved": true
     }
   ],
-  "failed": []
+  "failed": [
+    {
+      "link": "https://www.agasobanuyelive.com/category/movie/#",
+      "error": "cleanSiteCountry is not defined",
+      "saved": false
+    },
+    {
+      "link": "https://www.agasobanuyelive.com/category/movie/page/2/#",
+      "error": "cleanSiteCountry is not defined",
+      "saved": false
+    }
+  ]
 }
