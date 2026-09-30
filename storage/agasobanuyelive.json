@@ -1823,48 +1823,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/08/Orphan-First-Kill.webp",
       "publishedAt": "2024-08-06T16:28:33+02:00",
       "modifiedAt": "2024-11-23T23:24:28+02:00",
-      "genres": [
-        "Canada",
-        "Crime",
-        "Drama",
-        "Horror",
-        "Movie",
-        "Mystery",
-        "Sankara Da Premiere",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Orphan: First Kill",
-          "watchUrl": "https://anonsharing.com/file/d01899ee5aec3ab4/Orphan:_First_Kill.mp4",
-          "downloadUrl": "https://anonsharing.com/file/d01899ee5aec3ab4/Orphan:_First_Kill.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "Aug 19, 2022",
-      "country": "Canada|United States",
-      "tmdb_id": 760161,
-      "tmdb_rating": 6.586,
-      "popularity": 11.5897,
-      "tmdb_overview": "After escaping from an Estonian psychiatric facility, Leena Klammer travels to America by impersonating Esther, the missing daughter of a wealthy family. But when her mask starts to slip, she is put against a mother who will protect her family from the murderous “child” at any cost.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Orphan: First Kill",
-      "tmdb_year": 2022,
-      "poster_small": "https://image.tmdb.org/t/p/w185/pHkKbIRoCe7zIFvqan9LFSaQAde.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/pHkKbIRoCe7zIFvqan9LFSaQAde.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/pHkKbIRoCe7zIFvqan9LFSaQAde.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/pHkKbIRoCe7zIFvqan9LFSaQAde.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/e77LAFvZq5KteWsKxuc5nP9B6OD.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/e77LAFvZq5KteWsKxuc5nP9B6OD.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/e77LAFvZq5KteWsKxuc5nP9B6OD.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/e77LAFvZq5KteWsKxuc5nP9B6OD.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/ae-dil-hai-mushkil-review/",
@@ -4372,47 +4333,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2026/03/Agent-Zero.jpg",
       "publishedAt": "2026-03-05T15:16:26+02:00",
       "modifiedAt": "2026-03-05T15:16:26+02:00",
-      "genres": [
-        "Action",
-        "France",
-        "Movie",
-        "Mr Fire",
-        "Thriller"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Agent Zero A",
-          "watchUrl": "https://rumble.com/embed/v74ha1c/XTleGrJYxF",
-          "downloadUrl": "https://www.mediafire.com/file/5ds90frolgv1e5a/Agent_Zero_A.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "Agent Zero B",
-          "watchUrl": "https://rumble.com/embed/v74ha1q/6h0fzNocI4",
-          "downloadUrl": "https://www.mediafire.com/file/l1a0yw7zyhuyfwu/Agent_Zero_B.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Mr Fire",
-      "release_date": "March 13, 2026",
-      "country": "France",
-      "tmdb_id": 1383247,
-      "tmdb_rating": 5.6,
-      "popularity": 6.4343,
-      "tmdb_overview": "When police officer Ilias is shot and left in a coma, Alma must reconnect with her former identity as Badh, a ruthless intelligence operative and skilled assassin. She brutally eliminates members of the Khoury family one by one, unleashing the fury of their leader Mansour, only to discover that Mansour is working with Joana her former secret service unit officer.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Agent Zero",
-      "tmdb_year": 2025,
-      "poster_small": "https://image.tmdb.org/t/p/w185/9CkxkRjYNLDJgC1gkym1MPrX4nY.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/9CkxkRjYNLDJgC1gkym1MPrX4nY.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/9CkxkRjYNLDJgC1gkym1MPrX4nY.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/9CkxkRjYNLDJgC1gkym1MPrX4nY.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/lkkWEkEb0v8NKAlBQ6xLyiap3DY.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/lkkWEkEb0v8NKAlBQ6xLyiap3DY.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/lkkWEkEb0v8NKAlBQ6xLyiap3DY.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/lkkWEkEb0v8NKAlBQ6xLyiap3DY.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -7010,68 +6932,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/03/Lupin-S02.jpg",
       "publishedAt": "2026-03-13T11:40:50+02:00",
       "modifiedAt": "2026-03-13T11:41:04+02:00",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "France",
-        "Mystery",
-        "Rocky",
-        "Serie",
-        "United States"
-      ],
-      "type": "tv",
-      "Downloadurls": [
-        {
-          "title": "EP01",
-          "watchUrl": "https://rumble.com/embed/v74toas/4LJgliA0RD",
-          "downloadUrl": "https://www.mediafire.com/file/85z6kbwv5ar7x8v/Lupin_S02e01.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP02",
-          "watchUrl": "https://rumble.com/embed/v74tobe/QENX4XFVXP",
-          "downloadUrl": "https://www.mediafire.com/file/l697s2b7bhtmr4q/Lupin_S02e02.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP03",
-          "watchUrl": "https://rumble.com/embed/v74tocc/Si7vvw3fo4",
-          "downloadUrl": "https://www.mediafire.com/file/m08ph4obpv5oypx/Lupin_S02e03.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP04",
-          "watchUrl": "https://rumble.com/embed/v74tvjm/bK908a6VxE",
-          "downloadUrl": "https://www.mediafire.com/file/0canwu9536lslf9/Lupin_S02e04.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP05 Finale",
-          "watchUrl": "https://rumble.com/embed/v74tvl8/75VBHVt3hc",
-          "downloadUrl": "https://www.mediafire.com/file/uyz9eu13begxn20/Lupin_S02e05_Finale.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Rocky",
-      "release_date": "June 11, 2021",
-      "country": "France|United States",
-      "tmdb_id": 123200,
-      "tmdb_rating": 5.8,
-      "popularity": 1.6349,
-      "tmdb_overview": "Lupin Shanshei (ルパンしゃんしぇい Rupan Shanshei) is a parody web animation done by FROGMAN with episodes that last for 3 and a half minutes. It was originally released online but then had a DVD/Blu-ray release with an exclusive pilot episode.",
-      "tmdb_type": "tv",
-      "tmdb_title": "Lupin Shanshei",
-      "tmdb_year": 2012,
-      "poster_small": "https://image.tmdb.org/t/p/w185/gK6Kclnp1oRcQLZaOnbSWVjzECT.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/gK6Kclnp1oRcQLZaOnbSWVjzECT.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/gK6Kclnp1oRcQLZaOnbSWVjzECT.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/gK6Kclnp1oRcQLZaOnbSWVjzECT.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/dnUTzMrash3TEA7zwqMw04xJx85.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/dnUTzMrash3TEA7zwqMw04xJx85.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/dnUTzMrash3TEA7zwqMw04xJx85.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/dnUTzMrash3TEA7zwqMw04xJx85.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -11965,158 +11827,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/04/Cinderella-Game-S01.jpg",
       "publishedAt": "2025-07-29T16:07:01+02:00",
       "modifiedAt": "2025-07-29T16:15:03+02:00",
-      "genres": [
-        "B da great",
-        "Drama",
-        "Romance",
-        "Serie",
-        "South Korea"
-      ],
-      "type": "tv",
-      "Downloadurls": [
-        {
-          "title": "EP41",
-          "watchUrl": "https://rumble.com/embed/v6ubod4/?vq=hd1080poNUaeRcrFH",
-          "downloadUrl": "https://www.mediafire.com/file/n5tl2fx9yuc7n1c/Cinderella_Game_S01e41.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP42",
-          "watchUrl": "https://rumble.com/embed/v6ubodg/?vq=hd1080pnF55eqf88y",
-          "downloadUrl": "https://www.mediafire.com/file/ve85woolkk8aloc/Cinderella_Game_S01e42.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP43",
-          "watchUrl": "https://rumble.com/embed/v6uboe0/?vq=hd1080p6PnfEsa1Q3",
-          "downloadUrl": "https://www.mediafire.com/file/de199tzr7qpx0t6/Cinderella_Game_S01e43.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP44",
-          "watchUrl": "https://rumble.com/embed/v6uboee/?vq=hd1080pv4bW4z1esz",
-          "downloadUrl": "https://www.mediafire.com/file/ojksjc2o4wbxcr3/Cinderella_Game_S01e44.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP45",
-          "watchUrl": "https://rumble.com/embed/v6uboey/?vq=hd1080ppauVLe5BCi",
-          "downloadUrl": "https://www.mediafire.com/file/gmt0tesmnrvbtuv/Cinderella_Game_S01e45.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP46",
-          "watchUrl": "https://rumble.com/embed/v6ubofk/?vq=hd1080prg2YQ1rucU",
-          "downloadUrl": "https://www.mediafire.com/file/k5mjrjz7myzxc17/Cinderella_Game_S01e46.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP47",
-          "watchUrl": "https://rumble.com/embed/v6uc064/?vq=hd1080pqvCpioYKZu",
-          "downloadUrl": "https://www.mediafire.com/file/qsys0u6jcjea0ip/Cinderella_Game_S01e47.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP48",
-          "watchUrl": "https://rumble.com/embed/v6uc06y/?vq=hd1080poiB8YmhJsL",
-          "downloadUrl": "https://www.mediafire.com/file/4mqx7q4lx2jc2vj/Cinderella_Game_S01e48.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP49",
-          "watchUrl": "https://rumble.com/embed/v6uc07m/?vq=hd1080pv8f3n6J2n5",
-          "downloadUrl": "https://www.mediafire.com/file/05hkkt8hgeq5mp7/Cinderella_Game_S01e49.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP50",
-          "watchUrl": "https://rumble.com/embed/v6uc08e/?vq=hd1080pP9myucF0mm",
-          "downloadUrl": "https://www.mediafire.com/file/lyszgbjc8y2vwnj/Cinderella_Game_S01e50.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP51",
-          "watchUrl": "https://rumble.com/embed/v6uc092/?vq=hd1080pt5zIJ3Pqu3",
-          "downloadUrl": "https://www.mediafire.com/file/jug4a3kepwiz347/Cinderella_Game_S01e51.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP52",
-          "watchUrl": "https://rumble.com/embed/v6uc09i/?vq=hd1080pPPmTYLQKOJ",
-          "downloadUrl": "https://www.mediafire.com/file/02hx8fnlrsnszb2/Cinderella_Game_S01e52.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP53",
-          "watchUrl": "https://rumble.com/embed/v6uc0a0/?vq=hd1080pZDhMLTX8Pn",
-          "downloadUrl": "https://www.mediafire.com/file/bi7visbkkglfhgq/Cinderella_Game_S01e53.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP54",
-          "watchUrl": "https://rumble.com/embed/v6uc0aa/?vq=hd1080pkg7BTs0jaY",
-          "downloadUrl": "https://www.mediafire.com/file/zasc2lyk5vaabf6/Cinderella_Game_S01e54.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP55",
-          "watchUrl": "https://rumble.com/embed/v6uc0ak/?vq=hd1080pnBPQSD71OG",
-          "downloadUrl": "https://www.mediafire.com/file/4f0qybiwux0mwn9/Cinderella_Game_S01e55.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP56",
-          "watchUrl": "https://anonsharing.com/file/6c9361ec95116f6e/Cinderella_Game_S01e56.mp4",
-          "downloadUrl": "https://www.mediafire.com/file/ocn92we3q8hng3s/Cinderella_Game_S01e56.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP57",
-          "watchUrl": "https://anonsharing.com/file/60ea1897fa24604c/Cinderella_Game_S01e57.mp4",
-          "downloadUrl": "https://www.mediafire.com/file/i9g2y6no87kn1b3/Cinderella_Game_S01e57.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP58",
-          "watchUrl": "https://anonsharing.com/file/b322c00b91e51a6f/Cinderella_Game_S01e58.mp4",
-          "downloadUrl": "https://www.mediafire.com/file/ob9liq7alwdydif/Cinderella_Game_S01e58.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP59",
-          "watchUrl": "https://anonsharing.com/file/ade8bd109ae96677/Cinderella_Game_S01e59.mp4",
-          "downloadUrl": "https://www.mediafire.com/file/kmqdupdvfftdqtj/Cinderella_Game_S01e59.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "EP60",
-          "watchUrl": "https://anonsharing.com/file/e18806d56b016d20/Cinderella_Game_S01e60.mp4",
-          "downloadUrl": "https://www.mediafire.com/file/arfy0lqiw2nx74a/Cinderella_Game_S01e60.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "B da great",
-      "release_date": "Dec 2, 2024",
-      "country": "South Korea",
-      "tmdb_id": 275591,
-      "tmdb_rating": 4,
-      "popularity": 10.002,
-      "tmdb_overview": "A woman who was used as a false daughter by her real family's enemy becomes the embodiment of revenge, but grows and heals as she realizes the true meaning of what she thought she wanted the most.",
-      "tmdb_type": "tv",
-      "tmdb_title": "Cinderella Game",
-      "tmdb_year": 2024,
-      "poster_small": "https://image.tmdb.org/t/p/w185/z0aH1MsinhU6CIjvsHCdNhHlr2s.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/z0aH1MsinhU6CIjvsHCdNhHlr2s.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/z0aH1MsinhU6CIjvsHCdNhHlr2s.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/z0aH1MsinhU6CIjvsHCdNhHlr2s.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/r5kh9WyUJE0NiJZnM8Q3KsVcS9g.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/r5kh9WyUJE0NiJZnM8Q3KsVcS9g.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/r5kh9WyUJE0NiJZnM8Q3KsVcS9g.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/r5kh9WyUJE0NiJZnM8Q3KsVcS9g.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/sword-snow-stride-s01-review/",
@@ -26916,49 +26629,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/05/Collateral.jpg",
       "publishedAt": "2025-12-09T14:00:10+02:00",
       "modifiedAt": "2025-12-09T14:11:25+02:00",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Movie",
-        "Rocky",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Collateral A",
-          "watchUrl": "https://rumble.com/embed/v70lxje/EKhgOgEwuY",
-          "downloadUrl": "https://www.mediafire.com/file/2mewmggn6chq7lj/Collateral_A.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "Collateral B",
-          "watchUrl": "https://rumble.com/embed/v70lxka/rde3Ikl4RT",
-          "downloadUrl": "https://www.mediafire.com/file/280jw0fu2qmvj70/Collateral_B.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Rocky",
-      "release_date": "Aug 6, 2004",
-      "country": "United States",
-      "tmdb_id": 1538,
-      "tmdb_rating": 7.248,
-      "popularity": 15.9731,
-      "tmdb_overview": "Cab driver Max picks up a man who offers him $600 to drive him around. But the promise of easy money sours when Max realizes his fare is an assassin.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Collateral",
-      "tmdb_year": 2004,
-      "poster_small": "https://image.tmdb.org/t/p/w185/nV5316WUsVij8sVXLCF1g7TFitg.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/nV5316WUsVij8sVXLCF1g7TFitg.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/nV5316WUsVij8sVXLCF1g7TFitg.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/nV5316WUsVij8sVXLCF1g7TFitg.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/qVzmXKKOTtd3szkiCheCNrfa394.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/qVzmXKKOTtd3szkiCheCNrfa394.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/qVzmXKKOTtd3szkiCheCNrfa394.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/qVzmXKKOTtd3szkiCheCNrfa394.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -27247,45 +26919,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/04/The-Gardener.jpg",
       "publishedAt": "2025-04-03T14:53:30+02:00",
       "modifiedAt": "2025-04-03T14:53:30+02:00",
-      "genres": [
-        "Action",
-        "Drama",
-        "Movie",
-        "Rocky",
-        "Thriller",
-        "United Kingdom"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "The Gardener",
-          "watchUrl": "https://anonsharing.com/file/2479e3050f4a08a5/The_Gardener.mp4",
-          "downloadUrl": "https://anonsharing.com/file/2479e3050f4a08a5/The_Gardener.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Rocky",
-      "release_date": "Dec 28, 2021",
-      "country": "United Kingdom",
-      "tmdb_id": 894432,
-      "tmdb_rating": 4.9,
-      "popularity": 2.1516,
-      "tmdb_overview": "A troubled wealthy family gathers in a quaint manor home for the holidays, never suspecting that bloodthirsty, sadistic Volker and his crew linger at the gates, ready to attack, rob, and maim them at nightfall. But they didn’t count on the estate’s quiet gardener, Peter Juhasz , who must return to the savage ways he learned as a soldier to save the family.",
-      "tmdb_type": "movie",
-      "tmdb_title": "The Gardener",
-      "tmdb_year": 2021,
-      "poster_small": "https://image.tmdb.org/t/p/w185/ixbCnipX726c6rzv1T6reZDXgJE.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/ixbCnipX726c6rzv1T6reZDXgJE.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/ixbCnipX726c6rzv1T6reZDXgJE.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/ixbCnipX726c6rzv1T6reZDXgJE.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/5dkrqyDvimo7EQpN0xX3FQk2v2t.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/5dkrqyDvimo7EQpN0xX3FQk2v2t.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/5dkrqyDvimo7EQpN0xX3FQk2v2t.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/5dkrqyDvimo7EQpN0xX3FQk2v2t.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/the-day-of-the-jackal-s01-review/",
@@ -27676,42 +27312,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2026/07/Bad-Sister.jpg",
       "publishedAt": "2026-07-24T15:34:09+02:00",
       "modifiedAt": "2026-07-24T15:34:09+02:00",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Movie",
-        "Sankara Da Premiere",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Bad Sister",
-          "watchUrl": "https://rumble.com/embed/v7az57a/EgrgXJuYb5",
-          "downloadUrl": "https://www.mediafire.com/file/mf925qlldatu3le/Bad_Sister.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "Jan 3, 2016",
-      "country": "United States",
-      "tmdb_id": 375846,
-      "tmdb_rating": 6.593,
-      "popularity": 9.8034,
-      "tmdb_overview": "As a top student at St. Adeline's Catholic Boarding School, Zoe senses that something is not quite right about the school's new nun-- a sense proven to be true when it is revealed the \"good' nun is an imposter with a fatal attraction to Zoe's brother.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Bad Sister",
-      "tmdb_year": 2015,
-      "poster_small": "https://image.tmdb.org/t/p/w185/jKrIlgfJPIWNeowaOZPBZuOPmq0.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/jKrIlgfJPIWNeowaOZPBZuOPmq0.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/jKrIlgfJPIWNeowaOZPBZuOPmq0.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/jKrIlgfJPIWNeowaOZPBZuOPmq0.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/8Sh04np6IA2shSycI9uy5xrjC6I.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/8Sh04np6IA2shSycI9uy5xrjC6I.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/8Sh04np6IA2shSycI9uy5xrjC6I.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/8Sh04np6IA2shSycI9uy5xrjC6I.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -29367,48 +28969,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/02/One-More-Shot.jpg",
       "publishedAt": "2026-05-28T16:03:04+02:00",
       "modifiedAt": "2026-05-28T16:03:14+02:00",
-      "genres": [
-        "Action",
-        "Movie",
-        "Sankara Da Premiere",
-        "Thriller",
-        "United Kingdom",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "One More Shot A",
-          "watchUrl": "https://rumble.com/embed/v78adx6/kpiVU6HSt3",
-          "downloadUrl": "https://www.mediafire.com/file/j2q1r2fyjgkphfe/One_More_Shot_A.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "One More Shot B",
-          "watchUrl": "https://rumble.com/embed/v78ba7k/b1WxFJn9hl",
-          "downloadUrl": "https://www.mediafire.com/file/q1adoz1agcreg4x/One_More_Shot_B.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Sankara Da Premier",
-      "release_date": "Jan 12, 2024",
-      "country": "United States|United Kingdom",
-      "tmdb_id": 1214314,
-      "tmdb_rating": 6.549,
-      "popularity": 8.0037,
-      "tmdb_overview": "Following the attack on the black site in Poland, Navy SEAL Jake Harris is ordered to escort terrorist suspect Amin Mansur to Washington D.C. for interrogation. Before the prisoner transfer process is complete, though, the airport is attacked by a group of heavily armed, well-trained mercenaries.",
-      "tmdb_type": "movie",
-      "tmdb_title": "One More Shot",
-      "tmdb_year": 2024,
-      "poster_small": "https://image.tmdb.org/t/p/w185/xiLFc19JANfAZHbecqoCFpmtiUV.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/xiLFc19JANfAZHbecqoCFpmtiUV.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/xiLFc19JANfAZHbecqoCFpmtiUV.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/xiLFc19JANfAZHbecqoCFpmtiUV.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/ay0PJQZizDXk0pzhoGX4v7K9h7A.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/ay0PJQZizDXk0pzhoGX4v7K9h7A.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/ay0PJQZizDXk0pzhoGX4v7K9h7A.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/ay0PJQZizDXk0pzhoGX4v7K9h7A.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -29417,42 +28979,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/12/One-Shot.jpg",
       "publishedAt": "2026-05-28T16:00:03+02:00",
       "modifiedAt": "2026-05-28T16:02:36+02:00",
-      "genres": [
-        "Action",
-        "Gaheza",
-        "Movie",
-        "Thriller",
-        "United Kingdom",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "One Shot",
-          "watchUrl": "https://rumble.com/embed/v78add0/ru2sE25QC3",
-          "downloadUrl": "https://www.mediafire.com/file/n30gijxoi15eqtj/One_Shot.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "Gaheza",
-      "release_date": "Nov 5, 2021",
-      "country": "United Kingdom|United States",
-      "tmdb_id": 811592,
-      "tmdb_rating": 6.7,
-      "popularity": 8.3875,
-      "tmdb_overview": "An elite squad of Navy SEALs, on a covert mission to transport a prisoner off a CIA black site island prison, are trapped when insurgents attack while trying to rescue the same prisoner.",
-      "tmdb_type": "movie",
-      "tmdb_title": "One Shot",
-      "tmdb_year": 2021,
-      "poster_small": "https://image.tmdb.org/t/p/w185/3OXiTjU30gWtqxmx4BU9RVp2OTv.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/3OXiTjU30gWtqxmx4BU9RVp2OTv.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/3OXiTjU30gWtqxmx4BU9RVp2OTv.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/3OXiTjU30gWtqxmx4BU9RVp2OTv.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/srJ7haOhfykoPOYPQrstOaFem08.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/srJ7haOhfykoPOYPQrstOaFem08.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/srJ7haOhfykoPOYPQrstOaFem08.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/srJ7haOhfykoPOYPQrstOaFem08.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -35251,51 +34779,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/08/seized.webp",
       "publishedAt": "2024-08-03T22:42:38+02:00",
       "modifiedAt": "2024-11-21T02:37:19+02:00",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Movie",
-        "Rocky",
-        "Thriller",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "A",
-          "watchUrl": "https://anonsharing.com/file/889041f1cc7108b2/Seized_A.mp4",
-          "downloadUrl": "https://anonsharing.com/file/889041f1cc7108b2/Seized_A.mp4",
-          "direct": false
-        },
-        {
-          "title": "B",
-          "watchUrl": "https://anonsharing.com/file/1e6739301539ecb7/Seized_B.mp4",
-          "downloadUrl": "https://anonsharing.com/file/1e6739301539ecb7/Seized_B.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Rocky",
-      "release_date": "Oct 13, 2020",
-      "country": "United States",
-      "tmdb_id": 572751,
-      "tmdb_rating": 6.713,
-      "popularity": 4.8029,
-      "tmdb_overview": "Hiding out with his son Taylor on the Mexican coast, Nero hopes to put his violent Special Forces career behind him. But after Nero’s home is attacked and Taylor is abducted, the mysterious Mzamo orders Nero to slaughter the members of three rival crime syndicates. If he fails, Taylor will die. Now, with bullets flying and bodies dropping as Nero completes his mission, he races to find Mzamo’s hideout and seek revenge.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Seized",
-      "tmdb_year": 2020,
-      "poster_small": "https://image.tmdb.org/t/p/w185/5YtWsBAv3HvdeTXidyvAsiP4sVu.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/5YtWsBAv3HvdeTXidyvAsiP4sVu.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/5YtWsBAv3HvdeTXidyvAsiP4sVu.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/5YtWsBAv3HvdeTXidyvAsiP4sVu.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/bs3hu2Qi3QEAGbYFhdbWdT2QRLU.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/bs3hu2Qi3QEAGbYFhdbWdT2QRLU.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/bs3hu2Qi3QEAGbYFhdbWdT2QRLU.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/bs3hu2Qi3QEAGbYFhdbWdT2QRLU.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/the-power-review/",
@@ -35775,45 +35261,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/01/Io-Capitano.jpg",
       "publishedAt": "2025-01-21T19:39:37+02:00",
       "modifiedAt": "2025-01-21T19:39:37+02:00",
-      "genres": [
-        "Belgium",
-        "Drama",
-        "France",
-        "Italy",
-        "Movie",
-        "Savimbi"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Io Capitano",
-          "watchUrl": "https://anonsharing.com/file/4005cc3cb1aa56bd/Lo_Capitano.mp4",
-          "downloadUrl": "https://anonsharing.com/file/4005cc3cb1aa56bd/Lo_Capitano.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "Savimbi",
-      "release_date": "Sep 7, 2023",
-      "country": "Italy|Belgium|France",
-      "tmdb_id": 937746,
-      "tmdb_rating": 7.776,
-      "popularity": 8.2679,
-      "tmdb_overview": "Longing for a brighter future, two Senegalese teenagers embark on a journey from West Africa to Italy. However, between their dreams and reality lies a labyrinth of checkpoints, the Sahara Desert, and the vast waters of the Mediterranean.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Io Capitano",
-      "tmdb_year": 2023,
-      "poster_small": "https://image.tmdb.org/t/p/w185/kGlZFwUQI5gAUdySNFfqGIkAF9n.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/kGlZFwUQI5gAUdySNFfqGIkAF9n.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/kGlZFwUQI5gAUdySNFfqGIkAF9n.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/kGlZFwUQI5gAUdySNFfqGIkAF9n.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/rniS6AOKTOr5PV7Xok6m7QSzlXg.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/rniS6AOKTOr5PV7Xok6m7QSzlXg.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/rniS6AOKTOr5PV7Xok6m7QSzlXg.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/rniS6AOKTOr5PV7Xok6m7QSzlXg.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/the-girl-who-believes-in-miracles-review/",
@@ -38515,48 +37965,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/12/Identity.jpg",
       "publishedAt": "2025-12-10T12:04:46+02:00",
       "modifiedAt": "2025-12-10T12:04:46+02:00",
-      "genres": [
-        "Action",
-        "B da great",
-        "Crime",
-        "India",
-        "Movie",
-        "Thriller"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Identity A",
-          "watchUrl": "https://rumble.com/embed/v70nc4g/q3BUT0BvVb",
-          "downloadUrl": "https://www.mediafire.com/file/7kq803yiekv8at3/Identity_A.mp4/file",
-          "direct": true
-        },
-        {
-          "title": "Identity B",
-          "watchUrl": "https://rumble.com/embed/v70nc4e/omLnjY0AJY",
-          "downloadUrl": "https://www.mediafire.com/file/xhlj3vugtoxv31r/Identity_B.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "B da great",
-      "release_date": "Jan 2, 2025",
-      "country": "India",
-      "tmdb_id": 1012180,
-      "tmdb_rating": 5.519,
-      "popularity": 1.5358,
-      "tmdb_overview": "A sketch artist and a cop work together to unravel the identity of an elusive killer using the descriptions of his face, etched into the memory of an eye-witness to the brutal crime",
-      "tmdb_type": "movie",
-      "tmdb_title": "Identity",
-      "tmdb_year": 2025,
-      "poster_small": "https://image.tmdb.org/t/p/w185/gTqLwscF0S9QIvRLP4bHm1PuRwR.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/gTqLwscF0S9QIvRLP4bHm1PuRwR.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/gTqLwscF0S9QIvRLP4bHm1PuRwR.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/gTqLwscF0S9QIvRLP4bHm1PuRwR.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/d8fgJIUyvJa0NGkZ7VQBlgJADIK.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/d8fgJIUyvJa0NGkZ7VQBlgJADIK.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/d8fgJIUyvJa0NGkZ7VQBlgJADIK.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/d8fgJIUyvJa0NGkZ7VQBlgJADIK.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -39837,41 +39247,8 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2025/11/Wolf-Hiding.jpg",
       "publishedAt": "2025-11-22T13:08:14+02:00",
       "modifiedAt": "2025-11-22T13:08:14+02:00",
-      "genres": [
-        "Action",
-        "B da great",
-        "China",
-        "Crime",
-        "Movie"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Wolf Hiding",
-          "watchUrl": "https://rumble.com/embed/v6zraw4/wtBjOpuLIi",
-          "downloadUrl": "https://www.mediafire.com/file/x10jhdb07wcoxul/Wolf_Hiding.mp4/file",
-          "direct": true
-        }
-      ],
-      "narrator": "B da great",
-      "release_date": "Dec 16, 2023",
-      "country": "China",
-      "tmdb_id": 950019,
-      "tmdb_rating": 6.579,
-      "popularity": 1.7748,
-      "tmdb_overview": "A criminal group is facing a change of leadership, and all forces are trying to intervene.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Wolf Hiding",
-      "tmdb_year": 2023,
-      "poster_small": "https://image.tmdb.org/t/p/w185/e01rnJQ5pGaboCAcNbvD7MUl9bH.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/e01rnJQ5pGaboCAcNbvD7MUl9bH.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/e01rnJQ5pGaboCAcNbvD7MUl9bH.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/e01rnJQ5pGaboCAcNbvD7MUl9bH.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/9C99rG7CunGRGFBgFHpjCP7V4Ma.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/9C99rG7CunGRGFBgFHpjCP7V4Ma.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/9C99rG7CunGRGFBgFHpjCP7V4Ma.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/9C99rG7CunGRGFBgFHpjCP7V4Ma.jpg",
-      "color": null,
+      "genres": [],
+      "type": "",
       "saved": true
     },
     {
@@ -40896,45 +40273,9 @@
       "image": "https://www.agasobanuyelive.com/wp-content/uploads/2024/10/Pirates-of-the-Caribbean-3.jpg",
       "publishedAt": "2024-10-31T00:45:33+02:00",
       "modifiedAt": "2024-10-31T00:45:33+02:00",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Movie",
-        "PK",
-        "United States"
-      ],
-      "type": "movie",
-      "Downloadurls": [
-        {
-          "title": "Pirates of the Caribbean 3",
-          "watchUrl": "https://anonsharing.com/file/b43e8baecbe45a3a/Pirates_of_the_Caribbean_-_At_Worlds_End.mp4",
-          "downloadUrl": "https://anonsharing.com/file/b43e8baecbe45a3a/Pirates_of_the_Caribbean_-_At_Worlds_End.mp4",
-          "direct": false
-        }
-      ],
-      "narrator": "PK",
-      "release_date": "May 25, 2007",
-      "country": "United States",
-      "tmdb_id": 285,
-      "tmdb_rating": 7.277,
-      "popularity": 34.4687,
-      "tmdb_overview": "After losing Captain Jack Sparrow to the locker of Davy Jones, Will Turner, Elizabeth Swann, and Captain Barbossa journey to the ends of the earth to rescue him. And as the East India Trading Company tightens its grip on the seas under Lord Cutler Beckett—now in control of Davy Jones—the fate of piracy hangs by a thread. Now, they must unite the pirate lords for one final stand. But as loyalties are tested and alliances shift, each must ultimately choose where they stand in the battle for freedom on the high seas.",
-      "tmdb_type": "movie",
-      "tmdb_title": "Pirates of the Caribbean: At World's End",
-      "tmdb_year": 2007,
-      "poster_small": "https://image.tmdb.org/t/p/w185/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg",
-      "poster_medium": "https://image.tmdb.org/t/p/w342/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg",
-      "poster_large": "https://image.tmdb.org/t/p/w500/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg",
-      "backdrop_small": "https://image.tmdb.org/t/p/w300/1jHxkVXMI5s3vRiyiZooUy1shB5.jpg",
-      "backdrop_medium": "https://image.tmdb.org/t/p/w780/1jHxkVXMI5s3vRiyiZooUy1shB5.jpg",
-      "backdrop_large": "https://image.tmdb.org/t/p/w1280/1jHxkVXMI5s3vRiyiZooUy1shB5.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/original/1jHxkVXMI5s3vRiyiZooUy1shB5.jpg",
-      "color": null,
-      "saved": false,
-      "ignored": true,
-      "ignoreReason": "Skipped because download/watch URL matched blocked host: anonsharing.com"
+      "genres": [],
+      "type": "",
+      "saved": true
     },
     {
       "link": "https://www.agasobanuyelive.com/rambo-4-review/",
