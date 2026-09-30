@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T22:19:25.671Z",
+  "updatedAt": "2026-09-30T05:37:20.841Z",
   "signals": {
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
       "hot": 1.9,
@@ -27,7 +27,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/8570f57d-c3ea-43f2-9c47-7caf4759bd69": {
-      "hot": 6.5,
+      "hot": 8.3,
       "sources": [
         "recomputed"
       ]
@@ -46,12 +46,6 @@
     },
     "https://agasobanuyelive.com/outer-banks-season-02-review/": {
       "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/agent-kim-reactivated-s01-review/": {
-      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -76,12 +70,6 @@
     },
     "https://agasobanuyelive.com/outer-banks-season-01-review/": {
       "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/e48e1e92-0430-455a-b4fa-a5984ae113a2": {
-      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
@@ -117,7 +105,13 @@
       ]
     },
     "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
-      "hot": 7.4,
+      "hot": 6.5,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/e48e1e92-0430-455a-b4fa-a5984ae113a2": {
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
