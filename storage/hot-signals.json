@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T06:00:30.971Z",
+  "updatedAt": "2026-10-01T13:22:40.185Z",
   "signals": {
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
       "hot": 1.9,
@@ -15,25 +15,31 @@
       ]
     },
     "https://www.rebamovie.com/movie/0d667f39-6c1a-4edb-a4a9-19e85d622c3d": {
-      "hot": 8.2,
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/587ca884-16a9-410a-8d61-204ac52d88d0": {
-      "hot": 7.3,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/59d6f167-2e61-4f19-95ff-bf4580491a87": {
-      "hot": 3.7,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/da-vincis-demons-s01-review/": {
-      "hot": 10,
+      "hot": 8.2,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
+      "hot": 9.1,
       "sources": [
         "recomputed"
       ]
@@ -81,7 +87,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/4abff8af-ddd5-4602-9cfb-b1b50dec5402": {
-      "hot": 4.6,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
@@ -104,20 +110,14 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/90ad2917-1538-4146-b585-ec1457cb5e7e": {
+    "https://www.rebamovie.com/movie/c3851a52-cb88-4208-9952-c85b90149f41": {
       "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/c3851a52-cb88-4208-9952-c85b90149f41": {
-      "hot": 4.6,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 9.1,
+      "hot": 7.3,
       "sources": [
         "recomputed"
       ]
@@ -141,7 +141,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/e10a6fc1-9529-482c-8ca7-16f077243576": {
-      "hot": 7.4,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
