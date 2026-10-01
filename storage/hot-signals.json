@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T13:22:40.185Z",
+  "updatedAt": "2026-10-01T22:43:54.223Z",
   "signals": {
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
       "hot": 1.9,
@@ -32,14 +32,26 @@
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/da-vincis-demons-s01-review/": {
-      "hot": 8.2,
+    "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
+      "hot": 9.1,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
-      "hot": 9.1,
+    "https://www.rebamovie.com/movie/4abff8af-ddd5-4602-9cfb-b1b50dec5402": {
+      "hot": 2.8,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/7b22455e-4ac8-4117-bbad-9410763cd69a": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/da-vincis-demons-s01-review/": {
+      "hot": 8.2,
       "sources": [
         "recomputed"
       ]
@@ -82,12 +94,6 @@
     },
     "https://agasobanuyelive.com/wrong-turn-1-review/": {
       "hot": 1.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/4abff8af-ddd5-4602-9cfb-b1b50dec5402": {
-      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
