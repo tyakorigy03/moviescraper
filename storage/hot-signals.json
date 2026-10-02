@@ -1,39 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02T05:43:17.174Z",
+  "updatedAt": "2026-10-02T12:41:14.670Z",
   "signals": {
-    "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
-      "hot": 5.6,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/0d667f39-6c1a-4edb-a4a9-19e85d622c3d": {
-      "hot": 6.4,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/587ca884-16a9-410a-8d61-204ac52d88d0": {
-      "hot": 5.5,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/59d6f167-2e61-4f19-95ff-bf4580491a87": {
       "hot": 1.9,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
-      "hot": 9.1,
+      "hot": 7.4,
       "sources": [
         "recomputed"
       ]
@@ -45,19 +21,43 @@
       ]
     },
     "https://www.rebamovie.com/movie/7b22455e-4ac8-4117-bbad-9410763cd69a": {
-      "hot": 10,
+      "hot": 5.5,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/9173be5d-2730-426b-9dc8-599b553da73e": {
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/da-vincis-demons-s01-review/": {
-      "hot": 8.2,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-03-review/": {
-      "hot": 9.2,
+      "hot": 8.3,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/special-ops-lioness-s01-review/": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
@@ -75,13 +75,13 @@
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-04-review/": {
-      "hot": 9.2,
+      "hot": 8.3,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-02-review/": {
-      "hot": 9.2,
+      "hot": 8.3,
       "sources": [
         "recomputed"
       ]
@@ -105,7 +105,7 @@
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-01-review/": {
-      "hot": 9.2,
+      "hot": 8.3,
       "sources": [
         "recomputed"
       ]
@@ -116,20 +116,14 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/c3851a52-cb88-4208-9952-c85b90149f41": {
+    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
       "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 7.3,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://agasobanuyelive.com/outer-banks-s05-review/": {
-      "hot": 9.2,
+      "hot": 8.3,
       "sources": [
         "recomputed"
       ]
