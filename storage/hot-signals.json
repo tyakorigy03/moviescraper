@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T05:22:23.823Z",
+  "updatedAt": "2026-10-03T11:43:29.625Z",
   "signals": {
     "https://www.rebamovie.com/movie/4abff8af-ddd5-4602-9cfb-b1b50dec5402": {
       "hot": 2.8,
@@ -20,14 +20,20 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/7b22455e-4ac8-4117-bbad-9410763cd69a": {
-      "hot": 4.6,
+    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
-      "hot": 3.7,
+    "https://www.rebamovie.com/movie/d9f4aa81-553b-48f6-898c-fd5569389bbb": {
+      "hot": 9.1,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/7b22455e-4ac8-4117-bbad-9410763cd69a": {
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -80,8 +86,14 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/d9f4aa81-553b-48f6-898c-fd5569389bbb": {
-      "hot": 9.1,
+    "https://agasobanuyelive.com/outer-banks-s05-review/": {
+      "hot": 7.4,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/cf3060b4-677b-49cc-a2db-3a2cea2ef5c4/the-uprising-2026-perfect.mp4": {
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
@@ -142,12 +154,6 @@
     },
     "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
       "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/outer-banks-s05-review/": {
-      "hot": 7.4,
       "sources": [
         "recomputed"
       ]
