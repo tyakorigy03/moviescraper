@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T21:22:07.051Z",
+  "updatedAt": "2026-10-04T05:58:44.875Z",
   "signals": {
     "https://www.rebamovie.com/movie/4abff8af-ddd5-4602-9cfb-b1b50dec5402": {
       "hot": 2.8,
@@ -9,7 +9,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
-      "hot": 1.9,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
@@ -46,12 +46,6 @@
     },
     "https://www.rebamovie.com/movie/587ca884-16a9-410a-8d61-204ac52d88d0": {
       "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
-      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
@@ -98,6 +92,12 @@
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
+      "hot": 5.5,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://agasobanuyelive.com/outer-banks-season-03-review/": {
       "hot": 5.5,
       "sources": [
@@ -117,7 +117,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/8570f57d-c3ea-43f2-9c47-7caf4759bd69": {
-      "hot": 2.8,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -171,7 +171,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/e10a6fc1-9529-482c-8ca7-16f077243576": {
-      "hot": 4.6,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
