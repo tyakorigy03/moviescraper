@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05T05:46:39.731Z",
+  "updatedAt": "2026-10-05T14:46:58.920Z",
   "signals": {
     "https://www.rebamovie.com/movie/4abff8af-ddd5-4602-9cfb-b1b50dec5402": {
       "hot": 2.8,
@@ -14,12 +14,6 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/0d667f39-6c1a-4edb-a4a9-19e85d622c3d": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
       "hot": 3.7,
       "sources": [
@@ -27,43 +21,43 @@
       ]
     },
     "https://www.rebamovie.com/movie/d9f4aa81-553b-48f6-898c-fd5569389bbb": {
-      "hot": 9.1,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/7b22455e-4ac8-4117-bbad-9410763cd69a": {
-      "hot": 6.5,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/9173be5d-2730-426b-9dc8-599b553da73e": {
-      "hot": 5.5,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/587ca884-16a9-410a-8d61-204ac52d88d0": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/f402327d-abcc-4d5c-a018-1b4fb89cc766": {
       "hot": 8.2,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/2865cfc2-b9be-4dbd-8a64-242b5a3e4cfb": {
+    "https://www.rebamovie.com/movie/9173be5d-2730-426b-9dc8-599b553da73e": {
+      "hot": 4.6,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/7b22455e-4ac8-4117-bbad-9410763cd69a": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/587ca884-16a9-410a-8d61-204ac52d88d0": {
       "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/f402327d-abcc-4d5c-a018-1b4fb89cc766": {
+      "hot": 7.3,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/2865cfc2-b9be-4dbd-8a64-242b5a3e4cfb": {
+      "hot": 1.9,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/9a1397d5-2c0a-4818-aca4-6c5ffe4d0004": {
-      "hot": 6.4,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
@@ -75,7 +69,7 @@
       ]
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/cf3060b4-677b-49cc-a2db-3a2cea2ef5c4/the-uprising-2026-perfect.mp4": {
-      "hot": 5.5,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -87,7 +81,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/9b575f5b-81b9-4de0-bc47-51be3bf35733": {
-      "hot": 7.3,
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
@@ -159,7 +153,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/e10a6fc1-9529-482c-8ca7-16f077243576": {
-      "hot": 2.8,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
