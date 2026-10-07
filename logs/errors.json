@@ -12218,5 +12218,9 @@
   {
     "message": "Failed inserting batch 1: Could not find the '_sourceLinks' column of 'moviesv2' in the schema cache",
     "timestamp": "2026-10-07T11:58:41.304Z"
+  },
+  {
+    "message": "Scraper failed: net::ERR_FAILED at https://www.agasobanuyelive.com/category/movie/page/18/",
+    "timestamp": "2026-10-07T18:51:00.794Z"
   }
 ]
