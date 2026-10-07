@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T18:25:24.470Z",
+  "updatedAt": "2026-10-07T06:04:57.391Z",
   "signals": {
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
-      "hot": 3.7,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -26,8 +26,26 @@
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/outer-banks-season-02-review/": {
+      "hot": 4.6,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
-      "hot": 5.5,
+      "hot": 7.3,
       "sources": [
         "recomputed"
       ]
@@ -56,26 +74,8 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/outer-banks-season-02-review/": {
-      "hot": 4.6,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/7b22455e-4ac8-4117-bbad-9410763cd69a": {
       "hot": 3.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
-      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
