@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T13:35:36.650Z",
+  "updatedAt": "2026-10-08T23:23:51.532Z",
   "signals": {
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
-      "hot": 4.6,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
@@ -45,13 +45,13 @@
       ]
     },
     "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
-      "hot": 5.5,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
-      "hot": 2.8,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -123,7 +123,7 @@
       ]
     },
     "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
-      "hot": 10,
+      "hot": 9.2,
       "sources": [
         "recomputed"
       ]
