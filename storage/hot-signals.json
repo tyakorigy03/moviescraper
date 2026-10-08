@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T06:10:07.850Z",
+  "updatedAt": "2026-10-08T13:35:36.650Z",
   "signals": {
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
       "hot": 4.6,
@@ -45,7 +45,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
-      "hot": 6.4,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
