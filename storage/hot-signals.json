@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T23:23:51.532Z",
+  "updatedAt": "2026-10-09T06:13:59.636Z",
   "signals": {
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
       "hot": 3.7,
@@ -9,7 +9,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/d9f4aa81-553b-48f6-898c-fd5569389bbb": {
-      "hot": 2.8,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -32,25 +32,13 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/f402327d-abcc-4d5c-a018-1b4fb89cc766": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/2f9e12b1-c6b8-4741-8de7-1c9307f68100": {
-      "hot": 5.5,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
       "hot": 4.6,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
+    "https://www.rebamovie.com/movie/4d65d2a6-1191-4772-b20b-c74cf8ea29e7": {
       "hot": 1.9,
       "sources": [
         "recomputed"
@@ -69,13 +57,19 @@
       ]
     },
     "https://www.rebamovie.com/movie/376b5d94-9ad3-4635-a212-152facdb19ba": {
-      "hot": 8.2,
+      "hot": 7.3,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/fall-review/": {
-      "hot": 9.1,
+      "hot": 8.2,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -123,19 +117,19 @@
       ]
     },
     "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
-      "hot": 9.2,
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 7.3,
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/alpha-review/": {
-      "hot": 7.3,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
