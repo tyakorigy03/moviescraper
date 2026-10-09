@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T13:25:04.821Z",
+  "updatedAt": "2026-10-09T22:41:45.477Z",
   "signals": {
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
       "hot": 3.7,
@@ -74,6 +74,12 @@
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/9163d98e-5807-4424-a7e8-2f8bb754df47": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://agasobanuyelive.com/outer-banks-season-03-review/": {
       "hot": 3.7,
       "sources": [
@@ -129,7 +135,7 @@
       ]
     },
     "https://agasobanuyelive.com/alpha-review/": {
-      "hot": 5.5,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
