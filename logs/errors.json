@@ -24806,5 +24806,9 @@
   {
     "message": "downloadData mismatch for Raayan — broken/placeholder video, giving up",
     "timestamp": "2026-10-10T09:35:45.597Z"
+  },
+  {
+    "message": "Scraper failed: Navigation timeout of 90000 ms exceeded",
+    "timestamp": "2026-10-10T15:49:20.396Z"
   }
 ]
