@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T22:41:45.477Z",
+  "updatedAt": "2026-10-10T05:57:12.298Z",
   "signals": {
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
       "hot": 3.7,
@@ -9,7 +9,7 @@
       ]
     },
     "https://agasobanuyelive.com/outer-banks-s05-review/": {
-      "hot": 3.7,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -21,7 +21,7 @@
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-02-review/": {
-      "hot": 3.7,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -51,37 +51,43 @@
       ]
     },
     "https://www.rebamovie.com/movie/2f9e12b1-c6b8-4741-8de7-1c9307f68100": {
-      "hot": 3.7,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/376b5d94-9ad3-4635-a212-152facdb19ba": {
-      "hot": 6.4,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/fall-review/": {
-      "hot": 7.3,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/a1762bf1-bc71-461b-be7c-90ec7645ae0e": {
-      "hot": 9.1,
+      "hot": 7.3,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/9163d98e-5807-4424-a7e8-2f8bb754df47": {
-      "hot": 10,
+      "hot": 8.2,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/7835bc95-6f09-4e28-81ca-6934f0db3771": {
+      "hot": 9.1,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-03-review/": {
-      "hot": 3.7,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -99,7 +105,7 @@
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-04-review/": {
-      "hot": 3.7,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -117,7 +123,7 @@
       ]
     },
     "https://agasobanuyelive.com/outer-banks-season-01-review/": {
-      "hot": 3.7,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -129,13 +135,13 @@
       ]
     },
     "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 5.5,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/alpha-review/": {
-      "hot": 4.6,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
