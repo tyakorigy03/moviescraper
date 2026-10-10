@@ -24810,5 +24810,1609 @@
   {
     "message": "Scraper failed: Navigation timeout of 90000 ms exceeded",
     "timestamp": "2026-10-10T15:49:20.396Z"
+  },
+  {
+    "message": "catalog page 45 failed: Request failed with status code 429",
+    "timestamp": "2026-10-10T17:48:18.052Z"
+  },
+  {
+    "message": "downloadData failed for Hitman: Agent Jun: Request failed with status code 429",
+    "timestamp": "2026-10-10T17:48:20.267Z"
+  },
+  {
+    "message": "downloadData failed for Prelude of the White Snake - S01E04: Request failed with status code 429",
+    "timestamp": "2026-10-10T17:48:26.976Z"
+  },
+  {
+    "message": "downloadData mismatch for Prelude of the White Snake - S01E04 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T17:48:30.985Z"
+  },
+  {
+    "message": "downloadData failed for Devious Maids - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T17:48:37.453Z"
+  },
+  {
+    "message": "downloadData failed for Now and Forever - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T17:48:46.118Z"
+  },
+  {
+    "message": "downloadData failed for Now and Forever - S01E01: Request failed with status code 500",
+    "timestamp": "2026-10-10T17:48:50.777Z"
+  },
+  {
+    "message": "downloadData failed for Ben Leman - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T17:50:13.699Z"
+  },
+  {
+    "message": "downloadData failed for Saru - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T17:50:25.746Z"
+  },
+  {
+    "message": "downloadData mismatch for Outer Banks - S04E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T17:53:10.810Z"
+  },
+  {
+    "message": "downloadData mismatch for Outer Banks - S04E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T17:53:12.984Z"
+  },
+  {
+    "message": "downloadData failed for Our Secret - S01E01: Request failed with status code 500",
+    "timestamp": "2026-10-10T17:55:32.525Z"
+  },
+  {
+    "message": "downloadData mismatch for A Shop for Killers - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T17:58:44.453Z"
+  },
+  {
+    "message": "downloadData mismatch for A Shop for Killers - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T17:58:46.992Z"
+  },
+  {
+    "message": "downloadData mismatch for A Shop for Killers - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T17:58:49.223Z"
+  },
+  {
+    "message": "downloadData failed for Raja Bheema: Request failed with status code 500",
+    "timestamp": "2026-10-10T18:01:21.971Z"
+  },
+  {
+    "message": "downloadData failed for Mannat: Harr Khushi Paane Ki - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:02:55.425Z"
+  },
+  {
+    "message": "downloadData failed for Mannat: Harr Khushi Paane Ki - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:03:00.034Z"
+  },
+  {
+    "message": "downloadData failed for Mannat: Harr Khushi Paane Ki - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:03:04.354Z"
+  },
+  {
+    "message": "downloadData failed for First Man - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:07:56.093Z"
+  },
+  {
+    "message": "downloadData failed for Spider-Noir - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:08:17.882Z"
+  },
+  {
+    "message": "downloadData failed for Desert Warrior: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:08:46.409Z"
+  },
+  {
+    "message": "downloadData failed for My Strange Hero - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:09:05.366Z"
+  },
+  {
+    "message": "downloadData failed for Golden Scenery of Tomorrow - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:09:19.462Z"
+  },
+  {
+    "message": "downloadData failed for Brothers Under Fire: Request failed with status code 500",
+    "timestamp": "2026-10-10T18:09:48.793Z"
+  },
+  {
+    "message": "downloadData failed for Lee Cronin's The Mummy: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:09:58.923Z"
+  },
+  {
+    "message": "downloadData failed for X-Men: Dark Phoenix: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:10:04.422Z"
+  },
+  {
+    "message": "downloadData failed for Prisoner - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:10:46.572Z"
+  },
+  {
+    "message": "downloadData failed for Mulan: Light a Fire: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:10:58.304Z"
+  },
+  {
+    "message": "downloadData failed for Stranger in the Mirror - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:11:04.808Z"
+  },
+  {
+    "message": "downloadData failed for If Wishes Could Kill - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:12:24.204Z"
+  },
+  {
+    "message": "downloadData failed for If Wishes Could Kill - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:12:27.693Z"
+  },
+  {
+    "message": "downloadData failed for Memorist - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:12:58.504Z"
+  },
+  {
+    "message": "downloadData failed for Legacies - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:13:07.827Z"
+  },
+  {
+    "message": "downloadData failed for Legacies - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:13:11.036Z"
+  },
+  {
+    "message": "downloadData mismatch for Classified — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T18:13:51.561Z"
+  },
+  {
+    "message": "downloadData failed for Man on Fire - S01E03: Request failed with status code 500",
+    "timestamp": "2026-10-10T18:14:01.352Z"
+  },
+  {
+    "message": "downloadData empty for Lord of the Flies - S01E01 (attempt 1)",
+    "timestamp": "2026-10-10T18:15:34.301Z"
+  },
+  {
+    "message": "downloadData empty for Lord of the Flies - S01E01 (attempt 2)",
+    "timestamp": "2026-10-10T18:15:39.019Z"
+  },
+  {
+    "message": "downloadData empty for Lord of the Flies - S01E01 (attempt 3)",
+    "timestamp": "2026-10-10T18:15:47.804Z"
+  },
+  {
+    "message": "downloadData empty for Lord of the Flies - S01E02 (attempt 1)",
+    "timestamp": "2026-10-10T18:16:03.394Z"
+  },
+  {
+    "message": "downloadData empty for Lord of the Flies - S01E02 (attempt 2)",
+    "timestamp": "2026-10-10T18:16:11.941Z"
+  },
+  {
+    "message": "downloadData empty for Lord of the Flies - S01E02 (attempt 3)",
+    "timestamp": "2026-10-10T18:16:21.979Z"
+  },
+  {
+    "message": "downloadData empty for Lord of the Flies - S01E03 (attempt 1)",
+    "timestamp": "2026-10-10T18:16:33.492Z"
+  },
+  {
+    "message": "downloadData empty for Lord of the Flies - S01E03 (attempt 2)",
+    "timestamp": "2026-10-10T18:16:46.497Z"
+  },
+  {
+    "message": "downloadData empty for Lord of the Flies - S01E03 (attempt 3)",
+    "timestamp": "2026-10-10T18:17:01.083Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T18:18:11.947Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T18:18:14.156Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T18:18:16.295Z"
+  },
+  {
+    "message": "downloadData failed for Fatal Seduction - S03E03: Buringanire: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:21:13.739Z"
+  },
+  {
+    "message": "downloadData failed for My Father's Wife - S01E05: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:26:21.360Z"
+  },
+  {
+    "message": "cinemaData failed for Taken 2 (22cdd010-a73d-4ace-8250-090e446caa55): Request failed with status code 429",
+    "timestamp": "2026-10-10T18:27:32.231Z"
+  },
+  {
+    "message": "downloadData failed for A Company Man: Request failed with status code 500",
+    "timestamp": "2026-10-10T18:28:09.900Z"
+  },
+  {
+    "message": "downloadData failed for Legend of the Female General - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:28:54.560Z"
+  },
+  {
+    "message": "downloadData failed for Legend of the Female General - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:28:58.446Z"
+  },
+  {
+    "message": "downloadData failed for Yellowstone - S01E01: Request failed with status code 500",
+    "timestamp": "2026-10-10T18:35:43.062Z"
+  },
+  {
+    "message": "downloadData failed for Identity: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:40:50.723Z"
+  },
+  {
+    "message": "downloadData failed for Spartacus: House of Ashur - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:40:59.852Z"
+  },
+  {
+    "message": "downloadData failed for Never a Thief: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:41:06.949Z"
+  },
+  {
+    "message": "downloadData failed for Robin Hood - S01E01: Request failed with status code 500",
+    "timestamp": "2026-10-10T18:41:33.375Z"
+  },
+  {
+    "message": "downloadData failed for Sword and Beloved - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:41:41.296Z"
+  },
+  {
+    "message": "downloadData failed for Night of the Hunted: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:41:53.436Z"
+  },
+  {
+    "message": "downloadData failed for The Shadow's Edge: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:42:00.444Z"
+  },
+  {
+    "message": "downloadData failed for Shooter - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:42:17.798Z"
+  },
+  {
+    "message": "downloadData failed for Shooter - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:42:21.384Z"
+  },
+  {
+    "message": "downloadData failed for Exit Protocol: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:43:55.564Z"
+  },
+  {
+    "message": "downloadData failed for My Dearest Nemesis - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:44:08.968Z"
+  },
+  {
+    "message": "downloadData failed for My Dearest Nemesis - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:44:12.419Z"
+  },
+  {
+    "message": "downloadData empty for Fighter (attempt 1)",
+    "timestamp": "2026-10-10T18:44:56.066Z"
+  },
+  {
+    "message": "downloadData empty for Fighter (attempt 2)",
+    "timestamp": "2026-10-10T18:45:00.474Z"
+  },
+  {
+    "message": "downloadData failed for Fighter: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:45:08.702Z"
+  },
+  {
+    "message": "downloadData failed for Kolektor: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:45:20.057Z"
+  },
+  {
+    "message": "downloadData failed for Maareesan: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:45:24.776Z"
+  },
+  {
+    "message": "downloadData failed for Jaan: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:45:29.757Z"
+  },
+  {
+    "message": "downloadData failed for Ask Me What You Want: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:45:37.554Z"
+  },
+  {
+    "message": "downloadData failed for IT: Welcome to Derry - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:45:47.891Z"
+  },
+  {
+    "message": "downloadData failed for IT: Welcome to Derry - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:45:51.779Z"
+  },
+  {
+    "message": "downloadData failed for I Am a Running Mate - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:45:58.265Z"
+  },
+  {
+    "message": "downloadData failed for Sword and Fairy - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:46:15.543Z"
+  },
+  {
+    "message": "downloadData failed for Sword and Fairy - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:46:19.248Z"
+  },
+  {
+    "message": "downloadData failed for Ballerina Assassin: Request failed with status code 500",
+    "timestamp": "2026-10-10T18:50:20.673Z"
+  },
+  {
+    "message": "downloadData empty for Aar Ya Paar - S01E01 (attempt 1)",
+    "timestamp": "2026-10-10T18:51:26.881Z"
+  },
+  {
+    "message": "downloadData failed for Aar Ya Paar - S01E01: Request failed with status code 500",
+    "timestamp": "2026-10-10T18:51:37.723Z"
+  },
+  {
+    "message": "downloadData empty for Aar Ya Paar - S01E01 (attempt 3)",
+    "timestamp": "2026-10-10T18:51:47.735Z"
+  },
+  {
+    "message": "downloadData empty for Aar Ya Paar - S01E02 (attempt 1)",
+    "timestamp": "2026-10-10T18:51:53.334Z"
+  },
+  {
+    "message": "downloadData empty for Aar Ya Paar - S01E02 (attempt 2)",
+    "timestamp": "2026-10-10T18:52:00.360Z"
+  },
+  {
+    "message": "downloadData empty for Aar Ya Paar - S01E02 (attempt 3)",
+    "timestamp": "2026-10-10T18:52:09.321Z"
+  },
+  {
+    "message": "downloadData empty for Aar Ya Paar - S01E03 (attempt 1)",
+    "timestamp": "2026-10-10T18:52:20.755Z"
+  },
+  {
+    "message": "downloadData failed for Aar Ya Paar - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:52:31.883Z"
+  },
+  {
+    "message": "downloadData empty for Aar Ya Paar - S01E03 (attempt 3)",
+    "timestamp": "2026-10-10T18:52:40.649Z"
+  },
+  {
+    "message": "downloadData mismatch for Unthinkable — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T18:52:58.377Z"
+  },
+  {
+    "message": "downloadData failed for Betaal - S01E01: Request failed with status code 500",
+    "timestamp": "2026-10-10T18:53:52.809Z"
+  },
+  {
+    "message": "downloadData failed for Werewolves: Request failed with status code 429",
+    "timestamp": "2026-10-10T18:54:30.759Z"
+  },
+  {
+    "message": "downloadData failed for Werewolves: Request failed with status code 500",
+    "timestamp": "2026-10-10T18:54:37.781Z"
+  },
+  {
+    "message": "downloadData mismatch for Dirty Angels — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T18:57:24.465Z"
+  },
+  {
+    "message": "downloadData failed for Ironheart - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:00:53.048Z"
+  },
+  {
+    "message": "downloadData failed for Bay Yanlis - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:01:03.117Z"
+  },
+  {
+    "message": "downloadData empty for Invasion Planet Earth (attempt 1)",
+    "timestamp": "2026-10-10T19:02:21.184Z"
+  },
+  {
+    "message": "downloadData empty for Invasion Planet Earth (attempt 2)",
+    "timestamp": "2026-10-10T19:02:25.678Z"
+  },
+  {
+    "message": "downloadData empty for Invasion Planet Earth (attempt 3)",
+    "timestamp": "2026-10-10T19:02:35.123Z"
+  },
+  {
+    "message": "downloadData empty for Anupamaa - S01E01 (attempt 1)",
+    "timestamp": "2026-10-10T19:03:06.384Z"
+  },
+  {
+    "message": "downloadData empty for Anupamaa - S01E01 (attempt 2)",
+    "timestamp": "2026-10-10T19:03:11.023Z"
+  },
+  {
+    "message": "downloadData empty for Anupamaa - S01E01 (attempt 3)",
+    "timestamp": "2026-10-10T19:03:20.579Z"
+  },
+  {
+    "message": "downloadData empty for Anupamaa - S01E02 (attempt 1)",
+    "timestamp": "2026-10-10T19:03:30.528Z"
+  },
+  {
+    "message": "downloadData empty for Anupamaa - S01E02 (attempt 2)",
+    "timestamp": "2026-10-10T19:03:39.161Z"
+  },
+  {
+    "message": "downloadData empty for Anupamaa - S01E02 (attempt 3)",
+    "timestamp": "2026-10-10T19:03:49.450Z"
+  },
+  {
+    "message": "downloadData empty for Anupamaa - S01E03 (attempt 1)",
+    "timestamp": "2026-10-10T19:04:01.044Z"
+  },
+  {
+    "message": "downloadData empty for Anupamaa - S01E03 (attempt 2)",
+    "timestamp": "2026-10-10T19:04:19.198Z"
+  },
+  {
+    "message": "downloadData empty for Anupamaa - S01E03 (attempt 3)",
+    "timestamp": "2026-10-10T19:04:33.750Z"
+  },
+  {
+    "message": "downloadData mismatch for The Protege — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:06:50.017Z"
+  },
+  {
+    "message": "downloadData failed for Xtreme: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:08:10.758Z"
+  },
+  {
+    "message": "downloadData failed for Sarkaru Vaari Paata: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:08:16.092Z"
+  },
+  {
+    "message": "cinemaData failed for Scorpion (2c22de19-c2e3-469a-a6ee-bd76df832dcb): Request failed with status code 429",
+    "timestamp": "2026-10-10T19:08:43.124Z"
+  },
+  {
+    "message": "downloadData failed for Deceit - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:08:46.927Z"
+  },
+  {
+    "message": "downloadData failed for Paskal: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:09:19.806Z"
+  },
+  {
+    "message": "downloadData failed for Paskal: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:09:23.617Z"
+  },
+  {
+    "message": "downloadData failed for Come Back to Me - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:10:56.050Z"
+  },
+  {
+    "message": "downloadData failed for L2 Empuraan: Request failed with status code 500",
+    "timestamp": "2026-10-10T19:12:40.590Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 1)",
+    "timestamp": "2026-10-10T19:13:34.723Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 2)",
+    "timestamp": "2026-10-10T19:13:38.528Z"
+  },
+  {
+    "message": "downloadData failed for High School on Sex - S02E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:13:47.619Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 1)",
+    "timestamp": "2026-10-10T19:13:54.603Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 2)",
+    "timestamp": "2026-10-10T19:14:01.346Z"
+  },
+  {
+    "message": "downloadData failed for High School on Sex - S02E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:14:10.586Z"
+  },
+  {
+    "message": "downloadData failed for High School on Sex - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:14:11.078Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 2)",
+    "timestamp": "2026-10-10T19:14:15.002Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 3)",
+    "timestamp": "2026-10-10T19:14:24.688Z"
+  },
+  {
+    "message": "downloadData failed for Naked Weapon: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:15:03.929Z"
+  },
+  {
+    "message": "downloadData failed for Alchemy of Souls - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:15:13.995Z"
+  },
+  {
+    "message": "downloadData failed for Professionals - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:15:26.661Z"
+  },
+  {
+    "message": "downloadData failed for Yehh Jadu - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:15:43.261Z"
+  },
+  {
+    "message": "downloadData failed for Yehh Jadu - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:15:47.432Z"
+  },
+  {
+    "message": "downloadData failed for Tyler Perry's Duplicity: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:16:33.147Z"
+  },
+  {
+    "message": "downloadData failed for Tyler Perry's Duplicity: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:16:36.267Z"
+  },
+  {
+    "message": "downloadData failed for Tracers: Request failed with status code 500",
+    "timestamp": "2026-10-10T19:19:03.886Z"
+  },
+  {
+    "message": "downloadData mismatch for Hitman 2: Agent 47 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:19:34.184Z"
+  },
+  {
+    "message": "downloadData failed for 10 000 BC: Request failed with status code 500",
+    "timestamp": "2026-10-10T19:19:37.815Z"
+  },
+  {
+    "message": "downloadData failed for Almost Paradise - S01E02: Request failed with status code 500",
+    "timestamp": "2026-10-10T19:19:56.175Z"
+  },
+  {
+    "message": "downloadData failed for Revenge - S01E02: Request failed with status code 500",
+    "timestamp": "2026-10-10T19:21:40.044Z"
+  },
+  {
+    "message": "downloadData failed for Black Sails - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:22:08.430Z"
+  },
+  {
+    "message": "downloadData failed for Black Doves - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:22:17.206Z"
+  },
+  {
+    "message": "downloadData failed for I Spit on Your Grave 1: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:22:39.805Z"
+  },
+  {
+    "message": "downloadData mismatch for I Spit on Your Grave 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:22:44.178Z"
+  },
+  {
+    "message": "cinemaData failed for Run All Night (c065704e-72ff-48dd-9c0a-39ee542a0de8): Request failed with status code 429",
+    "timestamp": "2026-10-10T19:23:05.244Z"
+  },
+  {
+    "message": "downloadData failed for Jack Reacher 2: Never Go Back: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:23:08.232Z"
+  },
+  {
+    "message": "downloadData failed for Jack Reacher 2: Never Go Back: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:23:12.387Z"
+  },
+  {
+    "message": "downloadData empty for Putin (attempt 1)",
+    "timestamp": "2026-10-10T19:23:44.208Z"
+  },
+  {
+    "message": "downloadData empty for Putin (attempt 2)",
+    "timestamp": "2026-10-10T19:23:48.789Z"
+  },
+  {
+    "message": "downloadData empty for Putin (attempt 3)",
+    "timestamp": "2026-10-10T19:23:57.843Z"
+  },
+  {
+    "message": "downloadData empty for What's Wrong with Secretary Kim - S01E01 (attempt 1)",
+    "timestamp": "2026-10-10T19:28:33.335Z"
+  },
+  {
+    "message": "downloadData empty for What's Wrong with Secretary Kim - S01E01 (attempt 2)",
+    "timestamp": "2026-10-10T19:28:38.268Z"
+  },
+  {
+    "message": "downloadData empty for What's Wrong with Secretary Kim - S01E01 (attempt 3)",
+    "timestamp": "2026-10-10T19:28:48.830Z"
+  },
+  {
+    "message": "downloadData empty for What's Wrong with Secretary Kim - S01E02 (attempt 1)",
+    "timestamp": "2026-10-10T19:28:55.812Z"
+  },
+  {
+    "message": "downloadData empty for What's Wrong with Secretary Kim - S01E02 (attempt 2)",
+    "timestamp": "2026-10-10T19:29:04.310Z"
+  },
+  {
+    "message": "downloadData empty for What's Wrong with Secretary Kim - S01E02 (attempt 3)",
+    "timestamp": "2026-10-10T19:29:14.375Z"
+  },
+  {
+    "message": "downloadData empty for What's Wrong with Secretary Kim - S01E03 (attempt 1)",
+    "timestamp": "2026-10-10T19:29:25.872Z"
+  },
+  {
+    "message": "downloadData empty for What's Wrong with Secretary Kim - S01E03 (attempt 2)",
+    "timestamp": "2026-10-10T19:29:39.019Z"
+  },
+  {
+    "message": "downloadData empty for What's Wrong with Secretary Kim - S01E03 (attempt 3)",
+    "timestamp": "2026-10-10T19:30:07.269Z"
+  },
+  {
+    "message": "downloadData mismatch for 3 Idiots — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:31:21.328Z"
+  },
+  {
+    "message": "downloadData mismatch for Kabhi Alvida Naa Kehna — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:31:24.524Z"
+  },
+  {
+    "message": "downloadData failed for Suman Indori - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:32:08.127Z"
+  },
+  {
+    "message": "downloadData mismatch for Badland Hunters — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:32:47.500Z"
+  },
+  {
+    "message": "downloadData mismatch for FROM - S03E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:00.172Z"
+  },
+  {
+    "message": "downloadData mismatch for FROM - S03E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:02.044Z"
+  },
+  {
+    "message": "downloadData mismatch for FROM - S03E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:04.266Z"
+  },
+  {
+    "message": "downloadData mismatch for The Day of the Jackal - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:08.118Z"
+  },
+  {
+    "message": "downloadData mismatch for The Day of the Jackal - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:10.179Z"
+  },
+  {
+    "message": "downloadData mismatch for The Day of the Jackal - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:12.916Z"
+  },
+  {
+    "message": "downloadData mismatch for High Heat — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:16.705Z"
+  },
+  {
+    "message": "downloadData mismatch for 30 jours max — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:19.465Z"
+  },
+  {
+    "message": "downloadData mismatch for Io Capitano — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:22.469Z"
+  },
+  {
+    "message": "downloadData mismatch for Ad Vitam — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:31.221Z"
+  },
+  {
+    "message": "downloadData mismatch for One-percent Warrior — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:34.138Z"
+  },
+  {
+    "message": "downloadData mismatch for Back in Action — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:39.432Z"
+  },
+  {
+    "message": "downloadData mismatch for Bank Under Siege - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:56.979Z"
+  },
+  {
+    "message": "downloadData mismatch for Bank Under Siege - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:33:59.450Z"
+  },
+  {
+    "message": "downloadData mismatch for Bank Under Siege - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:34:02.226Z"
+  },
+  {
+    "message": "downloadData mismatch for Sixty Minutes — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:34:35.864Z"
+  },
+  {
+    "message": "downloadData mismatch for The Mummy 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:34:38.989Z"
+  },
+  {
+    "message": "downloadData mismatch for The Channel — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:34:42.297Z"
+  },
+  {
+    "message": "downloadData mismatch for In the Tall Grass — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:34:46.944Z"
+  },
+  {
+    "message": "downloadData mismatch for Largo Winch 2 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:34:50.168Z"
+  },
+  {
+    "message": "downloadData mismatch for Customs Frontline — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:34:56.463Z"
+  },
+  {
+    "message": "downloadData mismatch for Gladiator 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:35:08.329Z"
+  },
+  {
+    "message": "downloadData mismatch for Iron Lady Sniper — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:35:11.003Z"
+  },
+  {
+    "message": "downloadData mismatch for Hunt the Wicked — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:35:13.772Z"
+  },
+  {
+    "message": "downloadData mismatch for Paiyaa — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:35:16.558Z"
+  },
+  {
+    "message": "downloadData mismatch for Pushpa 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:35:19.504Z"
+  },
+  {
+    "message": "downloadData mismatch for Knight and Day — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:35:24.178Z"
+  },
+  {
+    "message": "downloadData mismatch for High Forces — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:35:32.117Z"
+  },
+  {
+    "message": "downloadData mismatch for Mufasa The Lion King — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:35:34.859Z"
+  },
+  {
+    "message": "downloadData mismatch for New Dragon Gate Inn — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:18.857Z"
+  },
+  {
+    "message": "downloadData mismatch for To Live Through Death — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:21.571Z"
+  },
+  {
+    "message": "downloadData mismatch for The Unborn — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:24.534Z"
+  },
+  {
+    "message": "downloadData mismatch for Gandhi 3 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:29.077Z"
+  },
+  {
+    "message": "downloadData mismatch for Year 10 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:31.407Z"
+  },
+  {
+    "message": "downloadData mismatch for The Girl in the Pool — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:35.118Z"
+  },
+  {
+    "message": "downloadData mismatch for Operation Undead — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:37.720Z"
+  },
+  {
+    "message": "downloadData mismatch for Bedspacer — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:40.314Z"
+  },
+  {
+    "message": "downloadData mismatch for 12 to Midnight — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:45.654Z"
+  },
+  {
+    "message": "downloadData mismatch for Heretic — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:48.769Z"
+  },
+  {
+    "message": "downloadData mismatch for God of War: Zhao Zilong — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:51.758Z"
+  },
+  {
+    "message": "downloadData mismatch for Fireheart — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:55.253Z"
+  },
+  {
+    "message": "downloadData mismatch for A.R.M — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:36:58.597Z"
+  },
+  {
+    "message": "downloadData mismatch for The Circuit 4 Faith Fighter — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:01.355Z"
+  },
+  {
+    "message": "downloadData mismatch for The New Mutants — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:04.553Z"
+  },
+  {
+    "message": "downloadData mismatch for Ozi: Voice of the Forest — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:07.758Z"
+  },
+  {
+    "message": "downloadData mismatch for Spellbound — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:10.739Z"
+  },
+  {
+    "message": "downloadData mismatch for Kill Craft — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:13.175Z"
+  },
+  {
+    "message": "downloadData mismatch for Sword Snow Stride - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:16.394Z"
+  },
+  {
+    "message": "downloadData mismatch for Sword Snow Stride - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:18.504Z"
+  },
+  {
+    "message": "downloadData mismatch for Sword Snow Stride - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:21.162Z"
+  },
+  {
+    "message": "downloadData mismatch for Carry On — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:30.158Z"
+  },
+  {
+    "message": "downloadData mismatch for Kraven The Hunter — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:35.931Z"
+  },
+  {
+    "message": "downloadData mismatch for Armor — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:38.973Z"
+  },
+  {
+    "message": "downloadData mismatch for Elevation — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:42.841Z"
+  },
+  {
+    "message": "downloadData mismatch for Striking Rescue — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:45.220Z"
+  },
+  {
+    "message": "downloadData mismatch for Sentinelle — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:48.311Z"
+  },
+  {
+    "message": "downloadData mismatch for Heirs of the Night - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:37:59.743Z"
+  },
+  {
+    "message": "downloadData mismatch for Heirs of the Night - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:02.412Z"
+  },
+  {
+    "message": "downloadData mismatch for Heirs of the Night - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:04.696Z"
+  },
+  {
+    "message": "downloadData mismatch for Kraven The Hunter — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:07.489Z"
+  },
+  {
+    "message": "downloadData mismatch for Stream — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:09.846Z"
+  },
+  {
+    "message": "downloadData mismatch for The Shadow Strays — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:12.799Z"
+  },
+  {
+    "message": "downloadData mismatch for Abduction — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:15.661Z"
+  },
+  {
+    "message": "downloadData mismatch for Rebel Ridge — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:18.899Z"
+  },
+  {
+    "message": "downloadData mismatch for Sleeping with My Student — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:25.463Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:28.365Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:31.070Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:33.010Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S02E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:38.002Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S02E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:40.046Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S02E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:42.475Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S03E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:47.407Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S03E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:49.576Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S03E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:51.460Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S04E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:55.736Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S04E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:38:58.030Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S04E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:00.121Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S05E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:04.543Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S05E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:06.631Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S05E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:08.893Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S06E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:12.731Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S06E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:15.389Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S06E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:17.243Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S07E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:21.980Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S07E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:24.702Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S07E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:27.209Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S08E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:31.672Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S08E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:33.520Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S08E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:35.756Z"
+  },
+  {
+    "message": "downloadData mismatch for The Greatest of All Time Chapter 2 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:40.715Z"
+  },
+  {
+    "message": "downloadData mismatch for August Rush — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:44.247Z"
+  },
+  {
+    "message": "downloadData mismatch for Petta Rap — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:46.737Z"
+  },
+  {
+    "message": "downloadData mismatch for Venom: The Last Dance — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:49.631Z"
+  },
+  {
+    "message": "downloadData mismatch for Vedaa — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:53.883Z"
+  },
+  {
+    "message": "downloadData mismatch for Aftermath — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:56.692Z"
+  },
+  {
+    "message": "downloadData mismatch for Carrie — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:39:59.843Z"
+  },
+  {
+    "message": "downloadData mismatch for Under Paris — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:02.656Z"
+  },
+  {
+    "message": "downloadData mismatch for Ready Or Not 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:07.270Z"
+  },
+  {
+    "message": "downloadData mismatch for Forever Us — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:10.812Z"
+  },
+  {
+    "message": "downloadData mismatch for Fatal Affair — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:13.892Z"
+  },
+  {
+    "message": "downloadData mismatch for Underworld: Evolution — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:17.103Z"
+  },
+  {
+    "message": "downloadData mismatch for Underworld: Rise of the Lycans — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:20.200Z"
+  },
+  {
+    "message": "downloadData mismatch for The Ruins — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:23.154Z"
+  },
+  {
+    "message": "downloadData mismatch for Clash of the Titans — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:26.509Z"
+  },
+  {
+    "message": "downloadData mismatch for Shadow Master — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:29.906Z"
+  },
+  {
+    "message": "downloadData mismatch for War of the Arrows — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:32.767Z"
+  },
+  {
+    "message": "downloadData mismatch for Machine Gun Preacher — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:45.490Z"
+  },
+  {
+    "message": "downloadData mismatch for Buffalo Boys — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:48.195Z"
+  },
+  {
+    "message": "downloadData mismatch for Addicted — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:51.043Z"
+  },
+  {
+    "message": "downloadData mismatch for The Terminator — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:40:59.469Z"
+  },
+  {
+    "message": "downloadData mismatch for Bagheera — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:41:03.938Z"
+  },
+  {
+    "message": "downloadData mismatch for Thor 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:41:44.741Z"
+  },
+  {
+    "message": "downloadData mismatch for The Losers — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:41:47.952Z"
+  },
+  {
+    "message": "downloadData mismatch for Martin — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:41:56.628Z"
+  },
+  {
+    "message": "downloadData mismatch for Smile — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:41:59.879Z"
+  },
+  {
+    "message": "downloadData mismatch for Blade of Fury — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:42:02.736Z"
+  },
+  {
+    "message": "downloadData mismatch for Fierce Buddha Warriors — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:42:06.540Z"
+  },
+  {
+    "message": "downloadData mismatch for Vicious Affair — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:42:13.477Z"
+  },
+  {
+    "message": "downloadData failed for Preso No. 1 - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:42:23.769Z"
+  },
+  {
+    "message": "downloadData failed for Snow Eagle Lord - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:42:51.718Z"
+  },
+  {
+    "message": "downloadData failed for Snow Eagle Lord - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:42:56.536Z"
+  },
+  {
+    "message": "downloadData failed for Devara Part 1: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:43:05.048Z"
+  },
+  {
+    "message": "downloadData failed for The Weekend Away: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:43:13.012Z"
+  },
+  {
+    "message": "downloadData failed for The Weekend Away: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:43:16.218Z"
+  },
+  {
+    "message": "downloadData mismatch for Live through Death — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:43:38.969Z"
+  },
+  {
+    "message": "downloadData mismatch for Gunpowder Milkshake — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:43:42.000Z"
+  },
+  {
+    "message": "downloadData mismatch for Scary Stories to Tell in the Dark — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:43:44.485Z"
+  },
+  {
+    "message": "downloadData mismatch for Killer Heat — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:43:47.151Z"
+  },
+  {
+    "message": "downloadData mismatch for Dominique — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:43:49.965Z"
+  },
+  {
+    "message": "downloadData mismatch for Paris Has Fallen - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:44:06.237Z"
+  },
+  {
+    "message": "downloadData mismatch for Paris Has Fallen - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:44:08.946Z"
+  },
+  {
+    "message": "downloadData mismatch for Paris Has Fallen - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:44:11.689Z"
+  },
+  {
+    "message": "downloadData mismatch for Venom: The Last Dance — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:44:15.078Z"
+  },
+  {
+    "message": "downloadData mismatch for True Legend — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:44:25.570Z"
+  },
+  {
+    "message": "downloadData mismatch for Milk Money — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:44:28.003Z"
+  },
+  {
+    "message": "downloadData mismatch for Second Life — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:44:30.477Z"
+  },
+  {
+    "message": "downloadData mismatch for Time Cut — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:44:42.424Z"
+  },
+  {
+    "message": "downloadData mismatch for Don't Move — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:44:47.825Z"
+  },
+  {
+    "message": "downloadData mismatch for The Killer's Game — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:45:14.696Z"
+  },
+  {
+    "message": "downloadData mismatch for Blocking the Horse — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:45:17.793Z"
+  },
+  {
+    "message": "downloadData mismatch for Inganno - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:45:30.067Z"
+  },
+  {
+    "message": "downloadData mismatch for Inganno - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:45:32.022Z"
+  },
+  {
+    "message": "downloadData mismatch for Inganno - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:45:33.973Z"
+  },
+  {
+    "message": "downloadData mismatch for Speed Fight — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:45:39.588Z"
+  },
+  {
+    "message": "downloadData mismatch for Akhanda — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:45:42.315Z"
+  },
+  {
+    "message": "downloadData mismatch for Art of War — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:45:53.377Z"
+  },
+  {
+    "message": "downloadData mismatch for Bhaje Vaayu Vegam — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:45:56.394Z"
+  },
+  {
+    "message": "downloadData mismatch for Mersal — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:45:59.260Z"
+  },
+  {
+    "message": "downloadData mismatch for The Bourne Identity 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:02.459Z"
+  },
+  {
+    "message": "downloadData mismatch for The Bourne Supremacy  2 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:05.308Z"
+  },
+  {
+    "message": "downloadData mismatch for The Bourne Ultimatum 3 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:07.703Z"
+  },
+  {
+    "message": "downloadData mismatch for The Bourne Legacy — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:10.093Z"
+  },
+  {
+    "message": "downloadData mismatch for Jason Bourne — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:13.380Z"
+  },
+  {
+    "message": "downloadData mismatch for Miss Danger — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:15.852Z"
+  },
+  {
+    "message": "downloadData mismatch for Ace Bodyguard — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:18.296Z"
+  },
+  {
+    "message": "downloadData mismatch for Queen of Triads 2 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:21.897Z"
+  },
+  {
+    "message": "downloadData mismatch for Queen's Return — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:24.751Z"
+  },
+  {
+    "message": "downloadData mismatch for Rashtra Kavach Om — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:27.421Z"
+  },
+  {
+    "message": "downloadData mismatch for Rapid Fire — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:30.508Z"
+  },
+  {
+    "message": "downloadData mismatch for Kal Ho Naa Ho — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:32.950Z"
+  },
+  {
+    "message": "downloadData mismatch for Code of the Assassins — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:35.567Z"
+  },
+  {
+    "message": "downloadData mismatch for The Greatest of All Time — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:37.932Z"
+  },
+  {
+    "message": "downloadData mismatch for Vedaa — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:40.683Z"
+  },
+  {
+    "message": "downloadData mismatch for Ruslaan — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:46:43.871Z"
+  },
+  {
+    "message": "downloadData failed for The Killer's Game: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:47:09.578Z"
+  },
+  {
+    "message": "downloadData failed for Peninsula: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:47:24.632Z"
+  },
+  {
+    "message": "downloadData mismatch for Peninsula — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:47:28.735Z"
+  },
+  {
+    "message": "downloadData mismatch for Bastille Day — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:47:29.602Z"
+  },
+  {
+    "message": "downloadData failed for Romeo and Juliet: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:47:33.860Z"
+  },
+  {
+    "message": "downloadData mismatch for Romeo and Juliet — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:47:37.715Z"
+  },
+  {
+    "message": "downloadData failed for Satyameva Jayate: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:47:38.979Z"
+  },
+  {
+    "message": "downloadData mismatch for Satyameva Jayate — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:47:42.646Z"
+  },
+  {
+    "message": "downloadData failed for Special Female Force: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:47:43.774Z"
+  },
+  {
+    "message": "downloadData mismatch for Special Female Force — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:47:48.209Z"
+  },
+  {
+    "message": "downloadData failed for Trap: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:47:54.585Z"
+  },
+  {
+    "message": "downloadData failed for Trap: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:47:58.897Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:48:23.493Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:48:25.302Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:48:27.131Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S02E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:48:30.257Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S02E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:48:32.128Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S02E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:48:34.667Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S03E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:48:37.132Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S03E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:48:39.734Z"
+  },
+  {
+    "message": "downloadData mismatch for 1917 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:48:44.341Z"
+  },
+  {
+    "message": "downloadData mismatch for Air Force One Down — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:49:13.138Z"
+  },
+  {
+    "message": "downloadData mismatch for Pirates of the Caribbean: At World's End — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:49:17.281Z"
+  },
+  {
+    "message": "downloadData mismatch for The Killer — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:49:20.483Z"
+  },
+  {
+    "message": "downloadData mismatch for Mission Cross — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:49:24.504Z"
+  },
+  {
+    "message": "downloadData failed for Savi: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:49:27.825Z"
+  },
+  {
+    "message": "downloadData mismatch for Savi — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:49:32.196Z"
+  },
+  {
+    "message": "downloadData mismatch for Twilight of the Warriors: Walled In — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:49:33.707Z"
+  },
+  {
+    "message": "downloadData failed for Furiosa: A Mad Max Saga: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:49:36.581Z"
+  },
+  {
+    "message": "downloadData failed for Haraa: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:49:50.689Z"
+  },
+  {
+    "message": "downloadData failed for Duty After School - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:49:58.186Z"
+  },
+  {
+    "message": "downloadData failed for The Lord of the Rings - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:50:06.430Z"
+  },
+  {
+    "message": "downloadData failed for Dune: Part One: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:50:16.228Z"
+  },
+  {
+    "message": "downloadData failed for Death Fighter: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:50:21.771Z"
+  },
+  {
+    "message": "downloadData failed for Chandu Champion: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:50:42.926Z"
+  },
+  {
+    "message": "downloadData failed for A Quiet Place: Day One: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:50:50.480Z"
+  },
+  {
+    "message": "downloadData mismatch for A Quiet Place: Day One — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:50:53.974Z"
+  },
+  {
+    "message": "downloadData mismatch for Bad Boys: Ride or Die — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:50:55.369Z"
+  },
+  {
+    "message": "downloadData failed for G.I. Joe: Retaliation: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:50:59.025Z"
+  },
+  {
+    "message": "downloadData mismatch for G.I. Joe: Retaliation — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:51:02.739Z"
+  },
+  {
+    "message": "downloadData mismatch for The Last Kingdom - S02E01: Sir Lex's — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:51:26.232Z"
+  },
+  {
+    "message": "downloadData mismatch for The Last Kingdom - S02E02: Sir Lex's — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:51:28.884Z"
+  },
+  {
+    "message": "downloadData mismatch for The Last Kingdom - S02E03: Sir Lex's — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:51:30.771Z"
+  },
+  {
+    "message": "downloadData failed for Face Off: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:51:34.239Z"
+  },
+  {
+    "message": "downloadData mismatch for Rogue Hostage — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:51:39.019Z"
+  },
+  {
+    "message": "downloadData mismatch for Kingdom of the Planet of the Apes — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:51:49.171Z"
+  },
+  {
+    "message": "downloadData failed for Triad Wars: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:51:52.071Z"
+  },
+  {
+    "message": "downloadData mismatch for Triad Wars — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:51:55.501Z"
+  },
+  {
+    "message": "downloadData failed for Ready Or Not 1: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:52:03.049Z"
+  },
+  {
+    "message": "downloadData failed for Aitraaz: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:52:08.809Z"
+  },
+  {
+    "message": "downloadData mismatch for Aitraaz — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:52:12.474Z"
+  },
+  {
+    "message": "downloadData mismatch for Jungle Cruise — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:52:34.017Z"
+  },
+  {
+    "message": "downloadData mismatch for Bloodshot — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:52:37.017Z"
+  },
+  {
+    "message": "downloadData failed for Columbus Day: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:52:43.340Z"
+  },
+  {
+    "message": "downloadData mismatch for Brick Mansions — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:52:52.837Z"
+  },
+  {
+    "message": "downloadData mismatch for Trigger Warning — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:52:55.741Z"
+  },
+  {
+    "message": "downloadData failed for Slaxx: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:53:01.837Z"
+  },
+  {
+    "message": "downloadData failed for Blood Hunt: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:53:06.969Z"
+  },
+  {
+    "message": "downloadData mismatch for Arcadian — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:53:14.098Z"
+  },
+  {
+    "message": "cinemaData failed for Burn After Reading (fea38f3c-3ece-4779-b83d-01fe617e0b29): Request failed with status code 429",
+    "timestamp": "2026-10-10T19:53:27.688Z"
+  },
+  {
+    "message": "downloadData failed for You Can't Run Forever: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:53:31.580Z"
+  },
+  {
+    "message": "downloadData mismatch for Jab Harry Met Sejal — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:53:39.025Z"
+  },
+  {
+    "message": "downloadData failed for Bade Miyan Chote Miyan: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:53:41.995Z"
+  },
+  {
+    "message": "downloadData failed for Bade Miyan Chote Miyan: Request failed with status code 429",
+    "timestamp": "2026-10-10T19:53:45.760Z"
+  },
+  {
+    "message": "downloadData mismatch for Bade Miyan Chote Miyan — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:53:55.505Z"
+  },
+  {
+    "message": "downloadData mismatch for Humraaz — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:53:56.397Z"
+  },
+  {
+    "message": "downloadData mismatch for Safe House — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:54:09.819Z"
+  },
+  {
+    "message": "downloadData mismatch for Species — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:54:13.340Z"
+  },
+  {
+    "message": "downloadData empty for The Last Kumite (attempt 1)",
+    "timestamp": "2026-10-10T19:54:44.758Z"
+  },
+  {
+    "message": "downloadData empty for The Last Kumite (attempt 2)",
+    "timestamp": "2026-10-10T19:54:48.722Z"
+  },
+  {
+    "message": "downloadData empty for The Last Kumite (attempt 3)",
+    "timestamp": "2026-10-10T19:54:57.985Z"
+  },
+  {
+    "message": "downloadData mismatch for Operation Valentine — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:55:09.222Z"
+  },
+  {
+    "message": "downloadData mismatch for The Great Battle — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:55:12.748Z"
+  },
+  {
+    "message": "downloadData mismatch for Baby's Day Out — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:55:32.492Z"
+  },
+  {
+    "message": "downloadData mismatch for Blank Check — broken/placeholder video, giving up",
+    "timestamp": "2026-10-10T19:55:34.950Z"
   }
 ]
