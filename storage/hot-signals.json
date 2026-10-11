@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T05:52:18.554Z",
+  "updatedAt": "2026-10-11T12:55:49.027Z",
   "signals": {
     "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
       "hot": 1.9,
@@ -45,7 +45,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/a1762bf1-bc71-461b-be7c-90ec7645ae0e": {
-      "hot": 8.3,
+      "hot": 9.2,
       "sources": [
         "recomputed"
       ]
@@ -74,6 +74,12 @@
         "recomputed"
       ]
     },
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/468d87fb-c2bc-4456-a177-9db20d7db7f0/1000067891.mp4": {
+      "hot": 8.2,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://agasobanuyelive.com/fall-review/": {
       "hot": 3.7,
       "sources": [
@@ -86,14 +92,14 @@
         "recomputed"
       ]
     },
-    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/468d87fb-c2bc-4456-a177-9db20d7db7f0/1000067891.mp4": {
-      "hot": 8.2,
+    "https://www.rebamovie.com/movie/0d747871-bf19-42a5-8176-1e2f1a63771d": {
+      "hot": 9.1,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/0d747871-bf19-42a5-8176-1e2f1a63771d": {
-      "hot": 9.1,
+    "https://www.rebamovie.com/movie/fa93a1fa-6e45-433a-9105-948b0c783adb": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
