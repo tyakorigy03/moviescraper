@@ -1,13 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T22:01:20.841Z",
+  "updatedAt": "2026-10-12T06:03:45.133Z",
   "signals": {
-    "https://www.rebamovie.com/movie/9131dc2b-b784-4989-82a7-2dd96cdd43e5": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://agasobanuyelive.com/outer-banks-s05-review/": {
       "hot": 4.6,
       "sources": [
@@ -45,61 +39,79 @@
       ]
     },
     "https://www.rebamovie.com/movie/a1762bf1-bc71-461b-be7c-90ec7645ae0e": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/376b5d94-9ad3-4635-a212-152facdb19ba": {
-      "hot": 2.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/7835bc95-6f09-4e28-81ca-6934f0db3771": {
-      "hot": 7.3,
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/59102b2b-8629-4ba7-8913-a2b4bca18309": {
-      "hot": 8.2,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/c1f0997c-13df-4ef1-b1de-bfcfb8034d4a/1000067864.mp4": {
-      "hot": 6.4,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/468d87fb-c2bc-4456-a177-9db20d7db7f0/1000067891.mp4": {
-      "hot": 8.2,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/fall-review/": {
-      "hot": 3.7,
+    "https://www.rebamovie.com/movie/d385b541-1d37-4a96-a7f8-67543cff0a48": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/9163d98e-5807-4424-a7e8-2f8bb754df47": {
-      "hot": 6.4,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/0d747871-bf19-42a5-8176-1e2f1a63771d": {
+    "https://www.rebamovie.com/movie/dee98631-b138-4164-93a6-83667138af9d": {
       "hot": 9.1,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/fa93a1fa-6e45-433a-9105-948b0c783adb": {
-      "hot": 10,
+    "https://www.rebamovie.com/movie/6e717a65-eaef-4fb2-920f-fca5faeb814d": {
+      "hot": 8.2,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/6cb97441-b7b1-4cd6-a554-e857d663e171": {
+      "hot": 7.3,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/6554a93f-034e-4187-91af-c9711b4b9a37": {
+      "hot": 6.4,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/240cfc92-77e3-4679-88b4-9f281e8b6b93": {
+      "hot": 5.5,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/21ab446e-747b-47a3-b67b-bbf6b337a54d": {
+      "hot": 4.6,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/7d79a689-54d5-4464-b229-2a15fe7f37bc": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/ffd6e4ee-0213-4241-97d5-fd6589e6cf9a": {
+      "hot": 2.8,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/b239fe94-400f-4911-a2ef-42358c36cd44": {
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -148,18 +160,6 @@
     },
     "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
       "hot": 7.3,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/alpha-review/": {
-      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
