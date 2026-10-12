@@ -26870,5 +26870,3125 @@
   {
     "message": "Failed inserting batch 1: Could not find the '_sourceLinks' column of 'moviesv2' in the schema cache",
     "timestamp": "2026-10-11T23:53:41.547Z"
+  },
+  {
+    "message": "catalog page 32 failed: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:37:13.230Z"
+  },
+  {
+    "message": "downloadData failed for Dirk Gently's Holistic Detective Agency - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:37:21.660Z"
+  },
+  {
+    "message": "downloadData mismatch for Dirk Gently's Holistic Detective Agency - S01E04 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T02:37:26.375Z"
+  },
+  {
+    "message": "downloadData failed for City of Blood - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:37:35.130Z"
+  },
+  {
+    "message": "downloadData failed for City of Blood - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:37:39.313Z"
+  },
+  {
+    "message": "downloadData failed for Neagley - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:37:44.421Z"
+  },
+  {
+    "message": "downloadData failed for Neagley - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:37:48.561Z"
+  },
+  {
+    "message": "downloadData empty for Leader (attempt 1)",
+    "timestamp": "2026-10-12T02:38:07.144Z"
+  },
+  {
+    "message": "downloadData empty for Leader (attempt 2)",
+    "timestamp": "2026-10-12T02:38:11.869Z"
+  },
+  {
+    "message": "downloadData empty for Leader (attempt 3)",
+    "timestamp": "2026-10-12T02:38:20.789Z"
+  },
+  {
+    "message": "downloadData failed for Spades: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:38:27.341Z"
+  },
+  {
+    "message": "cinemaData failed for Sardar 2 (1f538722-bcfc-428c-bf21-89834c83da44): Request failed with status code 429",
+    "timestamp": "2026-10-12T02:38:33.078Z"
+  },
+  {
+    "message": "downloadData failed for Kung Fu Soccer: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:38:44.161Z"
+  },
+  {
+    "message": "downloadData failed for Runner: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:38:49.238Z"
+  },
+  {
+    "message": "downloadData failed for Prelude of the White Snake - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:38:55.731Z"
+  },
+  {
+    "message": "downloadData failed for Devious Maids - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:39:03.322Z"
+  },
+  {
+    "message": "downloadData failed for Hacksaw Ridge: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:39:09.626Z"
+  },
+  {
+    "message": "downloadData failed for Now and Forever - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:39:17.254Z"
+  },
+  {
+    "message": "downloadData failed for Now and Forever - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:39:22.303Z"
+  },
+  {
+    "message": "downloadData failed for Now and Forever - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:39:25.662Z"
+  },
+  {
+    "message": "downloadData failed for Special Ops: Lioness - S02E01: Sikov: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:39:51.881Z"
+  },
+  {
+    "message": "downloadData failed for Special Ops: Lioness - S02E03: Sikov: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:39:57.465Z"
+  },
+  {
+    "message": "downloadData failed for Special Ops: Lioness - S03E03: Sikov: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:40:02.931Z"
+  },
+  {
+    "message": "downloadData failed for Irumudi: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:40:11.966Z"
+  },
+  {
+    "message": "downloadData failed for Shark Frenzy: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:40:24.473Z"
+  },
+  {
+    "message": "downloadData failed for Ben Leman - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:41:07.723Z"
+  },
+  {
+    "message": "downloadData failed for Salakaar - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:41:18.405Z"
+  },
+  {
+    "message": "downloadData failed for Zindagi Ki Mehak - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:41:52.105Z"
+  },
+  {
+    "message": "cinemaData failed for Lanterns (b5c6cc0b-2926-40a3-b574-0fa35c1dc845): Request failed with status code 429",
+    "timestamp": "2026-10-12T02:42:23.602Z"
+  },
+  {
+    "message": "downloadData failed for Endless Love - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:42:26.086Z"
+  },
+  {
+    "message": "downloadData failed for Endless Love - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:42:29.967Z"
+  },
+  {
+    "message": "cinemaData failed for Da Vinci's Demons (ea90d1b5-9589-4823-8fcf-a7a9af6e7e61): Request failed with status code 429",
+    "timestamp": "2026-10-12T02:42:42.047Z"
+  },
+  {
+    "message": "downloadData failed for Mimicus - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:42:43.932Z"
+  },
+  {
+    "message": "downloadData failed for Dream to You - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:42:49.422Z"
+  },
+  {
+    "message": "downloadData failed for Dream to You - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:42:55.127Z"
+  },
+  {
+    "message": "downloadData failed for Can This Love Be Translated? - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:43:03.670Z"
+  },
+  {
+    "message": "cinemaData failed for Mayday (a0bedacb-4a6b-4f00-884a-17f5b1e98b6a): Request failed with status code 429",
+    "timestamp": "2026-10-12T02:43:15.781Z"
+  },
+  {
+    "message": "downloadData failed for Legend of the White Dragon: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:43:18.324Z"
+  },
+  {
+    "message": "downloadData failed for The Secret Woman: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:43:22.665Z"
+  },
+  {
+    "message": "downloadData failed for One Last Shot: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:43:28.032Z"
+  },
+  {
+    "message": "downloadData failed for One Last Shot: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:43:31.287Z"
+  },
+  {
+    "message": "downloadData failed for Drive Through Fire: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:43:41.834Z"
+  },
+  {
+    "message": "downloadData failed for Drive Through Fire: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:43:45.829Z"
+  },
+  {
+    "message": "downloadData failed for Furious Attack: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:43:55.021Z"
+  },
+  {
+    "message": "downloadData failed for Furious Attack: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:43:59.550Z"
+  },
+  {
+    "message": "downloadData failed for I, Nobody: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:44:17.078Z"
+  },
+  {
+    "message": "downloadData failed for Young Swordsman - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:44:32.959Z"
+  },
+  {
+    "message": "downloadData failed for Beauty in Black - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:44:42.767Z"
+  },
+  {
+    "message": "downloadData failed for Beauty in Black - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:44:47.283Z"
+  },
+  {
+    "message": "downloadData failed for Beauty in Black - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:44:54.511Z"
+  },
+  {
+    "message": "downloadData failed for Beauty in Black - S03E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:45:01.494Z"
+  },
+  {
+    "message": "downloadData failed for Blood vs Duty - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:45:11.918Z"
+  },
+  {
+    "message": "downloadData failed for Oasis - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:45:21.127Z"
+  },
+  {
+    "message": "downloadData failed for Ready or Not 2: Here I Come: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:45:38.797Z"
+  },
+  {
+    "message": "downloadData failed for Ready or Not 2: Here I Come: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:45:43.166Z"
+  },
+  {
+    "message": "downloadData failed for Lenin: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:45:55.034Z"
+  },
+  {
+    "message": "downloadData failed for Lenin: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:45:59.060Z"
+  },
+  {
+    "message": "downloadData failed for Outer Banks - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:46:10.693Z"
+  },
+  {
+    "message": "downloadData failed for Outer Banks - S02E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:46:17.188Z"
+  },
+  {
+    "message": "downloadData failed for Outer Banks - S02E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:46:20.260Z"
+  },
+  {
+    "message": "downloadData failed for Outer Banks - S02E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:46:29.582Z"
+  },
+  {
+    "message": "downloadData failed for Outer Banks - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:46:30.070Z"
+  },
+  {
+    "message": "downloadData failed for Outer Banks - S03E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:46:35.065Z"
+  },
+  {
+    "message": "downloadData failed for Outer Banks - S03E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:46:38.209Z"
+  },
+  {
+    "message": "downloadData failed for Outer Banks - S03E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:46:48.166Z"
+  },
+  {
+    "message": "downloadData mismatch for Outer Banks - S04E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T02:46:54.109Z"
+  },
+  {
+    "message": "downloadData mismatch for Outer Banks - S04E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T02:46:56.855Z"
+  },
+  {
+    "message": "downloadData failed for Mr. and Mrs. Smith: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:47:06.541Z"
+  },
+  {
+    "message": "downloadData failed for Archives: The Nanyang Mystery - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:47:19.697Z"
+  },
+  {
+    "message": "downloadData failed for Farzi - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:47:29.798Z"
+  },
+  {
+    "message": "downloadData failed for Why Did I Get Married Again?: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:47:47.284Z"
+  },
+  {
+    "message": "downloadData failed for Nightcrawler: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:48:36.019Z"
+  },
+  {
+    "message": "downloadData failed for Psycho Saiyaan - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:48:41.008Z"
+  },
+  {
+    "message": "downloadData failed for Psycho Saiyaan - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:48:45.630Z"
+  },
+  {
+    "message": "downloadData failed for Psycho Saiyaan - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:48:50.010Z"
+  },
+  {
+    "message": "downloadData failed for Psycho Saiyaan - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:48:53.522Z"
+  },
+  {
+    "message": "downloadData failed for Just Play Dead: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:49:13.940Z"
+  },
+  {
+    "message": "downloadData failed for Mirror of the Witch - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:49:23.148Z"
+  },
+  {
+    "message": "downloadData failed for Mirror of the Witch - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:49:26.517Z"
+  },
+  {
+    "message": "downloadData failed for Mirror of the Witch - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:49:34.894Z"
+  },
+  {
+    "message": "downloadData failed for Mirror of the Witch - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:49:36.048Z"
+  },
+  {
+    "message": "downloadData failed for Jana Nayagan: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:49:45.419Z"
+  },
+  {
+    "message": "downloadData failed for The Last Sunrise: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:49:55.783Z"
+  },
+  {
+    "message": "downloadData failed for Peaky Blinders - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:50:03.802Z"
+  },
+  {
+    "message": "downloadData failed for Peaky Blinders - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:50:09.766Z"
+  },
+  {
+    "message": "downloadData failed for Perfect Crown - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:50:16.614Z"
+  },
+  {
+    "message": "downloadData failed for Perfect Crown - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:50:20.751Z"
+  },
+  {
+    "message": "downloadData failed for Perfect Crown - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:50:30.042Z"
+  },
+  {
+    "message": "downloadData failed for The Shards - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:50:32.973Z"
+  },
+  {
+    "message": "downloadData failed for The Shards - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:50:36.707Z"
+  },
+  {
+    "message": "downloadData failed for El internado - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:50:49.015Z"
+  },
+  {
+    "message": "downloadData failed for Love of the Divine Tree - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:51:03.039Z"
+  },
+  {
+    "message": "downloadData failed for Kattalan: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:51:22.278Z"
+  },
+  {
+    "message": "downloadData failed for Mutiny: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:51:36.289Z"
+  },
+  {
+    "message": "downloadData failed for Mutiny: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:51:40.296Z"
+  },
+  {
+    "message": "downloadData failed for Sri Asih: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:51:51.944Z"
+  },
+  {
+    "message": "downloadData failed for Absolute Value of Romance - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:52:00.291Z"
+  },
+  {
+    "message": "downloadData failed for Heartbreak High - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:52:12.812Z"
+  },
+  {
+    "message": "downloadData failed for Heartbreak High - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:52:16.971Z"
+  },
+  {
+    "message": "downloadData failed for Neem - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:52:23.791Z"
+  },
+  {
+    "message": "cinemaData failed for Crazy Lizard (430946f6-0bdf-4658-96db-294b60adad03): Request failed with status code 429",
+    "timestamp": "2026-10-12T02:52:46.521Z"
+  },
+  {
+    "message": "downloadData failed for Fantasy Island: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:52:48.626Z"
+  },
+  {
+    "message": "downloadData failed for Tsotsi: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:52:52.867Z"
+  },
+  {
+    "message": "downloadData failed for My Country: The New Age - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:52:57.900Z"
+  },
+  {
+    "message": "downloadData failed for My Country: The New Age - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:53:02.505Z"
+  },
+  {
+    "message": "downloadData failed for Pretty Woman: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:53:09.481Z"
+  },
+  {
+    "message": "downloadData failed for Pretty Woman: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:53:13.114Z"
+  },
+  {
+    "message": "downloadData failed for The Devil's Mouth: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:53:23.393Z"
+  },
+  {
+    "message": "downloadData failed for Legend of the Seeker - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:53:29.836Z"
+  },
+  {
+    "message": "downloadData failed for Stranger Things - S03E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:53:43.314Z"
+  },
+  {
+    "message": "downloadData failed for Stranger Things - S03E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:53:47.000Z"
+  },
+  {
+    "message": "downloadData failed for Stranger Things - S03E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:53:55.114Z"
+  },
+  {
+    "message": "downloadData failed for Lucky Strike: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:53:59.129Z"
+  },
+  {
+    "message": "downloadData failed for Pearl in Red - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:54:35.637Z"
+  },
+  {
+    "message": "downloadData failed for Pearl in Red - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:54:39.583Z"
+  },
+  {
+    "message": "downloadData failed for Pearl in Red - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:54:46.645Z"
+  },
+  {
+    "message": "downloadData failed for Soulmate: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:54:53.941Z"
+  },
+  {
+    "message": "downloadData failed for Soulmate: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:54:58.054Z"
+  },
+  {
+    "message": "downloadData failed for Borderline: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:55:08.194Z"
+  },
+  {
+    "message": "downloadData failed for Borderline: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:55:12.609Z"
+  },
+  {
+    "message": "downloadData failed for The Devil's Mouth: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:55:22.474Z"
+  },
+  {
+    "message": "downloadData failed for Colony: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:55:27.441Z"
+  },
+  {
+    "message": "downloadData failed for Colony: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:55:31.858Z"
+  },
+  {
+    "message": "downloadData failed for From Paris with Love: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:55:44.479Z"
+  },
+  {
+    "message": "downloadData failed for Dance Flick: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:55:55.567Z"
+  },
+  {
+    "message": "downloadData failed for Ride or Die - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:56:02.271Z"
+  },
+  {
+    "message": "downloadData failed for Teach You a Lesson - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:56:15.061Z"
+  },
+  {
+    "message": "downloadData mismatch for A Shop for Killers - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T02:56:26.076Z"
+  },
+  {
+    "message": "downloadData mismatch for A Shop for Killers - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T02:56:27.882Z"
+  },
+  {
+    "message": "downloadData mismatch for A Shop for Killers - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T02:56:29.726Z"
+  },
+  {
+    "message": "downloadData failed for My Husband Is a Mafia Boss - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:56:37.186Z"
+  },
+  {
+    "message": "downloadData failed for Sold Out on You - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:56:48.102Z"
+  },
+  {
+    "message": "downloadData failed for Sold Out on You - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:56:51.427Z"
+  },
+  {
+    "message": "downloadData failed for Masters of the Universe: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:57:07.029Z"
+  },
+  {
+    "message": "downloadData failed for Masters of the Universe: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:57:11.129Z"
+  },
+  {
+    "message": "downloadData failed for Mohenjo Daro: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:57:26.222Z"
+  },
+  {
+    "message": "downloadData failed for The Madness - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:57:33.749Z"
+  },
+  {
+    "message": "downloadData failed for The Madness - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:57:36.846Z"
+  },
+  {
+    "message": "downloadData failed for The Madness - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:57:46.604Z"
+  },
+  {
+    "message": "downloadData failed for Iss Ishq Ka Rabb Rakha - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:57:53.279Z"
+  },
+  {
+    "message": "downloadData failed for Bonnie: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:58:07.163Z"
+  },
+  {
+    "message": "downloadData failed for Hunting Season: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:58:23.601Z"
+  },
+  {
+    "message": "downloadData failed for The Girlfriend - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:58:29.879Z"
+  },
+  {
+    "message": "downloadData failed for Need for Speed: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:58:36.382Z"
+  },
+  {
+    "message": "downloadData empty for The Darkest Minds (attempt 1)",
+    "timestamp": "2026-10-12T02:58:47.399Z"
+  },
+  {
+    "message": "downloadData empty for The Darkest Minds (attempt 2)",
+    "timestamp": "2026-10-12T02:58:51.731Z"
+  },
+  {
+    "message": "downloadData empty for The Darkest Minds (attempt 3)",
+    "timestamp": "2026-10-12T02:59:01.098Z"
+  },
+  {
+    "message": "downloadData failed for Remember: War of the Son - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:59:12.399Z"
+  },
+  {
+    "message": "downloadData empty for Disclosure Day (attempt 1)",
+    "timestamp": "2026-10-12T02:59:24.444Z"
+  },
+  {
+    "message": "downloadData empty for Disclosure Day (attempt 2)",
+    "timestamp": "2026-10-12T02:59:28.639Z"
+  },
+  {
+    "message": "downloadData empty for Disclosure Day (attempt 3)",
+    "timestamp": "2026-10-12T02:59:37.848Z"
+  },
+  {
+    "message": "cinemaData failed for The Butcher's Blade (2c09188f-9ff1-4880-9620-17ad710b6b91): Request failed with status code 429",
+    "timestamp": "2026-10-12T02:59:39.710Z"
+  },
+  {
+    "message": "downloadData failed for Balti: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:59:44.391Z"
+  },
+  {
+    "message": "downloadData failed for Maa Inti Bangaram: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:59:49.885Z"
+  },
+  {
+    "message": "downloadData failed for Maa Inti Bangaram: Request failed with status code 429",
+    "timestamp": "2026-10-12T02:59:53.385Z"
+  },
+  {
+    "message": "downloadData failed for Maa Inti Bangaram: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:00:02.186Z"
+  },
+  {
+    "message": "downloadData failed for Ek Din: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:00:03.452Z"
+  },
+  {
+    "message": "downloadData failed for Ek Din: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:00:06.574Z"
+  },
+  {
+    "message": "downloadData failed for Ek Din: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:00:15.337Z"
+  },
+  {
+    "message": "downloadData failed for Godfather: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:00:17.585Z"
+  },
+  {
+    "message": "downloadData failed for Flower Boy - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:00:22.507Z"
+  },
+  {
+    "message": "downloadData failed for Fist of Fury: Soul: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:00:36.252Z"
+  },
+  {
+    "message": "downloadData failed for Regretting You: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:00:42.967Z"
+  },
+  {
+    "message": "downloadData failed for Pinocchio - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:00:50.472Z"
+  },
+  {
+    "message": "downloadData failed for Pinocchio - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:00:55.666Z"
+  },
+  {
+    "message": "downloadData failed for The Forbidden City: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:01:10.197Z"
+  },
+  {
+    "message": "downloadData failed for Agni: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:01:22.691Z"
+  },
+  {
+    "message": "downloadData failed for KD: The Devil: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:01:27.535Z"
+  },
+  {
+    "message": "downloadData failed for Raja Shivaji: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:01:33.060Z"
+  },
+  {
+    "message": "downloadData failed for Karikaada: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:01:41.069Z"
+  },
+  {
+    "message": "cinemaData failed for Crush the Wicked (39865efa-a6e7-4fc5-85ad-12bd093b0cbb): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:01:46.955Z"
+  },
+  {
+    "message": "downloadData failed for Raja Bheema: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:01:48.695Z"
+  },
+  {
+    "message": "downloadData failed for Raja Bheema: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:01:53.070Z"
+  },
+  {
+    "message": "downloadData failed for Razor: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:02:03.235Z"
+  },
+  {
+    "message": "downloadData failed for Badland Rising: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:02:11.053Z"
+  },
+  {
+    "message": "downloadData failed for Badland Rising: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:02:15.531Z"
+  },
+  {
+    "message": "downloadData failed for Badland Rising: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:02:23.732Z"
+  },
+  {
+    "message": "cinemaData failed for Hungry (f7e44cb9-e236-4176-8750-eb2c2a1fefcc): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:02:26.729Z"
+  },
+  {
+    "message": "downloadData failed for Good Boy - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:02:27.654Z"
+  },
+  {
+    "message": "downloadData failed for Good Boy - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:02:30.765Z"
+  },
+  {
+    "message": "downloadData failed for Good Boy - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:02:40.536Z"
+  },
+  {
+    "message": "downloadData failed for Good Boy - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:02:44.929Z"
+  },
+  {
+    "message": "downloadData failed for Peddi: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:03:28.808Z"
+  },
+  {
+    "message": "downloadData failed for Ip Man: Kung Fu Legend: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:03:35.203Z"
+  },
+  {
+    "message": "downloadData failed for Golden Boy - S02E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:04:08.667Z"
+  },
+  {
+    "message": "downloadData failed for Mannat: Harr Khushi Paane Ki - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:04:31.527Z"
+  },
+  {
+    "message": "downloadData failed for Daydreamer - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:05:13.604Z"
+  },
+  {
+    "message": "downloadData failed for Bad Sister: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:05:31.718Z"
+  },
+  {
+    "message": "downloadData failed for Bad Sister: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:05:35.965Z"
+  },
+  {
+    "message": "downloadData failed for Till The End Of The Moon - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:05:45.468Z"
+  },
+  {
+    "message": "downloadData failed for Fated Hearts - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:05:57.458Z"
+  },
+  {
+    "message": "downloadData failed for Fated Hearts - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:06:02.267Z"
+  },
+  {
+    "message": "downloadData failed for Fated Hearts - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:06:05.577Z"
+  },
+  {
+    "message": "downloadData failed for The Master's Sun - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:06:24.441Z"
+  },
+  {
+    "message": "downloadData failed for The Master's Sun - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:06:30.188Z"
+  },
+  {
+    "message": "downloadData failed for The Chosen - S02E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:06:44.178Z"
+  },
+  {
+    "message": "downloadData failed for The Chosen - S02E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:06:48.547Z"
+  },
+  {
+    "message": "downloadData failed for The Polygamist - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:06:57.944Z"
+  },
+  {
+    "message": "downloadData failed for The Polygamist - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:07:02.710Z"
+  },
+  {
+    "message": "downloadData failed for The Polygamist - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:07:07.409Z"
+  },
+  {
+    "message": "downloadData failed for Black Doves - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:07:15.736Z"
+  },
+  {
+    "message": "downloadData failed for Black Doves - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:07:19.845Z"
+  },
+  {
+    "message": "downloadData failed for Black Doves - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:07:28.887Z"
+  },
+  {
+    "message": "downloadData failed for Black Doves - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:07:32.490Z"
+  },
+  {
+    "message": "downloadData failed for The Forbidden Kingdom: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:07:42.633Z"
+  },
+  {
+    "message": "cinemaData failed for Hamnet (a1561a56-9582-4b94-97b0-0ab7cafcb2e3): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:07:48.754Z"
+  },
+  {
+    "message": "downloadData failed for Berlin - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:07:55.514Z"
+  },
+  {
+    "message": "downloadData failed for Berlin - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:08:01.592Z"
+  },
+  {
+    "message": "downloadData failed for Berlin - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:08:05.001Z"
+  },
+  {
+    "message": "downloadData failed for Berlin - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:08:14.450Z"
+  },
+  {
+    "message": "downloadData failed for Berlin - S02E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:08:15.853Z"
+  },
+  {
+    "message": "downloadData failed for Berlin - S02E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:08:18.997Z"
+  },
+  {
+    "message": "downloadData failed for Unspeakable Sins - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:08:44.554Z"
+  },
+  {
+    "message": "downloadData failed for Unspeakable Sins - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:08:47.990Z"
+  },
+  {
+    "message": "downloadData failed for Unspeakable Sins - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:08:57.472Z"
+  },
+  {
+    "message": "downloadData failed for Unspeakable Sins - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:08:57.924Z"
+  },
+  {
+    "message": "downloadData failed for X-Men: Apocalypse: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:09:15.187Z"
+  },
+  {
+    "message": "downloadData failed for X-Men: Apocalypse: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:09:19.347Z"
+  },
+  {
+    "message": "downloadData failed for Max Steel: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:09:31.993Z"
+  },
+  {
+    "message": "downloadData failed for RoboCop: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:09:38.649Z"
+  },
+  {
+    "message": "downloadData failed for Speed Faster: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:09:43.885Z"
+  },
+  {
+    "message": "downloadData failed for Fate Chooses You - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:09:50.324Z"
+  },
+  {
+    "message": "downloadData failed for Seven Snipers: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:09:59.319Z"
+  },
+  {
+    "message": "downloadData failed for Nemesis - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:10:07.240Z"
+  },
+  {
+    "message": "downloadData failed for Off Campus - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:10:19.576Z"
+  },
+  {
+    "message": "downloadData failed for Off Campus - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:10:23.161Z"
+  },
+  {
+    "message": "downloadData failed for Off Campus - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:10:31.768Z"
+  },
+  {
+    "message": "downloadData failed for My Royal Nemesis - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:10:36.759Z"
+  },
+  {
+    "message": "cinemaData failed for Meetha Khatta Pyaar Hamara (d2e09e3e-9a2c-4aa7-8fb7-b793405272b7): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:10:45.278Z"
+  },
+  {
+    "message": "downloadData failed for The Silent Rift - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:10:46.797Z"
+  },
+  {
+    "message": "downloadData failed for The Silent Rift - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:10:50.898Z"
+  },
+  {
+    "message": "downloadData failed for The Silent Rift - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:11:00.266Z"
+  },
+  {
+    "message": "downloadData failed for The Silent Rift - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:11:03.479Z"
+  },
+  {
+    "message": "downloadData failed for The Silent Rift - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:11:12.600Z"
+  },
+  {
+    "message": "downloadData failed for The Lord of the Rings: The Two Towers: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:11:26.751Z"
+  },
+  {
+    "message": "downloadData failed for Gulliver's Travels: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:11:31.482Z"
+  },
+  {
+    "message": "downloadData failed for Strong Woman Do Bong-Soon - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:11:41.843Z"
+  },
+  {
+    "message": "downloadData failed for Meet - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:12:02.884Z"
+  },
+  {
+    "message": "downloadData failed for Meet - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:12:06.027Z"
+  },
+  {
+    "message": "downloadData failed for Meet - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:12:14.244Z"
+  },
+  {
+    "message": "downloadData failed for Spider-Noir - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:13:00.594Z"
+  },
+  {
+    "message": "downloadData failed for The Rain in Espana - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:13:07.649Z"
+  },
+  {
+    "message": "downloadData failed for I: Proud to Be an Indian: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:13:16.072Z"
+  },
+  {
+    "message": "downloadData failed for I: Proud to Be an Indian: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:13:20.237Z"
+  },
+  {
+    "message": "cinemaData failed for I Am God (deac64fb-0029-4479-aad1-05c33af3c858): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:13:32.243Z"
+  },
+  {
+    "message": "downloadData failed for Beast: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:13:40.930Z"
+  },
+  {
+    "message": "downloadData failed for Beast: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:13:44.592Z"
+  },
+  {
+    "message": "downloadData failed for Beast: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:13:53.006Z"
+  },
+  {
+    "message": "downloadData failed for My Strange Hero - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:13:54.389Z"
+  },
+  {
+    "message": "downloadData failed for Tom Clancy's Jack Ryan: Ghost War: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:14:13.348Z"
+  },
+  {
+    "message": "downloadData failed for Vengeance: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:14:37.626Z"
+  },
+  {
+    "message": "downloadData failed for Attack of the Meth Gator: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:14:43.984Z"
+  },
+  {
+    "message": "downloadData failed for Attack of the Meth Gator: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:14:47.101Z"
+  },
+  {
+    "message": "downloadData failed for Red Dawn: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:15:00.292Z"
+  },
+  {
+    "message": "downloadData failed for Mortal Kombat 2: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:15:06.778Z"
+  },
+  {
+    "message": "downloadData failed for Mortal Kombat 2: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:15:10.587Z"
+  },
+  {
+    "message": "downloadData failed for Mortal Kombat 2: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:15:19.198Z"
+  },
+  {
+    "message": "downloadData failed for Push: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:15:19.886Z"
+  },
+  {
+    "message": "downloadData failed for Push: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:15:23.404Z"
+  },
+  {
+    "message": "downloadData failed for The Northman: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:15:37.227Z"
+  },
+  {
+    "message": "downloadData failed for Prisoner - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:15:43.573Z"
+  },
+  {
+    "message": "downloadData failed for The Wonderfools - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:15:52.906Z"
+  },
+  {
+    "message": "downloadData failed for Seventh Son: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:16:00.451Z"
+  },
+  {
+    "message": "downloadData failed for Jamai Raja - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:16:30.568Z"
+  },
+  {
+    "message": "downloadData failed for Nazar - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:04.503Z"
+  },
+  {
+    "message": "downloadData failed for Nazar - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:08.393Z"
+  },
+  {
+    "message": "downloadData failed for Nazar - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:16.487Z"
+  },
+  {
+    "message": "downloadData failed for Nazar - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:16.982Z"
+  },
+  {
+    "message": "downloadData failed for Nazar - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:20.311Z"
+  },
+  {
+    "message": "downloadData failed for Nazar - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:29.688Z"
+  },
+  {
+    "message": "downloadData failed for Prisoner - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:38.673Z"
+  },
+  {
+    "message": "downloadData failed for Prisoner - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:42.791Z"
+  },
+  {
+    "message": "downloadData failed for Monster - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:49.804Z"
+  },
+  {
+    "message": "downloadData failed for Monster - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:53.742Z"
+  },
+  {
+    "message": "downloadData failed for Monster - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:17:57.265Z"
+  },
+  {
+    "message": "downloadData failed for Monster - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:18:07.189Z"
+  },
+  {
+    "message": "downloadData failed for If Wishes Could Kill - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:18:18.481Z"
+  },
+  {
+    "message": "downloadData failed for If Wishes Could Kill - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:18:24.089Z"
+  },
+  {
+    "message": "downloadData failed for Memorist - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:18:51.424Z"
+  },
+  {
+    "message": "downloadData failed for Memorist - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:18:54.879Z"
+  },
+  {
+    "message": "downloadData failed for Legacies - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:19:09.868Z"
+  },
+  {
+    "message": "downloadData failed for Hounds of War: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:19:21.386Z"
+  },
+  {
+    "message": "downloadData failed for 50 States of Fright - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:19:40.650Z"
+  },
+  {
+    "message": "downloadData failed for 50 States of Fright - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:19:44.841Z"
+  },
+  {
+    "message": "downloadData failed for 50 States of Fright - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:19:53.688Z"
+  },
+  {
+    "message": "downloadData failed for 50 States of Fright - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:19:57.924Z"
+  },
+  {
+    "message": "downloadData failed for Tyrant - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:20:11.468Z"
+  },
+  {
+    "message": "downloadData failed for Tyrant - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:20:16.373Z"
+  },
+  {
+    "message": "downloadData mismatch for Classified — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T03:20:22.459Z"
+  },
+  {
+    "message": "downloadData failed for Prisoner - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:20:25.965Z"
+  },
+  {
+    "message": "downloadData failed for Man on Fire - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:20:34.550Z"
+  },
+  {
+    "message": "downloadData failed for Han River Police - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:20:43.110Z"
+  },
+  {
+    "message": "downloadData failed for Han River Police - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:20:46.340Z"
+  },
+  {
+    "message": "downloadData failed for Han River Police - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:20:55.121Z"
+  },
+  {
+    "message": "downloadData failed for Hymn of Death - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:21:01.611Z"
+  },
+  {
+    "message": "downloadData failed for Hymn of Death - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:21:05.052Z"
+  },
+  {
+    "message": "downloadData failed for The Delta Force 1: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:21:28.927Z"
+  },
+  {
+    "message": "downloadData failed for Venom: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:21:33.362Z"
+  },
+  {
+    "message": "downloadData failed for Venom: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:21:37.450Z"
+  },
+  {
+    "message": "downloadData failed for Throne of Elves: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:22:00.725Z"
+  },
+  {
+    "message": "cinemaData failed for Tere Naam (a55392e6-cca0-4c44-9fc7-a294c556c09b): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:22:21.757Z"
+  },
+  {
+    "message": "downloadData failed for Veil of Shadows - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:22:23.616Z"
+  },
+  {
+    "message": "downloadData failed for Watching You - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:22:32.634Z"
+  },
+  {
+    "message": "downloadData failed for Yong Pal - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:22:41.757Z"
+  },
+  {
+    "message": "downloadData failed for Sambhavam Adhyayam Onnu: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:22:50.173Z"
+  },
+  {
+    "message": "downloadData failed for Badass Ravikumar: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:22:55.190Z"
+  },
+  {
+    "message": "downloadData failed for Warrior - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:23:06.306Z"
+  },
+  {
+    "message": "downloadData failed for Bound: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:23:30.302Z"
+  },
+  {
+    "message": "downloadData failed for Bound: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:23:33.917Z"
+  },
+  {
+    "message": "downloadData failed for Avatar 3: Fire and Ash: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:23:43.467Z"
+  },
+  {
+    "message": "downloadData failed for Revenge of Others - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:23:49.187Z"
+  },
+  {
+    "message": "downloadData failed for Ustaad Bhagat Singh: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:23:56.174Z"
+  },
+  {
+    "message": "downloadData failed for Hierarchy - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:24:05.532Z"
+  },
+  {
+    "message": "downloadData failed for Hierarchy - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:24:08.912Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T03:24:17.659Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T03:24:18.147Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T03:24:20.493Z"
+  },
+  {
+    "message": "downloadData failed for One Piece - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:24:24.167Z"
+  },
+  {
+    "message": "downloadData failed for One Piece - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:24:28.758Z"
+  },
+  {
+    "message": "downloadData failed for One Piece - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:24:31.848Z"
+  },
+  {
+    "message": "downloadData failed for Pusong ligaw - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:24:47.476Z"
+  },
+  {
+    "message": "downloadData failed for PK: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:25:15.931Z"
+  },
+  {
+    "message": "downloadData failed for Citadel: Diana - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:25:20.432Z"
+  },
+  {
+    "message": "downloadData failed for Citadel: Diana - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:25:24.831Z"
+  },
+  {
+    "message": "downloadData failed for Citadel: Diana - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:25:33.805Z"
+  },
+  {
+    "message": "downloadData failed for Supergirl - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:25:38.044Z"
+  },
+  {
+    "message": "downloadData failed for The Matrix 1: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:25:46.368Z"
+  },
+  {
+    "message": "downloadData failed for Along With the Gods: The Two Worlds: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:25:55.867Z"
+  },
+  {
+    "message": "downloadData failed for Switch: Change the World - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:26:01.498Z"
+  },
+  {
+    "message": "downloadData failed for Switch: Change the World - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:26:05.356Z"
+  },
+  {
+    "message": "downloadData failed for Switch: Change the World - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:26:13.921Z"
+  },
+  {
+    "message": "downloadData failed for Ghajini: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:26:19.434Z"
+  },
+  {
+    "message": "downloadData failed for True Beauty - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:26:33.520Z"
+  },
+  {
+    "message": "downloadData failed for The Faithful - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:26:41.610Z"
+  },
+  {
+    "message": "downloadData failed for The Faithful - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:26:44.804Z"
+  },
+  {
+    "message": "downloadData failed for Furies - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:26:56.723Z"
+  },
+  {
+    "message": "downloadData failed for Lover: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:27:10.293Z"
+  },
+  {
+    "message": "downloadData failed for Knight Flower - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:27:16.063Z"
+  },
+  {
+    "message": "downloadData failed for Knight Flower - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:27:20.751Z"
+  },
+  {
+    "message": "downloadData failed for Study Group - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:27:27.667Z"
+  },
+  {
+    "message": "downloadData failed for Study Group - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:27:32.097Z"
+  },
+  {
+    "message": "downloadData failed for Study Group - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:27:36.502Z"
+  },
+  {
+    "message": "downloadData failed for Study Group - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:27:44.951Z"
+  },
+  {
+    "message": "downloadData failed for The Heirs - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:27:47.239Z"
+  },
+  {
+    "message": "downloadData failed for Queen for Seven Days - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:27:56.052Z"
+  },
+  {
+    "message": "downloadData failed for The Strangers Chapter 1: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:28:10.991Z"
+  },
+  {
+    "message": "downloadData failed for Run - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:28:17.891Z"
+  },
+  {
+    "message": "downloadData failed for Run - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:28:22.507Z"
+  },
+  {
+    "message": "downloadData failed for Run - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:28:26.902Z"
+  },
+  {
+    "message": "downloadData failed for Fatal Seduction - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:29:15.671Z"
+  },
+  {
+    "message": "downloadData failed for Fatal Seduction - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:29:18.760Z"
+  },
+  {
+    "message": "downloadData failed for Fatal Seduction - S02E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:29:29.456Z"
+  },
+  {
+    "message": "downloadData failed for Fatal Seduction - S03E01: Buringanire: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:29:36.257Z"
+  },
+  {
+    "message": "downloadData failed for Fatal Seduction - S03E02: Buringanire: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:29:41.044Z"
+  },
+  {
+    "message": "downloadData failed for 49 Days - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:29:48.656Z"
+  },
+  {
+    "message": "downloadData failed for 49 Days - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:29:52.413Z"
+  },
+  {
+    "message": "downloadData failed for Sniper Butterfly - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:30:12.817Z"
+  },
+  {
+    "message": "downloadData failed for Meri Bhavya Life - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:30:21.123Z"
+  },
+  {
+    "message": "downloadData failed for Meri Bhavya Life - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:30:25.199Z"
+  },
+  {
+    "message": "downloadData failed for Meri Bhavya Life - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:30:30.223Z"
+  },
+  {
+    "message": "downloadData failed for Memory of a Killer - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:30:55.706Z"
+  },
+  {
+    "message": "downloadData failed for Memory of a Killer - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:30:58.885Z"
+  },
+  {
+    "message": "downloadData failed for Roja - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:31:11.498Z"
+  },
+  {
+    "message": "downloadData failed for Roja - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:31:14.623Z"
+  },
+  {
+    "message": "downloadData failed for Crime 101: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:31:28.339Z"
+  },
+  {
+    "message": "downloadData failed for Mardaani 3: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:31:36.746Z"
+  },
+  {
+    "message": "downloadData failed for Generation to Generation - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:31:55.118Z"
+  },
+  {
+    "message": "downloadData failed for Weak Hero Class 1 - S02E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:32:17.189Z"
+  },
+  {
+    "message": "downloadData failed for Missing in Action 2: The Beginning: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:32:35.507Z"
+  },
+  {
+    "message": "downloadData failed for Braddock: Missing in Action III: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:32:40.491Z"
+  },
+  {
+    "message": "downloadData failed for SAS: Rise of the Black Swan: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:32:45.390Z"
+  },
+  {
+    "message": "downloadData failed for KUIFI - Kulfi Kumar Bajewala - S01E31: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:32:55.655Z"
+  },
+  {
+    "message": "downloadData failed for KUIFI - Kulfi Kumar Bajewala - S01E31: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:32:59.943Z"
+  },
+  {
+    "message": "downloadData failed for Sanjog - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:33:34.831Z"
+  },
+  {
+    "message": "downloadData failed for Sanjog - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:33:38.771Z"
+  },
+  {
+    "message": "cinemaData failed for Slow Horses (92b79d3f-cda9-4d6e-a204-fe0ff0df898f): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:34:00.376Z"
+  },
+  {
+    "message": "downloadData failed for The Killer's Shopping List - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:34:02.657Z"
+  },
+  {
+    "message": "downloadData failed for The Killer's Shopping List - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:34:05.944Z"
+  },
+  {
+    "message": "downloadData failed for The Killer's Shopping List - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:34:16.090Z"
+  },
+  {
+    "message": "downloadData failed for Speed and Love - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:34:23.688Z"
+  },
+  {
+    "message": "downloadData failed for Dangerous Animals: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:34:47.277Z"
+  },
+  {
+    "message": "downloadData failed for Border 2: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:34:51.733Z"
+  },
+  {
+    "message": "downloadData failed for Skinwalker Island: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:34:58.316Z"
+  },
+  {
+    "message": "downloadData failed for Munna Michael: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:35:03.232Z"
+  },
+  {
+    "message": "downloadData failed for Munna Michael: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:35:06.616Z"
+  },
+  {
+    "message": "downloadData failed for Bad Voodoo: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:35:16.795Z"
+  },
+  {
+    "message": "downloadData failed for Bad Voodoo: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:35:20.840Z"
+  },
+  {
+    "message": "downloadData failed for Bad Voodoo: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:35:28.992Z"
+  },
+  {
+    "message": "downloadData failed for Mana ShankaraVaraprasad Garu: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:35:29.665Z"
+  },
+  {
+    "message": "downloadData failed for Cashero - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:35:35.329Z"
+  },
+  {
+    "message": "downloadData failed for the equalizer - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:35:42.480Z"
+  },
+  {
+    "message": "downloadData failed for Wu Assassins - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:35:50.238Z"
+  },
+  {
+    "message": "downloadData failed for Love Phobia - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:35:57.351Z"
+  },
+  {
+    "message": "downloadData failed for Love Phobia - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:36:00.954Z"
+  },
+  {
+    "message": "downloadData failed for Love Phobia - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:36:09.902Z"
+  },
+  {
+    "message": "downloadData failed for Mexicali: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:36:13.923Z"
+  },
+  {
+    "message": "downloadData failed for Mexicali: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:36:17.894Z"
+  },
+  {
+    "message": "downloadData failed for Mexicali: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:36:27.074Z"
+  },
+  {
+    "message": "downloadData failed for Akaal: The Unconquered: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:36:28.873Z"
+  },
+  {
+    "message": "downloadData failed for Baby Girl: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:36:36.021Z"
+  },
+  {
+    "message": "downloadData failed for Surya Power of Love: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:36:41.604Z"
+  },
+  {
+    "message": "downloadData failed for Bad Genius: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:36:49.644Z"
+  },
+  {
+    "message": "downloadData failed for Billionaires' Bunker - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:36:57.406Z"
+  },
+  {
+    "message": "downloadData failed for Billionaires' Bunker - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:37:02.192Z"
+  },
+  {
+    "message": "downloadData failed for Billionaires' Bunker - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:37:06.766Z"
+  },
+  {
+    "message": "cinemaData failed for The Bluff (a3d4a42f-2711-4f0d-a2c8-5cda809d587f): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:37:17.170Z"
+  },
+  {
+    "message": "downloadData failed for Whistle: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:37:20.432Z"
+  },
+  {
+    "message": "downloadData failed for The Boss Baby: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:37:25.219Z"
+  },
+  {
+    "message": "downloadData failed for Mangal Lakshmi - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:37:31.995Z"
+  },
+  {
+    "message": "downloadData failed for My Father's Wife - S01E01: -2: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:38:02.954Z"
+  },
+  {
+    "message": "downloadData failed for My Father's Wife - S01E01: -2: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:38:07.155Z"
+  },
+  {
+    "message": "downloadData failed for My Father's Wife - S01E05: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:38:17.587Z"
+  },
+  {
+    "message": "downloadData failed for My Father's Wife - S01E05: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:38:21.327Z"
+  },
+  {
+    "message": "downloadData failed for Love Next Door - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:38:45.567Z"
+  },
+  {
+    "message": "downloadData failed for Akhara - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:38:54.067Z"
+  },
+  {
+    "message": "downloadData failed for Akhara - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:39:00.402Z"
+  },
+  {
+    "message": "downloadData failed for Our Universe - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:39:24.096Z"
+  },
+  {
+    "message": "downloadData failed for To My Beloved Thief - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:39:33.035Z"
+  },
+  {
+    "message": "downloadData failed for Our Universe - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:39:41.415Z"
+  },
+  {
+    "message": "cinemaData failed for Love Me Love Me (8c33642a-3572-4aca-b860-a7644c5d6ac1): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:39:54.780Z"
+  },
+  {
+    "message": "downloadData failed for Your Host: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:39:55.375Z"
+  },
+  {
+    "message": "downloadData failed for Subedaar: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:40:01.204Z"
+  },
+  {
+    "message": "downloadData failed for Taken 2: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:40:07.616Z"
+  },
+  {
+    "message": "downloadData failed for 28 Years Later: The Bone Temple: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:40:16.058Z"
+  },
+  {
+    "message": "downloadData failed for 28 Years Later: The Bone Temple: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:40:20.036Z"
+  },
+  {
+    "message": "downloadData failed for Sankrathiki Vasthunam: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:40:37.447Z"
+  },
+  {
+    "message": "downloadData failed for Sankrathiki Vasthunam: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:40:41.645Z"
+  },
+  {
+    "message": "downloadData failed for Sankrathiki Vasthunam: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:40:50.136Z"
+  },
+  {
+    "message": "downloadData failed for Abraham Lincoln: Vampire Hunter: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:40:50.780Z"
+  },
+  {
+    "message": "downloadData failed for The Last Witch Hunter: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:40:56.487Z"
+  },
+  {
+    "message": "cinemaData failed for Tunnel (7fb51e3c-a3fd-46a8-81c4-9706dc404d96): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:41:03.281Z"
+  },
+  {
+    "message": "downloadData failed for Legend of the Female General - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:41:03.989Z"
+  },
+  {
+    "message": "downloadData failed for Legend of the Female General - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:41:08.220Z"
+  },
+  {
+    "message": "downloadData failed for Legend of the Female General - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:41:12.527Z"
+  },
+  {
+    "message": "downloadData failed for Legend of the Female General - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:41:22.101Z"
+  },
+  {
+    "message": "downloadData failed for Blood Coast - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:41:27.816Z"
+  },
+  {
+    "message": "downloadData failed for Wonderland of Love - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:41:36.756Z"
+  },
+  {
+    "message": "downloadData failed for Wonderland of Love - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:41:40.243Z"
+  },
+  {
+    "message": "downloadData failed for Run Away - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:41:55.348Z"
+  },
+  {
+    "message": "downloadData failed for Moonshine - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:42:03.469Z"
+  },
+  {
+    "message": "downloadData failed for Surely Tomorrow - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:42:11.478Z"
+  },
+  {
+    "message": "downloadData failed for Mercy for None - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:42:20.692Z"
+  },
+  {
+    "message": "downloadData failed for Mercy for None - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:42:25.413Z"
+  },
+  {
+    "message": "downloadData failed for The Dreadful: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:42:35.968Z"
+  },
+  {
+    "message": "downloadData failed for The Dreadful: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:42:40.339Z"
+  },
+  {
+    "message": "downloadData failed for The Housemaid: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:42:54.249Z"
+  },
+  {
+    "message": "downloadData failed for The Housemaid: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:42:58.164Z"
+  },
+  {
+    "message": "downloadData failed for The Purge: Election Year: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:43:09.312Z"
+  },
+  {
+    "message": "downloadData failed for Il Ji Mae - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:43:24.279Z"
+  },
+  {
+    "message": "downloadData failed for Bekaboo - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:43:45.319Z"
+  },
+  {
+    "message": "downloadData failed for Mask Girl - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:44:00.465Z"
+  },
+  {
+    "message": "downloadData failed for The Ambush: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:44:08.898Z"
+  },
+  {
+    "message": "downloadData failed for Reckless: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:44:23.104Z"
+  },
+  {
+    "message": "downloadData failed for Daaku Maharaaj: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:44:30.829Z"
+  },
+  {
+    "message": "downloadData failed for Eliminators: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:44:35.457Z"
+  },
+  {
+    "message": "downloadData failed for First Lady - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:44:41.944Z"
+  },
+  {
+    "message": "downloadData failed for First Lady - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:44:46.145Z"
+  },
+  {
+    "message": "downloadData failed for Billionaires' Bunker - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:45:02.265Z"
+  },
+  {
+    "message": "downloadData failed for Pelé: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:45:10.687Z"
+  },
+  {
+    "message": "downloadData failed for Pelé: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:45:14.498Z"
+  },
+  {
+    "message": "downloadData failed for Unfamiliar - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:45:26.587Z"
+  },
+  {
+    "message": "downloadData failed for Siempre bruja: Always a Witch - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:45:49.250Z"
+  },
+  {
+    "message": "downloadData failed for Siempre bruja: Always a Witch - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:45:53.414Z"
+  },
+  {
+    "message": "downloadData failed for Decalcomania - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:46:09.909Z"
+  },
+  {
+    "message": "downloadData failed for Decalcomania - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:46:14.390Z"
+  },
+  {
+    "message": "downloadData failed for Decalcomania - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:46:23.488Z"
+  },
+  {
+    "message": "downloadData failed for Retta Thala: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:46:33.769Z"
+  },
+  {
+    "message": "downloadData failed for Retta Thala: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:46:36.997Z"
+  },
+  {
+    "message": "downloadData failed for Tormento: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:46:47.146Z"
+  },
+  {
+    "message": "downloadData failed for Kabzaa: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:46:55.106Z"
+  },
+  {
+    "message": "downloadData failed for Vaa Vaathiyaar: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:47:04.372Z"
+  },
+  {
+    "message": "downloadData failed for Vaa Vaathiyaar: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:47:07.546Z"
+  },
+  {
+    "message": "downloadData failed for The Hunter's Prayer: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:47:20.869Z"
+  },
+  {
+    "message": "downloadData failed for Extracurricular - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:47:33.061Z"
+  },
+  {
+    "message": "downloadData failed for Twenty Five Twenty One - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:47:40.401Z"
+  },
+  {
+    "message": "downloadData failed for Twenty Five Twenty One - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:47:43.653Z"
+  },
+  {
+    "message": "downloadData failed for Twenty Five Twenty One - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:47:53.026Z"
+  },
+  {
+    "message": "downloadData failed for At A Distance, Spring Is Green - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:48:04.890Z"
+  },
+  {
+    "message": "downloadData failed for At A Distance, Spring Is Green - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:48:09.044Z"
+  },
+  {
+    "message": "downloadData empty for Made in Korea - S01E01 (attempt 1)",
+    "timestamp": "2026-10-12T03:48:15.620Z"
+  },
+  {
+    "message": "downloadData empty for Made in Korea - S01E01 (attempt 2)",
+    "timestamp": "2026-10-12T03:48:19.764Z"
+  },
+  {
+    "message": "downloadData empty for Made in Korea - S01E01 (attempt 3)",
+    "timestamp": "2026-10-12T03:48:28.418Z"
+  },
+  {
+    "message": "downloadData empty for Made in Korea - S01E02 (attempt 1)",
+    "timestamp": "2026-10-12T03:48:35.641Z"
+  },
+  {
+    "message": "downloadData empty for Made in Korea - S01E02 (attempt 2)",
+    "timestamp": "2026-10-12T03:48:44.336Z"
+  },
+  {
+    "message": "downloadData empty for Made in Korea - S01E02 (attempt 3)",
+    "timestamp": "2026-10-12T03:48:54.352Z"
+  },
+  {
+    "message": "downloadData empty for Made in Korea - S01E03 (attempt 1)",
+    "timestamp": "2026-10-12T03:49:05.868Z"
+  },
+  {
+    "message": "downloadData failed for Made in Korea - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:49:18.433Z"
+  },
+  {
+    "message": "downloadData empty for Made in Korea - S01E03 (attempt 3)",
+    "timestamp": "2026-10-12T03:49:26.995Z"
+  },
+  {
+    "message": "downloadData failed for My Husband's Wife - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:49:41.064Z"
+  },
+  {
+    "message": "downloadData failed for Jay Kelly: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:49:50.968Z"
+  },
+  {
+    "message": "downloadData failed for They Call Him OG: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:50:06.087Z"
+  },
+  {
+    "message": "downloadData failed for Mowgli: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:50:12.638Z"
+  },
+  {
+    "message": "downloadData failed for Hwarang: The Poet Warrior Youth - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:50:24.407Z"
+  },
+  {
+    "message": "downloadData failed for American Sniper: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:50:38.933Z"
+  },
+  {
+    "message": "downloadData failed for Business Proposal - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:50:59.692Z"
+  },
+  {
+    "message": "downloadData failed for Private Bodyguard - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:51:07.106Z"
+  },
+  {
+    "message": "downloadData failed for Page Turner - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:51:13.817Z"
+  },
+  {
+    "message": "downloadData failed for Page Turner - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:51:17.399Z"
+  },
+  {
+    "message": "downloadData failed for His & Hers - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:51:42.445Z"
+  },
+  {
+    "message": "downloadData failed for One of Us Is Lying - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:51:49.963Z"
+  },
+  {
+    "message": "downloadData failed for Those About to Die - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:52:04.817Z"
+  },
+  {
+    "message": "downloadData failed for Yellowstone - S02E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:52:21.471Z"
+  },
+  {
+    "message": "downloadData failed for The Nowhere Man - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:52:29.636Z"
+  },
+  {
+    "message": "downloadData failed for The Nowhere Man - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:52:33.109Z"
+  },
+  {
+    "message": "downloadData failed for The Nowhere Man - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:52:42.676Z"
+  },
+  {
+    "message": "downloadData failed for Bad Genius: The Series - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:52:45.504Z"
+  },
+  {
+    "message": "downloadData failed for Bad Genius: The Series - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:52:49.378Z"
+  },
+  {
+    "message": "downloadData failed for Bad Genius: The Series - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:52:57.902Z"
+  },
+  {
+    "message": "downloadData failed for I Am Number Four: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:00.727Z"
+  },
+  {
+    "message": "downloadData failed for I Am Number Four: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:04.792Z"
+  },
+  {
+    "message": "downloadData failed for Caught Stealing: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:14.678Z"
+  },
+  {
+    "message": "downloadData failed for Maadeva: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:24.129Z"
+  },
+  {
+    "message": "downloadData failed for Haq: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:29.277Z"
+  },
+  {
+    "message": "cinemaData failed for Telusu Kada (6c359678-280b-463b-9bd6-8906584f125b): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:35.824Z"
+  },
+  {
+    "message": "cinemaData failed for Baahubali: The Beginning (9fb4f23a-ae1b-4680-99c6-bd529be53e27): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:37.534Z"
+  },
+  {
+    "message": "downloadData failed for Baahubali: The Epic: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:38.578Z"
+  },
+  {
+    "message": "cinemaData failed for Lion (66b66ace-a2a4-4892-b4ec-342b19779ef1): Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:45.255Z"
+  },
+  {
+    "message": "downloadData failed for The King of Kings: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:51.173Z"
+  },
+  {
+    "message": "downloadData failed for The King of Kings: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:53:54.672Z"
+  },
+  {
+    "message": "downloadData failed for Your Fault: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:54:07.126Z"
+  },
+  {
+    "message": "downloadData failed for Ultimate Mission: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:54:11.469Z"
+  },
+  {
+    "message": "downloadData failed for Ultimate Mission: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:54:15.673Z"
+  },
+  {
+    "message": "downloadData failed for Ghost Killer: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:54:25.277Z"
+  },
+  {
+    "message": "downloadData failed for Splash Splash Love - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:54:44.965Z"
+  },
+  {
+    "message": "downloadData failed for Splash Splash Love - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:54:49.368Z"
+  },
+  {
+    "message": "downloadData failed for Splash Splash Love - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:54:58.311Z"
+  },
+  {
+    "message": "downloadData failed for Off the Grid: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:55:09.220Z"
+  },
+  {
+    "message": "downloadData failed for Off the Grid: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:55:13.748Z"
+  },
+  {
+    "message": "downloadData failed for Crocodile Island: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:55:24.790Z"
+  },
+  {
+    "message": "downloadData failed for Crocodile Island: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:55:27.828Z"
+  },
+  {
+    "message": "downloadData failed for Crocodile Island: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:55:36.076Z"
+  },
+  {
+    "message": "downloadData failed for Gran Turismo: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:55:41.421Z"
+  },
+  {
+    "message": "downloadData empty for Gran Turismo (attempt 2)",
+    "timestamp": "2026-10-12T03:55:45.760Z"
+  },
+  {
+    "message": "downloadData empty for Gran Turismo (attempt 3)",
+    "timestamp": "2026-10-12T03:55:54.566Z"
+  },
+  {
+    "message": "downloadData failed for Star Wars: Episode IV - A New Hope: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:55:59.610Z"
+  },
+  {
+    "message": "downloadData failed for Star Wars: Episode IV - A New Hope: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:56:02.889Z"
+  },
+  {
+    "message": "downloadData failed for Star Wars: Episode IV - A New Hope: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:56:11.577Z"
+  },
+  {
+    "message": "downloadData failed for The Copenhagen Test - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:56:18.132Z"
+  },
+  {
+    "message": "downloadData failed for Alien: Earth - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:56:24.483Z"
+  },
+  {
+    "message": "downloadData failed for Alien: Earth - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:56:29.115Z"
+  },
+  {
+    "message": "downloadData failed for Alien: Earth - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:56:32.481Z"
+  },
+  {
+    "message": "downloadData failed for Alien: Earth - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:56:41.169Z"
+  },
+  {
+    "message": "downloadData failed for Wedding Agreement: The Series - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:56:43.486Z"
+  },
+  {
+    "message": "downloadData failed for Wedding Agreement: The Series - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:56:47.425Z"
+  },
+  {
+    "message": "downloadData failed for Wedding Agreement: The Series - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:56:51.428Z"
+  },
+  {
+    "message": "downloadData failed for You Drive Me Crazy - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:57:03.577Z"
+  },
+  {
+    "message": "downloadData failed for You Drive Me Crazy - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:57:08.099Z"
+  },
+  {
+    "message": "downloadData failed for Boyhood - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:57:13.805Z"
+  },
+  {
+    "message": "downloadData failed for Boyhood - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:57:17.759Z"
+  },
+  {
+    "message": "downloadData failed for Twelve - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:57:30.274Z"
+  },
+  {
+    "message": "downloadData failed for Odd Thomas: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:57:37.572Z"
+  },
+  {
+    "message": "downloadData failed for Babylon A.D.: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:57:42.723Z"
+  },
+  {
+    "message": "downloadData failed for The 100 - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:57:59.611Z"
+  },
+  {
+    "message": "downloadData failed for The 100 - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:58:02.672Z"
+  },
+  {
+    "message": "downloadData failed for The 100 - S03E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:58:15.624Z"
+  },
+  {
+    "message": "downloadData failed for The Terminal List - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:58:22.422Z"
+  },
+  {
+    "message": "downloadData failed for The Terminal List: Dark Wolf - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:58:29.626Z"
+  },
+  {
+    "message": "downloadData failed for Hear Me: Duy Beni - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:58:36.646Z"
+  },
+  {
+    "message": "downloadData failed for Hear Me: Duy Beni - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:58:46.231Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:59:02.567Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:59:06.171Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S02E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:59:17.976Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S03E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:59:25.100Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S03E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:59:30.112Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S04E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:59:36.087Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S04E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:59:42.764Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S05E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:59:48.971Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S05E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T03:59:52.840Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S07E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:00:08.102Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S07E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:00:11.517Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S07E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:00:21.104Z"
+  },
+  {
+    "message": "downloadData failed for Homeland - S07E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:00:24.676Z"
+  },
+  {
+    "message": "downloadData failed for Lupin - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:00:39.855Z"
+  },
+  {
+    "message": "downloadData failed for Lupin - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:00:43.154Z"
+  },
+  {
+    "message": "downloadData failed for Lupin - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:00:53.564Z"
+  },
+  {
+    "message": "downloadData failed for The War Between the Land and the Sea - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:01:05.950Z"
+  },
+  {
+    "message": "downloadData failed for The Trauma Code: Heroes on Call - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:01:15.149Z"
+  },
+  {
+    "message": "downloadData failed for Youngins - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:01:24.005Z"
+  },
+  {
+    "message": "downloadData failed for Youngins - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:01:27.721Z"
+  },
+  {
+    "message": "downloadData failed for Tribanadhari Barbarik: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:01:44.471Z"
+  },
+  {
+    "message": "downloadData failed for The Sixth Robber: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:01:50.391Z"
+  },
+  {
+    "message": "downloadData failed for The King of Sniper in Northeast: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:01:55.404Z"
+  },
+  {
+    "message": "downloadData failed for The King of Sniper in Northeast: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:01:59.056Z"
+  },
+  {
+    "message": "downloadData failed for No One Lives: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:02:10.574Z"
+  },
+  {
+    "message": "downloadData failed for Sean Combs: The Reckoning - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:02:21.658Z"
+  },
+  {
+    "message": "downloadData failed for Sean Combs: The Reckoning - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:02:26.579Z"
+  },
+  {
+    "message": "downloadData failed for Live On - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:02:32.183Z"
+  },
+  {
+    "message": "downloadData failed for Live On - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:02:36.357Z"
+  },
+  {
+    "message": "downloadData failed for Live On - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:02:40.880Z"
+  },
+  {
+    "message": "downloadData failed for Live On - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:02:50.866Z"
+  },
+  {
+    "message": "downloadData failed for The Witcher - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:02:57.960Z"
+  },
+  {
+    "message": "downloadData failed for The Witcher - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:03:02.020Z"
+  },
+  {
+    "message": "downloadData failed for The Witcher - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:03:11.268Z"
+  },
+  {
+    "message": "downloadData failed for The Witcher - S02E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:03:16.907Z"
+  },
+  {
+    "message": "downloadData failed for The Witcher - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:03:21.802Z"
+  },
+  {
+    "message": "downloadData failed for The Witcher - S03E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:03:26.312Z"
+  },
+  {
+    "message": "downloadData failed for The Witcher - S03E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:03:29.572Z"
+  },
+  {
+    "message": "downloadData failed for Avengers: Infinity War: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:05:23.373Z"
+  },
+  {
+    "message": "downloadData failed for Robin Hood - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:05:28.904Z"
+  },
+  {
+    "message": "downloadData failed for Robin Hood - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:05:33.143Z"
+  },
+  {
+    "message": "downloadData failed for The Elixir: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:07:00.859Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:09:16.704Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:09:20.698Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:09:24.206Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S02E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:09:34.428Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S03E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:09:41.493Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S03E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:09:45.105Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S03E04: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:09:54.622Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S03E04: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:09:57.910Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S03E04: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:10:07.447Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S04E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:10:08.568Z"
+  },
+  {
+    "message": "downloadData failed for The Cleaning Lady - S04E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:10:11.623Z"
+  },
+  {
+    "message": "downloadData failed for Lethal Seduction: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:10:27.625Z"
+  },
+  {
+    "message": "downloadData failed for Undercover High School - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:10:33.231Z"
+  },
+  {
+    "message": "downloadData failed for The Long Walk: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:10:47.541Z"
+  },
+  {
+    "message": "downloadData failed for Maleficent: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:10:56.439Z"
+  },
+  {
+    "message": "downloadData failed for Hostage - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:11:05.971Z"
+  },
+  {
+    "message": "downloadData failed for Hostage - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:11:09.082Z"
+  },
+  {
+    "message": "downloadData failed for Hostage - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:11:19.177Z"
+  },
+  {
+    "message": "downloadData failed for Hotel Transylvania 3: Summer Vacation: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:11:34.122Z"
+  },
+  {
+    "message": "downloadData failed for Above the Shadows: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:11:42.531Z"
+  },
+  {
+    "message": "downloadData failed for Boyka: Undisputed IV: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:11:49.356Z"
+  },
+  {
+    "message": "downloadData failed for Hamari Adhuri Kahani: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:11:55.624Z"
+  },
+  {
+    "message": "downloadData failed for Hamari Adhuri Kahani: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:11:58.911Z"
+  },
+  {
+    "message": "downloadData failed for Prison Cell 211 - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:12:12.146Z"
+  },
+  {
+    "message": "downloadData failed for Baaghi 4: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:12:18.457Z"
+  },
+  {
+    "message": "downloadData failed for Baaghi 3: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:12:24.957Z"
+  },
+  {
+    "message": "downloadData failed for Lucky Trouble: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:12:34.246Z"
+  },
+  {
+    "message": "downloadData failed for Bhool Chuk Maaf: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:12:41.270Z"
+  },
+  {
+    "message": "downloadData failed for Bhool Chuk Maaf: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:12:45.732Z"
+  },
+  {
+    "message": "downloadData empty for Madharasi (attempt 1)",
+    "timestamp": "2026-10-12T04:12:56.030Z"
+  },
+  {
+    "message": "downloadData empty for Madharasi (attempt 2)",
+    "timestamp": "2026-10-12T04:13:00.645Z"
+  },
+  {
+    "message": "downloadData empty for Madharasi (attempt 3)",
+    "timestamp": "2026-10-12T04:13:10.309Z"
+  },
+  {
+    "message": "downloadData failed for Mantis: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:13:17.970Z"
+  },
+  {
+    "message": "downloadData failed for In the Shadow of the Moon: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:13:23.942Z"
+  },
+  {
+    "message": "downloadData failed for In the Shadow of the Moon: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:13:28.416Z"
+  },
+  {
+    "message": "downloadData failed for Burner: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:13:41.168Z"
+  },
+  {
+    "message": "downloadData failed for Burner: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:13:45.055Z"
+  },
+  {
+    "message": "downloadData failed for I Kill U - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:14:00.405Z"
+  },
+  {
+    "message": "downloadData failed for I Kill U - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:14:04.594Z"
+  },
+  {
+    "message": "downloadData failed for The Assassin - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:14:16.755Z"
+  },
+  {
+    "message": "downloadData failed for Until the Sun Meets the Star - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:14:26.200Z"
+  },
+  {
+    "message": "downloadData failed for Until the Sun Meets the Star - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:14:30.788Z"
+  },
+  {
+    "message": "downloadData failed for Sweet First Love - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:15:09.646Z"
+  },
+  {
+    "message": "downloadData failed for Rambo: Last Blood: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:15:33.628Z"
+  },
+  {
+    "message": "downloadData failed for Creeper in the Woods: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:15:46.509Z"
+  },
+  {
+    "message": "downloadData failed for The Protector: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:15:59.155Z"
+  },
+  {
+    "message": "downloadData failed for Operation Dumbo Drop: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:16:10.098Z"
+  },
+  {
+    "message": "downloadData failed for Unthinkable: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:16:14.950Z"
+  },
+  {
+    "message": "downloadData mismatch for Unthinkable — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T04:16:19.298Z"
+  },
+  {
+    "message": "downloadData failed for Malik: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:16:35.757Z"
+  },
+  {
+    "message": "downloadData failed for Malik: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:16:39.918Z"
+  },
+  {
+    "message": "cinemaData failed for The Wheel of Time (f86b2128-807b-4023-9b9e-7cfe8094efec): Request failed with status code 429",
+    "timestamp": "2026-10-12T04:16:51.039Z"
+  },
+  {
+    "message": "downloadData failed for The Wheel of Time - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:16:51.768Z"
+  },
+  {
+    "message": "downloadData failed for The Wheel of Time - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:16:56.190Z"
+  },
+  {
+    "message": "downloadData failed for The Originals - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:17:03.528Z"
+  },
+  {
+    "message": "downloadData failed for The Originals - S02E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:17:11.698Z"
+  },
+  {
+    "message": "downloadData failed for The Originals - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:17:16.084Z"
+  },
+  {
+    "message": "downloadData failed for Love in Pavilion - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:17:24.118Z"
+  },
+  {
+    "message": "downloadData failed for Love in Pavilion - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:17:28.019Z"
+  },
+  {
+    "message": "downloadData failed for Countdown - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:17:48.574Z"
+  },
+  {
+    "message": "downloadData failed for Countdown - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:17:52.400Z"
+  },
+  {
+    "message": "downloadData failed for 28 Years Later: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:18:19.525Z"
+  },
+  {
+    "message": "downloadData failed for RDX: Robert Dony Xavier: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:18:24.930Z"
+  },
+  {
+    "message": "downloadData failed for RDX: Robert Dony Xavier: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:18:29.097Z"
+  },
+  {
+    "message": "downloadData failed for Maharaja: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:18:40.438Z"
+  },
+  {
+    "message": "downloadData failed for Boys Over Flowers - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:18:50.647Z"
+  },
+  {
+    "message": "downloadData failed for Yakuza Weapon: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:19:02.712Z"
+  },
+  {
+    "message": "downloadData failed for The Town: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:19:08.203Z"
+  },
+  {
+    "message": "downloadData failed for Swords Drawn: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:19:20.836Z"
+  },
+  {
+    "message": "downloadData failed for Swords Drawn: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:19:25.368Z"
+  },
+  {
+    "message": "downloadData failed for Master: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:19:38.287Z"
+  },
+  {
+    "message": "downloadData failed for Master: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:19:42.041Z"
+  },
+  {
+    "message": "cinemaData failed for Brothers (d76d07b3-75bc-41d0-8d02-cd4cef706c60): Request failed with status code 429",
+    "timestamp": "2026-10-12T04:19:52.864Z"
+  },
+  {
+    "message": "downloadData failed for F1: The Movie: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:19:55.171Z"
+  },
+  {
+    "message": "downloadData failed for Men of Honor: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:20:03.082Z"
+  },
+  {
+    "message": "downloadData failed for Shershaah: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:20:08.035Z"
+  },
+  {
+    "message": "downloadData failed for Teacup - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:20:12.868Z"
+  },
+  {
+    "message": "downloadData failed for Teacup - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:20:16.622Z"
+  },
+  {
+    "message": "downloadData failed for Double Scoop: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:20:37.906Z"
+  },
+  {
+    "message": "downloadData failed for Double Scoop: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:20:41.325Z"
+  },
+  {
+    "message": "downloadData failed for Tehran: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:20:51.303Z"
+  },
+  {
+    "message": "downloadData failed for Red Sonja: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:20:59.253Z"
+  },
+  {
+    "message": "downloadData failed for Red Sonja: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:21:03.510Z"
+  },
+  {
+    "message": "downloadData failed for Red Sonja: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:21:11.696Z"
+  },
+  {
+    "message": "downloadData failed for Moon the Panda: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:21:14.420Z"
+  },
+  {
+    "message": "downloadData failed for Moon the Panda: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:21:17.751Z"
+  },
+  {
+    "message": "downloadData failed for Moon the Panda: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:21:26.784Z"
+  },
+  {
+    "message": "downloadData failed for Feud - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:21:31.513Z"
+  },
+  {
+    "message": "downloadData failed for Feud - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:21:35.617Z"
+  },
+  {
+    "message": "downloadData failed for Feud - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:21:39.273Z"
+  },
+  {
+    "message": "downloadData failed for Wish You Were Here: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:21:57.475Z"
+  },
+  {
+    "message": "downloadData failed for Wish You Were Here: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:22:01.750Z"
+  },
+  {
+    "message": "downloadData failed for Mission: Impossible 6 - Fallout: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:22:50.724Z"
+  },
+  {
+    "message": "downloadData failed for Mission: Impossible 6 - Fallout: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:22:53.816Z"
+  },
+  {
+    "message": "downloadData mismatch for Dirty Angels — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T04:23:42.515Z"
+  },
+  {
+    "message": "downloadData failed for The Jewel of Section E - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:24:17.933Z"
+  },
+  {
+    "message": "downloadData failed for The Jewel of Section E - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:24:22.794Z"
+  },
+  {
+    "message": "downloadData failed for The Jewel of Section E - S02E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:24:28.254Z"
+  },
+  {
+    "message": "downloadData failed for The Jewel of Section E - S02E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:24:32.514Z"
+  },
+  {
+    "message": "downloadData failed for The Jewel of Section E - S02E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:24:41.159Z"
+  },
+  {
+    "message": "downloadData failed for The Jewel of Section E - S02E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:24:42.182Z"
+  },
+  {
+    "message": "downloadData failed for M3GAN 2.0: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:24:48.025Z"
+  },
+  {
+    "message": "downloadData failed for M3GAN 2.0: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:24:52.105Z"
+  },
+  {
+    "message": "downloadData failed for Lilo & Stitch: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:25:03.477Z"
+  },
+  {
+    "message": "downloadData failed for Lilo & Stitch: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:25:07.519Z"
+  },
+  {
+    "message": "downloadData failed for Kung Fu Hustle: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:25:35.149Z"
+  },
+  {
+    "message": "downloadData failed for Sassy Girl - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:25:45.845Z"
+  },
+  {
+    "message": "downloadData failed for Dirty Linen - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:25:56.364Z"
+  },
+  {
+    "message": "downloadData failed for The Midnight Meat Train: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:26:12.241Z"
+  },
+  {
+    "message": "downloadData failed for Night Has Come - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:26:18.170Z"
+  },
+  {
+    "message": "downloadData failed for Night Has Come - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:26:22.940Z"
+  },
+  {
+    "message": "downloadData failed for Night Has Come - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:26:27.081Z"
+  },
+  {
+    "message": "downloadData failed for Noyontara - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:26:46.891Z"
+  },
+  {
+    "message": "downloadData failed for Noyontara - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:26:51.093Z"
+  },
+  {
+    "message": "downloadData failed for Bride Hard: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:27:11.134Z"
+  },
+  {
+    "message": "downloadData failed for Fan Ji - Counter Attack: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:27:19.333Z"
+  },
+  {
+    "message": "downloadData failed for Cinderella: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:27:23.844Z"
+  },
+  {
+    "message": "downloadData failed for Cinderella: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:27:27.219Z"
+  },
+  {
+    "message": "downloadData failed for Seducing Drake Palma - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:27:42.832Z"
+  },
+  {
+    "message": "downloadData failed for The Conjuring: The Devil Made Me Do It: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:27:53.255Z"
+  },
+  {
+    "message": "downloadData failed for The Conjuring: The Devil Made Me Do It: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:27:56.497Z"
+  },
+  {
+    "message": "downloadData failed for The First Nanny - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:28:15.413Z"
+  },
+  {
+    "message": "downloadData failed for The Family - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:28:51.748Z"
+  },
+  {
+    "message": "downloadData failed for Ironheart - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:29:14.693Z"
+  },
+  {
+    "message": "downloadData failed for Bay Yanlis - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:29:26.036Z"
+  },
+  {
+    "message": "downloadData failed for Bay Yanlis - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:29:30.069Z"
+  },
+  {
+    "message": "downloadData failed for Hunting Grounds: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:31:19.110Z"
+  },
+  {
+    "message": "downloadData failed for Echo Valley: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:31:37.178Z"
+  },
+  {
+    "message": "downloadData failed for The Rebel Princess - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:31:44.367Z"
+  },
+  {
+    "message": "downloadData failed for The Rebel Princess - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:31:48.109Z"
+  },
+  {
+    "message": "downloadData failed for The Rebel Princess - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:31:52.156Z"
+  },
+  {
+    "message": "downloadData failed for Ratatouille: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:32:05.498Z"
+  },
+  {
+    "message": "downloadData failed for Ratatouille: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:32:09.441Z"
+  },
+  {
+    "message": "downloadData failed for Sins of the Father - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:32:19.562Z"
+  },
+  {
+    "message": "downloadData failed for Sins of the Father - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:32:24.497Z"
+  },
+  {
+    "message": "downloadData failed for Lovestruck in the City - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:32:34.466Z"
+  },
+  {
+    "message": "downloadData failed for Lovestruck in the City - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:32:39.331Z"
+  },
+  {
+    "message": "downloadData failed for Leonardo - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:32:45.988Z"
+  },
+  {
+    "message": "downloadData failed for Leonardo - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:32:50.387Z"
+  },
+  {
+    "message": "downloadData failed for Leonardo - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:32:54.698Z"
+  },
+  {
+    "message": "downloadData failed for The witch: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:33:07.202Z"
+  },
+  {
+    "message": "downloadData failed for Doctor Strange2: in the Multiverse of Madness: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:33:13.700Z"
+  },
+  {
+    "message": "downloadData failed for Doctor Strange2: in the Multiverse of Madness: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:33:17.511Z"
+  },
+  {
+    "message": "downloadData failed for El Candidato - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:33:30.458Z"
+  },
+  {
+    "message": "downloadData failed for El Candidato - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:33:34.116Z"
+  },
+  {
+    "message": "downloadData failed for The Witcher: Blood Origin - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:34:05.518Z"
+  },
+  {
+    "message": "downloadData failed for The Witcher: Blood Origin - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:34:08.645Z"
+  },
+  {
+    "message": "downloadData failed for The Witcher: Blood Origin - S01E01: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:34:17.914Z"
+  },
+  {
+    "message": "downloadData failed for Peter Pan's Neverland Nightmare: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:34:23.145Z"
+  },
+  {
+    "message": "downloadData failed for Midnight Mass - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:34:29.640Z"
+  },
+  {
+    "message": "downloadData failed for Midnight Mass - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:34:34.026Z"
+  },
+  {
+    "message": "downloadData failed for The Amateur: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:34:42.038Z"
+  },
+  {
+    "message": "downloadData failed for Hakase no aishita sûshiki: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:34:47.602Z"
+  },
+  {
+    "message": "downloadData failed for House of the Dead: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:35:03.052Z"
+  },
+  {
+    "message": "downloadData failed for Shark: The Storm - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:35:11.447Z"
+  },
+  {
+    "message": "downloadData mismatch for The Protege — broken/placeholder video, giving up",
+    "timestamp": "2026-10-12T04:35:20.078Z"
+  },
+  {
+    "message": "downloadData failed for True Legend: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:35:22.854Z"
+  },
+  {
+    "message": "downloadData failed for True Legend: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:35:26.062Z"
+  },
+  {
+    "message": "downloadData failed for True Legend: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:35:35.254Z"
+  },
+  {
+    "message": "downloadData failed for Mr House Keeping: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:35:38.616Z"
+  },
+  {
+    "message": "downloadData failed for Mr House Keeping: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:35:42.417Z"
+  },
+  {
+    "message": "downloadData failed for Anjaan: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:35:52.024Z"
+  },
+  {
+    "message": "downloadData failed for Anjaan: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:35:56.095Z"
+  },
+  {
+    "message": "downloadData failed for The Old Way: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:36:09.586Z"
+  },
+  {
+    "message": "downloadData failed for The Legend of Anle - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:36:15.972Z"
+  },
+  {
+    "message": "downloadData failed for The Breed: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:36:28.904Z"
+  },
+  {
+    "message": "downloadData failed for Triple Frontier: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:36:42.696Z"
+  },
+  {
+    "message": "downloadData failed for Triada - S01E02: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:36:48.216Z"
+  },
+  {
+    "message": "downloadData failed for Ren: The Girl with the Mark - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:39:34.693Z"
+  },
+  {
+    "message": "downloadData failed for Ren: The Girl with the Mark - S01E03: Request failed with status code 429",
+    "timestamp": "2026-10-12T04:39:37.945Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 1)",
+    "timestamp": "2026-10-12T04:41:36.792Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 2)",
+    "timestamp": "2026-10-12T04:41:40.459Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 3)",
+    "timestamp": "2026-10-12T04:41:49.266Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 1)",
+    "timestamp": "2026-10-12T04:41:55.955Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 2)",
+    "timestamp": "2026-10-12T04:42:04.143Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 3)",
+    "timestamp": "2026-10-12T04:42:13.839Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 1)",
+    "timestamp": "2026-10-12T04:42:25.041Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 2)",
+    "timestamp": "2026-10-12T04:42:37.749Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 3)",
+    "timestamp": "2026-10-12T04:42:52.107Z"
   }
 ]
