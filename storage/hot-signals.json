@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T14:16:52.631Z",
+  "updatedAt": "2026-10-13T22:48:43.288Z",
   "signals": {
     "https://agasobanuyelive.com/outer-banks-s05-review/": {
       "hot": 3.7,
@@ -45,13 +45,13 @@
       ]
     },
     "https://www.rebamovie.com/movie/59102b2b-8629-4ba7-8913-a2b4bca18309": {
-      "hot": 3.7,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/468d87fb-c2bc-4456-a177-9db20d7db7f0/1000067891.mp4": {
-      "hot": 3.7,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
@@ -62,8 +62,20 @@
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
+      "hot": 8.2,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/1f87af0a-465a-4f20-a90a-91b0a0fa1567": {
       "hot": 9.1,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/outer-banks-season-03-review/": {
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
@@ -92,20 +104,14 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
-      "hot": 8.2,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
       "hot": 7.3,
       "sources": [
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/outer-banks-season-03-review/": {
-      "hot": 3.7,
+    "https://www.rebamovie.com/movie/f81b8775-6ef3-4934-9ad9-5b534486d6e2": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
