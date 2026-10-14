@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T11:58:03.217Z",
+  "updatedAt": "2026-10-14T17:15:26.937Z",
   "signals": {
     "https://agasobanuyelive.com/outer-banks-s05-review/": {
       "hot": 3.7,
@@ -45,19 +45,13 @@
       ]
     },
     "https://www.rebamovie.com/movie/59102b2b-8629-4ba7-8913-a2b4bca18309": {
-      "hot": 6.4,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/468d87fb-c2bc-4456-a177-9db20d7db7f0/1000067891.mp4": {
-      "hot": 6.4,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/fa93a1fa-6e45-433a-9105-948b0c783adb": {
-      "hot": 10,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -81,6 +75,12 @@
       ]
     },
     "https://www.rebamovie.com/movie/f81b8775-6ef3-4934-9ad9-5b534486d6e2": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/special-ops-lioness-s01-review/": {
       "hot": 10,
       "sources": [
         "recomputed"
@@ -110,7 +110,7 @@
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/special-ops-lioness-s01-review/": {
+    "https://www.rebamovie.com/movie/fa93a1fa-6e45-433a-9105-948b0c783adb": {
       "hot": 10,
       "sources": [
         "recomputed"
