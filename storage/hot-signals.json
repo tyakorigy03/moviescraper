@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T17:15:26.937Z",
+  "updatedAt": "2026-10-14T21:44:11.612Z",
   "signals": {
     "https://agasobanuyelive.com/outer-banks-s05-review/": {
       "hot": 3.7,
@@ -56,14 +56,8 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/d385b541-1d37-4a96-a7f8-67543cff0a48": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
-      "hot": 6.4,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
@@ -87,31 +81,31 @@
       ]
     },
     "https://www.rebamovie.com/movie/1f87af0a-465a-4f20-a90a-91b0a0fa1567": {
-      "hot": 7.3,
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
-      "hot": 4.6,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/7de86cde-15d0-4f26-8cbe-dcc5d32f1a5b": {
       "hot": 3.7,
       "sources": [
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/7de86cde-15d0-4f26-8cbe-dcc5d32f1a5b": {
+      "hot": 2.8,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
-      "hot": 5.5,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/fa93a1fa-6e45-433a-9105-948b0c783adb": {
-      "hot": 10,
+      "hot": 9.1,
       "sources": [
         "recomputed"
       ]
@@ -153,7 +147,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 9.1,
+      "hot": 8.2,
       "sources": [
         "recomputed"
       ]
