@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T04:44:59.234Z",
+  "updatedAt": "2026-10-15T11:34:49.116Z",
   "signals": {
     "https://agasobanuyelive.com/outer-banks-s05-review/": {
       "hot": 3.7,
@@ -28,12 +28,6 @@
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/2b2e9612-c260-4409-a34d-e1c271d9d7e2/1000067209.mp4": {
       "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/76b6d36b-5697-4162-bd00-a14ec0e89459": {
-      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -87,7 +81,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/1f87af0a-465a-4f20-a90a-91b0a0fa1567": {
-      "hot": 6.4,
+      "hot": 8.3,
       "sources": [
         "recomputed"
       ]
@@ -146,12 +140,6 @@
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
       "hot": 8.2,
       "sources": [
@@ -159,7 +147,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/ba56b90d-04f4-43fb-9044-41594ea7b9a6": {
-      "hot": 9.2,
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
