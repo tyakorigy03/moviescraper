@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T21:44:11.612Z",
+  "updatedAt": "2026-10-15T04:44:59.234Z",
   "signals": {
     "https://agasobanuyelive.com/outer-banks-s05-review/": {
       "hot": 3.7,
@@ -45,18 +45,12 @@
       ]
     },
     "https://www.rebamovie.com/movie/59102b2b-8629-4ba7-8913-a2b4bca18309": {
-      "hot": 4.6,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/468d87fb-c2bc-4456-a177-9db20d7db7f0/1000067891.mp4": {
-      "hot": 4.6,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
       "hot": 5.5,
       "sources": [
         "recomputed"
@@ -76,6 +70,18 @@
     },
     "https://agasobanuyelive.com/special-ops-lioness-s01-review/": {
       "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/fa93a1fa-6e45-433a-9105-948b0c783adb": {
+      "hot": 9.1,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
@@ -104,8 +110,8 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/fa93a1fa-6e45-433a-9105-948b0c783adb": {
-      "hot": 9.1,
+    "https://www.rebamovie.com/movie/49cbaf59-c3b2-4e61-b638-0c142ffb5466": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
@@ -141,7 +147,7 @@
       ]
     },
     "https://agasobanuyelive.com/teach-you-a-lesson-s01-review/": {
-      "hot": 2.8,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
@@ -153,7 +159,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/ba56b90d-04f4-43fb-9044-41594ea7b9a6": {
-      "hot": 10,
+      "hot": 9.2,
       "sources": [
         "recomputed"
       ]
