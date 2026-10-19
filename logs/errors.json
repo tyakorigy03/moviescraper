@@ -49530,5 +49530,1413 @@
   {
     "message": "Failed inserting batch 1: Could not find the '_sourceLinks' column of 'moviesv2' in the schema cache",
     "timestamp": "2026-10-19T05:10:01.491Z"
+  },
+  {
+    "message": "downloadData mismatch for Devious Maids - S01E04 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T05:11:59.038Z"
+  },
+  {
+    "message": "downloadData empty for Reminders of Him (attempt 1)",
+    "timestamp": "2026-10-19T05:12:19.934Z"
+  },
+  {
+    "message": "downloadData empty for Reminders of Him (attempt 2)",
+    "timestamp": "2026-10-19T05:12:24.991Z"
+  },
+  {
+    "message": "downloadData empty for Reminders of Him (attempt 3)",
+    "timestamp": "2026-10-19T05:12:34.582Z"
+  },
+  {
+    "message": "downloadData mismatch for Outer Banks - S04E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T05:20:24.623Z"
+  },
+  {
+    "message": "downloadData mismatch for Outer Banks - S04E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T05:20:27.310Z"
+  },
+  {
+    "message": "downloadData empty for Send Help (attempt 1)",
+    "timestamp": "2026-10-19T05:26:13.597Z"
+  },
+  {
+    "message": "downloadData empty for Send Help (attempt 2)",
+    "timestamp": "2026-10-19T05:26:18.327Z"
+  },
+  {
+    "message": "downloadData empty for Send Help (attempt 3)",
+    "timestamp": "2026-10-19T05:26:27.862Z"
+  },
+  {
+    "message": "downloadData mismatch for A Shop for Killers - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T05:27:18.003Z"
+  },
+  {
+    "message": "downloadData mismatch for A Shop for Killers - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T05:27:20.460Z"
+  },
+  {
+    "message": "downloadData mismatch for A Shop for Killers - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T05:27:22.776Z"
+  },
+  {
+    "message": "downloadData empty for Ikka (attempt 1)",
+    "timestamp": "2026-10-19T05:30:56.721Z"
+  },
+  {
+    "message": "downloadData empty for Ikka (attempt 2)",
+    "timestamp": "2026-10-19T05:31:01.725Z"
+  },
+  {
+    "message": "downloadData empty for Ikka (attempt 3)",
+    "timestamp": "2026-10-19T05:31:11.093Z"
+  },
+  {
+    "message": "downloadData mismatch for Classified — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T05:43:11.046Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T05:46:04.792Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T05:46:07.031Z"
+  },
+  {
+    "message": "downloadData mismatch for Hierarchy - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T05:46:09.786Z"
+  },
+  {
+    "message": "downloadData empty for Supergirl - S01E01 (attempt 1)",
+    "timestamp": "2026-10-19T05:47:23.464Z"
+  },
+  {
+    "message": "downloadData empty for Supergirl - S01E01 (attempt 2)",
+    "timestamp": "2026-10-19T05:47:28.024Z"
+  },
+  {
+    "message": "downloadData empty for Supergirl - S01E01 (attempt 3)",
+    "timestamp": "2026-10-19T05:47:38.382Z"
+  },
+  {
+    "message": "downloadData empty for Supergirl - S01E02 (attempt 1)",
+    "timestamp": "2026-10-19T05:47:45.850Z"
+  },
+  {
+    "message": "downloadData empty for Supergirl - S01E02 (attempt 2)",
+    "timestamp": "2026-10-19T05:47:54.778Z"
+  },
+  {
+    "message": "downloadData empty for Supergirl - S01E02 (attempt 3)",
+    "timestamp": "2026-10-19T05:48:05.334Z"
+  },
+  {
+    "message": "downloadData empty for Supergirl - S01E03 (attempt 1)",
+    "timestamp": "2026-10-19T05:48:17.290Z"
+  },
+  {
+    "message": "downloadData empty for Supergirl - S01E03 (attempt 2)",
+    "timestamp": "2026-10-19T05:48:30.798Z"
+  },
+  {
+    "message": "downloadData empty for Supergirl - S01E03 (attempt 3)",
+    "timestamp": "2026-10-19T05:48:45.691Z"
+  },
+  {
+    "message": "downloadData empty for Devdas (attempt 1)",
+    "timestamp": "2026-10-19T06:04:37.388Z"
+  },
+  {
+    "message": "downloadData empty for Devdas (attempt 2)",
+    "timestamp": "2026-10-19T06:04:42.598Z"
+  },
+  {
+    "message": "downloadData empty for Devdas (attempt 3)",
+    "timestamp": "2026-10-19T06:04:52.477Z"
+  },
+  {
+    "message": "downloadData empty for Telusu Kada (attempt 1)",
+    "timestamp": "2026-10-19T06:09:50.022Z"
+  },
+  {
+    "message": "downloadData empty for Telusu Kada (attempt 2)",
+    "timestamp": "2026-10-19T06:09:54.334Z"
+  },
+  {
+    "message": "downloadData empty for Telusu Kada (attempt 3)",
+    "timestamp": "2026-10-19T06:10:04.520Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S01E01 (attempt 1)",
+    "timestamp": "2026-10-19T06:14:54.597Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S01E01 (attempt 2)",
+    "timestamp": "2026-10-19T06:14:59.665Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S01E01 (attempt 3)",
+    "timestamp": "2026-10-19T06:15:09.712Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S01E02 (attempt 1)",
+    "timestamp": "2026-10-19T06:15:17.317Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S01E02 (attempt 2)",
+    "timestamp": "2026-10-19T06:15:26.228Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S01E02 (attempt 3)",
+    "timestamp": "2026-10-19T06:15:36.573Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S01E03 (attempt 1)",
+    "timestamp": "2026-10-19T06:15:48.583Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S01E03 (attempt 2)",
+    "timestamp": "2026-10-19T06:16:01.997Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S01E03 (attempt 3)",
+    "timestamp": "2026-10-19T06:16:16.909Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S02E01 (attempt 1)",
+    "timestamp": "2026-10-19T06:16:33.384Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S02E01 (attempt 2)",
+    "timestamp": "2026-10-19T06:16:51.357Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S02E01 (attempt 3)",
+    "timestamp": "2026-10-19T06:17:10.740Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S02E02 (attempt 1)",
+    "timestamp": "2026-10-19T06:17:31.746Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S02E02 (attempt 2)",
+    "timestamp": "2026-10-19T06:17:52.755Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S02E02 (attempt 3)",
+    "timestamp": "2026-10-19T06:18:13.630Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S02E03 (attempt 1)",
+    "timestamp": "2026-10-19T06:18:34.619Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S02E03 (attempt 2)",
+    "timestamp": "2026-10-19T06:18:55.606Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S02E03 (attempt 3)",
+    "timestamp": "2026-10-19T06:19:16.508Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S03E01 (attempt 1)",
+    "timestamp": "2026-10-19T06:19:37.596Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S03E01 (attempt 2)",
+    "timestamp": "2026-10-19T06:19:58.488Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S03E01 (attempt 3)",
+    "timestamp": "2026-10-19T06:20:19.433Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S03E02 (attempt 1)",
+    "timestamp": "2026-10-19T06:20:40.353Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S03E02 (attempt 2)",
+    "timestamp": "2026-10-19T06:21:01.205Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S03E02 (attempt 3)",
+    "timestamp": "2026-10-19T06:21:22.117Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S03E03 (attempt 1)",
+    "timestamp": "2026-10-19T06:21:43.047Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S03E03 (attempt 2)",
+    "timestamp": "2026-10-19T06:22:04.026Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S03E03 (attempt 3)",
+    "timestamp": "2026-10-19T06:22:24.981Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S04E01 (attempt 1)",
+    "timestamp": "2026-10-19T06:22:45.930Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S04E01 (attempt 2)",
+    "timestamp": "2026-10-19T06:23:06.865Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S04E01 (attempt 3)",
+    "timestamp": "2026-10-19T06:23:27.973Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S04E02 (attempt 1)",
+    "timestamp": "2026-10-19T06:23:49.015Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S04E02 (attempt 2)",
+    "timestamp": "2026-10-19T06:24:09.840Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S04E02 (attempt 3)",
+    "timestamp": "2026-10-19T06:24:31.715Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S04E03 (attempt 1)",
+    "timestamp": "2026-10-19T06:24:52.904Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S04E03 (attempt 2)",
+    "timestamp": "2026-10-19T06:25:13.828Z"
+  },
+  {
+    "message": "downloadData empty for The Witcher - S04E03 (attempt 3)",
+    "timestamp": "2026-10-19T06:25:34.757Z"
+  },
+  {
+    "message": "downloadData mismatch for Unthinkable — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T06:39:02.062Z"
+  },
+  {
+    "message": "downloadData empty for The I-Land - S01E03 (attempt 1)",
+    "timestamp": "2026-10-19T06:39:16.765Z"
+  },
+  {
+    "message": "downloadData mismatch for Dirty Angels — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T06:43:51.363Z"
+  },
+  {
+    "message": "downloadData mismatch for The Protege — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T06:50:57.680Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 1)",
+    "timestamp": "2026-10-19T06:56:37.796Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 2)",
+    "timestamp": "2026-10-19T06:56:42.187Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 3)",
+    "timestamp": "2026-10-19T06:56:51.678Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 1)",
+    "timestamp": "2026-10-19T06:56:58.523Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 2)",
+    "timestamp": "2026-10-19T06:57:06.837Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 3)",
+    "timestamp": "2026-10-19T06:57:16.711Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 1)",
+    "timestamp": "2026-10-19T06:57:28.002Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 2)",
+    "timestamp": "2026-10-19T06:57:40.783Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 3)",
+    "timestamp": "2026-10-19T06:57:55.079Z"
+  },
+  {
+    "message": "downloadData empty for Crash Landing on You - S01E01 (attempt 1)",
+    "timestamp": "2026-10-19T06:59:50.305Z"
+  },
+  {
+    "message": "downloadData empty for Crash Landing on You - S01E01 (attempt 2)",
+    "timestamp": "2026-10-19T06:59:54.371Z"
+  },
+  {
+    "message": "downloadData empty for Crash Landing on You - S01E01 (attempt 3)",
+    "timestamp": "2026-10-19T07:00:04.062Z"
+  },
+  {
+    "message": "downloadData empty for Crash Landing on You - S01E02 (attempt 1)",
+    "timestamp": "2026-10-19T07:00:11.337Z"
+  },
+  {
+    "message": "downloadData empty for Crash Landing on You - S01E02 (attempt 2)",
+    "timestamp": "2026-10-19T07:00:20.046Z"
+  },
+  {
+    "message": "downloadData empty for Crash Landing on You - S01E02 (attempt 3)",
+    "timestamp": "2026-10-19T07:00:30.506Z"
+  },
+  {
+    "message": "downloadData empty for Crash Landing on You - S01E03 (attempt 1)",
+    "timestamp": "2026-10-19T07:00:42.578Z"
+  },
+  {
+    "message": "downloadData empty for Crash Landing on You - S01E03 (attempt 2)",
+    "timestamp": "2026-10-19T07:00:55.855Z"
+  },
+  {
+    "message": "downloadData empty for Crash Landing on You - S01E03 (attempt 3)",
+    "timestamp": "2026-10-19T07:01:10.461Z"
+  },
+  {
+    "message": "downloadData mismatch for Hitman 2: Agent 47 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:03:09.289Z"
+  },
+  {
+    "message": "downloadData failed for Black Sails - S01E03: Request failed with status code 500",
+    "timestamp": "2026-10-19T07:05:00.313Z"
+  },
+  {
+    "message": "downloadData mismatch for I Spit on Your Grave 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:05:31.354Z"
+  },
+  {
+    "message": "downloadData mismatch for 3 Idiots — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:10:44.438Z"
+  },
+  {
+    "message": "downloadData mismatch for Kabhi Alvida Naa Kehna — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:10:47.582Z"
+  },
+  {
+    "message": "downloadData mismatch for Badland Hunters — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:11:45.431Z"
+  },
+  {
+    "message": "downloadData mismatch for FROM - S03E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:11:58.182Z"
+  },
+  {
+    "message": "downloadData mismatch for FROM - S03E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:00.457Z"
+  },
+  {
+    "message": "downloadData mismatch for FROM - S03E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:03.219Z"
+  },
+  {
+    "message": "downloadData mismatch for The Day of the Jackal - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:07.788Z"
+  },
+  {
+    "message": "downloadData mismatch for The Day of the Jackal - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:10.115Z"
+  },
+  {
+    "message": "downloadData mismatch for The Day of the Jackal - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:12.790Z"
+  },
+  {
+    "message": "downloadData mismatch for High Heat — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:16.855Z"
+  },
+  {
+    "message": "downloadData mismatch for 30 jours max — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:19.770Z"
+  },
+  {
+    "message": "downloadData mismatch for Io Capitano — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:22.469Z"
+  },
+  {
+    "message": "downloadData mismatch for Ad Vitam — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:32.232Z"
+  },
+  {
+    "message": "downloadData mismatch for One-percent Warrior — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:34.857Z"
+  },
+  {
+    "message": "downloadData mismatch for Back in Action — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:37.736Z"
+  },
+  {
+    "message": "downloadData mismatch for Bank Under Siege - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:55.838Z"
+  },
+  {
+    "message": "downloadData mismatch for Bank Under Siege - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:12:58.298Z"
+  },
+  {
+    "message": "downloadData mismatch for Bank Under Siege - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:00.874Z"
+  },
+  {
+    "message": "downloadData mismatch for Sixty Minutes — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:14.091Z"
+  },
+  {
+    "message": "downloadData mismatch for The Mummy 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:17.365Z"
+  },
+  {
+    "message": "downloadData mismatch for The Channel — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:20.816Z"
+  },
+  {
+    "message": "downloadData mismatch for In the Tall Grass — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:26.609Z"
+  },
+  {
+    "message": "downloadData mismatch for Largo Winch 2 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:29.643Z"
+  },
+  {
+    "message": "downloadData mismatch for Customs Frontline — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:36.740Z"
+  },
+  {
+    "message": "downloadData mismatch for Gladiator 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:39.808Z"
+  },
+  {
+    "message": "downloadData mismatch for Iron Lady Sniper — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:43.115Z"
+  },
+  {
+    "message": "downloadData mismatch for Hunt the Wicked — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:46.014Z"
+  },
+  {
+    "message": "downloadData mismatch for Paiyaa — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:49.276Z"
+  },
+  {
+    "message": "downloadData mismatch for Pushpa 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:52.521Z"
+  },
+  {
+    "message": "downloadData mismatch for Knight and Day — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:13:56.713Z"
+  },
+  {
+    "message": "downloadData mismatch for High Forces — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:00.382Z"
+  },
+  {
+    "message": "downloadData mismatch for Mufasa The Lion King — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:02.803Z"
+  },
+  {
+    "message": "downloadData mismatch for New Dragon Gate Inn — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:32.175Z"
+  },
+  {
+    "message": "downloadData mismatch for To Live Through Death — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:35.416Z"
+  },
+  {
+    "message": "downloadData mismatch for The Unborn — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:37.957Z"
+  },
+  {
+    "message": "downloadData mismatch for Gandhi 3 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:42.465Z"
+  },
+  {
+    "message": "downloadData mismatch for Year 10 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:45.014Z"
+  },
+  {
+    "message": "downloadData mismatch for The Girl in the Pool — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:48.032Z"
+  },
+  {
+    "message": "downloadData mismatch for Operation Undead — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:50.725Z"
+  },
+  {
+    "message": "downloadData mismatch for Bedspacer — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:53.299Z"
+  },
+  {
+    "message": "downloadData mismatch for 12 to Midnight — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:56.364Z"
+  },
+  {
+    "message": "downloadData mismatch for Heretic — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:14:59.727Z"
+  },
+  {
+    "message": "downloadData mismatch for God of War: Zhao Zilong — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:02.435Z"
+  },
+  {
+    "message": "downloadData mismatch for Fireheart — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:05.535Z"
+  },
+  {
+    "message": "downloadData mismatch for A.R.M — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:08.052Z"
+  },
+  {
+    "message": "downloadData mismatch for The Circuit 4 Faith Fighter — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:10.943Z"
+  },
+  {
+    "message": "downloadData mismatch for The New Mutants — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:13.837Z"
+  },
+  {
+    "message": "downloadData mismatch for Ozi: Voice of the Forest — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:17.039Z"
+  },
+  {
+    "message": "downloadData mismatch for Spellbound — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:19.769Z"
+  },
+  {
+    "message": "downloadData mismatch for Kill Craft — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:22.779Z"
+  },
+  {
+    "message": "downloadData mismatch for Sword Snow Stride - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:25.552Z"
+  },
+  {
+    "message": "downloadData mismatch for Sword Snow Stride - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:27.501Z"
+  },
+  {
+    "message": "downloadData mismatch for Sword Snow Stride - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:29.731Z"
+  },
+  {
+    "message": "downloadData mismatch for Carry On — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:38.174Z"
+  },
+  {
+    "message": "downloadData mismatch for Kraven The Hunter — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:41.819Z"
+  },
+  {
+    "message": "downloadData mismatch for Armor — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:44.302Z"
+  },
+  {
+    "message": "downloadData mismatch for Elevation — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:47.110Z"
+  },
+  {
+    "message": "downloadData mismatch for Striking Rescue — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:49.684Z"
+  },
+  {
+    "message": "downloadData mismatch for Sentinelle — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:15:52.553Z"
+  },
+  {
+    "message": "downloadData mismatch for Heirs of the Night - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:02.029Z"
+  },
+  {
+    "message": "downloadData mismatch for Heirs of the Night - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:04.465Z"
+  },
+  {
+    "message": "downloadData mismatch for Heirs of the Night - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:07.119Z"
+  },
+  {
+    "message": "downloadData mismatch for Kraven The Hunter — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:10.524Z"
+  },
+  {
+    "message": "downloadData mismatch for Stream — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:13.200Z"
+  },
+  {
+    "message": "downloadData mismatch for The Shadow Strays — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:16.521Z"
+  },
+  {
+    "message": "downloadData mismatch for Abduction — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:19.686Z"
+  },
+  {
+    "message": "downloadData mismatch for Rebel Ridge — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:22.472Z"
+  },
+  {
+    "message": "downloadData mismatch for Sleeping with My Student — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:25.165Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:28.817Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:31.432Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:33.376Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S02E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:37.802Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S02E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:40.417Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S02E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:42.880Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S03E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:47.164Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S03E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:49.850Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S03E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:52.585Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S04E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:57.668Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S04E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:16:59.964Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S04E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:02.345Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S05E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:06.839Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S05E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:09.424Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S05E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:11.795Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S06E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:16.400Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S06E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:18.359Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S06E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:20.415Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S07E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:25.235Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S07E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:27.469Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S07E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:29.995Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S08E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:34.742Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S08E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:37.286Z"
+  },
+  {
+    "message": "downloadData mismatch for The Vampire Diaries - S08E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:39.614Z"
+  },
+  {
+    "message": "downloadData mismatch for The Greatest of All Time Chapter 2 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:44.592Z"
+  },
+  {
+    "message": "downloadData mismatch for August Rush — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:47.572Z"
+  },
+  {
+    "message": "downloadData mismatch for Petta Rap — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:50.160Z"
+  },
+  {
+    "message": "downloadData mismatch for Venom: The Last Dance — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:52.864Z"
+  },
+  {
+    "message": "downloadData mismatch for Vedaa — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:55.829Z"
+  },
+  {
+    "message": "downloadData mismatch for Aftermath — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:17:58.646Z"
+  },
+  {
+    "message": "downloadData mismatch for Carrie — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:01.123Z"
+  },
+  {
+    "message": "downloadData mismatch for Under Paris — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:03.666Z"
+  },
+  {
+    "message": "downloadData mismatch for Ready Or Not 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:07.963Z"
+  },
+  {
+    "message": "downloadData mismatch for Forever Us — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:10.767Z"
+  },
+  {
+    "message": "downloadData mismatch for Fatal Affair — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:13.896Z"
+  },
+  {
+    "message": "downloadData mismatch for Underworld: Evolution — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:16.433Z"
+  },
+  {
+    "message": "downloadData mismatch for Underworld: Rise of the Lycans — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:19.335Z"
+  },
+  {
+    "message": "downloadData mismatch for The Ruins — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:22.685Z"
+  },
+  {
+    "message": "downloadData mismatch for Clash of the Titans — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:25.917Z"
+  },
+  {
+    "message": "downloadData mismatch for Shadow Master — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:30.126Z"
+  },
+  {
+    "message": "downloadData mismatch for War of the Arrows — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:33.035Z"
+  },
+  {
+    "message": "downloadData mismatch for Machine Gun Preacher — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:45.086Z"
+  },
+  {
+    "message": "downloadData mismatch for Buffalo Boys — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:47.710Z"
+  },
+  {
+    "message": "downloadData mismatch for Addicted — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:50.620Z"
+  },
+  {
+    "message": "downloadData mismatch for The Terminator — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:18:58.934Z"
+  },
+  {
+    "message": "downloadData mismatch for Bagheera — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:19:03.442Z"
+  },
+  {
+    "message": "downloadData mismatch for Thor 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:19:42.616Z"
+  },
+  {
+    "message": "downloadData mismatch for The Losers — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:19:46.105Z"
+  },
+  {
+    "message": "downloadData mismatch for Martin — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:19:49.477Z"
+  },
+  {
+    "message": "downloadData mismatch for Smile — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:19:52.129Z"
+  },
+  {
+    "message": "downloadData mismatch for Blade of Fury — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:19:54.780Z"
+  },
+  {
+    "message": "downloadData mismatch for Fierce Buddha Warriors — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:19:57.642Z"
+  },
+  {
+    "message": "downloadData mismatch for Vicious Affair — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:20:03.822Z"
+  },
+  {
+    "message": "downloadData mismatch for Live through Death — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:20:53.622Z"
+  },
+  {
+    "message": "downloadData mismatch for Gunpowder Milkshake — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:20:56.485Z"
+  },
+  {
+    "message": "downloadData mismatch for Scary Stories to Tell in the Dark — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:20:59.024Z"
+  },
+  {
+    "message": "downloadData mismatch for Killer Heat — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:21:01.703Z"
+  },
+  {
+    "message": "downloadData mismatch for Dominique — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:21:04.866Z"
+  },
+  {
+    "message": "downloadData mismatch for Paris Has Fallen - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:21:23.546Z"
+  },
+  {
+    "message": "downloadData mismatch for Paris Has Fallen - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:21:26.049Z"
+  },
+  {
+    "message": "downloadData mismatch for Paris Has Fallen - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:21:28.696Z"
+  },
+  {
+    "message": "downloadData mismatch for Venom: The Last Dance — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:21:32.399Z"
+  },
+  {
+    "message": "downloadData mismatch for True Legend — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:21:35.687Z"
+  },
+  {
+    "message": "downloadData mismatch for Milk Money — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:21:38.183Z"
+  },
+  {
+    "message": "downloadData mismatch for Second Life — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:21:41.073Z"
+  },
+  {
+    "message": "downloadData mismatch for Time Cut — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:22:09.087Z"
+  },
+  {
+    "message": "downloadData mismatch for Don't Move — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:22:13.672Z"
+  },
+  {
+    "message": "downloadData mismatch for The Killer's Game — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:22:39.389Z"
+  },
+  {
+    "message": "downloadData mismatch for Blocking the Horse — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:22:42.300Z"
+  },
+  {
+    "message": "downloadData mismatch for Inganno - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:22:54.492Z"
+  },
+  {
+    "message": "downloadData mismatch for Inganno - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:22:56.756Z"
+  },
+  {
+    "message": "downloadData mismatch for Inganno - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:22:59.377Z"
+  },
+  {
+    "message": "downloadData mismatch for Speed Fight — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:05.922Z"
+  },
+  {
+    "message": "downloadData mismatch for Akhanda — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:08.442Z"
+  },
+  {
+    "message": "downloadData mismatch for Art of War — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:20.511Z"
+  },
+  {
+    "message": "downloadData mismatch for Bhaje Vaayu Vegam — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:23.780Z"
+  },
+  {
+    "message": "downloadData mismatch for Mersal — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:26.244Z"
+  },
+  {
+    "message": "downloadData mismatch for The Bourne Identity 1 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:32.662Z"
+  },
+  {
+    "message": "downloadData mismatch for The Bourne Supremacy  2 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:35.085Z"
+  },
+  {
+    "message": "downloadData mismatch for The Bourne Ultimatum 3 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:38.124Z"
+  },
+  {
+    "message": "downloadData mismatch for The Bourne Legacy — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:41.473Z"
+  },
+  {
+    "message": "downloadData mismatch for Jason Bourne — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:44.387Z"
+  },
+  {
+    "message": "downloadData mismatch for Miss Danger — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:49.909Z"
+  },
+  {
+    "message": "downloadData mismatch for Ace Bodyguard — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:54.348Z"
+  },
+  {
+    "message": "downloadData mismatch for Queen of Triads 2 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:23:57.481Z"
+  },
+  {
+    "message": "downloadData mismatch for Queen's Return — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:00.276Z"
+  },
+  {
+    "message": "downloadData mismatch for Rashtra Kavach Om — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:03.860Z"
+  },
+  {
+    "message": "downloadData mismatch for Rapid Fire — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:07.155Z"
+  },
+  {
+    "message": "downloadData mismatch for Kal Ho Naa Ho — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:10.655Z"
+  },
+  {
+    "message": "downloadData mismatch for Code of the Assassins — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:13.231Z"
+  },
+  {
+    "message": "downloadData mismatch for The Greatest of All Time — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:16.038Z"
+  },
+  {
+    "message": "downloadData mismatch for Vedaa — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:18.552Z"
+  },
+  {
+    "message": "downloadData mismatch for Ruslaan — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:24.104Z"
+  },
+  {
+    "message": "downloadData mismatch for Peninsula — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:48.979Z"
+  },
+  {
+    "message": "downloadData mismatch for Bastille Day — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:51.921Z"
+  },
+  {
+    "message": "downloadData mismatch for Romeo and Juliet — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:56.267Z"
+  },
+  {
+    "message": "downloadData mismatch for Satyameva Jayate — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:24:59.488Z"
+  },
+  {
+    "message": "downloadData mismatch for Special Female Force — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:25:02.077Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S01E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:25:23.407Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S01E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:25:25.386Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S01E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:25:27.850Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S02E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:25:30.556Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S02E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:25:33.082Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S02E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:25:35.913Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S03E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:25:38.773Z"
+  },
+  {
+    "message": "downloadData mismatch for As the Crow Flies - S03E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:25:40.906Z"
+  },
+  {
+    "message": "downloadData mismatch for 1917 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:25:44.793Z"
+  },
+  {
+    "message": "downloadData mismatch for Air Force One Down — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:26:13.884Z"
+  },
+  {
+    "message": "downloadData mismatch for Pirates of the Caribbean: At World's End — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:26:16.978Z"
+  },
+  {
+    "message": "downloadData mismatch for The Killer — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:26:20.047Z"
+  },
+  {
+    "message": "downloadData mismatch for Mission Cross — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:26:23.916Z"
+  },
+  {
+    "message": "downloadData mismatch for Savi — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:26:26.701Z"
+  },
+  {
+    "message": "downloadData mismatch for Twilight of the Warriors: Walled In — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:26:29.480Z"
+  },
+  {
+    "message": "downloadData mismatch for A Quiet Place: Day One — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:27:14.485Z"
+  },
+  {
+    "message": "downloadData mismatch for Bad Boys: Ride or Die — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:27:17.805Z"
+  },
+  {
+    "message": "downloadData mismatch for G.I. Joe: Retaliation — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:27:22.034Z"
+  },
+  {
+    "message": "downloadData mismatch for The Last Kingdom - S02E01: Sir Lex's — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:27:47.930Z"
+  },
+  {
+    "message": "downloadData mismatch for The Last Kingdom - S02E02: Sir Lex's — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:27:50.128Z"
+  },
+  {
+    "message": "downloadData mismatch for The Last Kingdom - S02E03: Sir Lex's — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:27:52.487Z"
+  },
+  {
+    "message": "downloadData mismatch for Rogue Hostage — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:27:56.442Z"
+  },
+  {
+    "message": "downloadData mismatch for Kingdom of the Planet of the Apes — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:28:05.870Z"
+  },
+  {
+    "message": "downloadData mismatch for Triad Wars — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:28:08.830Z"
+  },
+  {
+    "message": "downloadData mismatch for Aitraaz — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:28:18.877Z"
+  },
+  {
+    "message": "downloadData mismatch for Jungle Cruise — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:28:44.491Z"
+  },
+  {
+    "message": "downloadData mismatch for Bloodshot — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:28:47.205Z"
+  },
+  {
+    "message": "downloadData mismatch for Brick Mansions — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:28:57.511Z"
+  },
+  {
+    "message": "downloadData mismatch for Trigger Warning — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:29:00.070Z"
+  },
+  {
+    "message": "downloadData mismatch for Arcadian — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:29:08.498Z"
+  },
+  {
+    "message": "downloadData mismatch for Jab Harry Met Sejal — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:29:28.042Z"
+  },
+  {
+    "message": "downloadData mismatch for Bade Miyan Chote Miyan — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:29:30.885Z"
+  },
+  {
+    "message": "downloadData mismatch for Humraaz — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:29:33.877Z"
+  },
+  {
+    "message": "downloadData mismatch for Safe House — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:29:46.903Z"
+  },
+  {
+    "message": "downloadData mismatch for Species — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:29:49.635Z"
+  },
+  {
+    "message": "downloadData mismatch for Operation Valentine — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:30:23.519Z"
+  },
+  {
+    "message": "downloadData mismatch for The Great Battle — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:30:27.695Z"
+  },
+  {
+    "message": "downloadData mismatch for Baby's Day Out — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:30:50.381Z"
+  },
+  {
+    "message": "downloadData mismatch for Blank Check — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:30:53.175Z"
+  },
+  {
+    "message": "downloadData mismatch for 7 Days in Entebbe — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:31:19.481Z"
+  },
+  {
+    "message": "downloadData mismatch for Footpath — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:31:53.841Z"
+  },
+  {
+    "message": "downloadData mismatch for The Idea of You — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:31:57.777Z"
+  },
+  {
+    "message": "downloadData mismatch for Abigail — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:32:01.059Z"
+  },
+  {
+    "message": "downloadData mismatch for G.I. Joe: The Rise of Cobra — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:32:35.239Z"
+  },
+  {
+    "message": "downloadData mismatch for Yodha — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:32:38.622Z"
+  },
+  {
+    "message": "downloadData mismatch for Hi Nanna — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:32:47.268Z"
+  },
+  {
+    "message": "downloadData mismatch for Immaculate — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:32:49.875Z"
+  },
+  {
+    "message": "downloadData mismatch for Monkey Man — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:32:52.798Z"
+  },
+  {
+    "message": "downloadData mismatch for 71: Into the Fire — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:32:55.308Z"
+  },
+  {
+    "message": "downloadData mismatch for Knowing — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:32:58.218Z"
+  },
+  {
+    "message": "downloadData mismatch for Beasts of No Nation — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:34:01.291Z"
+  },
+  {
+    "message": "downloadData mismatch for The A-Team — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:35:06.833Z"
+  },
+  {
+    "message": "downloadData mismatch for Road House — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:35:12.162Z"
+  },
+  {
+    "message": "downloadData mismatch for Fighter — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:35:42.406Z"
+  },
+  {
+    "message": "downloadData mismatch for Knock Knock — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:35:46.415Z"
+  },
+  {
+    "message": "downloadData mismatch for Bob Marley One Love — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:35:49.506Z"
+  },
+  {
+    "message": "downloadData mismatch for Eagle — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:35:52.626Z"
+  },
+  {
+    "message": "downloadData mismatch for Sweetheart — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:38:09.931Z"
+  },
+  {
+    "message": "downloadData mismatch for Run Sweetheart Run — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:40:48.842Z"
+  },
+  {
+    "message": "downloadData empty for The Machine (attempt 1)",
+    "timestamp": "2026-10-19T07:41:39.931Z"
+  },
+  {
+    "message": "downloadData empty for The Machine (attempt 2)",
+    "timestamp": "2026-10-19T07:41:44.539Z"
+  },
+  {
+    "message": "downloadData empty for The Machine (attempt 3)",
+    "timestamp": "2026-10-19T07:41:54.360Z"
+  },
+  {
+    "message": "downloadData mismatch for Takers — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:42:24.374Z"
+  },
+  {
+    "message": "downloadData mismatch for Jodha Akbar - S03E01 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:46:30.732Z"
+  },
+  {
+    "message": "downloadData mismatch for Jodha Akbar - S03E02 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:46:33.413Z"
+  },
+  {
+    "message": "downloadData mismatch for Jodha Akbar - S03E03 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:46:36.103Z"
+  },
+  {
+    "message": "downloadData mismatch for Escape — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:46:49.887Z"
+  },
+  {
+    "message": "downloadData mismatch for Pirates of the Caribbean: Dead Man's Chest — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:48:08.386Z"
+  },
+  {
+    "message": "downloadData mismatch for Close — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:48:13.126Z"
+  },
+  {
+    "message": "downloadData mismatch for Foxtrot Six — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:48:21.053Z"
+  },
+  {
+    "message": "downloadData mismatch for Kung Fu Dunk — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:49:10.749Z"
+  },
+  {
+    "message": "downloadData mismatch for Kalki 2898 AD — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:50:38.550Z"
+  },
+  {
+    "message": "downloadData mismatch for Angels Fallen: Warriors of Peace — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:51:07.204Z"
+  },
+  {
+    "message": "downloadData mismatch for Air Force One — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:54:38.216Z"
+  },
+  {
+    "message": "downloadData mismatch for New Police Story — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:55:18.027Z"
+  },
+  {
+    "message": "downloadData mismatch for Dhoom 2 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:55:22.468Z"
+  },
+  {
+    "message": "downloadData mismatch for We Are Family — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:57:40.440Z"
+  },
+  {
+    "message": "downloadData mismatch for Gadar 2 — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:58:53.144Z"
+  },
+  {
+    "message": "downloadData mismatch for Harom Hara — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:59:39.425Z"
+  },
+  {
+    "message": "downloadData mismatch for Gangs of Godavari — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:59:47.265Z"
+  },
+  {
+    "message": "downloadData mismatch for High Forces — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T07:59:57.807Z"
+  },
+  {
+    "message": "downloadData mismatch for Little Big Soldier — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T08:00:13.570Z"
+  },
+  {
+    "message": "downloadData mismatch for iSmart Shankar — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T08:00:18.758Z"
+  },
+  {
+    "message": "downloadData mismatch for Pirates of the Caribbean: The Curse of the Black Pearl — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T08:01:10.993Z"
+  },
+  {
+    "message": "downloadData empty for THE FLASH - S03E02 (attempt 1)",
+    "timestamp": "2026-10-19T08:02:03.842Z"
+  },
+  {
+    "message": "downloadData empty for THE FLASH - S03E02 (attempt 2)",
+    "timestamp": "2026-10-19T08:02:07.943Z"
+  },
+  {
+    "message": "downloadData empty for THE FLASH - S03E02 (attempt 3)",
+    "timestamp": "2026-10-19T08:02:16.968Z"
+  },
+  {
+    "message": "downloadData empty for The Brave - S01E02 (attempt 1)",
+    "timestamp": "2026-10-19T08:05:19.144Z"
+  },
+  {
+    "message": "downloadData empty for The Brave - S01E02 (attempt 2)",
+    "timestamp": "2026-10-19T08:05:23.679Z"
+  },
+  {
+    "message": "downloadData empty for The Brave - S01E02 (attempt 3)",
+    "timestamp": "2026-10-19T08:05:33.621Z"
+  },
+  {
+    "message": "downloadData mismatch for Raayan — broken/placeholder video, giving up",
+    "timestamp": "2026-10-19T08:07:31.972Z"
   }
 ]
