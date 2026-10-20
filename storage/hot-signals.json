@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-20T04:55:53.491Z",
+  "updatedAt": "2026-10-20T11:43:28.640Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 10,
@@ -20,6 +20,12 @@
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/60e390b6-3eb3-40d0-9476-8a398aa0999c": {
+      "hot": 1.9,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/f81b8775-6ef3-4934-9ad9-5b534486d6e2": {
       "hot": 7.3,
       "sources": [
@@ -32,50 +38,38 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/1f87af0a-465a-4f20-a90a-91b0a0fa1567": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/131425d9-eb58-459b-be1f-243be97a484a": {
-      "hot": 5.5,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/49cbaf59-c3b2-4e61-b638-0c142ffb5466": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/3aa01530-1e98-42a1-bac3-a24e187338fa": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/a6c3741a-7987-4ba6-b726-a9581a67c982": {
-      "hot": 2.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/3c6ba70a-ce21-4929-9cdd-deb26389893d": {
       "hot": 4.6,
       "sources": [
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/3aa01530-1e98-42a1-bac3-a24e187338fa": {
+      "hot": 2.8,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/a6c3741a-7987-4ba6-b726-a9581a67c982": {
+      "hot": 1.9,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/3c6ba70a-ce21-4929-9cdd-deb26389893d": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/b0c0f799-fcc7-4637-a47c-e2cfb23678e6": {
-      "hot": 8.2,
+      "hot": 7.3,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/777a0d0e-f715-4b37-bde3-c4ec5c2f971e": {
-      "hot": 6.4,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
@@ -86,8 +80,14 @@
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/49cbaf59-c3b2-4e61-b638-0c142ffb5466": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
-      "hot": 6.4,
+      "hot": 7.3,
       "sources": [
         "recomputed"
       ]
