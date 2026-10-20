@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-20T17:12:54.622Z",
+  "updatedAt": "2026-10-20T21:40:19.444Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 10,
@@ -33,13 +33,13 @@
       ]
     },
     "https://www.rebamovie.com/movie/131425d9-eb58-459b-be1f-243be97a484a": {
-      "hot": 4.6,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/3aa01530-1e98-42a1-bac3-a24e187338fa": {
-      "hot": 2.8,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -50,38 +50,20 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/49cbaf59-c3b2-4e61-b638-0c142ffb5466": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/60e390b6-3eb3-40d0-9476-8a398aa0999c": {
+    "https://www.rebamovie.com/movie/3c6ba70a-ce21-4929-9cdd-deb26389893d": {
       "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/a6c3741a-7987-4ba6-b726-a9581a67c982": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/3c6ba70a-ce21-4929-9cdd-deb26389893d": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/b0c0f799-fcc7-4637-a47c-e2cfb23678e6": {
-      "hot": 7.3,
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/777a0d0e-f715-4b37-bde3-c4ec5c2f971e": {
-      "hot": 5.5,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -98,8 +80,20 @@
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/49cbaf59-c3b2-4e61-b638-0c142ffb5466": {
+      "hot": 2.8,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/60e390b6-3eb3-40d0-9476-8a398aa0999c": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 10,
+      "hot": 9.1,
       "sources": [
         "recomputed"
       ]
@@ -112,6 +106,12 @@
     },
     "https://agasobanuyelive.com/wrong-turn-1-review/": {
       "hot": 1.8,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
