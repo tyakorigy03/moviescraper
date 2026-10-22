@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22T04:54:15.160Z",
+  "updatedAt": "2026-10-22T11:58:20.241Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 10,
@@ -62,14 +62,14 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 8.3,
+    "https://www.rebamovie.com/movie/ea6c2c17-4c63-4e89-90dc-f9bc6b9bef69": {
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/ea6c2c17-4c63-4e89-90dc-f9bc6b9bef69": {
-      "hot": 6.4,
+    "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
+      "hot": 8.3,
       "sources": [
         "recomputed"
       ]
