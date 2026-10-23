@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T11:44:01.927Z",
+  "updatedAt": "2026-10-23T17:12:18.462Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 10,
@@ -62,6 +62,12 @@
         "recomputed"
       ]
     },
+    "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
+      "hot": 9.2,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/9dbd9002-0d50-47e3-8030-a854e956b039": {
       "hot": 3.7,
       "sources": [
@@ -92,8 +98,8 @@
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
-      "hot": 9.2,
+    "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
