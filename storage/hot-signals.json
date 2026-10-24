@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T11:07:07.592Z",
+  "updatedAt": "2026-10-24T16:00:06.579Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 10,
@@ -14,14 +14,20 @@
         "recomputed"
       ]
     },
+    "https://agasobanuyelive.com/lupin-season-03-review/": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/f81b8775-6ef3-4934-9ad9-5b534486d6e2": {
       "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/special-ops-lioness-s01-review/": {
-      "hot": 10,
+    "https://www.rebamovie.com/movie/21ab446e-747b-47a3-b67b-bbf6b337a54d": {
+      "hot": 8.2,
       "sources": [
         "recomputed"
       ]
@@ -50,14 +56,20 @@
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/22cc8cd5-404f-4486-8ce5-4de4cbd33194": {
+      "hot": 5.5,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
       "hot": 7.3,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
-      "hot": 5.5,
+    "https://www.rebamovie.com/movie/864ecacb-b942-4200-84d0-1c49f1cb5dfd": {
+      "hot": 9.1,
       "sources": [
         "recomputed"
       ]
@@ -75,13 +87,31 @@
       ]
     },
     "https://www.rebamovie.com/movie/b158f87b-7088-4e1d-ba2e-eb2797db290e": {
-      "hot": 5.6,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/9beb7fb2-7085-4bd7-9252-075aaa9a10d8": {
-      "hot": 6.4,
+    "https://www.rebamovie.com/movie/6c0b76a7-698e-4a62-ae46-41b39da5fcaf": {
+      "hot": 4.6,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/20cde739-c9a4-42ad-a181-55f50936b90b": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/11bd8877-8da0-4678-8efa-d4c616867e80": {
+      "hot": 2.8,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/9e208fc5-2251-4849-bd4b-2c410a52c510": {
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -92,8 +122,8 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/09c3c48b-1869-446b-9cdc-f1e657b4e1c5": {
-      "hot": 2.8,
+    "https://agasobanuyelive.com/lupin-season-02-review/": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
@@ -106,6 +136,18 @@
     },
     "https://agasobanuyelive.com/wrong-turn-1-review/": {
       "hot": 1.8,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/lupin-season-01-review/": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/0104d60b-6ae1-4301-9dbc-a3f1a78acbfa": {
+      "hot": 7.3,
       "sources": [
         "recomputed"
       ]
