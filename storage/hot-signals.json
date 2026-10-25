@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T16:27:24.208Z",
+  "updatedAt": "2026-10-25T20:54:27.471Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 10,
@@ -50,12 +50,6 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 6.4,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://agasobanuyelive.com/lupin-season-02-review/": {
       "hot": 10,
       "sources": [
@@ -76,18 +70,6 @@
     },
     "https://agasobanuyelive.com/wrong-turn-1-review/": {
       "hot": 1.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
-      "hot": 8.3,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/9dbd9002-0d50-47e3-8030-a854e956b039": {
-      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -130,6 +112,24 @@
     },
     "https://www.rebamovie.com/movie/731f0906-f51a-4edc-a3c1-c202170da058": {
       "hot": 5.5,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
+      "hot": 6.4,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
+      "hot": 8.3,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/9dbd9002-0d50-47e3-8030-a854e956b039": {
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
