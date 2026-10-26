@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T13:09:42.220Z",
+  "updatedAt": "2026-10-26T22:42:49.530Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 10,
@@ -45,13 +45,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/22cc8cd5-404f-4486-8ce5-4de4cbd33194": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
-      "hot": 10,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
@@ -80,32 +74,8 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/21ab446e-747b-47a3-b67b-bbf6b337a54d": {
-      "hot": 6.4,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/864ecacb-b942-4200-84d0-1c49f1cb5dfd": {
-      "hot": 7.3,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/6c0b76a7-698e-4a62-ae46-41b39da5fcaf": {
-      "hot": 2.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/20cde739-c9a4-42ad-a181-55f50936b90b": {
       "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/731f0906-f51a-4edc-a3c1-c202170da058": {
-      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -117,7 +87,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
-      "hot": 9.1,
+      "hot": 8.2,
       "sources": [
         "recomputed"
       ]
@@ -128,20 +98,50 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/b158f87b-7088-4e1d-ba2e-eb2797db290e": {
-      "hot": 4.6,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
       "hot": 6.5,
       "sources": [
         "recomputed"
       ]
     },
+    "https://www.rebamovie.com/movie/21ab446e-747b-47a3-b67b-bbf6b337a54d": {
+      "hot": 5.5,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/864ecacb-b942-4200-84d0-1c49f1cb5dfd": {
+      "hot": 6.4,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/731f0906-f51a-4edc-a3c1-c202170da058": {
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/b158f87b-7088-4e1d-ba2e-eb2797db290e": {
+      "hot": 4.6,
+      "sources": [
+        "recomputed"
+      ]
+    },
     "https://www.rebamovie.com/movie/9dbd9002-0d50-47e3-8030-a854e956b039": {
       "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/9cd89102-289e-44f6-91f8-2223265e1fe6": {
+      "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
+      "hot": 9.1,
       "sources": [
         "recomputed"
       ]
@@ -153,7 +153,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/0104d60b-6ae1-4301-9dbc-a3f1a78acbfa": {
-      "hot": 5.5,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
