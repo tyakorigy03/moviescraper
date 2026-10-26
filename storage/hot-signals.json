@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T20:54:27.471Z",
+  "updatedAt": "2026-10-26T04:52:33.728Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 10,
@@ -9,7 +9,7 @@
       ]
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/2b2e9612-c260-4409-a34d-e1c271d9d7e2/1000067209.mp4": {
-      "hot": 1.9,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
@@ -27,13 +27,13 @@
       ]
     },
     "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
-      "hot": 3.7,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/beauty-in-black-s01-review/": {
-      "hot": 8.3,
+      "hot": 6.5,
       "sources": [
         "recomputed"
       ]
@@ -87,7 +87,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/b158f87b-7088-4e1d-ba2e-eb2797db290e": {
-      "hot": 4.6,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
@@ -123,13 +123,13 @@
       ]
     },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
-      "hot": 8.3,
+      "hot": 6.5,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/9dbd9002-0d50-47e3-8030-a854e956b039": {
-      "hot": 1.9,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
@@ -154,6 +154,12 @@
     },
     "https://www.rebamovie.com/movie/0104d60b-6ae1-4301-9dbc-a3f1a78acbfa": {
       "hot": 6.4,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/ba56b90d-04f4-43fb-9044-41594ea7b9a6": {
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
