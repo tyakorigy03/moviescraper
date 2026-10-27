@@ -27510,5 +27510,81 @@
   {
     "message": "downloadData mismatch for Raayan — broken/placeholder video, giving up",
     "timestamp": "2026-10-27T17:58:54.003Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:14.478Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:14.971Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:15.357Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:15.846Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:16.248Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:16.653Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:17.117Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:17.733Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:18.194Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:18.693Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:19.167Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:19.563Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:19.956Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:20.346Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:20.781Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:21.198Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:21.605Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-10-27T20:54:22.009Z"
+  },
+  {
+    "message": "Failed inserting batch 1: Could not find the '_sourceLinks' column of 'moviesv2' in the schema cache",
+    "timestamp": "2026-10-27T20:54:23.897Z"
   }
 ]
