@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T05:46:45.922Z",
+  "updatedAt": "2026-10-28T13:00:08.675Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 9.1,
@@ -9,13 +9,19 @@
       ]
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/2b2e9612-c260-4409-a34d-e1c271d9d7e2/1000067209.mp4": {
-      "hot": 4.6,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/lupin-season-03-review/": {
       "hot": 10,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+      "hot": 9.1,
       "sources": [
         "recomputed"
       ]
@@ -33,19 +39,7 @@
       ]
     },
     "https://agasobanuyelive.com/beauty-in-black-s01-review/": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/60e390b6-3eb3-40d0-9476-8a398aa0999c": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/22cc8cd5-404f-4486-8ce5-4de4cbd33194": {
-      "hot": 1.9,
+      "hot": 6.5,
       "sources": [
         "recomputed"
       ]
@@ -74,14 +68,8 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 4.6,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
-      "hot": 7.3,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
@@ -92,14 +80,8 @@
         "recomputed"
       ]
     },
-    "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/21ab446e-747b-47a3-b67b-bbf6b337a54d": {
-      "hot": 4.6,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -123,43 +105,43 @@
       ]
     },
     "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
-      "hot": 10,
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/864ecacb-b942-4200-84d0-1c49f1cb5dfd": {
-      "hot": 5.5,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/731f0906-f51a-4edc-a3c1-c202170da058": {
       "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/9cd89102-289e-44f6-91f8-2223265e1fe6": {
-      "hot": 9.1,
+      "hot": 5.5,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
-      "hot": 8.2,
+      "hot": 4.6,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
+      "hot": 4.6,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
+      "hot": 6.5,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/lupin-season-01-review/": {
       "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/0104d60b-6ae1-4301-9dbc-a3f1a78acbfa": {
-      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
