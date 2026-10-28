@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T22:18:48.190Z",
+  "updatedAt": "2026-10-28T05:46:45.922Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 9.1,
@@ -9,7 +9,7 @@
       ]
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/2b2e9612-c260-4409-a34d-e1c271d9d7e2/1000067209.mp4": {
-      "hot": 3.7,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -27,13 +27,19 @@
       ]
     },
     "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
-      "hot": 2.8,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
     },
     "https://agasobanuyelive.com/beauty-in-black-s01-review/": {
-      "hot": 6.5,
+      "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/60e390b6-3eb3-40d0-9476-8a398aa0999c": {
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -69,7 +75,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 6.4,
+      "hot": 4.6,
       "sources": [
         "recomputed"
       ]
@@ -87,7 +93,7 @@
       ]
     },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
-      "hot": 6.5,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
@@ -99,13 +105,25 @@
       ]
     },
     "https://www.rebamovie.com/movie/b158f87b-7088-4e1d-ba2e-eb2797db290e": {
-      "hot": 5.5,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
     },
     "https://www.rebamovie.com/movie/9dbd9002-0d50-47e3-8030-a854e956b039": {
       "hot": 3.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
+      "hot": 5.5,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
@@ -130,18 +148,6 @@
     },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
       "hot": 8.2,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
-      "hot": 2.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
-      "hot": 10,
       "sources": [
         "recomputed"
       ]
