@@ -69,6 +69,24 @@ let cooldownUntil = 0;
 let emptyStrikes = 0;
 const DL_MIN_GAP_MS = parseInt(process.env.REBA_DL_MIN_GAP_MS, 10) || 500;
 
+/* --- no-op ("echo") circuit breaker -------------------------------------
+ * When rebamovie's /downloadData stops actually minting, it does not error —
+ * it HTTP 200s and hands the request straight back, so every episode "resolves"
+ * to the very URL we sent. Retrying that is pure waste: it burns one API call
+ * per episode per run and, because the item then still looks un-downloaded,
+ * it also defeats the delta freshness skip and forces a full re-resolve of the
+ * entire catalogue on every cron tick.
+ *
+ * So we detect the echo explicitly and, after a few strikes, stop calling the
+ * endpoint for the rest of the process. Stored links are left exactly as they
+ * are — an expired link that the frontend can still fall back to beats a link
+ * rewritten to something the API never minted.
+ */
+let echoStrikes = 0;
+let noopUntil = 0;
+const ECHO_STRIKES_TO_TRIP = parseInt(process.env.REBA_NOOP_STRIKES, 10) || 3;
+const NOOP_COOLDOWN_MS = parseInt(process.env.REBA_NOOP_COOLDOWN_MS, 10) || 30 * 60 * 1000;
+
 // watch-GUID → download URL (or '' for a known placeholder). Ensures we never
 // hit /downloadData twice for the same underlying file in one process.
 const guidCache = new Map();
@@ -149,6 +167,22 @@ function guidKey(u) {
 }
 
 /**
+ * The signed token (JWT for the direct MP4, `token`+`signature` for a DASH
+ * manifest) carried by a URL, or '' when it carries none.
+ *
+ * Used to tell a genuine re-mint from a pass-through: /downloadData issues a
+ * NEW signature every time, so a response whose token equals the one we sent was
+ * never actually minted.
+ */
+function signedToken(u = '') {
+  const s = String(u || '');
+  const t = /[?&]token=([^&]+)/.exec(s);
+  const g = /[?&]signature=([^&]+)/.exec(s);
+  if (!t && !g) return '';
+  return `${t ? t[1] : ''}|${g ? g[1] : ''}`;
+}
+
+/**
  * Resolve a watch URL to a direct progressive MP4.
  *
  * IMPORTANT: the body must be the {iv, encrypted} AES envelope built from
@@ -172,6 +206,13 @@ async function fetchDownloadLink({ url, server = '', name = '', time = 1 }) {
   // that turns a 46-episode placeholder run into a single API call instead of 46.
   if (cacheKey && guidCache.has(cacheKey)) return guidCache.get(cacheKey);
 
+  // /downloadData is in its no-op state and would only hand the input back.
+  // Skip the call rather than spend an API round-trip on every episode.
+  if (noopUntil && Date.now() < noopUntil) {
+    if (cacheKey) guidCache.set(cacheKey, '');
+    return '';
+  }
+
   const body = aesEnvelope({ url, server, name, time });
   let resolved = '';
   for (let attempt = 0; attempt < 3; attempt++) {
@@ -179,8 +220,35 @@ async function fetchDownloadLink({ url, server = '', name = '', time = 1 }) {
     try {
       const res = await post('/downloadData', body, { retries: 0 });
       const dl = String(res?.url || res || '').trim();
+
+      // No-op detection. A real resolve REPLACES the signed token; it never
+      // returns our own token back. While the endpoint is degraded it answers
+      // HTTP 200 either by echoing the URL verbatim, or by rewriting the host
+      // to repackager.wixmp.com while still carrying the token we sent. Both
+      // mean nothing was minted, so retrying is pure waste — and because the
+      // item then still looks un-downloaded it also re-triggers a full
+      // catalogue re-resolve. Count these and stop calling once it sticks.
+      const inTok = signedToken(url);
+      const outTok = signedToken(dl);
+      if (dl && (dl === url || (outTok && outTok === inTok))) {
+        echoStrikes++;
+        logError(
+          `downloadData did not mint for ${name} — returned our own token back ` +
+            `(strike ${echoStrikes}/${ECHO_STRIKES_TO_TRIP})`
+        );
+        if (echoStrikes >= ECHO_STRIKES_TO_TRIP) {
+          noopUntil = Date.now() + NOOP_COOLDOWN_MS;
+          logError(
+            `downloadData is not minting after ${echoStrikes} strikes — pausing calls for ` +
+              `${Math.round(NOOP_COOLDOWN_MS / 60000)}min rather than hammering it`
+          );
+        }
+        break;
+      }
+
       if (dl && (!expected || mediaGuid(dl) === expected)) {
         noteOk();
+        echoStrikes = 0;
         resolved = dl;
         break;
       }
@@ -205,4 +273,4 @@ async function fetchDownloadLink({ url, server = '', name = '', time = 1 }) {
   return resolved;
 }
 
-module.exports = { API_BASE, SITE_BASE, UA, fetchPage, fetchCinemaData, fetchDownloadLink, languageCode, mediaGuid, renditionOf, guidKey };
+module.exports = { API_BASE, SITE_BASE, UA, fetchPage, fetchCinemaData, fetchDownloadLink, languageCode, mediaGuid, renditionOf, guidKey, signedToken };

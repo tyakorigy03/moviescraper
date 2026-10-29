@@ -171,7 +171,7 @@ function parseArgs(argv) {
     limit: 0,
     pages: undefined,
     delayMs: parseInt(process.env.REBA_DELAY_MS, 10) || 120,
-    refreshHours: parseInt(process.env.REBA_REFRESH_HOURS, 10) || 6,
+    refreshHours: parseInt(process.env.REBA_REFRESH_HOURS, 10) || 24,
     quality: normalizeQuality(process.env.REBA_DOWNLOAD_QUALITY),
   };
   for (let i = 0; i < argv.length; i++) {
@@ -182,7 +182,7 @@ function parseArgs(argv) {
     else if (argv[i] === '--limit') args.limit = parseInt(argv[++i], 10) || 0;
     else if (argv[i] === '--pages') args.pages = parseInt(argv[++i], 10);
     else if (argv[i] === '--delay-ms') args.delayMs = parseInt(argv[++i], 10) || 120;
-    else if (argv[i] === '--refresh-hours') args.refreshHours = parseInt(argv[++i], 10) || 6;
+    else if (argv[i] === '--refresh-hours') args.refreshHours = parseInt(argv[++i], 10) || 24;
     else if (argv[i] === '--quality') args.quality = normalizeQuality(argv[++i]);
   }
   return args;
@@ -457,12 +457,14 @@ async function processItem(item, row, rows, insertedThisRun, collector, state, a
   // committed ahead of writes), rebuild it from the cached links. forceRetry
   // (a previously-failed item past its cooldown) bypasses this skip.
   const fresh = cached && Date.now() - new Date(cached.at).getTime() < args.refreshHours * 3600e3;
-  // If a previous run resolved the item but downloadData rate-limited and left
-  // entries without a download link, don't treat it as fresh: the next delta
-  // run should retry the MP4 resolution (the throttle cooldown will have lapsed).
-  const missingDownloads =
-    args.downloads && !!cached && Array.isArray(cached.entries) && cached.entries.some((e) => !e.downloadUrl);
-  if (!forceRetry && !args.full && fresh && missingDownloads === false && cached.badge === badge) {
+  // Freshness alone decides whether we re-resolve. It used to be overridden by a
+  // "some entries still have no downloadUrl" check, but while /downloadData is
+  // in its no-op state EVERY item looks un-downloaded, so that override fired on
+  // every cron tick and re-resolved the whole catalogue (one API call per
+  // episode) — which is what made the rows churn. A retry for a missing link is
+  // still wanted, it just has to wait for the refresh window like everything
+  // else rather than forcing a pass on every run.
+  if (!forceRetry && !args.full && fresh && cached.badge === badge) {
     if (row) return { skipped: true };
     if (args.insertNew && Array.isArray(cached.entries) && cached.entries.length) {
       const rowObj = await buildInsertRow(item, cached.entries, {
@@ -511,11 +513,18 @@ async function processItem(item, row, rows, insertedThisRun, collector, state, a
       }
       let anyChanged = false;
       for (const [s, seasonSpecs] of seasonGroups) {
+        const matchedSeasonRow = s
+          ? allRows.find((r) => seasonOfTitle(r.title) === s)
+          : null;
         const seasonRow =
-          (s && allRows.find((r) => seasonOfTitle(r.title) === s)) ||
+          matchedSeasonRow ||
           allRows.find((r) => !seasonOfTitle(r.title)) ||
-          row;
-        const scoped = seasonRow && seasonOfTitle(seasonRow.title) === s;
+          (s ? null : row);
+        // No row for this season yet: never dump its episodes into a row that
+        // belongs to a different season (that is how S02 leaked into Da Vinci's
+        // Demons S01). It will be inserted/saved once its own row exists.
+        if (!seasonRow) continue;
+        const scoped = seasonOfTitle(seasonRow.title) === s;
         const { entries, changed } = mergeEntries(seasonRow.Downloadurls, seasonSpecs, {
           singleSeason: true,
           rowSeason: scoped ? s : '',

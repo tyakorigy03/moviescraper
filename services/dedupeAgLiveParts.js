@@ -45,15 +45,42 @@ function isJunkRow(row = {}) {
   return false;
 }
 
-/** Group key: same show, same type, same dub (narrator), same season. */
+/** Release year embedded in the title ("Beast (2026)" → "2026"; none → ''). */
+function yearOf(title = '') {
+  const m = /\b(?:19|20)\d{2}\b/.exec(String(title || ''));
+  return m ? m[0] : '';
+}
+
+/**
+ * Group key: same show, same type, same dub (narrator), same season, same year.
+ * The year matters — without it "Beast" and "Beast (2026)" collapse into one
+ * "part group" and get merged together even though they are different movies.
+ */
 function partGroupKey(row = {}) {
   const season = seasonOf(String(row.title || ''));
   const type = String(row.type || 'movie').toLowerCase() === 'tv' ? 'tv' : 'movie';
-  return `${coreTitle(row.title)}|${type}|${normNarrator(row.narrator)}|${season}`;
+  return `${coreTitle(row.title)}|${type}|${normNarrator(row.narrator)}|${season}|${yearOf(row.title)}`;
+}
+
+/**
+ * Only groups that actually carry a part marker are real part pages. Two rows
+ * that merely share a title/type/narrator (e.g. a remake and the original) are
+ * NOT parts and must never be merged or deleted as duplicates.
+ */
+function isPartGroup(group = []) {
+  return group.length > 1 && group.some((row) => partNumOf(row.title) > 0);
 }
 
 function normLocator(title = '') {
   return locator(String(title || '').trim()) || `t:${coreTitle(title)}`;
+}
+
+/** Rendition tag ("720p"/"480p") so a 720p and 480p copy are not deduped away. */
+function renditionOfEntry(entry = {}) {
+  if (entry.rendition) return String(entry.rendition).toLowerCase();
+  const s = `${entry.title || ''} ${entry.watchUrl || ''} ${entry.downloadUrl || ''}`;
+  const m = /\b(\d{3,4}p)\b/i.exec(s);
+  return m ? m[1].toLowerCase() : '';
 }
 
 /** Book-keeping: "S01E02" style sort key keeps episodes in natural order. */
@@ -84,8 +111,8 @@ function collapsePartRows(movies = []) {
   const out = [];
   let merged = 0;
   for (const group of groups.values()) {
-    if (group.length === 1) {
-      out.push(group[0]);
+    if (!isPartGroup(group)) {
+      out.push(...group);
       continue;
     }
     const parts = [...group].sort((a, b) => partNumOf(a.title) - partNumOf(b.title));
@@ -106,7 +133,10 @@ function mergeEntryLists(lists = []) {
   const byLoc = new Map();
   for (const list of lists) {
     for (const entry of list || []) {
-      const loc = normLocator(entry.title);
+      // Key includes the rendition: the same episode can legitimately exist in
+      // 720p and 480p, and dropping one would silently change the row (and look
+      // like a fresh update) on every merge.
+      const loc = `${normLocator(entry.title)}|${renditionOfEntry(entry)}`;
       const existing = byLoc.get(loc);
       // Prefer the entry that carries a download link.
       if (!existing || (!existing.downloadUrl && entry.downloadUrl)) {
@@ -114,8 +144,9 @@ function mergeEntryLists(lists = []) {
       }
     }
   }
+  const locatorOf = (key) => key.slice(0, key.lastIndexOf('|'));
   return [...byLoc.entries()]
-    .sort((a, b) => (sortKeyOf(a[0]) < sortKeyOf(b[0]) ? -1 : 1))
+    .sort((a, b) => (sortKeyOf(locatorOf(a[0])) < sortKeyOf(locatorOf(b[0])) ? -1 : 1))
     .map(([, entry]) => entry);
 }
 
@@ -153,7 +184,7 @@ async function dedupeAgLivePartsInDb({ dryRun = false } = {}) {
   const mergedRows = [];
   const deletedIds = [...junkIds];
   for (const group of groups.values()) {
-    if (group.length === 1) continue;
+    if (!isPartGroup(group)) continue;
     const parts = [...group].sort((a, b) => partNumOf(a.title) - partNumOf(b.title));
     const canonical = parts[0];
     const others = parts.slice(1);

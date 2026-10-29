@@ -25,6 +25,23 @@ function normalizeTimestamp(value) {
   return value || null;
 }
 
+/** Stable signature for one download entry (title + links). */
+function entrySignature(entry = {}) {
+  return `${String(entry.title || '').trim()}|${entry.watchUrl || ''}|${entry.downloadUrl || ''}`;
+}
+
+/**
+ * True when two Downloadurls lists describe exactly the same content.
+ * Used so a re-scrape that produced identical entries does NOT bump
+ * modifiedAt / rewrite the row (the "always shows updated" bug).
+ */
+function entriesEqual(a = [], b = []) {
+  if (!Array.isArray(a) || !Array.isArray(b) || a.length !== b.length) return false;
+  const sa = a.map(entrySignature).sort();
+  const sb = b.map(entrySignature).sort();
+  return sa.every((s, i) => s === sb[i]);
+}
+
 function isTruthyEnv(value) {
   return String(value || '').toLowerCase() === 'true' || String(value || '').toLowerCase() === '1';
 }
@@ -75,6 +92,7 @@ async function saveMoviesToSupabase(moviesInput, options = {}) {
 
   const batchSize = 200;
   let count = 0;
+  let unchangedTotal = 0;
 
   for (let i = 0; i < collapsed.movies.length; i += batchSize) {
     const chunk = collapsed.movies.slice(i, i + batchSize);
@@ -97,8 +115,10 @@ async function saveMoviesToSupabase(moviesInput, options = {}) {
         const existingByLink = new Map((existingRows || []).map((r) => [normalizeLink(r.link), r]));
         for (const movie of collapsedRecords) {
           const existing = existingByLink.get(normalizeLink(movie.link) || '');
-          if (existing && Array.isArray(existing.Downloadurls) && existing.Downloadurls.length) {
-            movie.Downloadurls = mergeEntryLists([existing.Downloadurls, movie.Downloadurls]);
+          if (existing) {
+            if (Array.isArray(existing.Downloadurls) && existing.Downloadurls.length) {
+              movie.Downloadurls = mergeEntryLists([existing.Downloadurls, movie.Downloadurls]);
+            }
             movie._existing = existing;
           }
         }
@@ -138,8 +158,16 @@ async function saveMoviesToSupabase(moviesInput, options = {}) {
       .select();
 
     let collapsedSaved = 0;
+    let collapsedUnchanged = 0;
     for (const movie of collapsedRecords) {
       if (hostedLinks.has(normalizeLink(movie.link) || '')) continue;
+      // Nothing new was merged in, so the row already holds exactly these
+      // entries. Rewriting it would only bump modifiedAt and make the movie
+      // look freshly updated on every scrape.
+      if (movie._existing && entriesEqual(movie._existing.Downloadurls, movie.Downloadurls)) {
+        collapsedUnchanged++;
+        continue;
+      }
       const patch = {
         ...movie,
         link: normalizeLink(movie.link) || '',
@@ -165,6 +193,8 @@ async function saveMoviesToSupabase(moviesInput, options = {}) {
       else logError(`Failed merged part row ${patch.link}: ${res.error.message}`);
     }
 
+    unchangedTotal += collapsedUnchanged;
+
     if (error) {
       logError(`Failed inserting batch ${i / batchSize + 1}: ${error.message}`);
     } else {
@@ -177,6 +207,9 @@ async function saveMoviesToSupabase(moviesInput, options = {}) {
     }
   }
 
+  if (unchangedTotal > 0) {
+    logInfo(`Kept ${unchangedTotal} merged part row(s) untouched (content unchanged).`);
+  }
   logInfo(`Finished saving ${count} movies to Supabase.`);
 }
 
