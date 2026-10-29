@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T05:52:55.630Z",
+  "updatedAt": "2026-10-29T13:08:03.456Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 9.1,
@@ -33,7 +33,7 @@
       ]
     },
     "https://agasobanuyelive.com/beauty-in-black-s01-review/": {
-      "hot": 4.7,
+      "hot": 6.5,
       "sources": [
         "recomputed"
       ]
@@ -63,7 +63,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
-      "hot": 7.4,
+      "hot": 6.5,
       "sources": [
         "recomputed"
       ]
@@ -105,7 +105,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 2.8,
+      "hot": 1.9,
       "sources": [
         "recomputed"
       ]
@@ -117,7 +117,7 @@
       ]
     },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
-      "hot": 4.7,
+      "hot": 6.5,
       "sources": [
         "recomputed"
       ]
