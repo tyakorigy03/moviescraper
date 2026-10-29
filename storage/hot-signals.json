@@ -1,150 +1,777 @@
 {
-  "version": 1,
-  "updatedAt": "2026-10-29T13:08:03.456Z",
+  "version": 2,
+  "updatedAt": "2026-10-29T22:48:11.207Z",
   "signals": {
-    "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
-      "hot": 9.1,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/2b2e9612-c260-4409-a34d-e1c271d9d7e2/1000067209.mp4": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://agasobanuyelive.com/lupin-season-03-review/": {
       "hot": 10,
+      "points": 23.7,
       "sources": [
-        "recomputed"
-      ]
+        "reba-trending#0",
+        "reba-new#3",
+        "reba-popular#4"
+      ],
+      "show": "lupin",
+      "match": "score"
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
-      "hot": 10,
+      "hot": 9.9,
+      "points": 17.3,
       "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/beauty-in-black-s01-review/": {
-      "hot": 6.5,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/lupin-season-02-review/": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/no-way-up-review/": {
-      "hot": 4.5,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/wrong-turn-1-review/": {
-      "hot": 1.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
-      "hot": 6.5,
-      "sources": [
-        "recomputed"
-      ]
+        "reba-trending#1",
+        "reba-popular#2"
+      ],
+      "show": "masterplan",
+      "match": "narrator"
     },
     "https://www.rebamovie.com/movie/a1762bf1-bc71-461b-be7c-90ec7645ae0e": {
       "hot": 10,
+      "points": 18.2,
       "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/21ab446e-747b-47a3-b67b-bbf6b337a54d": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
-      "hot": 6.4,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
-      "hot": 6.4,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/9cd89102-289e-44f6-91f8-2223265e1fe6": {
-      "hot": 10,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
-      "hot": 4.6,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/864ecacb-b942-4200-84d0-1c49f1cb5dfd": {
-      "hot": 2.8,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
-      "hot": 6.5,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
-      "hot": 9.1,
-      "sources": [
-        "recomputed"
-      ]
+        "reba-trending#2",
+        "reba-popular#0"
+      ],
+      "show": "devious maids",
+      "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
-      "hot": 10,
+      "hot": 9.8,
+      "points": 15.5,
       "sources": [
-        "recomputed"
-      ]
+        "reba-trending#3",
+        "reba-new#2"
+      ],
+      "show": "rugal",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
+      "hot": 9.5,
+      "points": 11.9,
+      "sources": [
+        "reba-trending#4",
+        "reba-popular#5"
+      ],
+      "show": "matchbox the movie",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
+      "hot": 7.6,
+      "points": 5.5,
+      "sources": [
+        "reba-trending#5"
+      ],
+      "show": "spider man brand new day",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
+      "hot": 9.6,
+      "points": 11.9,
+      "sources": [
+        "reba-trending#6",
+        "reba-popular#3"
+      ],
+      "show": "special ops lioness",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/9cd89102-289e-44f6-91f8-2223265e1fe6": {
+      "hot": 9.1,
+      "points": 8.3,
+      "sources": [
+        "reba-trending#7",
+        "reba-new#6"
+      ],
+      "show": "i am legend",
+      "match": "narrator"
+    },
+    "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
+      "hot": 10,
+      "points": 23.2,
+      "sources": [
+        "reba-trending#8",
+        "reba-popular#8",
+        "aglive#0",
+        "oshakur#1"
+      ],
+      "show": "beauty in black",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
+      "hot": 8.6,
+      "points": 4.7,
+      "sources": [
+        "reba-trending#9",
+        "reba-new#8"
+      ],
+      "show": "the paradise",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/ea90d1b5-9589-4823-8fcf-a7a9af6e7e61": {
+      "hot": 9.9,
+      "points": 15.9,
+      "sources": [
+        "reba-new#0",
+        "aglive#7"
+      ],
+      "show": "da vinci s demons",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+      "hot": 9.2,
+      "points": 9.1,
+      "sources": [
+        "reba-new#1"
+      ],
+      "show": "within the grip",
+      "match": "narrator"
     },
     "https://www.rebamovie.com/movie/364be943-18c3-480f-96fa-ab8c58f944cd": {
-      "hot": 7.3,
+      "hot": 8,
+      "points": 6.4,
       "sources": [
-        "recomputed"
-      ]
+        "reba-new#4"
+      ],
+      "show": "the pursuit of happyness",
+      "match": "narrator"
     },
-    "https://agasobanuyelive.com/lupin-season-01-review/": {
-      "hot": 10,
+    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
+      "hot": 7.6,
+      "points": 5.5,
       "sources": [
-        "recomputed"
-      ]
+        "reba-new#5"
+      ],
+      "show": "facing el chapo",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
+      "hot": 6.8,
+      "points": 3.7,
+      "sources": [
+        "reba-new#7"
+      ],
+      "show": "from",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/864ecacb-b942-4200-84d0-1c49f1cb5dfd": {
+      "hot": 6,
+      "points": 1.9,
+      "sources": [
+        "reba-new#9"
+      ],
+      "show": "daydreamer",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
+      "hot": 9.2,
+      "points": 9.1,
+      "sources": [
+        "reba-popular#1"
+      ],
+      "show": "doing life",
+      "match": "narrator"
+    },
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/b18c98f3-4e3c-439f-bef0-45bf45af3212/mayday-a.mp4": {
+      "hot": 7.2,
+      "points": 4.6,
+      "sources": [
+        "reba-popular#6"
+      ],
+      "show": "mayday",
+      "match": "score"
+    },
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/2b2e9612-c260-4409-a34d-e1c271d9d7e2/1000067209.mp4": {
+      "hot": 6.8,
+      "points": 3.7,
+      "sources": [
+        "reba-popular#7"
+      ],
+      "show": "hacksaw ridge",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
+      "hot": 6,
+      "points": 1.9,
+      "sources": [
+        "reba-popular#9"
+      ],
+      "show": "designated survivor",
+      "match": "narrator"
+    },
+    "https://agasobanuyelive.com/young-swordsman-s01-review/": {
+      "hot": 9.2,
+      "points": 8.6,
+      "sources": [
+        "aglive#1"
+      ],
+      "show": "young swordsman",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/between-father-and-son-s01-review/": {
+      "hot": 8.8,
+      "points": 8.1,
+      "sources": [
+        "aglive#2"
+      ],
+      "show": "between father and son",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/f784b3f9-bf7e-415e-8c89-ea40871bd96d": {
+      "hot": 8.4,
+      "points": 7.7,
+      "sources": [
+        "aglive#3"
+      ],
+      "show": "oasis",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/outer-banks-s05-review/": {
+      "hot": 8,
+      "points": 7.2,
+      "sources": [
+        "aglive#4"
+      ],
+      "show": "outer banks",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/deaths-game-s01-review/": {
+      "hot": 7.6,
+      "points": 6.8,
+      "sources": [
+        "aglive#5"
+      ],
+      "show": "death s game",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/umthetho-s01-review/": {
+      "hot": 7.2,
+      "points": 6.3,
+      "sources": [
+        "aglive#6"
+      ],
+      "show": "umthetho",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/lucky-s01-review/": {
+      "hot": 6.4,
+      "points": 5.4,
+      "sources": [
+        "aglive#8"
+      ],
+      "show": "lucky",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/blood-vs-duty-s01-review/": {
+      "hot": 6,
+      "points": 5,
+      "sources": [
+        "aglive#9"
+      ],
+      "show": "blood vs duty",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/companion-review/": {
+      "hot": 5.6,
+      "points": 4.5,
+      "sources": [
+        "aglive#10"
+      ],
+      "show": "companion",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/the-i-land-s01-review/": {
+      "hot": 5.2,
+      "points": 4.1,
+      "sources": [
+        "aglive#11"
+      ],
+      "show": "the i land",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/knight-and-day-review/": {
+      "hot": 4.8,
+      "points": 3.6,
+      "sources": [
+        "aglive#12"
+      ],
+      "show": "knight and day",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/detective-dee-the-mystery-of-the-phantom-flame-review/": {
+      "hot": 4.4,
+      "points": 3.1,
+      "sources": [
+        "aglive#13"
+      ],
+      "show": "detective dee the mystery of the phantom flame",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/largo-winch-ii-review/": {
+      "hot": 4,
+      "points": 2.7,
+      "sources": [
+        "aglive#14"
+      ],
+      "show": "largo winch ii",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/protector-review/": {
+      "hot": 3.6,
+      "points": 2.3,
+      "sources": [
+        "aglive#15"
+      ],
+      "show": "protector",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/the-day-the-earth-stood-still-review/": {
+      "hot": 3.2,
+      "points": 1.8,
+      "sources": [
+        "aglive#16"
+      ],
+      "show": "the day the earth stood still",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/the-woman-in-the-yard-review/": {
+      "hot": 2.8,
+      "points": 1.3,
+      "sources": [
+        "aglive#17"
+      ],
+      "show": "the woman in the yard",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/deep-water-2026-review/": {
+      "hot": 2.4,
+      "points": 0.9,
+      "sources": [
+        "aglive#18"
+      ],
+      "show": "deep water",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/i-spit-on-your-grave-review/": {
+      "hot": 2,
+      "points": 0.4,
+      "sources": [
+        "aglive#19"
+      ],
+      "show": "i spit on your grave 1",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/shamshera-review/": {
+      "hot": 6,
+      "points": 4.1,
+      "sources": [
+        "aglive#20",
+        "oshakur#11"
+      ],
+      "show": "shamshera",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/dangerous-animals-review/": {
+      "hot": 1.2,
+      "points": 0,
+      "sources": [
+        "aglive#21"
+      ],
+      "show": "dangerous animals",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/mutiny-review-2/": {
+      "hot": 0.8,
+      "points": 0,
+      "sources": [
+        "aglive#22"
+      ],
+      "show": "mutiny",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/brothers-under-fire-review/": {
+      "hot": 0.4,
+      "points": 0,
+      "sources": [
+        "aglive#23"
+      ],
+      "show": "brothers under fire",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/9b229f90-a4fd-481b-a976-35cb76810fc6": {
+      "hot": 9.6,
+      "points": 9,
+      "sources": [
+        "oshakur#0"
+      ],
+      "show": "guardians of the dafeng",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/6fb797a8-2d56-459b-8eea-730842ea7bed": {
+      "hot": 8.8,
+      "points": 8.1,
+      "sources": [
+        "oshakur#2"
+      ],
+      "show": "cinderella game",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/the-ex-wife-season-01-review/": {
+      "hot": 8.4,
+      "points": 7.7,
+      "sources": [
+        "oshakur#3"
+      ],
+      "show": "the ex wife",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/975e93ed-2316-47c2-9946-b4ca97fb656c": {
+      "hot": 9.3,
+      "points": 13.1,
+      "sources": [
+        "oshakur#5",
+        "oshakur#6"
+      ],
+      "show": "tehran",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/94be49a0-ed49-432b-bf7f-c2fb0830e723": {
+      "hot": 6.8,
+      "points": 5.9,
+      "sources": [
+        "oshakur#7"
+      ],
+      "show": "incognito",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/8d185ebc-4e23-4390-9a83-6f9c2b894839": {
+      "hot": 6,
+      "points": 5,
+      "sources": [
+        "oshakur#9"
+      ],
+      "show": "love and sword",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/5951fe92-7329-4829-905d-e89191bede60": {
+      "hot": 5.6,
+      "points": 4.5,
+      "sources": [
+        "oshakur#10"
+      ],
+      "show": "no way up",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/51ce0dc9-226a-43fe-a292-0b8e735261f6": {
+      "hot": 4.8,
+      "points": 3.6,
+      "sources": [
+        "oshakur#12"
+      ],
+      "show": "drag me to hell",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/damsel-review/": {
+      "hot": 4.4,
+      "points": 3.1,
+      "sources": [
+        "oshakur#13"
+      ],
+      "show": "damsel",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/779e41d7-49f7-404a-872a-9fc5fb6c3ed3": {
+      "hot": 4,
+      "points": 2.7,
+      "sources": [
+        "oshakur#14"
+      ],
+      "show": "silo",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/13b6661b-ed80-4a21-992a-93aec81c5c9b": {
+      "hot": 3.6,
+      "points": 2.3,
+      "sources": [
+        "oshakur#15"
+      ],
+      "show": "deep sea mutant snake",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/fccd6b37-6184-4364-b3d5-fe6094427b69": {
+      "hot": 3.2,
+      "points": 1.8,
+      "sources": [
+        "oshakur#16"
+      ],
+      "show": "wrong turn 1",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/15820137-1834-4000-8789-bc592ee0f07d": {
+      "hot": 2.8,
+      "points": 1.3,
+      "sources": [
+        "oshakur#17"
+      ],
+      "show": "jeepers creepers reborn",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/the-gorge-review/": {
+      "hot": 2.4,
+      "points": 0.9,
+      "sources": [
+        "oshakur#18"
+      ],
+      "show": "the gorge",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/death-race-review/": {
+      "hot": 2,
+      "points": 0.4,
+      "sources": [
+        "oshakur#19"
+      ],
+      "show": "death race",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/pathaan-review/": {
+      "hot": 1.6,
+      "points": 0,
+      "sources": [
+        "oshakur#20"
+      ],
+      "show": "pathaan",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/avatar-the-last-airbender-s02-review/": {
+      "hot": 1.2,
+      "points": 0,
+      "sources": [
+        "oshakur#21"
+      ],
+      "show": "avatar the last airbender",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/action-jackson-review/": {
+      "hot": 0.8,
+      "points": 0,
+      "sources": [
+        "oshakur#22"
+      ],
+      "show": "action jackson",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/kesari-chapter-2-review/": {
+      "hot": 0.4,
+      "points": 0,
+      "sources": [
+        "oshakur#23"
+      ],
+      "show": "kesari 2",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/5e196fd9-8a2c-4408-9f74-58d06b928415": {
+      "hot": 9.6,
+      "points": 9,
+      "sources": [
+        "agnow#0"
+      ],
+      "show": "robinhood",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/33b3ecee-e72a-4c0d-8906-4fc397761013": {
+      "hot": 9.2,
+      "points": 8.6,
+      "sources": [
+        "agnow#1"
+      ],
+      "show": "sassy girl",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/611eb1fa-600a-419b-91d8-05618746d46e": {
+      "hot": 8.8,
+      "points": 8.1,
+      "sources": [
+        "agnow#2"
+      ],
+      "show": "brave citizen",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/5f3b8c86-c75c-4fbb-a074-6aacab8a4661": {
+      "hot": 8.4,
+      "points": 7.7,
+      "sources": [
+        "agnow#3"
+      ],
+      "show": "knight flower",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/86a95d75-b735-4810-95cc-ce374d94bd14": {
+      "hot": 8,
+      "points": 7.2,
+      "sources": [
+        "agnow#4"
+      ],
+      "show": "trouble man",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/9da8a1e4-3dbe-4fc6-bf51-6d97b453e1be": {
+      "hot": 7.6,
+      "points": 6.8,
+      "sources": [
+        "agnow#5"
+      ],
+      "show": "pyramid game",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/c4f4ad58-5cfe-4e73-b6af-ab50f061b472": {
+      "hot": 7.2,
+      "points": 6.3,
+      "sources": [
+        "agnow#6"
+      ],
+      "show": "kung fu hustle",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/29996a37-931f-4a85-8071-17fb2f3128db": {
+      "hot": 6.8,
+      "points": 5.9,
+      "sources": [
+        "agnow#7"
+      ],
+      "show": "la reine blanche",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/dracula-untold-review/": {
+      "hot": 6.4,
+      "points": 5.4,
+      "sources": [
+        "agnow#8"
+      ],
+      "show": "dracula untold",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/high-school-return-of-a-gangster-s01-review/": {
+      "hot": 6,
+      "points": 5,
+      "sources": [
+        "agnow#9"
+      ],
+      "show": "high school return of a gangster",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/64710b62-07f6-4e5b-b5fd-aed3b2a66148": {
+      "hot": 5.6,
+      "points": 4.5,
+      "sources": [
+        "agnow#10"
+      ],
+      "show": "alice in wonderland",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/the-continental-from-the-world-of-john-wick-review/": {
+      "hot": 5.2,
+      "points": 4.1,
+      "sources": [
+        "agnow#11"
+      ],
+      "show": "the continental",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/24-hours-to-live-review/": {
+      "hot": 4.8,
+      "points": 3.6,
+      "sources": [
+        "agnow#12"
+      ],
+      "show": "24 hours to live",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/unspeakable-sins-s01-review/": {
+      "hot": 4.4,
+      "points": 3.1,
+      "sources": [
+        "agnow#13"
+      ],
+      "show": "unspeakable sins",
+      "match": "score"
+    },
+    "https://agasobanuyelive.com/operation-mekong-review/": {
+      "hot": 4,
+      "points": 2.7,
+      "sources": [
+        "agnow#14"
+      ],
+      "show": "operation mekong",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/a54364e8-c15b-41fd-bad5-989d37eb7abc": {
+      "hot": 3.6,
+      "points": 2.3,
+      "sources": [
+        "agnow#15"
+      ],
+      "show": "noyontara",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/42b4c505-fff2-4753-b119-bba5a87d2409": {
+      "hot": 3.2,
+      "points": 1.8,
+      "sources": [
+        "agnow#16"
+      ],
+      "show": "bride hard",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/eede4594-72fb-413a-8365-98f284b68695": {
+      "hot": 2.4,
+      "points": 0.9,
+      "sources": [
+        "agnow#18"
+      ],
+      "show": "faces in the crowd",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/de682e7b-5d8b-4eb3-8a1f-ac3ede1e47d1": {
+      "hot": 2,
+      "points": 0.4,
+      "sources": [
+        "agnow#19"
+      ],
+      "show": "elite",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/669411e8-9fc4-43e6-99d6-379ab1a97634": {
+      "hot": 1.6,
+      "points": 0,
+      "sources": [
+        "agnow#20"
+      ],
+      "show": "tornado",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/68eff177-ae7b-492f-a753-577c63274519": {
+      "hot": 1.2,
+      "points": 0,
+      "sources": [
+        "agnow#21"
+      ],
+      "show": "gangs of manila",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/88bc2fc3-8a60-49e0-be3e-2be2c9ef67e9": {
+      "hot": 0.8,
+      "points": 0,
+      "sources": [
+        "agnow#22"
+      ],
+      "show": "waqt ki awaz",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/0ac6db0a-0fd9-4478-81b9-7f847d9e8ba8": {
+      "hot": 0.4,
+      "points": 0,
+      "sources": [
+        "agnow#23"
+      ],
+      "show": "hidden love",
+      "match": "score"
     }
   }
 }
