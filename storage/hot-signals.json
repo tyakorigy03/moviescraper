@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T22:38:37.661Z",
+  "updatedAt": "2026-10-29T05:52:55.630Z",
   "signals": {
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
       "hot": 9.1,
@@ -9,7 +9,7 @@
       ]
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/2b2e9612-c260-4409-a34d-e1c271d9d7e2/1000067209.mp4": {
-      "hot": 2.8,
+      "hot": 3.7,
       "sources": [
         "recomputed"
       ]
@@ -33,7 +33,7 @@
       ]
     },
     "https://agasobanuyelive.com/beauty-in-black-s01-review/": {
-      "hot": 6.5,
+      "hot": 4.7,
       "sources": [
         "recomputed"
       ]
@@ -63,7 +63,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
-      "hot": 3.7,
+      "hot": 7.4,
       "sources": [
         "recomputed"
       ]
@@ -80,20 +80,8 @@
         "recomputed"
       ]
     },
-    "https://www.rebamovie.com/movie/b158f87b-7088-4e1d-ba2e-eb2797db290e": {
-      "hot": 1.9,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/9dbd9002-0d50-47e3-8030-a854e956b039": {
-      "hot": 3.7,
-      "sources": [
-        "recomputed"
-      ]
-    },
     "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
-      "hot": 5.5,
+      "hot": 6.4,
       "sources": [
         "recomputed"
       ]
@@ -105,7 +93,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/9cd89102-289e-44f6-91f8-2223265e1fe6": {
-      "hot": 5.5,
+      "hot": 10,
       "sources": [
         "recomputed"
       ]
@@ -117,13 +105,7 @@
       ]
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 4.6,
-      "sources": [
-        "recomputed"
-      ]
-    },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
-      "hot": 9.1,
+      "hot": 2.8,
       "sources": [
         "recomputed"
       ]
@@ -135,7 +117,13 @@
       ]
     },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
-      "hot": 6.5,
+      "hot": 4.7,
+      "sources": [
+        "recomputed"
+      ]
+    },
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+      "hot": 9.1,
       "sources": [
         "recomputed"
       ]
