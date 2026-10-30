@@ -33410,5 +33410,177 @@
   {
     "message": "Failed scraping #: cleanSiteCountry is not defined",
     "timestamp": "2026-10-30T15:15:34.471Z"
+  },
+  {
+    "message": "downloadData did not mint for Rugal - S01E04 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T15:18:13.263Z"
+  },
+  {
+    "message": "downloadData did not mint for FROM - S03E01 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T15:18:39.662Z"
+  },
+  {
+    "message": "downloadData did not mint for FROM - S03E02 — returned our own token back (strike 2/3)",
+    "timestamp": "2026-10-30T15:18:40.212Z"
+  },
+  {
+    "message": "downloadData did not mint for FROM - S03E03 — returned our own token back (strike 3/3)",
+    "timestamp": "2026-10-30T15:18:40.679Z"
+  },
+  {
+    "message": "downloadData is not minting after 3 strikes — pausing calls for 30min rather than hammering it",
+    "timestamp": "2026-10-30T15:18:40.696Z"
+  },
+  {
+    "message": "downloadData empty for Fanaa (attempt 1)",
+    "timestamp": "2026-10-30T15:51:36.797Z"
+  },
+  {
+    "message": "downloadData did not mint for Unthinkable — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T15:59:26.904Z"
+  },
+  {
+    "message": "downloadData did not mint for Dirty Angels — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T16:04:06.107Z"
+  },
+  {
+    "message": "downloadData did not mint for The Protege — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T16:12:21.025Z"
+  },
+  {
+    "message": "downloadData empty for Vaamana (attempt 1)",
+    "timestamp": "2026-10-30T16:15:03.483Z"
+  },
+  {
+    "message": "downloadData empty for Vaamana (attempt 2)",
+    "timestamp": "2026-10-30T16:15:07.754Z"
+  },
+  {
+    "message": "downloadData empty for Vaamana (attempt 3)",
+    "timestamp": "2026-10-30T16:15:17.131Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 1)",
+    "timestamp": "2026-10-30T16:19:01.837Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 2)",
+    "timestamp": "2026-10-30T16:19:06.242Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 3)",
+    "timestamp": "2026-10-30T16:19:14.752Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 1)",
+    "timestamp": "2026-10-30T16:19:21.631Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 2)",
+    "timestamp": "2026-10-30T16:19:30.013Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 3)",
+    "timestamp": "2026-10-30T16:19:39.840Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 1)",
+    "timestamp": "2026-10-30T16:19:51.167Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 2)",
+    "timestamp": "2026-10-30T16:20:04.118Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 3)",
+    "timestamp": "2026-10-30T16:20:18.518Z"
+  },
+  {
+    "message": "downloadData empty for Bruce Lee - The Fighter (attempt 1)",
+    "timestamp": "2026-10-30T16:23:44.511Z"
+  },
+  {
+    "message": "downloadData empty for Bruce Lee - The Fighter (attempt 2)",
+    "timestamp": "2026-10-30T16:23:48.617Z"
+  },
+  {
+    "message": "downloadData empty for Bruce Lee - The Fighter (attempt 3)",
+    "timestamp": "2026-10-30T16:23:57.437Z"
+  },
+  {
+    "message": "downloadData did not mint for Hitman 2: Agent 47 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T16:24:35.560Z"
+  },
+  {
+    "message": "downloadData did not mint for I Spit on Your Grave 1 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T16:27:02.384Z"
+  },
+  {
+    "message": "downloadData did not mint for 3 Idiots — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T16:33:01.801Z"
+  },
+  {
+    "message": "downloadData did not mint for Kabhi Alvida Naa Kehna — returned our own token back (strike 2/3)",
+    "timestamp": "2026-10-30T16:33:02.804Z"
+  },
+  {
+    "message": "downloadData did not mint for Badland Hunters — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T16:34:08.421Z"
+  },
+  {
+    "message": "downloadData did not mint for The Day of the Jackal - S01E01 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T16:34:13.798Z"
+  },
+  {
+    "message": "downloadData did not mint for The Day of the Jackal - S01E02 — returned our own token back (strike 2/3)",
+    "timestamp": "2026-10-30T16:34:14.310Z"
+  },
+  {
+    "message": "downloadData did not mint for The Day of the Jackal - S01E03 — returned our own token back (strike 3/3)",
+    "timestamp": "2026-10-30T16:34:14.807Z"
+  },
+  {
+    "message": "downloadData is not minting after 3 strikes — pausing calls for 30min rather than hammering it",
+    "timestamp": "2026-10-30T16:34:14.825Z"
+  },
+  {
+    "message": "downloadData empty for Ghosted (attempt 1)",
+    "timestamp": "2026-10-30T17:04:34.398Z"
+  },
+  {
+    "message": "downloadData empty for Ghosted (attempt 2)",
+    "timestamp": "2026-10-30T17:04:39.009Z"
+  },
+  {
+    "message": "downloadData empty for Ghosted (attempt 3)",
+    "timestamp": "2026-10-30T17:04:48.692Z"
+  },
+  {
+    "message": "downloadData empty for The Brave - S01E02 (attempt 1)",
+    "timestamp": "2026-10-30T17:06:48.077Z"
+  },
+  {
+    "message": "downloadData empty for The Brave - S01E02 (attempt 2)",
+    "timestamp": "2026-10-30T17:06:52.873Z"
+  },
+  {
+    "message": "downloadData empty for The Brave - S01E02 (attempt 3)",
+    "timestamp": "2026-10-30T17:07:02.886Z"
+  },
+  {
+    "message": "downloadData empty for Fast and Furious Presents: Hobbs and Shaw (attempt 1)",
+    "timestamp": "2026-10-30T17:07:54.257Z"
+  },
+  {
+    "message": "downloadData empty for Fast and Furious Presents: Hobbs and Shaw (attempt 2)",
+    "timestamp": "2026-10-30T17:07:59.139Z"
+  },
+  {
+    "message": "downloadData empty for Fast and Furious Presents: Hobbs and Shaw (attempt 3)",
+    "timestamp": "2026-10-30T17:08:09.074Z"
+  },
+  {
+    "message": "downloadData did not mint for Raayan — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T17:09:19.205Z"
   }
 ]
