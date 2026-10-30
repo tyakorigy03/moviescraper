@@ -33262,5 +33262,9 @@
   {
     "message": "Failed scraping #: cleanSiteCountry is not defined",
     "timestamp": "2026-10-30T01:47:30.485Z"
+  },
+  {
+    "message": "downloadData did not mint for Da Vinci's Demons - S01E04 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-10-30T01:50:01.056Z"
   }
 ]
