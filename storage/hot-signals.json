@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-29T22:48:11.207Z",
+  "updatedAt": "2026-10-30T05:54:01.052Z",
   "signals": {
     "https://agasobanuyelive.com/lupin-season-03-review/": {
       "hot": 10,
@@ -53,56 +53,56 @@
       "show": "matchbox the movie",
       "match": "score"
     },
-    "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
-      "hot": 7.6,
-      "points": 5.5,
+    "https://www.rebamovie.com/movie/9cd89102-289e-44f6-91f8-2223265e1fe6": {
+      "hot": 9.3,
+      "points": 10.1,
       "sources": [
-        "reba-trending#5"
+        "reba-trending#5",
+        "reba-new#6"
       ],
-      "show": "spider man brand new day",
+      "show": "i am legend",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
+      "hot": 9,
+      "points": 7.4,
+      "sources": [
+        "reba-trending#6",
+        "reba-new#8"
+      ],
+      "show": "the paradise",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 9.6,
-      "points": 11.9,
+      "hot": 9.5,
+      "points": 11,
       "sources": [
-        "reba-trending#6",
+        "reba-trending#7",
         "reba-popular#3"
       ],
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/9cd89102-289e-44f6-91f8-2223265e1fe6": {
-      "hot": 9.1,
-      "points": 8.3,
+    "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
+      "hot": 6.4,
+      "points": 2.8,
       "sources": [
-        "reba-trending#7",
-        "reba-new#6"
+        "reba-trending#8"
       ],
-      "show": "i am legend",
+      "show": "spider man brand new day",
       "match": "narrator"
     },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
       "hot": 10,
       "points": 23.2,
       "sources": [
-        "reba-trending#8",
-        "reba-popular#8",
+        "reba-trending#9",
+        "reba-popular#7",
         "aglive#0",
         "oshakur#1"
       ],
       "show": "beauty in black",
       "match": "score"
-    },
-    "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
-      "hot": 8.6,
-      "points": 4.7,
-      "sources": [
-        "reba-trending#9",
-        "reba-new#8"
-      ],
-      "show": "the paradise",
-      "match": "narrator"
     },
     "https://www.rebamovie.com/movie/ea90d1b5-9589-4823-8fcf-a7a9af6e7e61": {
       "hot": 9.9,
@@ -168,31 +168,31 @@
       "show": "doing life",
       "match": "narrator"
     },
-    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/b18c98f3-4e3c-439f-bef0-45bf45af3212/mayday-a.mp4": {
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/2b2e9612-c260-4409-a34d-e1c271d9d7e2/1000067209.mp4": {
       "hot": 7.2,
       "points": 4.6,
       "sources": [
         "reba-popular#6"
       ],
-      "show": "mayday",
-      "match": "score"
-    },
-    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/2b2e9612-c260-4409-a34d-e1c271d9d7e2/1000067209.mp4": {
-      "hot": 6.8,
-      "points": 3.7,
-      "sources": [
-        "reba-popular#7"
-      ],
       "show": "hacksaw ridge",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/b18c98f3-4e3c-439f-bef0-45bf45af3212/mayday-a.mp4": {
+      "hot": 6.4,
+      "points": 2.8,
+      "sources": [
+        "reba-popular#8"
+      ],
+      "show": "mayday",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/f81b8775-6ef3-4934-9ad9-5b534486d6e2": {
       "hot": 6,
       "points": 1.9,
       "sources": [
         "reba-popular#9"
       ],
-      "show": "designated survivor",
+      "show": "fall 2 deadpoint",
       "match": "narrator"
     },
     "https://agasobanuyelive.com/young-swordsman-s01-review/": {
