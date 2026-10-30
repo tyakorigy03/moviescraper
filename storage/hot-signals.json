@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-30T13:00:26.876Z",
+  "updatedAt": "2026-10-30T22:24:48.686Z",
   "signals": {
     "https://agasobanuyelive.com/lupin-season-03-review/": {
       "hot": 10,
-      "points": 22.8,
+      "points": 20.1,
       "sources": [
         "reba-trending#0",
-        "reba-new#4",
+        "reba-new#7",
         "reba-popular#4"
       ],
       "show": "lupin",
@@ -34,11 +34,11 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
-      "hot": 9.7,
-      "points": 14.6,
+      "hot": 9.6,
+      "points": 11.9,
       "sources": [
         "reba-trending#3",
-        "reba-new#3"
+        "reba-new#6"
       ],
       "show": "rugal",
       "match": "narrator"
@@ -54,33 +54,31 @@
       "match": "score"
     },
     "https://www.rebamovie.com/movie/9cd89102-289e-44f6-91f8-2223265e1fe6": {
-      "hot": 9.2,
-      "points": 9.2,
+      "hot": 7.6,
+      "points": 5.5,
       "sources": [
-        "reba-trending#5",
-        "reba-new#7"
+        "reba-trending#5"
       ],
       "show": "i am legend",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
-      "hot": 8.9,
-      "points": 6.5,
+    "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
+      "hot": 9.6,
+      "points": 11.9,
       "sources": [
         "reba-trending#6",
-        "reba-new#9"
-      ],
-      "show": "the paradise",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 9.5,
-      "points": 11,
-      "sources": [
-        "reba-trending#7",
         "reba-popular#3"
       ],
       "show": "special ops lioness",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
+      "hot": 6.8,
+      "points": 3.7,
+      "sources": [
+        "reba-trending#7"
+      ],
+      "show": "the paradise",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
@@ -104,50 +102,77 @@
       "show": "beauty in black",
       "match": "score"
     },
-    "https://www.rebamovie.com/movie/ea90d1b5-9589-4823-8fcf-a7a9af6e7e61": {
-      "hot": 9.7,
-      "points": 15,
+    "https://www.rebamovie.com/movie/fb7c4190-afd1-4464-9c0d-c7ac39ea739e": {
+      "hot": 9.6,
+      "points": 10,
       "sources": [
-        "reba-new#1",
-        "aglive#7"
+        "reba-new#0"
       ],
-      "show": "da vinci s demons",
+      "show": "the weight",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+    "https://www.rebamovie.com/movie/c9fc4e90-09e8-4293-b8c1-e81ec90c5f80": {
+      "hot": 9.2,
+      "points": 9.1,
+      "sources": [
+        "reba-new#1"
+      ],
+      "show": "the dog stars",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/09c3c48b-1869-446b-9cdc-f1e657b4e1c5": {
       "hot": 8.8,
       "points": 8.2,
       "sources": [
         "reba-new#2"
       ],
+      "show": "carrie",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
+      "hot": 8.4,
+      "points": 7.3,
+      "sources": [
+        "reba-new#3"
+      ],
+      "show": "now and forever",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+      "hot": 8,
+      "points": 6.4,
+      "sources": [
+        "reba-new#4"
+      ],
       "show": "within the grip",
       "match": "narrator"
     },
+    "https://www.rebamovie.com/movie/ea90d1b5-9589-4823-8fcf-a7a9af6e7e61": {
+      "hot": 9.2,
+      "points": 11.4,
+      "sources": [
+        "reba-new#5",
+        "aglive#7"
+      ],
+      "show": "da vinci s demons",
+      "match": "narrator"
+    },
     "https://www.rebamovie.com/movie/364be943-18c3-480f-96fa-ab8c58f944cd": {
-      "hot": 7.6,
-      "points": 5.5,
-      "sources": [
-        "reba-new#5"
-      ],
-      "show": "the pursuit of happyness",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
-      "hot": 7.2,
-      "points": 4.6,
-      "sources": [
-        "reba-new#6"
-      ],
-      "show": "facing el chapo",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
       "hot": 6.4,
       "points": 2.8,
       "sources": [
         "reba-new#8"
       ],
-      "show": "from",
+      "show": "the pursuit of happyness",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
+      "hot": 6,
+      "points": 1.9,
+      "sources": [
+        "reba-new#9"
+      ],
+      "show": "facing el chapo",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
