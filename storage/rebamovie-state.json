@@ -152854,68 +152854,80 @@
       ]
     },
     "9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
-      "at": "2026-10-30T20:15:48.116Z",
-      "badge": "S1 EP10",
+      "at": "2026-10-31T11:10:29.131Z",
+      "badge": "S1 EP12",
       "type": "tv",
       "singleSeason": true,
       "entries": [
         {
           "title": "S01E01",
-          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_5db332d9e1ef43c6ae66f0a8babd9937/,480p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePCUMhQc87n7SSNtvv_zRAQlaBT6nW0dHab5mID9rV7SPRQaF-kVDjkwVQuiu-M2N2JjAdX_cLHxJMog6ARDm4Z4vpq1ACli5qcBidycJKpD41LiOW_qsaJ7bOexE2wasT2lRQDVT-lVkLPGdmK-ntMuWmzaT1MUXPgwjyg6bj3lNHI3yoW-1LIHkOtNEVWtZQzoC20wmHWHJeAQJmRdUy5BFAYyDtV9e1BbzVY1McIzXiaTNHNbY3MDFEtFnP2oWrsbeVeNIakJWgErU36R1xPY%26signature%3D-9tnZFH9bBUt6a8wch3DLV-RUEzlPTdJGg8PsvlJIpE",
-          "downloadUrl": "https://download-video.wixmp.com/video/d7f9fb_5db332d9e1ef43c6ae66f0a8babd9937/480p/mp4/file.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmoiOltbeyJwYXRoIjoiL3ZpZGVvL2Q3ZjlmYl81ZGIzMzJkOWUxZWY0M2M2YWU2NmYwYThiYWJkOTkzNy80ODBwL21wNC9maWxlLm1wNCJ9XV0sImRpcyI6eyJmaWxlbmFtZSI6IldpdGhpbiB0aGUgR3JpcCAtIFMwMUUwMS5tcDQiLCJ0eXBlIjoiYXR0YWNobWVudCJ9LCJyZWQiOiJodHRwczovL3d3dy5yZWJhbW92aWUuY29tIiwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXSwiZXhwIjoxNzkzNDc3NzM1LCJqdGkiOiJlOTBhMjM4Yi0xNmI5LTQyZTUtOTM2Yi04OTJhZWFiYmUyMWEiLCJpYXQiOjE3OTMzOTEzMzUsImlzcyI6InVybjphcHA6ZTY2NjMwZTcxNGYwNDkwYWFlYTFmMTQ5YjNiNjllMzIiLCJzdWIiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIn0.0rzkv6NWU6BIzVXvgkQL7slNofsxQSkvAVW5uMzJl-Q",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_5db332d9e1ef43c6ae66f0a8babd9937/,480p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePCUMhQc87n7SSNtvv_zRAQlaBT6nW0dHab5mID9rV7SPRQaF-kVDjkwVQuiu-M2N2JjAdX_cLHxJMog6ARDm4Z4vpq1ACli5qcBidycJKpD41LiOW_qsaJ7bOexE2wasT2lRQDVT-lVkLPGdmK-ntMuWmzaT1MUXPgwjyg6bj3lNHI3yoW-1LIHkOtNEVWtZQ925-BaQftKSneJIDZ9MzsnYd2zWmSSiU6bTKP5JSqDEYQmIqJqMaDRbJ5Ah2cPPVdm2eZG_qGvDOd9UwQngV-U%26signature%3Dd-2cQ83I2oTmIIbMMt0q8vw-P7gouqZFKZnZ--DtshM",
+          "downloadUrl": "https://download-video.wixmp.com/video/d7f9fb_5db332d9e1ef43c6ae66f0a8babd9937/480p/mp4/file.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmoiOltbeyJwYXRoIjoiL3ZpZGVvL2Q3ZjlmYl81ZGIzMzJkOWUxZWY0M2M2YWU2NmYwYThiYWJkOTkzNy80ODBwL21wNC9maWxlLm1wNCJ9XV0sImRpcyI6eyJmaWxlbmFtZSI6IldpdGhpbiB0aGUgR3JpcCAtIFMwMUUwMS5tcDQiLCJ0eXBlIjoiYXR0YWNobWVudCJ9LCJyZWQiOiJodHRwczovL3d3dy5yZWJhbW92aWUuY29tIiwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXSwiZXhwIjoxNzkzNTMxNDEzLCJqdGkiOiJjMGQ1MTZmNS1mYTEyLTQyZWYtOGY2MS1mMDdhZDM2YWMxYjIiLCJpYXQiOjE3OTM0NDUwMTMsImlzcyI6InVybjphcHA6ZTY2NjMwZTcxNGYwNDkwYWFlYTFmMTQ5YjNiNjllMzIiLCJzdWIiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIn0.LHzWboBLzfB0cUujwbSjjWFQ8ZgkoDHg1h5OO8rPt4k",
           "direct": true
         },
         {
           "title": "S01E02",
-          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_b2d0f7d3976f4cbe9b16eb6f54a6552e/,480p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePCUMhQc87n7SSNtvv_zRAQlaBT6nW0dHab5mID9rV7SPRQaF-kVDjkwVQuiu-M2N2JjAdX_cLHxJMog6ARDm4Z4vpq1ACli5qcBidycJKpD41LiOW_qsaJ7bOexE2wasT2lRQDVT-lVkLPGdmK-ntMuWmzaT1MUXPgwjyg6bj3lNHI3yoW-1LIHkOtNEVWtZQzoC20wmHWHJeAQJmRdUy5BFAYyDtV9e1BbzVY1McIzXiaTNHNbY3MDFEtFnP2oWrsbeVeNIakJWgErU36R1xPY%26signature%3D-9tnZFH9bBUt6a8wch3DLV-RUEzlPTdJGg8PsvlJIpE",
-          "downloadUrl": "https://download-video.wixmp.com/video/d7f9fb_b2d0f7d3976f4cbe9b16eb6f54a6552e/480p/mp4/file.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmoiOltbeyJwYXRoIjoiL3ZpZGVvL2Q3ZjlmYl9iMmQwZjdkMzk3NmY0Y2JlOWIxNmViNmY1NGE2NTUyZS80ODBwL21wNC9maWxlLm1wNCJ9XV0sImRpcyI6eyJmaWxlbmFtZSI6IldpdGhpbiB0aGUgR3JpcCAtIFMwMUUwMi5tcDQiLCJ0eXBlIjoiYXR0YWNobWVudCJ9LCJyZWQiOiJodHRwczovL3d3dy5yZWJhbW92aWUuY29tIiwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXSwiZXhwIjoxNzkzNDc3NzM2LCJqdGkiOiJhOTVmMDhmZi02YmI0LTRkOTMtOTk3OS0wOWVkNDA4NTBhZTgiLCJpYXQiOjE3OTMzOTEzMzYsImlzcyI6InVybjphcHA6ZTY2NjMwZTcxNGYwNDkwYWFlYTFmMTQ5YjNiNjllMzIiLCJzdWIiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIn0.doQCuY-2F0aYuWbVH2ji3A4RYlD3XlAFucOGHTepa-Q",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_b2d0f7d3976f4cbe9b16eb6f54a6552e/,480p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePCUMhQc87n7SSNtvv_zRAQlaBT6nW0dHab5mID9rV7SPRQaF-kVDjkwVQuiu-M2N2JjAdX_cLHxJMog6ARDm4Z4vpq1ACli5qcBidycJKpD41LiOW_qsaJ7bOexE2wasT2lRQDVT-lVkLPGdmK-ntMuWmzaT1MUXPgwjyg6bj3lNHI3yoW-1LIHkOtNEVWtZQ925-BaQftKSneJIDZ9MzsnYd2zWmSSiU6bTKP5JSqDEYQmIqJqMaDRbJ5Ah2cPPVdm2eZG_qGvDOd9UwQngV-U%26signature%3Dd-2cQ83I2oTmIIbMMt0q8vw-P7gouqZFKZnZ--DtshM",
+          "downloadUrl": "https://download-video.wixmp.com/video/d7f9fb_b2d0f7d3976f4cbe9b16eb6f54a6552e/480p/mp4/file.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmoiOltbeyJwYXRoIjoiL3ZpZGVvL2Q3ZjlmYl9iMmQwZjdkMzk3NmY0Y2JlOWIxNmViNmY1NGE2NTUyZS80ODBwL21wNC9maWxlLm1wNCJ9XV0sImRpcyI6eyJmaWxlbmFtZSI6IldpdGhpbiB0aGUgR3JpcCAtIFMwMUUwMi5tcDQiLCJ0eXBlIjoiYXR0YWNobWVudCJ9LCJyZWQiOiJodHRwczovL3d3dy5yZWJhbW92aWUuY29tIiwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXSwiZXhwIjoxNzkzNTMxNDE2LCJqdGkiOiI4YmNlN2Y2OC05ZTZkLTQ0ZDUtYTcyNS0wNTk2OTQ0YTQ1YmQiLCJpYXQiOjE3OTM0NDUwMTYsImlzcyI6InVybjphcHA6ZTY2NjMwZTcxNGYwNDkwYWFlYTFmMTQ5YjNiNjllMzIiLCJzdWIiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIn0.v04gfjjK-I_ssxfY6ejDCcr0GW6DVvuL8aZXighnLps",
           "direct": true
         },
         {
           "title": "S01E03",
-          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_9029fe914cba48ca8204d2653b76b13c/,480p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePCUMhQc87n7SSNtvv_zRAQlaBT6nW0dHab5mID9rV7SPRQaF-kVDjkwVQuiu-M2N2JjAdX_cLHxJMog6ARDm4Z4vpq1ACli5qcBidycJKpD41LiOW_qsaJ7bOexE2wasT2lRQDVT-lVkLPGdmK-ntMuWmzaT1MUXPgwjyg6bj3lNHI3yoW-1LIHkOtNEVWtZQzoC20wmHWHJeAQJmRdUy5BFAYyDtV9e1BbzVY1McIzXiaTNHNbY3MDFEtFnP2oWrsbeVeNIakJWgErU36R1xPY%26signature%3D-9tnZFH9bBUt6a8wch3DLV-RUEzlPTdJGg8PsvlJIpE",
-          "downloadUrl": "https://download-video.wixmp.com/video/d7f9fb_9029fe914cba48ca8204d2653b76b13c/480p/mp4/file.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmoiOltbeyJwYXRoIjoiL3ZpZGVvL2Q3ZjlmYl85MDI5ZmU5MTRjYmE0OGNhODIwNGQyNjUzYjc2YjEzYy80ODBwL21wNC9maWxlLm1wNCJ9XV0sImRpcyI6eyJmaWxlbmFtZSI6IldpdGhpbiB0aGUgR3JpcCAtIFMwMUUwMy5tcDQiLCJ0eXBlIjoiYXR0YWNobWVudCJ9LCJyZWQiOiJodHRwczovL3d3dy5yZWJhbW92aWUuY29tIiwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXSwiZXhwIjoxNzkzNDc3NzM3LCJqdGkiOiJhMjM1MmM5ZC03MDY0LTQ2MTctODA1My00MDQ1M2E1MzlkNzQiLCJpYXQiOjE3OTMzOTEzMzcsImlzcyI6InVybjphcHA6ZTY2NjMwZTcxNGYwNDkwYWFlYTFmMTQ5YjNiNjllMzIiLCJzdWIiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIn0._NVIEyQg-ja_2ll0lTD9msKnhX95D8vAp9typgVk5P4",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_9029fe914cba48ca8204d2653b76b13c/,480p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePCUMhQc87n7SSNtvv_zRAQlaBT6nW0dHab5mID9rV7SPRQaF-kVDjkwVQuiu-M2N2JjAdX_cLHxJMog6ARDm4Z4vpq1ACli5qcBidycJKpD41LiOW_qsaJ7bOexE2wasT2lRQDVT-lVkLPGdmK-ntMuWmzaT1MUXPgwjyg6bj3lNHI3yoW-1LIHkOtNEVWtZQ925-BaQftKSneJIDZ9MzsnYd2zWmSSiU6bTKP5JSqDEYQmIqJqMaDRbJ5Ah2cPPVdm2eZG_qGvDOd9UwQngV-U%26signature%3Dd-2cQ83I2oTmIIbMMt0q8vw-P7gouqZFKZnZ--DtshM",
+          "downloadUrl": "https://download-video.wixmp.com/video/d7f9fb_9029fe914cba48ca8204d2653b76b13c/480p/mp4/file.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmoiOltbeyJwYXRoIjoiL3ZpZGVvL2Q3ZjlmYl85MDI5ZmU5MTRjYmE0OGNhODIwNGQyNjUzYjc2YjEzYy80ODBwL21wNC9maWxlLm1wNCJ9XV0sImRpcyI6eyJmaWxlbmFtZSI6IldpdGhpbiB0aGUgR3JpcCAtIFMwMUUwMy5tcDQiLCJ0eXBlIjoiYXR0YWNobWVudCJ9LCJyZWQiOiJodHRwczovL3d3dy5yZWJhbW92aWUuY29tIiwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXSwiZXhwIjoxNzkzNTMxNDE3LCJqdGkiOiI4M2JiYWUzMy1jOGYyLTRhNWItOWIwNC01MDdmN2I0Y2FjMWUiLCJpYXQiOjE3OTM0NDUwMTcsImlzcyI6InVybjphcHA6ZTY2NjMwZTcxNGYwNDkwYWFlYTFmMTQ5YjNiNjllMzIiLCJzdWIiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIn0.Vb5IMTyu-7IMG_pR4Iwz7xHQOB0rjtmaBNJPs7nEwKg",
           "direct": true
         },
         {
           "title": "S01E04",
-          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKOol7XSNNPQfuNZfYXouTXRVBRWNvXIkadb7jhn2ph3SxXqtTslIhp0REELIWvVP-LzBqfbtb_F9ew4MWjLspxI%26signature%3D6ta1yhH1v79C_RPX9N6DojDQc7k8CKeM7G29JUuDzLU",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKMGOM4cgCElOy1ZZjqs3DUzAcFbz2o_utC-hJz_FlqfeDZmYg8izPtZLBbgT-FZmOtzn7AYxOPnUiWt5MDpFeRA%26signature%3D7fUtFxOhPKwvcQyZr-985eEqmvm8KrLOBvObKjH_nAk",
           "downloadUrl": "",
           "direct": true
         },
         {
           "title": "S01E05",
-          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKOol7XSNNPQfuNZfYXouTXRVBRWNvXIkadb7jhn2ph3SxXqtTslIhp0REELIWvVP-LzBqfbtb_F9ew4MWjLspxI%26signature%3D6ta1yhH1v79C_RPX9N6DojDQc7k8CKeM7G29JUuDzLU",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKMGOM4cgCElOy1ZZjqs3DUzAcFbz2o_utC-hJz_FlqfeDZmYg8izPtZLBbgT-FZmOtzn7AYxOPnUiWt5MDpFeRA%26signature%3D7fUtFxOhPKwvcQyZr-985eEqmvm8KrLOBvObKjH_nAk",
           "downloadUrl": "",
           "direct": true
         },
         {
           "title": "S01E06",
-          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKOol7XSNNPQfuNZfYXouTXRVBRWNvXIkadb7jhn2ph3SxXqtTslIhp0REELIWvVP-LzBqfbtb_F9ew4MWjLspxI%26signature%3D6ta1yhH1v79C_RPX9N6DojDQc7k8CKeM7G29JUuDzLU",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKMGOM4cgCElOy1ZZjqs3DUzAcFbz2o_utC-hJz_FlqfeDZmYg8izPtZLBbgT-FZmOtzn7AYxOPnUiWt5MDpFeRA%26signature%3D7fUtFxOhPKwvcQyZr-985eEqmvm8KrLOBvObKjH_nAk",
           "downloadUrl": "",
           "direct": true
         },
         {
           "title": "S01E07",
-          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKOol7XSNNPQfuNZfYXouTXRVBRWNvXIkadb7jhn2ph3SxXqtTslIhp0REELIWvVP-LzBqfbtb_F9ew4MWjLspxI%26signature%3D6ta1yhH1v79C_RPX9N6DojDQc7k8CKeM7G29JUuDzLU",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKMGOM4cgCElOy1ZZjqs3DUzAcFbz2o_utC-hJz_FlqfeDZmYg8izPtZLBbgT-FZmOtzn7AYxOPnUiWt5MDpFeRA%26signature%3D7fUtFxOhPKwvcQyZr-985eEqmvm8KrLOBvObKjH_nAk",
           "downloadUrl": "",
           "direct": true
         },
         {
           "title": "S01E08",
-          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKOol7XSNNPQfuNZfYXouTXRVBRWNvXIkadb7jhn2ph3SxXqtTslIhp0REELIWvVP-LzBqfbtb_F9ew4MWjLspxI%26signature%3D6ta1yhH1v79C_RPX9N6DojDQc7k8CKeM7G29JUuDzLU",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKMGOM4cgCElOy1ZZjqs3DUzAcFbz2o_utC-hJz_FlqfeDZmYg8izPtZLBbgT-FZmOtzn7AYxOPnUiWt5MDpFeRA%26signature%3D7fUtFxOhPKwvcQyZr-985eEqmvm8KrLOBvObKjH_nAk",
           "downloadUrl": "",
           "direct": true
         },
         {
           "title": "S01E09",
-          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKOol7XSNNPQfuNZfYXouTXRVBRWNvXIkadb7jhn2ph3SxXqtTslIhp0REELIWvVP-LzBqfbtb_F9ew4MWjLspxI%26signature%3D6ta1yhH1v79C_RPX9N6DojDQc7k8CKeM7G29JUuDzLU",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKMGOM4cgCElOy1ZZjqs3DUzAcFbz2o_utC-hJz_FlqfeDZmYg8izPtZLBbgT-FZmOtzn7AYxOPnUiWt5MDpFeRA%26signature%3D7fUtFxOhPKwvcQyZr-985eEqmvm8KrLOBvObKjH_nAk",
           "downloadUrl": "",
           "direct": true
         },
         {
           "title": "S01E10",
-          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKOol7XSNNPQfuNZfYXouTXRVBRWNvXIkadb7jhn2ph3SxXqtTslIhp0REELIWvVP-LzBqfbtb_F9ew4MWjLspxI%26signature%3D6ta1yhH1v79C_RPX9N6DojDQc7k8CKeM7G29JUuDzLU",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKMGOM4cgCElOy1ZZjqs3DUzAcFbz2o_utC-hJz_FlqfeDZmYg8izPtZLBbgT-FZmOtzn7AYxOPnUiWt5MDpFeRA%26signature%3D7fUtFxOhPKwvcQyZr-985eEqmvm8KrLOBvObKjH_nAk",
+          "downloadUrl": "",
+          "direct": true
+        },
+        {
+          "title": "S01E11",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKMGOM4cgCElOy1ZZjqs3DUzAcFbz2o_utC-hJz_FlqfeDZmYg8izPtZLBbgT-FZmOtzn7AYxOPnUiWt5MDpFeRA%26signature%3D7fUtFxOhPKwvcQyZr-985eEqmvm8KrLOBvObKjH_nAk",
+          "downloadUrl": "",
+          "direct": true
+        },
+        {
+          "title": "S01E12",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_574aa761de3a4cbe82c6a484434e93a4/,720p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePFF5lnnsFBpoeLZtIGDQVgkngyCACiXTYTAYj1uCG0eQnMzo3owusJ1d7M-cB2lLpmOcoTWkCGXg_ODqZmTOET6WRseLO-U1DSBPcidgjdNNy2eRW19BncNCq8n5Ii04yuGljUcF8lsm8cXfqVt7L1I6CGIKo7-3OeCHGy8beu0m1aNjC0YnBrWCTm0veR5VKMGOM4cgCElOy1ZZjqs3DUzAcFbz2o_utC-hJz_FlqfeDZmYg8izPtZLBbgT-FZmOtzn7AYxOPnUiWt5MDpFeRA%26signature%3D7fUtFxOhPKwvcQyZr-985eEqmvm8KrLOBvObKjH_nAk",
           "downloadUrl": "",
           "direct": true
         }
@@ -154262,7 +154274,7 @@
       ]
     }
   },
-  "lastRunAt": "2026-10-31T05:35:38.286Z",
+  "lastRunAt": "2026-10-31T11:17:34.756Z",
   "lastFullScanAt": null,
   "failed": {},
   "pendingWrites": []
