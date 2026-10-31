@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-30T22:24:48.686Z",
+  "updatedAt": "2026-10-31T05:49:12.438Z",
   "signals": {
     "https://agasobanuyelive.com/lupin-season-03-review/": {
       "hot": 10,
@@ -13,24 +13,24 @@
       "show": "lupin",
       "match": "score"
     },
-    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
-      "hot": 9.9,
-      "points": 17.3,
-      "sources": [
-        "reba-trending#1",
-        "reba-popular#2"
-      ],
-      "show": "masterplan",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/a1762bf1-bc71-461b-be7c-90ec7645ae0e": {
       "hot": 10,
-      "points": 18.2,
+      "points": 19.1,
       "sources": [
-        "reba-trending#2",
+        "reba-trending#1",
         "reba-popular#0"
       ],
       "show": "devious maids",
+      "match": "narrator"
+    },
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
+      "hot": 9.9,
+      "points": 16.4,
+      "sources": [
+        "reba-trending#2",
+        "reba-popular#2"
+      ],
+      "show": "masterplan",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
@@ -43,64 +43,65 @@
       "show": "rugal",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
-      "hot": 9.5,
-      "points": 11.9,
-      "sources": [
-        "reba-trending#4",
-        "reba-popular#5"
-      ],
-      "show": "matchbox the movie",
-      "match": "score"
-    },
     "https://www.rebamovie.com/movie/9cd89102-289e-44f6-91f8-2223265e1fe6": {
+      "hot": 8,
+      "points": 6.4,
+      "sources": [
+        "reba-trending#4"
+      ],
+      "show": "i am legend",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
       "hot": 7.6,
       "points": 5.5,
       "sources": [
         "reba-trending#5"
       ],
-      "show": "i am legend",
+      "show": "the paradise",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 9.6,
-      "points": 11.9,
+    "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
+      "hot": 9.3,
+      "points": 10.1,
       "sources": [
         "reba-trending#6",
+        "reba-popular#5"
+      ],
+      "show": "matchbox the movie",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
+      "hot": 9.5,
+      "points": 11,
+      "sources": [
+        "reba-trending#7",
         "reba-popular#3"
       ],
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
-      "hot": 6.8,
-      "points": 3.7,
-      "sources": [
-        "reba-trending#7"
-      ],
-      "show": "the paradise",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/ae9d5e27-65ab-4f95-a82c-cfabc90b23e1": {
-      "hot": 6.4,
-      "points": 2.8,
-      "sources": [
-        "reba-trending#8"
-      ],
-      "show": "spider man brand new day",
-      "match": "narrator"
-    },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
       "hot": 10,
-      "points": 23.2,
+      "points": 24.1,
       "sources": [
-        "reba-trending#9",
+        "reba-trending#8",
         "reba-popular#7",
         "aglive#0",
         "oshakur#1"
       ],
       "show": "beauty in black",
       "match": "score"
+    },
+    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
+      "hot": 8.4,
+      "points": 3.8,
+      "sources": [
+        "reba-trending#9",
+        "reba-new#9"
+      ],
+      "show": "facing el chapo",
+      "match": "narrator"
     },
     "https://www.rebamovie.com/movie/fb7c4190-afd1-4464-9c0d-c7ac39ea739e": {
       "hot": 9.6,
@@ -164,15 +165,6 @@
         "reba-new#8"
       ],
       "show": "the pursuit of happyness",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
-      "hot": 6,
-      "points": 1.9,
-      "sources": [
-        "reba-new#9"
-      ],
-      "show": "facing el chapo",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
