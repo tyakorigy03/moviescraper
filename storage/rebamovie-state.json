@@ -154232,9 +154232,37 @@
           "direct": true
         }
       ]
+    },
+    "6711a736-3be5-4253-b4a7-6d3ae3dcdc6b": {
+      "at": "2026-10-31T00:01:07.140Z",
+      "badge": "02:04:00",
+      "type": "movie",
+      "singleSeason": true,
+      "entries": [
+        {
+          "title": "Fantastic Beasts 1: and Where to Find Them",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_2a8555b959b04a9d8ce773d083fd289f/,480p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePCUMhQc87n7SSNtvv_zRAQlaBT6nW0dHab5mID9rV7SPRQaF-kVDjkwVQuiu-M2N2JjAdX_cLHxJMog6ARDm4Z4vpq1ACli5qcBidycJKpD41LiOW_qsaJ7bOexE2wasT2lRQDVT-lVkLPGdmK-ntMuWmzaT1MUXPgwjyg6bj3lNHI3yoW-1LIHkOtNEVWtZQz6-LYQnTBU9zuM-YbTNyZ40_1YhLslZghlDADMN5xFsEBOj0shqYjVOteV8YfqeXJEEv1wY_snD4AJhViBi348%26signature%3DxWs3w9jdakhBvFwgcerv23NB32sUwBFggQHrXNbZswU",
+          "downloadUrl": "https://download-video.wixmp.com/video/d7f9fb_2a8555b959b04a9d8ce773d083fd289f/480p/mp4/file.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmoiOltbeyJwYXRoIjoiL3ZpZGVvL2Q3ZjlmYl8yYTg1NTViOTU5YjA0YTlkOGNlNzczZDA4M2ZkMjg5Zi80ODBwL21wNC9maWxlLm1wNCJ9XV0sImRpcyI6eyJmaWxlbmFtZSI6IkZhbnRhc3RpYyBCZWFzdHMgMTogYW5kIFdoZXJlIHRvIEZpbmQgVGhlbS5tcDQiLCJ0eXBlIjoiYXR0YWNobWVudCJ9LCJyZWQiOiJodHRwczovL3d3dy5yZWJhbW92aWUuY29tIiwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXSwiZXhwIjoxNzkzNDkxMjU2LCJqdGkiOiJlMGY4OTllYS0wYWJlLTRkNTEtYTc2Zi03NDQyYWFmMzg5OTciLCJpYXQiOjE3OTM0MDQ4NTYsImlzcyI6InVybjphcHA6ZTY2NjMwZTcxNGYwNDkwYWFlYTFmMTQ5YjNiNjllMzIiLCJzdWIiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIn0.FPdLmnpnF6QQ1yWSXMcviHkvNaB2g0JYNwrl1TAEWME",
+          "direct": true
+        }
+      ]
+    },
+    "c176ac30-351c-4c44-9c63-6570e05c28dd": {
+      "at": "2026-10-31T00:01:08.857Z",
+      "badge": "02:06:12",
+      "type": "movie",
+      "singleSeason": true,
+      "entries": [
+        {
+          "title": "Fantastic Beasts2 : The Crimes of Grindelwald",
+          "watchUrl": "https://cdn-video.rebamovie.com/d7f9fb_59706bdf18bc41ebbf570ec5bf2b1193/,480p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePCUMhQc87n7SSNtvv_zRAQlaBT6nW0dHab5mID9rV7SPRQaF-kVDjkwVQuiu-M2N2JjAdX_cLHxJMog6ARDm4Z4vpq1ACli5qcBidycJKpD41LiOW_qsaJ7bOexE2wasT2lRQDVT-lVkLPGdmK-ntMuWmzaT1MUXPgwjyg6bj3lNHI3yoW-1LIHkOtNEVWtZQ00uHSoMaCuAOGqAAhJvJZg0CY5sgbq2ldDLwOLnZsh1qSxB4NwVBjOZd-meb86t0m4tuvL5aHTUSKgxEtdu5RI%26signature%3DBuDk0mcjNPSY-XwXftgjytwtWmfs5FNNjlm6XMb9oaA",
+          "downloadUrl": "https://download-video.wixmp.com/video/d7f9fb_59706bdf18bc41ebbf570ec5bf2b1193/480p/mp4/file.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmoiOltbeyJwYXRoIjoiL3ZpZGVvL2Q3ZjlmYl81OTcwNmJkZjE4YmM0MWViYmY1NzBlYzViZjJiMTE5My80ODBwL21wNC9maWxlLm1wNCJ9XV0sImRpcyI6eyJmaWxlbmFtZSI6IkZhbnRhc3RpYyBCZWFzdHMyIDogVGhlIENyaW1lcyBvZiBHcmluZGVsd2FsZC5tcDQiLCJ0eXBlIjoiYXR0YWNobWVudCJ9LCJyZWQiOiJodHRwczovL3d3dy5yZWJhbW92aWUuY29tIiwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXSwiZXhwIjoxNzkzNDkxMjU4LCJqdGkiOiIzYjkwNmJjYi00NmUxLTRhZmItOTBjYy1lZTg3OWI5YTc2MjQiLCJpYXQiOjE3OTM0MDQ4NTgsImlzcyI6InVybjphcHA6ZTY2NjMwZTcxNGYwNDkwYWFlYTFmMTQ5YjNiNjllMzIiLCJzdWIiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIn0.i5_g-JEwpT_oQGpr85RsfURqRUECRpI7qimXISFRCfI",
+          "direct": true
+        }
+      ]
     }
   },
-  "lastRunAt": "2026-10-30T20:22:49.187Z",
+  "lastRunAt": "2026-10-31T00:08:11.901Z",
   "lastFullScanAt": null,
   "failed": {},
   "pendingWrites": []
