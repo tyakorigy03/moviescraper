@@ -1,18 +1,7 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-31T12:38:39.182Z",
+  "updatedAt": "2026-10-31T21:39:12.045Z",
   "signals": {
-    "https://agasobanuyelive.com/lupin-season-03-review/": {
-      "hot": 10,
-      "points": 19.2,
-      "sources": [
-        "reba-trending#0",
-        "reba-new#8",
-        "reba-popular#4"
-      ],
-      "show": "lupin",
-      "match": "score"
-    },
     "https://www.rebamovie.com/movie/a1762bf1-bc71-461b-be7c-90ec7645ae0e": {
       "hot": 10,
       "points": 19.1,
@@ -34,11 +23,10 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
-      "hot": 9.5,
-      "points": 11,
+      "hot": 8.4,
+      "points": 7.3,
       "sources": [
-        "reba-trending#3",
-        "reba-new#7"
+        "reba-trending#3"
       ],
       "show": "rugal",
       "match": "narrator"
@@ -102,69 +90,59 @@
       "show": "facing el chapo",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/c9fc4e90-09e8-4293-b8c1-e81ec90c5f80": {
-      "hot": 9.9,
-      "points": 17.3,
+    "https://www.rebamovie.com/movie/8ba1e804-6b80-40fe-bd93-d271d75b42d6": {
+      "hot": 8.4,
+      "points": 7.3,
       "sources": [
-        "reba-new#0",
         "reba-new#3"
       ],
+      "show": "karmakhya",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/7843f318-d93d-43e6-96e2-629cf820035a": {
+      "hot": 9.4,
+      "points": 10.1,
+      "sources": [
+        "reba-new#4",
+        "reba-new#7"
+      ],
       "show": "the dog stars",
-      "match": "score"
+      "match": "narrator"
     },
     "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
-      "hot": 9.2,
-      "points": 9.1,
-      "sources": [
-        "reba-new#1"
-      ],
-      "show": "within the grip",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/fb7c4190-afd1-4464-9c0d-c7ac39ea739e": {
-      "hot": 8.8,
-      "points": 8.2,
-      "sources": [
-        "reba-new#2"
-      ],
-      "show": "the weight",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/09c3c48b-1869-446b-9cdc-f1e657b4e1c5": {
-      "hot": 8,
-      "points": 6.4,
-      "sources": [
-        "reba-new#4"
-      ],
-      "show": "carrie",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
       "hot": 7.6,
       "points": 5.5,
       "sources": [
         "reba-new#5"
       ],
-      "show": "now and forever",
+      "show": "within the grip",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/ea90d1b5-9589-4823-8fcf-a7a9af6e7e61": {
-      "hot": 9.1,
-      "points": 10.5,
+    "https://www.rebamovie.com/movie/fb7c4190-afd1-4464-9c0d-c7ac39ea739e": {
+      "hot": 7.2,
+      "points": 4.6,
       "sources": [
-        "reba-new#6",
-        "aglive#7"
+        "reba-new#6"
       ],
-      "show": "da vinci s demons",
+      "show": "the weight",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/364be943-18c3-480f-96fa-ab8c58f944cd": {
+    "https://www.rebamovie.com/movie/09c3c48b-1869-446b-9cdc-f1e657b4e1c5": {
+      "hot": 6.4,
+      "points": 2.8,
+      "sources": [
+        "reba-new#8"
+      ],
+      "show": "carrie",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
       "hot": 6,
       "points": 1.9,
       "sources": [
         "reba-new#9"
       ],
-      "show": "the pursuit of happyness",
+      "show": "now and forever",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
@@ -255,6 +233,15 @@
         "aglive#6"
       ],
       "show": "umthetho",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/ea90d1b5-9589-4823-8fcf-a7a9af6e7e61": {
+      "hot": 6.8,
+      "points": 5.9,
+      "sources": [
+        "aglive#7"
+      ],
+      "show": "da vinci s demons",
       "match": "score"
     },
     "https://agasobanuyelive.com/lucky-s01-review/": {
