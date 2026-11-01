@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-01T06:12:39.637Z",
+  "updatedAt": "2026-11-01T13:30:33.103Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 9.9,
@@ -13,10 +13,11 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
-      "hot": 9.2,
-      "points": 9.1,
+      "hot": 9.7,
+      "points": 11,
       "sources": [
-        "reba-trending#1"
+        "reba-trending#1",
+        "reba-new#9"
       ],
       "show": "rugal",
       "match": "narrator"
@@ -100,84 +101,75 @@
       "show": "facing el chapo",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/64256e06-ad63-443a-826a-534116460ece": {
+    "https://www.rebamovie.com/movie/a0b97b8b-e39c-4119-8331-1e8a36ac8da7": {
       "hot": 9.6,
       "points": 10,
       "sources": [
         "reba-new#0"
       ],
-      "show": "ninja wars blackfox vs shogun s ninja",
+      "show": "khalifa",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/a0b97b8b-e39c-4119-8331-1e8a36ac8da7": {
+    "https://www.rebamovie.com/movie/8ba1e804-6b80-40fe-bd93-d271d75b42d6": {
       "hot": 9.2,
       "points": 9.1,
       "sources": [
         "reba-new#1"
       ],
-      "show": "khalifa",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/8ba1e804-6b80-40fe-bd93-d271d75b42d6": {
-      "hot": 8.8,
-      "points": 8.2,
-      "sources": [
-        "reba-new#2"
-      ],
       "show": "karmakhya",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/7843f318-d93d-43e6-96e2-629cf820035a": {
-      "hot": 9.6,
-      "points": 11.9,
+      "hot": 9.7,
+      "points": 13.7,
       "sources": [
-        "reba-new#3",
-        "reba-new#6"
+        "reba-new#2",
+        "reba-new#5"
       ],
       "show": "the dog stars",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
-      "hot": 8,
-      "points": 6.4,
+      "hot": 8.4,
+      "points": 7.3,
       "sources": [
-        "reba-new#4"
+        "reba-new#3"
       ],
       "show": "within the grip",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/fb7c4190-afd1-4464-9c0d-c7ac39ea739e": {
-      "hot": 7.6,
-      "points": 5.5,
+      "hot": 8,
+      "points": 6.4,
       "sources": [
-        "reba-new#5"
+        "reba-new#4"
       ],
       "show": "the weight",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/09c3c48b-1869-446b-9cdc-f1e657b4e1c5": {
-      "hot": 6.8,
-      "points": 3.7,
+      "hot": 7.2,
+      "points": 4.6,
       "sources": [
-        "reba-new#7"
+        "reba-new#6"
       ],
       "show": "carrie",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 6.4,
-      "points": 2.8,
+      "hot": 6.8,
+      "points": 3.7,
       "sources": [
-        "reba-new#8"
+        "reba-new#7"
       ],
       "show": "now and forever",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/ea90d1b5-9589-4823-8fcf-a7a9af6e7e61": {
-      "hot": 8.7,
-      "points": 7.8,
+      "hot": 8.8,
+      "points": 8.6,
       "sources": [
-        "reba-new#9",
+        "reba-new#8",
         "aglive#7"
       ],
       "show": "da vinci s demons",
@@ -210,14 +202,14 @@
       "show": "fall 2 deadpoint",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/d9087dcf-c8ef-4223-a36b-9916d5c20a5c": {
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/b18c98f3-4e3c-439f-bef0-45bf45af3212/mayday-a.mp4": {
       "hot": 6,
       "points": 1.9,
       "sources": [
         "reba-popular#9"
       ],
-      "show": "designated survivor",
-      "match": "narrator"
+      "show": "mayday",
+      "match": "score"
     },
     "https://agasobanuyelive.com/young-swordsman-s01-review/": {
       "hot": 9.2,
