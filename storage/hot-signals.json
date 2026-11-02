@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-02T06:13:31.534Z",
+  "updatedAt": "2026-11-02T16:07:04.949Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 9.9,
@@ -70,13 +70,14 @@
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
-      "hot": 6.8,
-      "points": 3.7,
+    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
+      "hot": 9.7,
+      "points": 12.8,
       "sources": [
-        "reba-trending#7"
+        "reba-trending#7",
+        "reba-new#1"
       ],
-      "show": "facing el chapo",
+      "show": "from",
       "match": "narrator"
     },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
@@ -91,14 +92,13 @@
       "show": "beauty in black",
       "match": "score"
     },
-    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
-      "hot": 9.7,
-      "points": 11,
+    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
+      "hot": 6,
+      "points": 1.9,
       "sources": [
-        "reba-trending#9",
-        "reba-new#1"
+        "reba-trending#9"
       ],
-      "show": "from",
+      "show": "facing el chapo",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/d342908d-dc91-4d41-80de-6060c60f5bd5": {
