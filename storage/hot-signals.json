@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-01T22:05:46.810Z",
+  "updatedAt": "2026-11-02T06:13:31.534Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 9.9,
@@ -70,11 +70,20 @@
       "show": "special ops lioness",
       "match": "narrator"
     },
+    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
+      "hot": 6.8,
+      "points": 3.7,
+      "sources": [
+        "reba-trending#7"
+      ],
+      "show": "facing el chapo",
+      "match": "narrator"
+    },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
       "hot": 10,
-      "points": 25,
+      "points": 24.1,
       "sources": [
-        "reba-trending#7",
+        "reba-trending#8",
         "reba-popular#7",
         "aglive#0",
         "oshakur#1"
@@ -82,22 +91,14 @@
       "show": "beauty in black",
       "match": "score"
     },
-    "https://www.rebamovie.com/movie/01beb335-c411-44a2-a14d-ffc7781288f9": {
-      "hot": 6.4,
-      "points": 2.8,
+    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
+      "hot": 9.7,
+      "points": 11,
       "sources": [
-        "reba-trending#8"
+        "reba-trending#9",
+        "reba-new#1"
       ],
-      "show": "the paradise",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/539f3f70-9f59-4fae-a386-fd76a9cd311e": {
-      "hot": 6,
-      "points": 1.9,
-      "sources": [
-        "reba-trending#9"
-      ],
-      "show": "facing el chapo",
+      "show": "from",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/d342908d-dc91-4d41-80de-6060c60f5bd5": {
@@ -107,15 +108,6 @@
         "reba-new#0"
       ],
       "show": "ali baba aur 40 bhoot",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
-      "hot": 9.2,
-      "points": 9.1,
-      "sources": [
-        "reba-new#1"
-      ],
-      "show": "from",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/4d5bf419-d4ec-43fb-9a26-998810e95609": {
@@ -209,14 +201,14 @@
       "show": "fall 2 deadpoint",
       "match": "narrator"
     },
-    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/b18c98f3-4e3c-439f-bef0-45bf45af3212/mayday-a.mp4": {
+    "https://www.rebamovie.com/movie/ba56b90d-04f4-43fb-9044-41594ea7b9a6": {
       "hot": 6,
       "points": 1.9,
       "sources": [
         "reba-popular#9"
       ],
-      "show": "mayday",
-      "match": "score"
+      "show": "vis a vis",
+      "match": "narrator"
     },
     "https://agasobanuyelive.com/young-swordsman-s01-review/": {
       "hot": 9.2,
