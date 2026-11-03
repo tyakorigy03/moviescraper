@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-03T01:01:37.905Z",
+  "updatedAt": "2026-11-03T14:22:07.549Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -33,63 +33,65 @@
       "match": "narrator"
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
-      "hot": 9.7,
-      "points": 14.6,
+      "hot": 9.8,
+      "points": 15.5,
       "sources": [
         "reba-trending#3",
-        "reba-popular#3"
+        "reba-popular#2"
       ],
       "show": "masterplan",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/9cd89102-289e-44f6-91f8-2223265e1fe6": {
-      "hot": 8,
-      "points": 6.4,
-      "sources": [
-        "reba-trending#4"
-      ],
-      "show": "i am legend",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
       "hot": 9.8,
       "points": 14.6,
       "sources": [
-        "reba-trending#5",
-        "reba-new#1"
+        "reba-trending#4",
+        "reba-new#2"
       ],
       "show": "from",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 9.4,
-      "points": 11,
+      "hot": 9.5,
+      "points": 11.9,
       "sources": [
-        "reba-trending#6",
+        "reba-trending#5",
         "reba-popular#4"
       ],
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
-      "hot": 9.1,
-      "points": 8.3,
-      "sources": [
-        "reba-trending#7",
-        "reba-new#6"
-      ],
-      "show": "within the grip",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
-      "hot": 9.1,
-      "points": 8.3,
+      "hot": 9.3,
+      "points": 10.1,
       "sources": [
-        "reba-trending#8",
+        "reba-trending#6",
         "reba-popular#5"
       ],
       "show": "matchbox the movie",
       "match": "score"
+    },
+    "https://www.rebamovie.com/movie/7843f318-d93d-43e6-96e2-629cf820035a": {
+      "hot": 9.6,
+      "points": 10.2,
+      "sources": [
+        "reba-trending#7",
+        "reba-new#6",
+        "reba-new#9"
+      ],
+      "show": "the dog stars",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+      "hot": 8.8,
+      "points": 6.5,
+      "sources": [
+        "reba-trending#8",
+        "reba-new#7"
+      ],
+      "show": "within the grip",
+      "match": "narrator"
     },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
       "hot": 10,
@@ -103,75 +105,65 @@
       "show": "beauty in black",
       "match": "score"
     },
-    "https://www.rebamovie.com/movie/d342908d-dc91-4d41-80de-6060c60f5bd5": {
+    "https://agasobanuyelive.com/maze-runner-the-scorch-trials-review/": {
       "hot": 9.6,
       "points": 10,
       "sources": [
         "reba-new#0"
       ],
+      "show": "maze runner 2 the scorch trials",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/d342908d-dc91-4d41-80de-6060c60f5bd5": {
+      "hot": 9.2,
+      "points": 9.1,
+      "sources": [
+        "reba-new#1"
+      ],
       "show": "ali baba aur 40 bhoot",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/4d5bf419-d4ec-43fb-9a26-998810e95609": {
-      "hot": 8.8,
-      "points": 8.2,
-      "sources": [
-        "reba-new#2"
-      ],
-      "show": "friends sex and games",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/a0b97b8b-e39c-4119-8331-1e8a36ac8da7": {
       "hot": 8.4,
       "points": 7.3,
       "sources": [
         "reba-new#3"
       ],
-      "show": "khalifa",
+      "show": "friends sex and games",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/8ba1e804-6b80-40fe-bd93-d271d75b42d6": {
+    "https://www.rebamovie.com/movie/a0b97b8b-e39c-4119-8331-1e8a36ac8da7": {
       "hot": 8,
       "points": 6.4,
       "sources": [
         "reba-new#4"
       ],
+      "show": "khalifa",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/8ba1e804-6b80-40fe-bd93-d271d75b42d6": {
+      "hot": 7.6,
+      "points": 5.5,
+      "sources": [
+        "reba-new#5"
+      ],
       "show": "karmakhya",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/7843f318-d93d-43e6-96e2-629cf820035a": {
-      "hot": 9.1,
-      "points": 8.3,
-      "sources": [
-        "reba-new#5",
-        "reba-new#8"
-      ],
-      "show": "the dog stars",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/fb7c4190-afd1-4464-9c0d-c7ac39ea739e": {
-      "hot": 6.8,
-      "points": 3.7,
+      "hot": 6.4,
+      "points": 2.8,
       "sources": [
-        "reba-new#7"
+        "reba-new#8"
       ],
       "show": "the weight",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/09c3c48b-1869-446b-9cdc-f1e657b4e1c5": {
-      "hot": 6,
-      "points": 1.9,
-      "sources": [
-        "reba-new#9"
-      ],
-      "show": "carrie",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
-      "hot": 8.8,
-      "points": 8.2,
+      "hot": 8.4,
+      "points": 7.3,
       "sources": [
-        "reba-popular#2"
+        "reba-popular#3"
       ],
       "show": "doing life",
       "match": "narrator"
