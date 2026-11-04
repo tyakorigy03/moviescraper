@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-04T06:30:26.231Z",
+  "updatedAt": "2026-11-04T19:49:16.106Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -22,16 +22,6 @@
       "show": "rugal",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/a1762bf1-bc71-461b-be7c-90ec7645ae0e": {
-      "hot": 10,
-      "points": 18.2,
-      "sources": [
-        "reba-trending#2",
-        "reba-popular#0"
-      ],
-      "show": "devious maids",
-      "match": "narrator"
-    },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
       "hot": 9.8,
       "points": 15.5,
@@ -43,114 +33,123 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/4d5bf419-d4ec-43fb-9a26-998810e95609": {
-      "hot": 9.5,
-      "points": 11.9,
+      "hot": 9.4,
+      "points": 11,
       "sources": [
         "reba-trending#4",
-        "reba-new#5"
+        "reba-new#6"
       ],
       "show": "friends sex and games",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/7843f318-d93d-43e6-96e2-629cf820035a": {
-      "hot": 9.1,
-      "points": 8.3,
-      "sources": [
-        "reba-trending#5",
-        "reba-new#8"
-      ],
-      "show": "the dog stars",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
       "hot": 9.4,
       "points": 11,
       "sources": [
-        "reba-trending#6",
-        "reba-new#4"
+        "reba-trending#5",
+        "reba-new#5"
       ],
       "show": "from",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
-      "hot": 8.7,
-      "points": 5.6,
+    "https://www.rebamovie.com/movie/7843f318-d93d-43e6-96e2-629cf820035a": {
+      "hot": 8.9,
+      "points": 6.5,
       "sources": [
-        "reba-trending#7",
+        "reba-trending#6",
         "reba-new#9"
       ],
-      "show": "within the grip",
+      "show": "the dog stars",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 9.1,
-      "points": 8.3,
+      "hot": 9.2,
+      "points": 9.2,
       "sources": [
-        "reba-trending#8",
+        "reba-trending#7",
         "reba-popular#5"
       ],
       "show": "special ops lioness",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/09c3c48b-1869-446b-9cdc-f1e657b4e1c5": {
-      "hot": 6,
-      "points": 1.9,
+      "hot": 6.4,
+      "points": 2.8,
       "sources": [
-        "reba-trending#9"
+        "reba-trending#8"
       ],
       "show": "carrie",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
+    "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
+      "hot": 9.2,
+      "points": 8.3,
+      "sources": [
+        "reba-trending#9",
+        "reba-popular#4"
+      ],
+      "show": "matchbox the movie",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
       "hot": 9.6,
       "points": 10,
       "sources": [
         "reba-new#0"
       ],
-      "show": "the royal gambler",
+      "show": "now and forever",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/e99889ab-ece5-465f-8a7a-29938921549d": {
+    "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
       "hot": 9.2,
       "points": 9.1,
       "sources": [
         "reba-new#1"
       ],
-      "show": "dead end job",
+      "show": "the royal gambler",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/73d038b3-7bac-4898-9dbd-fb95af4b0efb": {
+    "https://www.rebamovie.com/movie/e99889ab-ece5-465f-8a7a-29938921549d": {
       "hot": 8.8,
       "points": 8.2,
       "sources": [
         "reba-new#2"
       ],
-      "show": "maze runner 2 the scorch trials",
+      "show": "dead end job",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/d342908d-dc91-4d41-80de-6060c60f5bd5": {
+    "https://www.rebamovie.com/movie/73d038b3-7bac-4898-9dbd-fb95af4b0efb": {
       "hot": 8.4,
       "points": 7.3,
       "sources": [
         "reba-new#3"
       ],
+      "show": "maze runner 2 the scorch trials",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/d342908d-dc91-4d41-80de-6060c60f5bd5": {
+      "hot": 8,
+      "points": 6.4,
+      "sources": [
+        "reba-new#4"
+      ],
       "show": "ali baba aur 40 bhoot",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/a0b97b8b-e39c-4119-8331-1e8a36ac8da7": {
-      "hot": 7.2,
-      "points": 4.6,
+      "hot": 6.8,
+      "points": 3.7,
       "sources": [
-        "reba-new#6"
+        "reba-new#7"
       ],
       "show": "khalifa",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/8ba1e804-6b80-40fe-bd93-d271d75b42d6": {
-      "hot": 6.8,
-      "points": 3.7,
+      "hot": 6.4,
+      "points": 2.8,
       "sources": [
-        "reba-new#7"
+        "reba-new#8"
       ],
       "show": "karmakhya",
       "match": "narrator"
@@ -163,15 +162,6 @@
       ],
       "show": "doing life",
       "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
-      "hot": 8,
-      "points": 6.4,
-      "sources": [
-        "reba-popular#4"
-      ],
-      "show": "matchbox the movie",
-      "match": "score"
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/2b2e9612-c260-4409-a34d-e1c271d9d7e2/1000067209.mp4": {
       "hot": 7.2,
