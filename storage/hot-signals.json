@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-05T06:53:05.088Z",
+  "updatedAt": "2026-11-05T19:59:52.546Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -14,10 +14,10 @@
     },
     "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
       "hot": 9.7,
-      "points": 11.9,
+      "points": 12.8,
       "sources": [
         "reba-trending#1",
-        "reba-popular#8"
+        "reba-popular#7"
       ],
       "show": "rugal",
       "match": "narrator"
@@ -81,13 +81,14 @@
       "show": "carrie",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
-      "hot": 6,
-      "points": 1.9,
+    "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
+      "hot": 9.7,
+      "points": 11,
       "sources": [
-        "reba-trending#9"
+        "reba-trending#9",
+        "reba-new#1"
       ],
-      "show": "within the grip",
+      "show": "the royal gambler",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
@@ -97,15 +98,6 @@
         "reba-new#0"
       ],
       "show": "now and forever",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
-      "hot": 9.2,
-      "points": 9.1,
-      "sources": [
-        "reba-new#1"
-      ],
-      "show": "the royal gambler",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/e99889ab-ece5-465f-8a7a-29938921549d": {
@@ -181,10 +173,10 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/f81b8775-6ef3-4934-9ad9-5b534486d6e2": {
-      "hot": 6.8,
-      "points": 3.7,
+      "hot": 6.4,
+      "points": 2.8,
       "sources": [
-        "reba-popular#7"
+        "reba-popular#8"
       ],
       "show": "fall 2 deadpoint",
       "match": "narrator"
