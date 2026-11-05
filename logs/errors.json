@@ -35978,5 +35978,25 @@
   {
     "message": "Failed scraping #: cleanSiteCountry is not defined",
     "timestamp": "2026-11-05T07:16:06.579Z"
+  },
+  {
+    "message": "downloadData did not mint for Ali Baba Aur 40 Bhoot - S01E04 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-05T08:25:51.311Z"
+  },
+  {
+    "message": "downloadData did not mint for FROM - S03E01 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-05T08:25:59.232Z"
+  },
+  {
+    "message": "downloadData did not mint for FROM - S03E02 — returned our own token back (strike 2/3)",
+    "timestamp": "2026-11-05T08:25:59.733Z"
+  },
+  {
+    "message": "downloadData did not mint for FROM - S03E03 — returned our own token back (strike 3/3)",
+    "timestamp": "2026-11-05T08:26:00.291Z"
+  },
+  {
+    "message": "downloadData is not minting after 3 strikes — pausing calls for 30min rather than hammering it",
+    "timestamp": "2026-11-05T08:26:00.308Z"
   }
 ]
