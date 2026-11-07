@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-07T13:08:30.280Z",
+  "updatedAt": "2026-11-07T21:54:46.038Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -23,21 +23,20 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
-      "hot": 9.4,
-      "points": 9.2,
+      "hot": 8.4,
+      "points": 7.3,
       "sources": [
-        "reba-trending#3",
-        "reba-new#9"
+        "reba-trending#3"
       ],
       "show": "the royal gambler",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/4d5bf419-d4ec-43fb-9a26-998810e95609": {
-      "hot": 9.9,
-      "points": 16.4,
+      "hot": 9.7,
+      "points": 13.7,
       "sources": [
         "reba-trending#4",
-        "reba-new#0"
+        "reba-new#3"
       ],
       "show": "friends sex and games",
       "match": "narrator"
@@ -89,58 +88,85 @@
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+    "https://www.rebamovie.com/movie/b2c4c26b-e772-4280-96d2-750d5436ea8b": {
+      "hot": 9.6,
+      "points": 10,
+      "sources": [
+        "reba-new#0"
+      ],
+      "show": "the cycle",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/4f0fcad5-dbd1-49cb-88d0-46d514a70f22": {
+      "hot": 9.2,
+      "points": 9.1,
+      "sources": [
+        "reba-new#1"
+      ],
+      "show": "rec 3 genesis",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/ba9b7eff-7adf-4d4b-bd71-58909da43438": {
       "hot": 8.8,
       "points": 8.2,
       "sources": [
         "reba-new#2"
       ],
-      "show": "within the grip",
+      "show": "the awakening",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/ad8ae790-4356-4108-8a00-54f0118b953a": {
+    "https://www.rebamovie.com/movie/f4b66103-c653-4dc0-819f-288ae72ad7d0": {
       "hot": 8,
       "points": 6.4,
       "sources": [
         "reba-new#4"
       ],
-      "show": "deathstalker",
+      "show": "hallowarrior",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/a0b97b8b-e39c-4119-8331-1e8a36ac8da7": {
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
       "hot": 7.6,
       "points": 5.5,
       "sources": [
         "reba-new#5"
       ],
-      "show": "khalifa",
+      "show": "within the grip",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/7d556f99-6626-408f-a9c2-056c819fe58f": {
+    "https://www.rebamovie.com/movie/f71019fb-5c84-4eca-91f7-032548fb4e5e": {
       "hot": 7.2,
       "points": 4.6,
       "sources": [
         "reba-new#6"
       ],
-      "show": "sumo didi",
+      "show": "crawlers",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/6479fb0a-f246-4928-adc7-fc6818f08680": {
+    "https://www.rebamovie.com/movie/ad8ae790-4356-4108-8a00-54f0118b953a": {
       "hot": 6.8,
       "points": 3.7,
       "sources": [
         "reba-new#7"
       ],
-      "show": "the house arrest of us",
+      "show": "deathstalker",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/8a1d3966-840c-46ad-beff-c49ed0ec72d3": {
+    "https://www.rebamovie.com/movie/a0b97b8b-e39c-4119-8331-1e8a36ac8da7": {
       "hot": 6.4,
       "points": 2.8,
       "sources": [
         "reba-new#8"
       ],
-      "show": "raising dion",
+      "show": "khalifa",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/7d556f99-6626-408f-a9c2-056c819fe58f": {
+      "hot": 6,
+      "points": 1.9,
+      "sources": [
+        "reba-new#9"
+      ],
+      "show": "sumo didi",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
