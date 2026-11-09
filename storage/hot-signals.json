@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-09T06:40:55.308Z",
+  "updatedAt": "2026-11-09T22:25:57.248Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -33,11 +33,11 @@
     },
     "https://www.rebamovie.com/movie/4d5bf419-d4ec-43fb-9a26-998810e95609": {
       "hot": 9.9,
-      "points": 18.4,
+      "points": 16.6,
       "sources": [
         "reba-trending#4",
-        "reba-trending#7",
-        "reba-new#4",
+        "reba-trending#6",
+        "reba-new#7",
         "reba-popular#9"
       ],
       "show": "friends sex and games",
@@ -53,10 +53,10 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
-      "hot": 7.2,
-      "points": 4.6,
+      "hot": 6.8,
+      "points": 3.7,
       "sources": [
-        "reba-trending#6"
+        "reba-trending#7"
       ],
       "show": "from",
       "match": "narrator"
@@ -81,76 +81,67 @@
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b2c4c26b-e772-4280-96d2-750d5436ea8b": {
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
       "hot": 9.2,
       "points": 9.1,
       "sources": [
         "reba-new#1"
       ],
-      "show": "the cycle",
+      "show": "within the grip",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/4f0fcad5-dbd1-49cb-88d0-46d514a70f22": {
+    "https://www.rebamovie.com/movie/23706b50-3659-45c2-b99f-5206f2a2f706": {
       "hot": 8.8,
       "points": 8.2,
       "sources": [
         "reba-new#2"
       ],
-      "show": "rec 3 genesis",
+      "show": "resident evil",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/ba9b7eff-7adf-4d4b-bd71-58909da43438": {
-      "hot": 8.4,
-      "points": 7.3,
+    "https://www.rebamovie.com/movie/b2c4c26b-e772-4280-96d2-750d5436ea8b": {
+      "hot": 8,
+      "points": 6.4,
       "sources": [
-        "reba-new#3"
+        "reba-new#4"
       ],
-      "show": "the awakening",
+      "show": "the cycle",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/f4b66103-c653-4dc0-819f-288ae72ad7d0": {
+    "https://www.rebamovie.com/movie/4f0fcad5-dbd1-49cb-88d0-46d514a70f22": {
       "hot": 7.6,
       "points": 5.5,
       "sources": [
         "reba-new#5"
       ],
-      "show": "hallowarrior",
+      "show": "rec 3 genesis",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+    "https://www.rebamovie.com/movie/ba9b7eff-7adf-4d4b-bd71-58909da43438": {
       "hot": 7.2,
       "points": 4.6,
       "sources": [
         "reba-new#6"
       ],
-      "show": "within the grip",
+      "show": "the awakening",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/f71019fb-5c84-4eca-91f7-032548fb4e5e": {
-      "hot": 6.8,
-      "points": 3.7,
-      "sources": [
-        "reba-new#7"
-      ],
-      "show": "crawlers",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/ad8ae790-4356-4108-8a00-54f0118b953a": {
+    "https://www.rebamovie.com/movie/f4b66103-c653-4dc0-819f-288ae72ad7d0": {
       "hot": 6.4,
       "points": 2.8,
       "sources": [
         "reba-new#8"
       ],
-      "show": "deathstalker",
+      "show": "hallowarrior",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/a0b97b8b-e39c-4119-8331-1e8a36ac8da7": {
+    "https://www.rebamovie.com/movie/f71019fb-5c84-4eca-91f7-032548fb4e5e": {
       "hot": 6,
       "points": 1.9,
       "sources": [
         "reba-new#9"
       ],
-      "show": "khalifa",
+      "show": "crawlers",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
