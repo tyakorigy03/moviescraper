@@ -38058,5 +38058,25 @@
   {
     "message": "Failed scraping #: cleanSiteCountry is not defined",
     "timestamp": "2026-11-09T20:36:43.888Z"
+  },
+  {
+    "message": "downloadData did not mint for Prelude of the White Snake - S01E04 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-09T21:37:58.579Z"
+  },
+  {
+    "message": "downloadData did not mint for FROM - S03E01 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-09T21:38:38.137Z"
+  },
+  {
+    "message": "downloadData did not mint for FROM - S03E02 — returned our own token back (strike 2/3)",
+    "timestamp": "2026-11-09T21:38:38.641Z"
+  },
+  {
+    "message": "downloadData did not mint for FROM - S03E03 — returned our own token back (strike 3/3)",
+    "timestamp": "2026-11-09T21:38:39.136Z"
+  },
+  {
+    "message": "downloadData is not minting after 3 strikes — pausing calls for 30min rather than hammering it",
+    "timestamp": "2026-11-09T21:38:39.151Z"
   }
 ]
