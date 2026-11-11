@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-10T19:46:43.909Z",
+  "updatedAt": "2026-11-11T06:31:09.028Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -13,10 +13,11 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
-      "hot": 9.2,
-      "points": 9.1,
+      "hot": 9.7,
+      "points": 11,
       "sources": [
-        "reba-trending#1"
+        "reba-trending#1",
+        "reba-popular#9"
       ],
       "show": "the royal gambler",
       "match": "narrator"
@@ -33,10 +34,10 @@
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
       "hot": 9.8,
-      "points": 13.8,
+      "points": 12.9,
       "sources": [
         "reba-trending#4",
-        "reba-trending#6",
+        "reba-trending#7",
         "reba-popular#8"
       ],
       "show": "friends sex and games",
@@ -52,13 +53,13 @@
       "show": "from",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/73d038b3-7bac-4898-9dbd-fb95af4b0efb": {
-      "hot": 6.8,
-      "points": 3.7,
+    "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
+      "hot": 7.2,
+      "points": 4.6,
       "sources": [
-        "reba-trending#7"
+        "reba-trending#6"
       ],
-      "show": "maze runner 2 the scorch trials",
+      "show": "paris has fallen",
       "match": "narrator"
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
@@ -72,11 +73,11 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 9,
-      "points": 7.4,
+      "hot": 8.9,
+      "points": 6.5,
       "sources": [
         "reba-trending#9",
-        "reba-popular#5"
+        "reba-popular#6"
       ],
       "show": "special ops lioness",
       "match": "narrator"
@@ -163,10 +164,10 @@
       "match": "score"
     },
     "https://www.rebamovie.com/movie/f81b8775-6ef3-4934-9ad9-5b534486d6e2": {
-      "hot": 7.2,
-      "points": 4.6,
+      "hot": 7.6,
+      "points": 5.5,
       "sources": [
-        "reba-popular#6"
+        "reba-popular#5"
       ],
       "show": "fall 2 deadpoint",
       "match": "narrator"
@@ -181,15 +182,6 @@
       ],
       "show": "beauty in black",
       "match": "score"
-    },
-    "https://www.rebamovie.com/movie/36deda6f-14b3-4f14-8676-d60309e7dac9": {
-      "hot": 6,
-      "points": 1.9,
-      "sources": [
-        "reba-popular#9"
-      ],
-      "show": "doing life",
-      "match": "narrator"
     },
     "https://agasobanuyelive.com/young-swordsman-s01-review/": {
       "hot": 9.2,
