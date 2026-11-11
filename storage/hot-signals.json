@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T06:31:09.028Z",
+  "updatedAt": "2026-11-11T19:39:31.242Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -34,21 +34,21 @@
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
       "hot": 9.8,
-      "points": 12.9,
+      "points": 13.8,
       "sources": [
         "reba-trending#4",
         "reba-trending#7",
-        "reba-popular#8"
+        "reba-popular#7"
       ],
       "show": "friends sex and games",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
-      "hot": 9.6,
-      "points": 12.8,
+      "hot": 9.2,
+      "points": 9.2,
       "sources": [
         "reba-trending#5",
-        "reba-new#3"
+        "reba-new#7"
       ],
       "show": "from",
       "match": "narrator"
@@ -82,76 +82,85 @@
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/8a1d3966-840c-46ad-beff-c49ed0ec72d3": {
+    "https://www.rebamovie.com/movie/e99889ab-ece5-465f-8a7a-29938921549d": {
       "hot": 9.6,
       "points": 10,
       "sources": [
         "reba-new#0"
       ],
-      "show": "raising dion",
+      "show": "dead end job",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/0da5cafa-f3a2-4433-bb86-4ed0762996ac": {
+    "https://www.rebamovie.com/movie/951e576d-7862-4267-bb4d-58374eee9b6e": {
       "hot": 9.2,
       "points": 9.1,
       "sources": [
         "reba-new#1"
       ],
-      "show": "i m game",
+      "show": "kong skull island",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/4dc9f601-3fa4-4913-8772-e9a857656d2b": {
+    "https://www.rebamovie.com/movie/efdec2dd-36b7-46fe-b727-ec07b914423a": {
       "hot": 8.8,
       "points": 8.2,
       "sources": [
         "reba-new#2"
       ],
-      "show": "she",
+      "show": "the good son",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/de706e0c-a180-4d10-a4be-2a365f44dea0": {
+    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
+      "hot": 8.4,
+      "points": 7.3,
+      "sources": [
+        "reba-new#3"
+      ],
+      "show": "now and forever",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/8a1d3966-840c-46ad-beff-c49ed0ec72d3": {
       "hot": 8,
       "points": 6.4,
       "sources": [
         "reba-new#4"
       ],
-      "show": "jailer 2",
+      "show": "raising dion",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+    "https://www.rebamovie.com/movie/0da5cafa-f3a2-4433-bb86-4ed0762996ac": {
       "hot": 7.6,
       "points": 5.5,
       "sources": [
         "reba-new#5"
       ],
-      "show": "within the grip",
+      "show": "i m game",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/23706b50-3659-45c2-b99f-5206f2a2f706": {
+    "https://www.rebamovie.com/movie/4dc9f601-3fa4-4913-8772-e9a857656d2b": {
       "hot": 7.2,
       "points": 4.6,
       "sources": [
         "reba-new#6"
       ],
-      "show": "resident evil",
+      "show": "she",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b2c4c26b-e772-4280-96d2-750d5436ea8b": {
+    "https://www.rebamovie.com/movie/de706e0c-a180-4d10-a4be-2a365f44dea0": {
       "hot": 6.4,
       "points": 2.8,
       "sources": [
         "reba-new#8"
       ],
-      "show": "the cycle",
+      "show": "jailer 2",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/4f0fcad5-dbd1-49cb-88d0-46d514a70f22": {
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
       "hot": 6,
       "points": 1.9,
       "sources": [
         "reba-new#9"
       ],
-      "show": "rec 3 genesis",
+      "show": "within the grip",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
@@ -174,9 +183,9 @@
     },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
       "hot": 10,
-      "points": 21.3,
+      "points": 20.4,
       "sources": [
-        "reba-popular#7",
+        "reba-popular#8",
         "aglive#0",
         "oshakur#1"
       ],
