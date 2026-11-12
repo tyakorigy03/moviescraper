@@ -39058,5 +39058,169 @@
   {
     "message": "Failed scraping #: cleanSiteCountry is not defined",
     "timestamp": "2026-11-12T12:27:09.906Z"
+  },
+  {
+    "message": "downloadData did not mint for Friends Sex and Games - S01E04 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-12T12:31:26.168Z"
+  },
+  {
+    "message": "downloadData empty for Nerve (attempt 1)",
+    "timestamp": "2026-11-12T12:35:07.990Z"
+  },
+  {
+    "message": "downloadData empty for Nerve (attempt 2)",
+    "timestamp": "2026-11-12T12:35:12.486Z"
+  },
+  {
+    "message": "downloadData empty for Nerve (attempt 3)",
+    "timestamp": "2026-11-12T12:35:22.477Z"
+  },
+  {
+    "message": "downloadData did not mint for Outer Banks - S04E01 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-12T12:38:35.714Z"
+  },
+  {
+    "message": "downloadData did not mint for Outer Banks - S04E02 — returned our own token back (strike 2/3)",
+    "timestamp": "2026-11-12T12:38:36.217Z"
+  },
+  {
+    "message": "downloadData empty for Kattalan (attempt 1)",
+    "timestamp": "2026-11-12T12:40:48.772Z"
+  },
+  {
+    "message": "downloadData empty for Kattalan (attempt 2)",
+    "timestamp": "2026-11-12T12:40:53.253Z"
+  },
+  {
+    "message": "downloadData empty for Kattalan (attempt 3)",
+    "timestamp": "2026-11-12T12:41:02.206Z"
+  },
+  {
+    "message": "downloadData did not mint for A Shop for Killers - S01E01 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-12T12:43:17.771Z"
+  },
+  {
+    "message": "downloadData did not mint for A Shop for Killers - S01E02 — returned our own token back (strike 2/3)",
+    "timestamp": "2026-11-12T12:43:18.287Z"
+  },
+  {
+    "message": "downloadData did not mint for A Shop for Killers - S01E03 — returned our own token back (strike 3/3)",
+    "timestamp": "2026-11-12T12:43:18.770Z"
+  },
+  {
+    "message": "downloadData is not minting after 3 strikes — pausing calls for 30min rather than hammering it",
+    "timestamp": "2026-11-12T12:43:18.788Z"
+  },
+  {
+    "message": "downloadData empty for Guns Up (attempt 1)",
+    "timestamp": "2026-11-12T13:13:34.179Z"
+  },
+  {
+    "message": "downloadData empty for Guns Up (attempt 2)",
+    "timestamp": "2026-11-12T13:13:43.316Z"
+  },
+  {
+    "message": "downloadData empty for Guns Up (attempt 3)",
+    "timestamp": "2026-11-12T13:13:57.328Z"
+  },
+  {
+    "message": "downloadData did not mint for The Protege — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-12T13:16:34.314Z"
+  },
+  {
+    "message": "downloadData empty for Anjaan (attempt 1)",
+    "timestamp": "2026-11-12T13:16:42.086Z"
+  },
+  {
+    "message": "downloadData empty for Anjaan (attempt 2)",
+    "timestamp": "2026-11-12T13:16:46.921Z"
+  },
+  {
+    "message": "downloadData empty for Anjaan (attempt 3)",
+    "timestamp": "2026-11-12T13:16:56.316Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 1)",
+    "timestamp": "2026-11-12T13:22:25.257Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 2)",
+    "timestamp": "2026-11-12T13:22:29.184Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 3)",
+    "timestamp": "2026-11-12T13:22:38.891Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 1)",
+    "timestamp": "2026-11-12T13:22:45.614Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 2)",
+    "timestamp": "2026-11-12T13:22:53.820Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 3)",
+    "timestamp": "2026-11-12T13:23:03.578Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 1)",
+    "timestamp": "2026-11-12T13:23:14.820Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 2)",
+    "timestamp": "2026-11-12T13:23:27.589Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 3)",
+    "timestamp": "2026-11-12T13:23:41.793Z"
+  },
+  {
+    "message": "downloadData empty for The Cure 1 (attempt 1)",
+    "timestamp": "2026-11-12T13:25:08.554Z"
+  },
+  {
+    "message": "downloadData empty for The Cure 1 (attempt 2)",
+    "timestamp": "2026-11-12T13:25:13.782Z"
+  },
+  {
+    "message": "downloadData empty for The Cure 1 (attempt 3)",
+    "timestamp": "2026-11-12T13:25:23.040Z"
+  },
+  {
+    "message": "downloadData did not mint for Hitman 2: Agent 47 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-12T13:27:35.968Z"
+  },
+  {
+    "message": "downloadData did not mint for I Spit on Your Grave 1 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-12T13:29:41.873Z"
+  },
+  {
+    "message": "downloadData did not mint for 3 Idiots — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-12T13:34:35.777Z"
+  },
+  {
+    "message": "downloadData did not mint for Kabhi Alvida Naa Kehna — returned our own token back (strike 2/3)",
+    "timestamp": "2026-11-12T13:34:36.670Z"
+  },
+  {
+    "message": "downloadData did not mint for Badland Hunters — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-12T13:35:31.077Z"
+  },
+  {
+    "message": "downloadData did not mint for The Day of the Jackal - S01E01 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-12T13:35:35.681Z"
+  },
+  {
+    "message": "downloadData did not mint for The Day of the Jackal - S01E02 — returned our own token back (strike 2/3)",
+    "timestamp": "2026-11-12T13:35:36.187Z"
+  },
+  {
+    "message": "downloadData did not mint for The Day of the Jackal - S01E03 — returned our own token back (strike 3/3)",
+    "timestamp": "2026-11-12T13:35:36.697Z"
+  },
+  {
+    "message": "downloadData is not minting after 3 strikes — pausing calls for 30min rather than hammering it",
+    "timestamp": "2026-11-12T13:35:36.714Z"
   }
 ]
