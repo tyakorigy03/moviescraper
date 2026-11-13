@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-13T06:50:33.045Z",
+  "updatedAt": "2026-11-13T19:45:50.415Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -22,44 +22,44 @@
       "show": "the royal gambler",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
-      "hot": 9.8,
-      "points": 14.6,
-      "sources": [
-        "reba-trending#2",
-        "reba-popular#4"
-      ],
-      "show": "rugal",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
       "hot": 9.9,
-      "points": 20.1,
+      "points": 19.2,
       "sources": [
-        "reba-trending#3",
-        "reba-new#2",
+        "reba-trending#2",
+        "reba-new#4",
         "reba-popular#6"
       ],
       "show": "friends sex and games",
       "match": "narrator"
     },
-    "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
-      "hot": 8,
-      "points": 6.4,
+    "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
+      "hot": 9.7,
+      "points": 13.7,
       "sources": [
-        "reba-trending#4"
+        "reba-trending#3",
+        "reba-popular#4"
       ],
-      "show": "paris has fallen",
+      "show": "rugal",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
-      "hot": 9.9,
+      "hot": 9.8,
       "points": 14.6,
       "sources": [
-        "reba-trending#6",
-        "reba-new#0"
+        "reba-trending#4",
+        "reba-new#2"
       ],
       "show": "heart of the beast",
+      "match": "narrator"
+    },
+    "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
+      "hot": 7.6,
+      "points": 5.5,
+      "sources": [
+        "reba-trending#5"
+      ],
+      "show": "paris has fallen",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
@@ -81,86 +81,86 @@
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
-      "hot": 9.7,
-      "points": 11,
+    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
+      "hot": 8.6,
+      "points": 4.7,
       "sources": [
         "reba-trending#9",
-        "reba-popular#1"
+        "reba-new#8"
       ],
-      "show": "masterplan",
+      "show": "now and forever",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/279ca3fb-936b-4536-ae33-af0b6b9f969c": {
+    "https://www.rebamovie.com/movie/1ad7d46f-6469-47d5-bd6f-e974d0f416d3": {
+      "hot": 9.6,
+      "points": 10,
+      "sources": [
+        "reba-new#0"
+      ],
+      "show": "the odyssey",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/607e82e5-e46c-4da5-aaac-de275d4800c6": {
       "hot": 9.2,
       "points": 9.1,
       "sources": [
         "reba-new#1"
       ],
-      "show": "beware boiuna",
+      "show": "jeet ki zid",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/e99889ab-ece5-465f-8a7a-29938921549d": {
+    "https://www.rebamovie.com/movie/279ca3fb-936b-4536-ae33-af0b6b9f969c": {
       "hot": 8.4,
       "points": 7.3,
       "sources": [
         "reba-new#3"
       ],
-      "show": "dead end job",
+      "show": "beware boiuna",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/951e576d-7862-4267-bb4d-58374eee9b6e": {
-      "hot": 8,
-      "points": 6.4,
-      "sources": [
-        "reba-new#4"
-      ],
-      "show": "kong skull island",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/efdec2dd-36b7-46fe-b727-ec07b914423a": {
+    "https://www.rebamovie.com/movie/e99889ab-ece5-465f-8a7a-29938921549d": {
       "hot": 7.6,
       "points": 5.5,
       "sources": [
         "reba-new#5"
       ],
-      "show": "the good son",
+      "show": "dead end job",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
+    "https://www.rebamovie.com/movie/951e576d-7862-4267-bb4d-58374eee9b6e": {
       "hot": 7.2,
       "points": 4.6,
       "sources": [
         "reba-new#6"
       ],
-      "show": "now and forever",
+      "show": "kong skull island",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/8a1d3966-840c-46ad-beff-c49ed0ec72d3": {
+    "https://www.rebamovie.com/movie/efdec2dd-36b7-46fe-b727-ec07b914423a": {
       "hot": 6.8,
       "points": 3.7,
       "sources": [
         "reba-new#7"
       ],
-      "show": "raising dion",
+      "show": "the good son",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/0da5cafa-f3a2-4433-bb86-4ed0762996ac": {
-      "hot": 6.4,
-      "points": 2.8,
-      "sources": [
-        "reba-new#8"
-      ],
-      "show": "i m game",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/4dc9f601-3fa4-4913-8772-e9a857656d2b": {
+    "https://www.rebamovie.com/movie/8a1d3966-840c-46ad-beff-c49ed0ec72d3": {
       "hot": 6,
       "points": 1.9,
       "sources": [
         "reba-new#9"
       ],
-      "show": "she",
+      "show": "raising dion",
+      "match": "narrator"
+    },
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
+      "hot": 9.2,
+      "points": 9.1,
+      "sources": [
+        "reba-popular#1"
+      ],
+      "show": "masterplan",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
