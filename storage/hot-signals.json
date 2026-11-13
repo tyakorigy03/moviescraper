@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-12T19:58:45.844Z",
+  "updatedAt": "2026-11-13T06:50:33.045Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -14,10 +14,10 @@
     },
     "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
       "hot": 9.7,
-      "points": 11.9,
+      "points": 12.8,
       "sources": [
         "reba-trending#1",
-        "reba-popular#8"
+        "reba-popular#7"
       ],
       "show": "the royal gambler",
       "match": "narrator"
@@ -34,41 +34,41 @@
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
       "hot": 9.9,
-      "points": 19.2,
+      "points": 20.1,
       "sources": [
         "reba-trending#3",
         "reba-new#2",
-        "reba-popular#7"
+        "reba-popular#6"
       ],
       "show": "friends sex and games",
       "match": "narrator"
     },
     "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
-      "hot": 7.6,
-      "points": 5.5,
+      "hot": 8,
+      "points": 6.4,
       "sources": [
-        "reba-trending#5"
+        "reba-trending#4"
       ],
       "show": "paris has fallen",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
-      "hot": 7.2,
-      "points": 4.6,
+    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
+      "hot": 9.9,
+      "points": 14.6,
       "sources": [
-        "reba-trending#6"
+        "reba-trending#6",
+        "reba-new#0"
       ],
-      "show": "from",
+      "show": "heart of the beast",
       "match": "narrator"
     },
-    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
-      "hot": 9.7,
-      "points": 12.8,
+    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
+      "hot": 6.8,
+      "points": 3.7,
       "sources": [
-        "reba-trending#7",
-        "reba-popular#1"
+        "reba-trending#7"
       ],
-      "show": "masterplan",
+      "show": "from",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
@@ -81,17 +81,15 @@
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
-      "hot": 10,
-      "points": 21.4,
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
+      "hot": 9.7,
+      "points": 11,
       "sources": [
         "reba-trending#9",
-        "reba-popular#9",
-        "aglive#0",
-        "oshakur#1"
+        "reba-popular#1"
       ],
-      "show": "beauty in black",
-      "match": "score"
+      "show": "masterplan",
+      "match": "narrator"
     },
     "https://www.rebamovie.com/movie/279ca3fb-936b-4536-ae33-af0b6b9f969c": {
       "hot": 9.2,
@@ -174,11 +172,22 @@
       "show": "matchbox the movie",
       "match": "score"
     },
-    "https://www.rebamovie.com/movie/f81b8775-6ef3-4934-9ad9-5b534486d6e2": {
-      "hot": 7.2,
-      "points": 4.6,
+    "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
+      "hot": 10,
+      "points": 20.4,
       "sources": [
-        "reba-popular#6"
+        "reba-popular#8",
+        "aglive#0",
+        "oshakur#1"
+      ],
+      "show": "beauty in black",
+      "match": "score"
+    },
+    "https://www.rebamovie.com/movie/f81b8775-6ef3-4934-9ad9-5b534486d6e2": {
+      "hot": 6,
+      "points": 1.9,
+      "sources": [
+        "reba-popular#9"
       ],
       "show": "fall 2 deadpoint",
       "match": "narrator"
