@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T18:09:31.498Z",
+  "updatedAt": "2026-11-14T22:28:58.050Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -14,10 +14,10 @@
     },
     "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
       "hot": 9.8,
-      "points": 14.6,
+      "points": 13.7,
       "sources": [
         "reba-trending#1",
-        "reba-popular#5"
+        "reba-popular#6"
       ],
       "show": "the royal gambler",
       "match": "narrator"
@@ -34,11 +34,11 @@
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
       "hot": 9.9,
-      "points": 17.4,
+      "points": 18.3,
       "sources": [
         "reba-trending#3",
         "reba-new#5",
-        "reba-popular#6"
+        "reba-popular#5"
       ],
       "show": "friends sex and games",
       "match": "narrator"
