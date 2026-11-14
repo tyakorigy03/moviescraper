@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-13T19:45:50.415Z",
+  "updatedAt": "2026-11-14T06:30:08.557Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -13,44 +13,44 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
-      "hot": 9.7,
-      "points": 12.8,
+      "hot": 9.8,
+      "points": 13.7,
       "sources": [
         "reba-trending#1",
-        "reba-popular#7"
+        "reba-popular#6"
       ],
       "show": "the royal gambler",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
+      "hot": 9.9,
+      "points": 16.4,
+      "sources": [
+        "reba-trending#2",
+        "reba-new#2"
+      ],
+      "show": "heart of the beast",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
       "hot": 9.9,
       "points": 19.2,
       "sources": [
-        "reba-trending#2",
+        "reba-trending#3",
         "reba-new#4",
-        "reba-popular#6"
+        "reba-popular#5"
       ],
       "show": "friends sex and games",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
-      "hot": 9.7,
-      "points": 13.7,
+      "hot": 9.6,
+      "points": 12.8,
       "sources": [
-        "reba-trending#3",
+        "reba-trending#4",
         "reba-popular#4"
       ],
       "show": "rugal",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
-      "hot": 9.8,
-      "points": 14.6,
-      "sources": [
-        "reba-trending#4",
-        "reba-new#2"
-      ],
-      "show": "heart of the beast",
       "match": "narrator"
     },
     "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
@@ -71,24 +71,24 @@
       "show": "from",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 9.1,
-      "points": 8.3,
+    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
+      "hot": 8.7,
+      "points": 5.6,
       "sources": [
         "reba-trending#8",
-        "reba-popular#5"
-      ],
-      "show": "special ops lioness",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 8.6,
-      "points": 4.7,
-      "sources": [
-        "reba-trending#9",
         "reba-new#8"
       ],
       "show": "now and forever",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
+      "hot": 8.7,
+      "points": 5.6,
+      "sources": [
+        "reba-trending#9",
+        "reba-popular#7"
+      ],
+      "show": "special ops lioness",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/1ad7d46f-6469-47d5-bd6f-e974d0f416d3": {
