@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T06:39:31.789Z",
+  "updatedAt": "2026-11-15T18:53:50.621Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -14,52 +14,50 @@
     },
     "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
       "hot": 9.8,
-      "points": 13.7,
+      "points": 14.6,
       "sources": [
         "reba-trending#1",
-        "reba-popular#6"
+        "reba-popular#5"
       ],
       "show": "the royal gambler",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
-      "hot": 9.8,
-      "points": 14.6,
+      "hot": 8.8,
+      "points": 8.2,
       "sources": [
-        "reba-trending#2",
-        "reba-new#4"
+        "reba-trending#2"
       ],
       "show": "heart of the beast",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 9.9,
-      "points": 17.4,
+      "hot": 9.6,
+      "points": 11.9,
       "sources": [
         "reba-trending#3",
-        "reba-new#6",
-        "reba-popular#5"
+        "reba-popular#6"
       ],
       "show": "friends sex and games",
       "match": "narrator"
     },
-    "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
-      "hot": 8,
-      "points": 6.4,
-      "sources": [
-        "reba-trending#4"
-      ],
-      "show": "paris has fallen",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
-      "hot": 9.5,
-      "points": 11.9,
+      "hot": 9.6,
+      "points": 12.8,
       "sources": [
-        "reba-trending#5",
+        "reba-trending#4",
         "reba-popular#4"
       ],
       "show": "rugal",
+      "match": "narrator"
+    },
+    "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
+      "hot": 7.6,
+      "points": 5.5,
+      "sources": [
+        "reba-trending#5"
+      ],
+      "show": "paris has fallen",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
@@ -72,77 +70,104 @@
       "show": "from",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 6.4,
-      "points": 2.8,
-      "sources": [
-        "reba-trending#8"
-      ],
-      "show": "now and forever",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 8.7,
-      "points": 5.6,
+      "hot": 8.8,
+      "points": 6.5,
       "sources": [
-        "reba-trending#9",
+        "reba-trending#8",
         "reba-popular#7"
       ],
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/1ad7d46f-6469-47d5-bd6f-e974d0f416d3": {
+    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
+      "hot": 6,
+      "points": 1.9,
+      "sources": [
+        "reba-trending#9"
+      ],
+      "show": "now and forever",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/a1478a8c-fa5d-4da0-9c8a-ea4230c12366": {
+      "hot": 9.6,
+      "points": 10,
+      "sources": [
+        "reba-new#0"
+      ],
+      "show": "never surrender",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/b7f4e64b-a150-4346-bc77-a238e59db99b": {
+      "hot": 9.2,
+      "points": 9.1,
+      "sources": [
+        "reba-new#1"
+      ],
+      "show": "the wrecker",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
       "hot": 8.8,
       "points": 8.2,
       "sources": [
         "reba-new#2"
       ],
-      "show": "the odyssey",
+      "show": "within the grip",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/607e82e5-e46c-4da5-aaac-de275d4800c6": {
+    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
       "hot": 8.4,
       "points": 7.3,
       "sources": [
         "reba-new#3"
       ],
-      "show": "jeet ki zid",
+      "show": "coven academy",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/279ca3fb-936b-4536-ae33-af0b6b9f969c": {
+    "https://www.rebamovie.com/movie/339ff431-a85f-4050-9895-0f6afa786d4f": {
+      "hot": 8,
+      "points": 6.4,
+      "sources": [
+        "reba-new#4"
+      ],
+      "show": "assassin s creed",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/f7dcf086-78b2-473c-9589-92702751b02b": {
       "hot": 7.6,
       "points": 5.5,
       "sources": [
         "reba-new#5"
       ],
-      "show": "beware boiuna",
+      "show": "the drop a snowfall saga",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/e99889ab-ece5-465f-8a7a-29938921549d": {
+    "https://www.rebamovie.com/movie/90aef1e9-9dd7-4eb1-b7f1-fb46f32a93ca": {
+      "hot": 7.2,
+      "points": 4.6,
+      "sources": [
+        "reba-new#6"
+      ],
+      "show": "the greatest",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/749654ff-2668-437b-a62c-6bcfa60fe767": {
       "hot": 6.8,
       "points": 3.7,
       "sources": [
         "reba-new#7"
       ],
-      "show": "dead end job",
+      "show": "crystal lake",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/951e576d-7862-4267-bb4d-58374eee9b6e": {
+    "https://www.rebamovie.com/movie/e1111792-c903-4063-a835-dcf4e7ba063a": {
       "hot": 6.4,
       "points": 2.8,
       "sources": [
         "reba-new#8"
       ],
-      "show": "kong skull island",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/efdec2dd-36b7-46fe-b727-ec07b914423a": {
-      "hot": 6,
-      "points": 1.9,
-      "sources": [
-        "reba-new#9"
-      ],
-      "show": "the good son",
+      "show": "all the devil s men",
       "match": "narrator"
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
