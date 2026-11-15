@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T22:28:58.050Z",
+  "updatedAt": "2026-11-15T06:39:31.789Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -24,123 +24,123 @@
     },
     "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
       "hot": 9.8,
-      "points": 15.5,
+      "points": 14.6,
       "sources": [
         "reba-trending#2",
-        "reba-new#3"
+        "reba-new#4"
       ],
       "show": "heart of the beast",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
       "hot": 9.9,
-      "points": 18.3,
+      "points": 17.4,
       "sources": [
         "reba-trending#3",
-        "reba-new#5",
+        "reba-new#6",
         "reba-popular#5"
       ],
       "show": "friends sex and games",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
-      "hot": 9.6,
-      "points": 12.8,
+    "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
+      "hot": 8,
+      "points": 6.4,
       "sources": [
-        "reba-trending#4",
+        "reba-trending#4"
+      ],
+      "show": "paris has fallen",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
+      "hot": 9.5,
+      "points": 11.9,
+      "sources": [
+        "reba-trending#5",
         "reba-popular#4"
       ],
       "show": "rugal",
       "match": "narrator"
     },
-    "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
-      "hot": 7.6,
-      "points": 5.5,
-      "sources": [
-        "reba-trending#5"
-      ],
-      "show": "paris has fallen",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
-      "hot": 6.8,
-      "points": 3.7,
+      "hot": 8.7,
+      "points": 5.6,
       "sources": [
-        "reba-trending#7"
+        "reba-trending#7",
+        "reba-popular#9"
       ],
       "show": "from",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 8.8,
-      "points": 6.5,
+    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
+      "hot": 6.4,
+      "points": 2.8,
       "sources": [
-        "reba-trending#8",
+        "reba-trending#8"
+      ],
+      "show": "now and forever",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
+      "hot": 8.7,
+      "points": 5.6,
+      "sources": [
+        "reba-trending#9",
         "reba-popular#7"
       ],
       "show": "special ops lioness",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 8.4,
-      "points": 3.8,
-      "sources": [
-        "reba-trending#9",
-        "reba-new#9"
-      ],
-      "show": "now and forever",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/1ad7d46f-6469-47d5-bd6f-e974d0f416d3": {
-      "hot": 9.2,
-      "points": 9.1,
-      "sources": [
-        "reba-new#1"
-      ],
-      "show": "the odyssey",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/607e82e5-e46c-4da5-aaac-de275d4800c6": {
       "hot": 8.8,
       "points": 8.2,
       "sources": [
         "reba-new#2"
       ],
+      "show": "the odyssey",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/607e82e5-e46c-4da5-aaac-de275d4800c6": {
+      "hot": 8.4,
+      "points": 7.3,
+      "sources": [
+        "reba-new#3"
+      ],
       "show": "jeet ki zid",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/279ca3fb-936b-4536-ae33-af0b6b9f969c": {
-      "hot": 8,
-      "points": 6.4,
+      "hot": 7.6,
+      "points": 5.5,
       "sources": [
-        "reba-new#4"
+        "reba-new#5"
       ],
       "show": "beware boiuna",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/e99889ab-ece5-465f-8a7a-29938921549d": {
-      "hot": 7.2,
-      "points": 4.6,
-      "sources": [
-        "reba-new#6"
-      ],
-      "show": "dead end job",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/951e576d-7862-4267-bb4d-58374eee9b6e": {
       "hot": 6.8,
       "points": 3.7,
       "sources": [
         "reba-new#7"
       ],
-      "show": "kong skull island",
+      "show": "dead end job",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/efdec2dd-36b7-46fe-b727-ec07b914423a": {
+    "https://www.rebamovie.com/movie/951e576d-7862-4267-bb4d-58374eee9b6e": {
       "hot": 6.4,
       "points": 2.8,
       "sources": [
         "reba-new#8"
+      ],
+      "show": "kong skull island",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/efdec2dd-36b7-46fe-b727-ec07b914423a": {
+      "hot": 6,
+      "points": 1.9,
+      "sources": [
+        "reba-new#9"
       ],
       "show": "the good son",
       "match": "narrator"
@@ -173,15 +173,6 @@
       ],
       "show": "beauty in black",
       "match": "score"
-    },
-    "https://www.rebamovie.com/movie/f81b8775-6ef3-4934-9ad9-5b534486d6e2": {
-      "hot": 6,
-      "points": 1.9,
-      "sources": [
-        "reba-popular#9"
-      ],
-      "show": "fall 2 deadpoint",
-      "match": "narrator"
     },
     "https://agasobanuyelive.com/young-swordsman-s01-review/": {
       "hot": 9.2,
