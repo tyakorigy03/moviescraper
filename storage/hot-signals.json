@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T06:36:31.568Z",
+  "updatedAt": "2026-11-16T22:09:48.416Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -13,10 +13,11 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
-      "hot": 9.2,
-      "points": 9.1,
+      "hot": 9.7,
+      "points": 11,
       "sources": [
-        "reba-trending#1"
+        "reba-trending#1",
+        "reba-popular#9"
       ],
       "show": "heart of the beast",
       "match": "narrator"
@@ -41,31 +42,30 @@
       "show": "friends sex and games",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
-      "hot": 9.7,
-      "points": 13.7,
+    "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
+      "hot": 8,
+      "points": 6.4,
       "sources": [
-        "reba-trending#4",
+        "reba-trending#4"
+      ],
+      "show": "paris has fallen",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
+      "hot": 9.6,
+      "points": 12.8,
+      "sources": [
+        "reba-trending#5",
         "reba-popular#3"
       ],
       "show": "rugal",
       "match": "narrator"
     },
-    "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
-      "hot": 7.6,
-      "points": 5.5,
-      "sources": [
-        "reba-trending#5"
-      ],
-      "show": "paris has fallen",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
-      "hot": 8.9,
-      "points": 6.5,
+      "hot": 6.8,
+      "points": 3.7,
       "sources": [
-        "reba-trending#6",
-        "reba-popular#9"
+        "reba-trending#7"
       ],
       "show": "from",
       "match": "narrator"
