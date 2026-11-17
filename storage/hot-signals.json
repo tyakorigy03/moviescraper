@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T07:58:51.271Z",
+  "updatedAt": "2026-11-17T20:58:46.612Z",
   "signals": {
     "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
       "hot": 9.8,
@@ -61,13 +61,14 @@
       "show": "rugal",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/1ad7d46f-6469-47d5-bd6f-e974d0f416d3": {
-      "hot": 6.8,
-      "points": 3.7,
+    "https://www.rebamovie.com/movie/1bca66dd-a72d-4073-a2ac-aa8ee121fabf": {
+      "hot": 9.9,
+      "points": 14.6,
       "sources": [
-        "reba-trending#7"
+        "reba-trending#6",
+        "reba-new#0"
       ],
-      "show": "the odyssey",
+      "show": "the bucket list",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/a1478a8c-fa5d-4da0-9c8a-ea4230c12366": {
@@ -80,14 +81,13 @@
       "show": "never surrender",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/339ff431-a85f-4050-9895-0f6afa786d4f": {
-      "hot": 9,
-      "points": 7.4,
+    "https://www.rebamovie.com/movie/1ad7d46f-6469-47d5-bd6f-e974d0f416d3": {
+      "hot": 6,
+      "points": 1.9,
       "sources": [
-        "reba-trending#9",
-        "reba-new#5"
+        "reba-trending#9"
       ],
-      "show": "assassin s creed",
+      "show": "the odyssey",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b7f4e64b-a150-4346-bc77-a238e59db99b": {
@@ -115,6 +115,15 @@
         "reba-new#4"
       ],
       "show": "coven academy",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/339ff431-a85f-4050-9895-0f6afa786d4f": {
+      "hot": 7.6,
+      "points": 5.5,
+      "sources": [
+        "reba-new#5"
+      ],
+      "show": "assassin s creed",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/f7dcf086-78b2-473c-9589-92702751b02b": {
