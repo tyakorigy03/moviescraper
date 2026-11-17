@@ -1,43 +1,43 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T22:09:48.416Z",
+  "updatedAt": "2026-11-17T07:58:51.271Z",
   "signals": {
-    "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
-      "hot": 10,
-      "points": 20,
+    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
+      "hot": 9.8,
+      "points": 11.9,
       "sources": [
         "reba-trending#0",
-        "reba-popular#0"
-      ],
-      "show": "lupin",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
-      "hot": 9.7,
-      "points": 11,
-      "sources": [
-        "reba-trending#1",
         "reba-popular#9"
       ],
       "show": "heart of the beast",
       "match": "narrator"
     },
+    "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
+      "hot": 10,
+      "points": 19.1,
+      "sources": [
+        "reba-trending#1",
+        "reba-popular#0"
+      ],
+      "show": "lupin",
+      "match": "narrator"
+    },
     "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
-      "hot": 9.7,
-      "points": 13.7,
+      "hot": 9.8,
+      "points": 14.6,
       "sources": [
         "reba-trending#2",
-        "reba-popular#5"
+        "reba-popular#4"
       ],
       "show": "the royal gambler",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
       "hot": 9.6,
-      "points": 11.9,
+      "points": 12.8,
       "sources": [
         "reba-trending#3",
-        "reba-popular#6"
+        "reba-popular#5"
       ],
       "show": "friends sex and games",
       "match": "narrator"
@@ -61,121 +61,96 @@
       "show": "rugal",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
+    "https://www.rebamovie.com/movie/1ad7d46f-6469-47d5-bd6f-e974d0f416d3": {
       "hot": 6.8,
       "points": 3.7,
       "sources": [
         "reba-trending#7"
       ],
-      "show": "from",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/1ad7d46f-6469-47d5-bd6f-e974d0f416d3": {
-      "hot": 6.4,
-      "points": 2.8,
-      "sources": [
-        "reba-trending#8"
-      ],
       "show": "the odyssey",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/5679754d-b1d1-4d28-ab97-301bba1adf9c": {
-      "hot": 6,
-      "points": 1.9,
-      "sources": [
-        "reba-trending#9"
-      ],
-      "show": "now and forever",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/a1478a8c-fa5d-4da0-9c8a-ea4230c12366": {
-      "hot": 9.6,
-      "points": 10,
+      "hot": 9.7,
+      "points": 11.9,
       "sources": [
-        "reba-new#0"
+        "reba-trending#8",
+        "reba-new#1"
       ],
       "show": "never surrender",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b7f4e64b-a150-4346-bc77-a238e59db99b": {
-      "hot": 9.2,
-      "points": 9.1,
+    "https://www.rebamovie.com/movie/339ff431-a85f-4050-9895-0f6afa786d4f": {
+      "hot": 9,
+      "points": 7.4,
       "sources": [
-        "reba-new#1"
+        "reba-trending#9",
+        "reba-new#5"
       ],
-      "show": "the wrecker",
+      "show": "assassin s creed",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+    "https://www.rebamovie.com/movie/b7f4e64b-a150-4346-bc77-a238e59db99b": {
       "hot": 8.8,
       "points": 8.2,
       "sources": [
         "reba-new#2"
       ],
-      "show": "within the grip",
+      "show": "the wrecker",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
       "hot": 8.4,
       "points": 7.3,
       "sources": [
         "reba-new#3"
       ],
-      "show": "coven academy",
+      "show": "within the grip",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/339ff431-a85f-4050-9895-0f6afa786d4f": {
+    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
       "hot": 8,
       "points": 6.4,
       "sources": [
         "reba-new#4"
       ],
-      "show": "assassin s creed",
+      "show": "coven academy",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/f7dcf086-78b2-473c-9589-92702751b02b": {
-      "hot": 7.6,
-      "points": 5.5,
-      "sources": [
-        "reba-new#5"
-      ],
-      "show": "the drop a snowfall saga",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/90aef1e9-9dd7-4eb1-b7f1-fb46f32a93ca": {
       "hot": 7.2,
       "points": 4.6,
       "sources": [
         "reba-new#6"
       ],
-      "show": "the greatest",
+      "show": "the drop a snowfall saga",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/749654ff-2668-437b-a62c-6bcfa60fe767": {
+    "https://www.rebamovie.com/movie/90aef1e9-9dd7-4eb1-b7f1-fb46f32a93ca": {
       "hot": 6.8,
       "points": 3.7,
       "sources": [
         "reba-new#7"
       ],
-      "show": "crystal lake",
+      "show": "the greatest",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/e1111792-c903-4063-a835-dcf4e7ba063a": {
+    "https://www.rebamovie.com/movie/749654ff-2668-437b-a62c-6bcfa60fe767": {
       "hot": 6.4,
       "points": 2.8,
       "sources": [
         "reba-new#8"
       ],
-      "show": "all the devil s men",
+      "show": "crystal lake",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/f65636af-4458-41cf-9e37-73eda2ce0776": {
+    "https://www.rebamovie.com/movie/e1111792-c903-4063-a835-dcf4e7ba063a": {
       "hot": 6,
       "points": 1.9,
       "sources": [
         "reba-new#9"
       ],
-      "show": "brahmastra",
+      "show": "all the devil s men",
       "match": "narrator"
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
@@ -188,10 +163,10 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/3604eb9b-0776-4d0e-8427-41617af0f220": {
-      "hot": 8,
-      "points": 6.4,
+      "hot": 7.2,
+      "points": 4.6,
       "sources": [
-        "reba-popular#4"
+        "reba-popular#6"
       ],
       "show": "matchbox the movie",
       "match": "score"
