@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-18T07:34:48.936Z",
+  "updatedAt": "2026-11-18T20:36:41.734Z",
   "signals": {
     "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
-      "hot": 9.8,
-      "points": 11.9,
+      "hot": 9.9,
+      "points": 12.8,
       "sources": [
         "reba-trending#0",
-        "reba-popular#9"
+        "reba-popular#8"
       ],
       "show": "heart of the beast",
       "match": "narrator"
@@ -32,24 +32,24 @@
       "show": "the royal gambler",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 9.6,
-      "points": 12.8,
+    "https://www.rebamovie.com/movie/1bca66dd-a72d-4073-a2ac-aa8ee121fabf": {
+      "hot": 9.7,
+      "points": 14.6,
       "sources": [
         "reba-trending#3",
+        "reba-new#3"
+      ],
+      "show": "the bucket list",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
+      "hot": 9.5,
+      "points": 11.9,
+      "sources": [
+        "reba-trending#4",
         "reba-popular#5"
       ],
       "show": "friends sex and games",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/1bca66dd-a72d-4073-a2ac-aa8ee121fabf": {
-      "hot": 9.8,
-      "points": 15.5,
-      "sources": [
-        "reba-trending#4",
-        "reba-new#1"
-      ],
-      "show": "the bucket list",
       "match": "narrator"
     },
     "https://agasobanuyelive.com/paris-has-fallen-season-01-review/": {
@@ -72,86 +72,86 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/a1478a8c-fa5d-4da0-9c8a-ea4230c12366": {
-      "hot": 9.6,
-      "points": 11.9,
+      "hot": 9.4,
+      "points": 10.1,
       "sources": [
         "reba-trending#7",
-        "reba-new#2"
+        "reba-new#4"
       ],
       "show": "never surrender",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/339ff431-a85f-4050-9895-0f6afa786d4f": {
-      "hot": 9,
-      "points": 7.4,
+      "hot": 8.7,
+      "points": 5.6,
       "sources": [
         "reba-trending#8",
-        "reba-new#6"
+        "reba-new#8"
       ],
       "show": "assassin s creed",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/1ad7d46f-6469-47d5-bd6f-e974d0f416d3": {
-      "hot": 6,
-      "points": 1.9,
+    "https://www.rebamovie.com/movie/465d64cc-527c-4508-af22-e42bbfac48ee": {
+      "hot": 9.6,
+      "points": 10,
       "sources": [
-        "reba-trending#9"
+        "reba-new#0"
       ],
-      "show": "the odyssey",
+      "show": "the beast",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/36871a6b-b27e-4d20-b4a0-e838fb06409d": {
+      "hot": 9.2,
+      "points": 9.1,
+      "sources": [
+        "reba-new#1"
+      ],
+      "show": "the sorcerer s apprentice",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/981623e7-a2e3-4521-93c1-05ace256f72d": {
+      "hot": 8.8,
+      "points": 8.2,
+      "sources": [
+        "reba-new#2"
+      ],
+      "show": "banshee",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b7f4e64b-a150-4346-bc77-a238e59db99b": {
-      "hot": 8.4,
-      "points": 7.3,
-      "sources": [
-        "reba-new#3"
-      ],
-      "show": "the wrecker",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
-      "hot": 8,
-      "points": 6.4,
-      "sources": [
-        "reba-new#4"
-      ],
-      "show": "within the grip",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
       "hot": 7.6,
       "points": 5.5,
       "sources": [
         "reba-new#5"
       ],
-      "show": "coven academy",
+      "show": "the wrecker",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/f7dcf086-78b2-473c-9589-92702751b02b": {
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
+      "hot": 7.2,
+      "points": 4.6,
+      "sources": [
+        "reba-new#6"
+      ],
+      "show": "within the grip",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
       "hot": 6.8,
       "points": 3.7,
       "sources": [
         "reba-new#7"
       ],
-      "show": "the drop a snowfall saga",
+      "show": "coven academy",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/90aef1e9-9dd7-4eb1-b7f1-fb46f32a93ca": {
-      "hot": 6.4,
-      "points": 2.8,
-      "sources": [
-        "reba-new#8"
-      ],
-      "show": "the greatest",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/749654ff-2668-437b-a62c-6bcfa60fe767": {
+    "https://www.rebamovie.com/movie/f7dcf086-78b2-473c-9589-92702751b02b": {
       "hot": 6,
       "points": 1.9,
       "sources": [
         "reba-new#9"
       ],
-      "show": "crystal lake",
+      "show": "the drop a snowfall saga",
       "match": "narrator"
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
@@ -183,9 +183,9 @@
     },
     "https://agasobanuyelive.com/beauty-in-black-s02-review/": {
       "hot": 10,
-      "points": 20.4,
+      "points": 19.5,
       "sources": [
-        "reba-popular#8",
+        "reba-popular#9",
         "aglive#0",
         "oshakur#1"
       ],
