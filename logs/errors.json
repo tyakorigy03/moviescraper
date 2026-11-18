@@ -41578,5 +41578,165 @@
   {
     "message": "Failed scraping #: cleanSiteCountry is not defined",
     "timestamp": "2026-11-18T19:19:54.932Z"
+  },
+  {
+    "message": "downloadData did not mint for Friends Sex and Games - S01E04 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-18T19:22:08.671Z"
+  },
+  {
+    "message": "downloadData did not mint for Outer Banks - S04E01 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-18T19:27:47.860Z"
+  },
+  {
+    "message": "downloadData did not mint for Outer Banks - S04E02 — returned our own token back (strike 2/3)",
+    "timestamp": "2026-11-18T19:27:48.371Z"
+  },
+  {
+    "message": "downloadData did not mint for A Shop for Killers - S01E01 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-18T19:32:44.718Z"
+  },
+  {
+    "message": "downloadData did not mint for A Shop for Killers - S01E02 — returned our own token back (strike 2/3)",
+    "timestamp": "2026-11-18T19:32:45.210Z"
+  },
+  {
+    "message": "downloadData did not mint for A Shop for Killers - S01E03 — returned our own token back (strike 3/3)",
+    "timestamp": "2026-11-18T19:32:45.715Z"
+  },
+  {
+    "message": "downloadData is not minting after 3 strikes — pausing calls for 30min rather than hammering it",
+    "timestamp": "2026-11-18T19:32:45.735Z"
+  },
+  {
+    "message": "downloadData did not mint for The Protege — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-18T20:06:53.387Z"
+  },
+  {
+    "message": "downloadData empty for Ghost Rider: Spirit of Vengeance (attempt 1)",
+    "timestamp": "2026-11-18T20:07:18.662Z"
+  },
+  {
+    "message": "downloadData empty for The Brave Ones - S01E01 (attempt 1)",
+    "timestamp": "2026-11-18T20:11:19.579Z"
+  },
+  {
+    "message": "downloadData empty for The Brave Ones - S01E01 (attempt 2)",
+    "timestamp": "2026-11-18T20:11:23.593Z"
+  },
+  {
+    "message": "downloadData empty for The Brave Ones - S01E01 (attempt 3)",
+    "timestamp": "2026-11-18T20:11:33.484Z"
+  },
+  {
+    "message": "downloadData empty for The Brave Ones - S01E02 (attempt 1)",
+    "timestamp": "2026-11-18T20:11:40.707Z"
+  },
+  {
+    "message": "downloadData empty for The Brave Ones - S01E02 (attempt 2)",
+    "timestamp": "2026-11-18T20:11:49.821Z"
+  },
+  {
+    "message": "downloadData empty for The Brave Ones - S01E02 (attempt 3)",
+    "timestamp": "2026-11-18T20:11:59.928Z"
+  },
+  {
+    "message": "downloadData empty for The Brave Ones - S01E03 (attempt 1)",
+    "timestamp": "2026-11-18T20:12:12.051Z"
+  },
+  {
+    "message": "downloadData empty for The Brave Ones - S01E03 (attempt 2)",
+    "timestamp": "2026-11-18T20:12:25.612Z"
+  },
+  {
+    "message": "downloadData empty for The Brave Ones - S01E03 (attempt 3)",
+    "timestamp": "2026-11-18T20:12:40.258Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 1)",
+    "timestamp": "2026-11-18T20:16:27.381Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 2)",
+    "timestamp": "2026-11-18T20:16:31.429Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E01 (attempt 3)",
+    "timestamp": "2026-11-18T20:16:40.209Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 1)",
+    "timestamp": "2026-11-18T20:16:47.029Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 2)",
+    "timestamp": "2026-11-18T20:16:55.770Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E02 (attempt 3)",
+    "timestamp": "2026-11-18T20:17:05.603Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 1)",
+    "timestamp": "2026-11-18T20:17:17.427Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 2)",
+    "timestamp": "2026-11-18T20:17:30.672Z"
+  },
+  {
+    "message": "downloadData empty for High School on Sex - S02E03 (attempt 3)",
+    "timestamp": "2026-11-18T20:17:45.431Z"
+  },
+  {
+    "message": "downloadData did not mint for Hitman 2: Agent 47 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-18T20:22:36.075Z"
+  },
+  {
+    "message": "downloadData did not mint for I Spit on Your Grave 1 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-18T20:25:01.046Z"
+  },
+  {
+    "message": "downloadData did not mint for 3 Idiots — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-18T20:30:22.572Z"
+  },
+  {
+    "message": "downloadData did not mint for Kabhi Alvida Naa Kehna — returned our own token back (strike 2/3)",
+    "timestamp": "2026-11-18T20:30:23.538Z"
+  },
+  {
+    "message": "downloadData did not mint for Badland Hunters — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-18T20:31:20.867Z"
+  },
+  {
+    "message": "downloadData did not mint for The Day of the Jackal - S01E01 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-18T20:31:26.082Z"
+  },
+  {
+    "message": "downloadData did not mint for The Day of the Jackal - S01E02 — returned our own token back (strike 2/3)",
+    "timestamp": "2026-11-18T20:31:26.599Z"
+  },
+  {
+    "message": "downloadData did not mint for The Day of the Jackal - S01E03 — returned our own token back (strike 3/3)",
+    "timestamp": "2026-11-18T20:31:27.266Z"
+  },
+  {
+    "message": "downloadData is not minting after 3 strikes — pausing calls for 30min rather than hammering it",
+    "timestamp": "2026-11-18T20:31:27.286Z"
+  },
+  {
+    "message": "downloadData empty for The Brave - S01E02 (attempt 1)",
+    "timestamp": "2026-11-18T21:03:51.131Z"
+  },
+  {
+    "message": "downloadData empty for The Brave - S01E02 (attempt 2)",
+    "timestamp": "2026-11-18T21:03:56.024Z"
+  },
+  {
+    "message": "downloadData empty for The Brave - S01E02 (attempt 3)",
+    "timestamp": "2026-11-18T21:04:06.360Z"
+  },
+  {
+    "message": "downloadData did not mint for Raayan — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-18T21:06:20.334Z"
   }
 ]
