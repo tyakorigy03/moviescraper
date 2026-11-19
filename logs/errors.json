@@ -41738,5 +41738,77 @@
   {
     "message": "downloadData did not mint for Raayan — returned our own token back (strike 1/3)",
     "timestamp": "2026-11-18T21:06:20.334Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:10.038Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:10.518Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:11.067Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:11.582Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:12.113Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:12.642Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:13.192Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:13.737Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:14.317Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:14.838Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:15.410Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:15.837Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:16.258Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:16.677Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:17.221Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:17.768Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:18.201Z"
+  },
+  {
+    "message": "Failed scraping #: cleanSiteCountry is not defined",
+    "timestamp": "2026-11-19T01:25:18.815Z"
   }
 ]
