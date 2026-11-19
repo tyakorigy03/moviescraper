@@ -1,34 +1,34 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T07:30:25.127Z",
+  "updatedAt": "2026-11-19T20:41:42.307Z",
   "signals": {
-    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
-      "hot": 9.9,
-      "points": 12.8,
-      "sources": [
-        "reba-trending#0",
-        "reba-popular#8"
-      ],
-      "show": "heart of the beast",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
       "points": 29.1,
       "sources": [
-        "reba-trending#1",
-        "reba-new#0",
+        "reba-trending#0",
+        "reba-new#1",
         "reba-popular#0"
       ],
       "show": "lupin",
       "match": "narrator"
     },
+    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
+      "hot": 9.7,
+      "points": 11.9,
+      "sources": [
+        "reba-trending#1",
+        "reba-popular#8"
+      ],
+      "show": "heart of the beast",
+      "match": "narrator"
+    },
     "https://www.rebamovie.com/movie/1bca66dd-a72d-4073-a2ac-aa8ee121fabf": {
-      "hot": 9.8,
-      "points": 14.6,
+      "hot": 9.7,
+      "points": 13.7,
       "sources": [
         "reba-trending#2",
-        "reba-new#4"
+        "reba-new#5"
       ],
       "show": "the bucket list",
       "match": "narrator"
@@ -54,11 +54,11 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/a1478a8c-fa5d-4da0-9c8a-ea4230c12366": {
-      "hot": 9.4,
-      "points": 11,
+      "hot": 9.3,
+      "points": 10.1,
       "sources": [
         "reba-trending#5",
-        "reba-new#5"
+        "reba-new#6"
       ],
       "show": "never surrender",
       "match": "narrator"
@@ -74,11 +74,10 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/339ff431-a85f-4050-9895-0f6afa786d4f": {
-      "hot": 8.7,
-      "points": 5.6,
+      "hot": 6.8,
+      "points": 3.7,
       "sources": [
-        "reba-trending#7",
-        "reba-new#9"
+        "reba-trending#7"
       ],
       "show": "assassin s creed",
       "match": "narrator"
@@ -92,65 +91,65 @@
       "show": "paris has fallen",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/1ad7d46f-6469-47d5-bd6f-e974d0f416d3": {
-      "hot": 6,
-      "points": 1.9,
+    "https://www.rebamovie.com/movie/3607b431-1c69-4941-b0ae-fcbeb89b28db": {
+      "hot": 9.6,
+      "points": 10,
       "sources": [
-        "reba-trending#9"
+        "reba-new#0"
       ],
-      "show": "the odyssey",
+      "show": "the instigators",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/465d64cc-527c-4508-af22-e42bbfac48ee": {
-      "hot": 9.2,
-      "points": 9.1,
-      "sources": [
-        "reba-new#1"
-      ],
-      "show": "the beast",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/36871a6b-b27e-4d20-b4a0-e838fb06409d": {
       "hot": 8.8,
       "points": 8.2,
       "sources": [
         "reba-new#2"
       ],
-      "show": "the sorcerer s apprentice",
+      "show": "the beast",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/981623e7-a2e3-4521-93c1-05ace256f72d": {
+    "https://www.rebamovie.com/movie/36871a6b-b27e-4d20-b4a0-e838fb06409d": {
       "hot": 8.4,
       "points": 7.3,
       "sources": [
         "reba-new#3"
       ],
+      "show": "the sorcerer s apprentice",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/981623e7-a2e3-4521-93c1-05ace256f72d": {
+      "hot": 8,
+      "points": 6.4,
+      "sources": [
+        "reba-new#4"
+      ],
       "show": "banshee",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b7f4e64b-a150-4346-bc77-a238e59db99b": {
-      "hot": 7.2,
-      "points": 4.6,
-      "sources": [
-        "reba-new#6"
-      ],
-      "show": "the wrecker",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
       "hot": 6.8,
       "points": 3.7,
       "sources": [
         "reba-new#7"
       ],
-      "show": "within the grip",
+      "show": "the wrecker",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
+    "https://www.rebamovie.com/movie/9dbdec0b-330a-4825-aca6-f3aadec38cb2": {
       "hot": 6.4,
       "points": 2.8,
       "sources": [
         "reba-new#8"
+      ],
+      "show": "within the grip",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/691a71a0-3bf4-4dd8-b72d-c5ca754ede33": {
+      "hot": 6,
+      "points": 1.9,
+      "sources": [
+        "reba-new#9"
       ],
       "show": "coven academy",
       "match": "narrator"
