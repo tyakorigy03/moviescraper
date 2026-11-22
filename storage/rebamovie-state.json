@@ -158112,9 +158112,23 @@
           "direct": true
         }
       ]
+    },
+    "b6db96eb-cde8-437d-acfe-f0101727312d": {
+      "at": "2026-11-22T17:45:15.400Z",
+      "badge": "Filme",
+      "type": "movie",
+      "singleSeason": true,
+      "entries": [
+        {
+          "title": "Murder Game",
+          "watchUrl": "https://cdn-video.rebamovie.com/b7e546_0716652857ce43d39904e84c2d28f261/,480p,/mp4/file.mp4.urlset/manifest.mpd?token=PPP9SlH3W61ZQhiPD8AePCUMhQc87n7SSNtvv_zRAQlaBT6nW0dHab5mID9rV7SPRQaF-kVDjkwVQuiu-M2N2JjAdX_cLHxJMog6ARDm4Z4vpq1ACli5qcBidycJKpD41LiOW_qsaJ7bOexE2wasT2lRQDVT-lVkLPGdmK-ntMuWmzaT1MUXPgwjyg6bj3lNHI3yoW-1LIHkOtNEVWtZQ1nNW-SN3lZ3NkXxwjdEllshZqj4WVOiPn7YxSmAfRkeXdOwxC7KP9Pwe_hAMPLbfOdgcWEE5G_DDbHPdSf_1To%26signature%3DGJJY4zff290DGAwwVr1d5AB2FGoIa5ojgeaz6k03tR0",
+          "downloadUrl": "https://download-video.wixmp.com/video/b7e546_0716652857ce43d39904e84c2d28f261/480p/mp4/file.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmoiOltbeyJwYXRoIjoiL3ZpZGVvL2I3ZTU0Nl8wNzE2NjUyODU3Y2U0M2QzOTkwNGU4NGMyZDI4ZjI2MS80ODBwL21wNC9maWxlLm1wNCJ9XV0sImRpcyI6eyJmaWxlbmFtZSI6Ik11cmRlciBHYW1lLm1wNCIsInR5cGUiOiJhdHRhY2htZW50In0sInJlZCI6Imh0dHBzOi8vd3d3LnJlYmFtb3ZpZS5jb20iLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdLCJleHAiOjE3OTU0NTU5MDQsImp0aSI6Ijk0ODE4MTJiLTE4ZmQtNDEwYy05ZDhlLTBlYmYyNTVjZGY1NyIsImlhdCI6MTc5NTM2OTUwNCwiaXNzIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsInN1YiI6InVybjphcHA6ZTY2NjMwZTcxNGYwNDkwYWFlYTFmMTQ5YjNiNjllMzIifQ.MpJmTJIBMlWQAhoNPV6IF8oieiUZ8PFpP1kXLnVAkVE",
+          "direct": true
+        }
+      ]
     }
   },
-  "lastRunAt": "2026-11-22T11:13:17.820Z",
+  "lastRunAt": "2026-11-22T17:52:32.069Z",
   "lastFullScanAt": null,
   "failed": {},
   "pendingWrites": []
