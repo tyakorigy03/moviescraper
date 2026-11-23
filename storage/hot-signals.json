@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-22T19:44:28.949Z",
+  "updatedAt": "2026-11-23T07:44:38.045Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
-      "points": 23.7,
+      "points": 20,
       "sources": [
         "reba-trending#0",
-        "reba-new#7",
         "reba-popular#0"
       ],
       "show": "lupin",
@@ -15,32 +14,31 @@
     },
     "https://www.rebamovie.com/movie/1bca66dd-a72d-4073-a2ac-aa8ee121fabf": {
       "hot": 9.7,
-      "points": 11.9,
+      "points": 12.8,
       "sources": [
         "reba-trending#1",
-        "reba-popular#8"
+        "reba-popular#7"
       ],
       "show": "the bucket list",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
-      "hot": 9.8,
-      "points": 15.5,
+    "https://www.rebamovie.com/movie/9b70ad5d-d269-4124-b8f7-4486a0ad1591": {
+      "hot": 8.8,
+      "points": 8.2,
       "sources": [
-        "reba-trending#2",
+        "reba-trending#2"
+      ],
+      "show": "the odyssey",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
+      "hot": 9.7,
+      "points": 14.6,
+      "sources": [
+        "reba-trending#3",
         "reba-popular#3"
       ],
       "show": "the royal gambler",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/9b70ad5d-d269-4124-b8f7-4486a0ad1591": {
-      "hot": 9.7,
-      "points": 13.7,
-      "sources": [
-        "reba-trending#3",
-        "reba-new#4"
-      ],
-      "show": "the odyssey",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
@@ -53,114 +51,133 @@
       "show": "friends sex and games",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
-      "hot": 9.3,
-      "points": 10.1,
+    "https://www.rebamovie.com/movie/465d64cc-527c-4508-af22-e42bbfac48ee": {
+      "hot": 7.6,
+      "points": 5.5,
       "sources": [
-        "reba-trending#5",
+        "reba-trending#5"
+      ],
+      "show": "the beast",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
+      "hot": 9.1,
+      "points": 8.3,
+      "sources": [
+        "reba-trending#7",
         "reba-popular#6"
       ],
       "show": "heart of the beast",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/a1478a8c-fa5d-4da0-9c8a-ea4230c12366": {
-      "hot": 7.2,
-      "points": 4.6,
-      "sources": [
-        "reba-trending#6"
-      ],
-      "show": "never surrender",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/465d64cc-527c-4508-af22-e42bbfac48ee": {
-      "hot": 8.7,
-      "points": 5.6,
+    "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
+      "hot": 9.7,
+      "points": 11.9,
       "sources": [
         "reba-trending#8",
-        "reba-new#8"
+        "reba-popular#1"
       ],
-      "show": "the beast",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/339ff431-a85f-4050-9895-0f6afa786d4f": {
-      "hot": 6,
-      "points": 1.9,
-      "sources": [
-        "reba-trending#9"
-      ],
-      "show": "assassin s creed",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/762e0be9-8de2-4dbe-a363-f4b3e5dc03ea": {
-      "hot": 9.6,
-      "points": 10,
-      "sources": [
-        "reba-new#0"
-      ],
-      "show": "ready or not 2 here i come",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/b29af739-caf5-4667-9eac-d82213fb36fd": {
-      "hot": 9.2,
-      "points": 9.1,
-      "sources": [
-        "reba-new#1"
-      ],
-      "show": "a royal winter",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/8b643ae4-2ad1-47fa-be49-5bf4ca83298d": {
-      "hot": 8.8,
-      "points": 8.2,
-      "sources": [
-        "reba-new#2"
-      ],
-      "show": "vibe",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/59697f5a-a7ad-4426-a8f3-15efba927ee9": {
-      "hot": 8.4,
-      "points": 7.3,
-      "sources": [
-        "reba-new#3"
-      ],
-      "show": "shadow punisher",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/cfbfe140-54d7-424f-88a0-1c90446f4fd1": {
-      "hot": 7.6,
-      "points": 5.5,
-      "sources": [
-        "reba-new#5"
-      ],
-      "show": "senior high",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/3607b431-1c69-4941-b0ae-fcbeb89b28db": {
-      "hot": 7.2,
-      "points": 4.6,
-      "sources": [
-        "reba-new#6"
-      ],
-      "show": "the instigators",
+      "show": "rugal",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/36871a6b-b27e-4d20-b4a0-e838fb06409d": {
       "hot": 6,
       "points": 1.9,
       "sources": [
-        "reba-new#9"
+        "reba-trending#9"
       ],
       "show": "the sorcerer s apprentice",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
+    "https://www.rebamovie.com/movie/15fc4843-eecd-4de9-a8f1-3baf5e3d6853": {
+      "hot": 9.6,
+      "points": 10,
+      "sources": [
+        "reba-new#0"
+      ],
+      "show": "velvet",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/0104d60b-6ae1-4301-9dbc-a3f1a78acbfa": {
       "hot": 9.2,
       "points": 9.1,
       "sources": [
-        "reba-popular#1"
+        "reba-new#1"
       ],
-      "show": "rugal",
+      "show": "endless love",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/ea90d1b5-9589-4823-8fcf-a7a9af6e7e61": {
+      "hot": 9.6,
+      "points": 14.1,
+      "sources": [
+        "reba-new#2",
+        "aglive#7"
+      ],
+      "show": "da vinci s demons",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/d342908d-dc91-4d41-80de-6060c60f5bd5": {
+      "hot": 8.4,
+      "points": 7.3,
+      "sources": [
+        "reba-new#3"
+      ],
+      "show": "ali baba aur 40 bhoot",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/7d63b3cc-7368-4f11-88f4-4f96e0f07c99": {
+      "hot": 8,
+      "points": 6.4,
+      "sources": [
+        "reba-new#4"
+      ],
+      "show": "my bias my boss",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/b5061ef4-6648-4591-96f1-8a92cdd36d14": {
+      "hot": 7.6,
+      "points": 5.5,
+      "sources": [
+        "reba-new#5"
+      ],
+      "show": "the remarried empress",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/731f0906-f51a-4edc-a3c1-c202170da058": {
+      "hot": 7.2,
+      "points": 4.6,
+      "sources": [
+        "reba-new#6"
+      ],
+      "show": "blood and water",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/6c6d9137-c2bb-4837-ad23-b1c7b8e33574": {
+      "hot": 6.8,
+      "points": 3.7,
+      "sources": [
+        "reba-new#7"
+      ],
+      "show": "valiant",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/762e0be9-8de2-4dbe-a363-f4b3e5dc03ea": {
+      "hot": 6.4,
+      "points": 2.8,
+      "sources": [
+        "reba-new#8"
+      ],
+      "show": "ready or not 2 here i come",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/b29af739-caf5-4667-9eac-d82213fb36fd": {
+      "hot": 6,
+      "points": 1.9,
+      "sources": [
+        "reba-new#9"
+      ],
+      "show": "a royal winter",
       "match": "narrator"
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
@@ -173,10 +190,10 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/7621163f-918e-4e1e-9f11-19f8cbbc4d2f": {
-      "hot": 6.8,
-      "points": 3.7,
+      "hot": 6.4,
+      "points": 2.8,
       "sources": [
-        "reba-popular#7"
+        "reba-popular#8"
       ],
       "show": "special ops lioness",
       "match": "narrator"
@@ -252,15 +269,6 @@
         "aglive#6"
       ],
       "show": "umthetho",
-      "match": "score"
-    },
-    "https://www.rebamovie.com/movie/ea90d1b5-9589-4823-8fcf-a7a9af6e7e61": {
-      "hot": 6.8,
-      "points": 5.9,
-      "sources": [
-        "aglive#7"
-      ],
-      "show": "da vinci s demons",
       "match": "score"
     },
     "https://agasobanuyelive.com/lucky-s01-review/": {
