@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-23T07:44:38.045Z",
+  "updatedAt": "2026-11-23T23:57:24.108Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -52,22 +52,22 @@
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/465d64cc-527c-4508-af22-e42bbfac48ee": {
-      "hot": 7.6,
-      "points": 5.5,
+      "hot": 7.2,
+      "points": 4.6,
       "sources": [
-        "reba-trending#5"
+        "reba-trending#6"
       ],
       "show": "the beast",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
-      "hot": 9.1,
-      "points": 8.3,
+    "https://www.rebamovie.com/movie/59697f5a-a7ad-4426-a8f3-15efba927ee9": {
+      "hot": 9.9,
+      "points": 13.7,
       "sources": [
         "reba-trending#7",
-        "reba-popular#6"
+        "reba-new#0"
       ],
-      "show": "heart of the beast",
+      "show": "shadow punisher",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
@@ -80,104 +80,96 @@
       "show": "rugal",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/36871a6b-b27e-4d20-b4a0-e838fb06409d": {
-      "hot": 6,
-      "points": 1.9,
+    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
+      "hot": 8.9,
+      "points": 6.5,
       "sources": [
-        "reba-trending#9"
+        "reba-trending#9",
+        "reba-popular#6"
       ],
-      "show": "the sorcerer s apprentice",
+      "show": "heart of the beast",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/15fc4843-eecd-4de9-a8f1-3baf5e3d6853": {
-      "hot": 9.6,
-      "points": 10,
-      "sources": [
-        "reba-new#0"
-      ],
-      "show": "velvet",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/0104d60b-6ae1-4301-9dbc-a3f1a78acbfa": {
+    "https://www.rebamovie.com/movie/cfbfe140-54d7-424f-88a0-1c90446f4fd1": {
       "hot": 9.2,
       "points": 9.1,
       "sources": [
         "reba-new#1"
       ],
+      "show": "senior high",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/15fc4843-eecd-4de9-a8f1-3baf5e3d6853": {
+      "hot": 8.8,
+      "points": 8.2,
+      "sources": [
+        "reba-new#2"
+      ],
+      "show": "velvet",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/0104d60b-6ae1-4301-9dbc-a3f1a78acbfa": {
+      "hot": 8.4,
+      "points": 7.3,
+      "sources": [
+        "reba-new#3"
+      ],
       "show": "endless love",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/ea90d1b5-9589-4823-8fcf-a7a9af6e7e61": {
-      "hot": 9.6,
-      "points": 14.1,
+      "hot": 9.4,
+      "points": 12.3,
       "sources": [
-        "reba-new#2",
+        "reba-new#4",
         "aglive#7"
       ],
       "show": "da vinci s demons",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/d342908d-dc91-4d41-80de-6060c60f5bd5": {
-      "hot": 8.4,
-      "points": 7.3,
-      "sources": [
-        "reba-new#3"
-      ],
-      "show": "ali baba aur 40 bhoot",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/7d63b3cc-7368-4f11-88f4-4f96e0f07c99": {
-      "hot": 8,
-      "points": 6.4,
-      "sources": [
-        "reba-new#4"
-      ],
-      "show": "my bias my boss",
-      "match": "narrator"
-    },
-    "https://www.rebamovie.com/movie/b5061ef4-6648-4591-96f1-8a92cdd36d14": {
       "hot": 7.6,
       "points": 5.5,
       "sources": [
         "reba-new#5"
       ],
-      "show": "the remarried empress",
+      "show": "ali baba aur 40 bhoot",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/731f0906-f51a-4edc-a3c1-c202170da058": {
+    "https://www.rebamovie.com/movie/7d63b3cc-7368-4f11-88f4-4f96e0f07c99": {
       "hot": 7.2,
       "points": 4.6,
       "sources": [
         "reba-new#6"
       ],
-      "show": "blood and water",
+      "show": "my bias my boss",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/6c6d9137-c2bb-4837-ad23-b1c7b8e33574": {
+    "https://www.rebamovie.com/movie/b5061ef4-6648-4591-96f1-8a92cdd36d14": {
       "hot": 6.8,
       "points": 3.7,
       "sources": [
         "reba-new#7"
       ],
-      "show": "valiant",
+      "show": "the remarried empress",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/762e0be9-8de2-4dbe-a363-f4b3e5dc03ea": {
+    "https://www.rebamovie.com/movie/731f0906-f51a-4edc-a3c1-c202170da058": {
       "hot": 6.4,
       "points": 2.8,
       "sources": [
         "reba-new#8"
       ],
-      "show": "ready or not 2 here i come",
+      "show": "blood and water",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b29af739-caf5-4667-9eac-d82213fb36fd": {
+    "https://www.rebamovie.com/movie/6c6d9137-c2bb-4837-ad23-b1c7b8e33574": {
       "hot": 6,
       "points": 1.9,
       "sources": [
         "reba-new#9"
       ],
-      "show": "a royal winter",
+      "show": "valiant",
       "match": "narrator"
     },
     "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
