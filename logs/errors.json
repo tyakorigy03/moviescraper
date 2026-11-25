@@ -44010,5 +44010,13 @@
   {
     "message": "Failed scraping #: cleanSiteCountry is not defined",
     "timestamp": "2026-11-25T16:00:01.822Z"
+  },
+  {
+    "message": "downloadData did not mint for Saru - S01E04 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-25T19:33:20.666Z"
+  },
+  {
+    "message": "downloadData did not mint for Blood and Water - S02E02 — returned our own token back (strike 1/3)",
+    "timestamp": "2026-11-25T19:35:10.457Z"
   }
 ]
