@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-25T08:41:00.678Z",
+  "updatedAt": "2026-11-25T21:45:01.602Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -70,24 +70,24 @@
       "show": "ready or not 2 here i come",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
+    "https://www.rebamovie.com/movie/cfbfe140-54d7-424f-88a0-1c90446f4fd1": {
       "hot": 9.7,
       "points": 11.9,
       "sources": [
         "reba-trending#8",
-        "reba-popular#1"
+        "reba-new#1"
       ],
-      "show": "rugal",
+      "show": "senior high",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/cfbfe140-54d7-424f-88a0-1c90446f4fd1": {
+    "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
       "hot": 9.7,
       "points": 11,
       "sources": [
         "reba-trending#9",
-        "reba-new#1"
+        "reba-popular#1"
       ],
-      "show": "senior high",
+      "show": "rugal",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/15fc4843-eecd-4de9-a8f1-3baf5e3d6853": {
