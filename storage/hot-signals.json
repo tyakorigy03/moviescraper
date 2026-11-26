@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-26T08:26:22.532Z",
+  "updatedAt": "2026-11-26T21:38:06.196Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -12,23 +12,23 @@
       "show": "lupin",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/9b70ad5d-d269-4124-b8f7-4486a0ad1591": {
-      "hot": 9.2,
-      "points": 9.1,
-      "sources": [
-        "reba-trending#1"
-      ],
-      "show": "the odyssey",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
       "hot": 9.8,
-      "points": 14.6,
+      "points": 15.5,
       "sources": [
-        "reba-trending#2",
+        "reba-trending#1",
         "reba-popular#4"
       ],
       "show": "friends sex and games",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/9b70ad5d-d269-4124-b8f7-4486a0ad1591": {
+      "hot": 8.8,
+      "points": 8.2,
+      "sources": [
+        "reba-trending#2"
+      ],
+      "show": "the odyssey",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/1bca66dd-a72d-4073-a2ac-aa8ee121fabf": {
@@ -61,23 +61,23 @@
       "show": "the royal gambler",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/762e0be9-8de2-4dbe-a363-f4b3e5dc03ea": {
-      "hot": 6.8,
-      "points": 3.7,
-      "sources": [
-        "reba-trending#7"
-      ],
-      "show": "ready or not 2 here i come",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/cfbfe140-54d7-424f-88a0-1c90446f4fd1": {
-      "hot": 9.7,
-      "points": 11.9,
+      "hot": 9.8,
+      "points": 13.7,
       "sources": [
-        "reba-trending#8",
+        "reba-trending#6",
         "reba-new#1"
       ],
       "show": "senior high",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/762e0be9-8de2-4dbe-a363-f4b3e5dc03ea": {
+      "hot": 6.4,
+      "points": 2.8,
+      "sources": [
+        "reba-trending#8"
+      ],
+      "show": "ready or not 2 here i come",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/b659b440-a2cd-4fb6-a9c4-e38f30f7226b": {
