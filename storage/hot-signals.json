@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-25T21:45:01.602Z",
+  "updatedAt": "2026-11-26T08:26:22.532Z",
   "signals": {
     "https://www.rebamovie.com/movie/6d3a0be2-be9d-4d6b-923c-560acc8ee369": {
       "hot": 10,
@@ -12,43 +12,43 @@
       "show": "lupin",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/1bca66dd-a72d-4073-a2ac-aa8ee121fabf": {
-      "hot": 9.8,
-      "points": 13.7,
-      "sources": [
-        "reba-trending#1",
-        "reba-popular#6"
-      ],
-      "show": "the bucket list",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/9b70ad5d-d269-4124-b8f7-4486a0ad1591": {
-      "hot": 8.8,
-      "points": 8.2,
+      "hot": 9.2,
+      "points": 9.1,
       "sources": [
-        "reba-trending#2"
+        "reba-trending#1"
       ],
       "show": "the odyssey",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/59697f5a-a7ad-4426-a8f3-15efba927ee9": {
-      "hot": 9.9,
-      "points": 17.3,
-      "sources": [
-        "reba-trending#3",
-        "reba-new#0"
-      ],
-      "show": "shadow punisher",
-      "match": "narrator"
-    },
     "https://www.rebamovie.com/movie/22f032cc-fe14-48ed-b8de-f302d4691f5f": {
-      "hot": 9.6,
-      "points": 12.8,
+      "hot": 9.8,
+      "points": 14.6,
       "sources": [
-        "reba-trending#4",
+        "reba-trending#2",
         "reba-popular#4"
       ],
       "show": "friends sex and games",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/1bca66dd-a72d-4073-a2ac-aa8ee121fabf": {
+      "hot": 9.6,
+      "points": 12.8,
+      "sources": [
+        "reba-trending#3",
+        "reba-popular#5"
+      ],
+      "show": "the bucket list",
+      "match": "narrator"
+    },
+    "https://www.rebamovie.com/movie/59697f5a-a7ad-4426-a8f3-15efba927ee9": {
+      "hot": 9.9,
+      "points": 16.4,
+      "sources": [
+        "reba-trending#4",
+        "reba-new#0"
+      ],
+      "show": "shadow punisher",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/20ee23c1-5bf5-44fe-8187-b18fbe3d89d2": {
@@ -163,22 +163,22 @@
       "show": "valiant",
       "match": "narrator"
     },
-    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
-      "hot": 7.6,
-      "points": 5.5,
+    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
+      "hot": 7.2,
+      "points": 4.6,
       "sources": [
-        "reba-popular#5"
+        "reba-popular#6"
       ],
-      "show": "masterplan",
+      "show": "heart of the beast",
       "match": "narrator"
     },
-    "https://www.rebamovie.com/movie/b971c067-bea5-493e-a47c-31105fe97710": {
+    "https://pub-e93ca026964e48dab84e209dd9964abd.r2.dev/movies/self/59f7b53d-1868-4d45-af71-bfbdf73fe8b0/1000069978.mp4": {
       "hot": 6.8,
       "points": 3.7,
       "sources": [
         "reba-popular#7"
       ],
-      "show": "heart of the beast",
+      "show": "masterplan",
       "match": "narrator"
     },
     "https://www.rebamovie.com/movie/657b8687-c4d8-4ecc-a1de-261db547dcdc": {
